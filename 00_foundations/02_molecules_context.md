@@ -117,18 +117,18 @@ As context size grows, so does token count. Let's empirically measure the trade-
 ```
                    [Accuracy]
                        ▲
+                       │                                    ● 4-shot
+                       │                           ● 3-shot
+                       │                              
+                       │                   ● 2-shot 
+                       │              
+                       │           
+                       │           ● 1-shot 
+                       │      
                        │
-                       │                  ● 4-shot
-                       │
-                       │              ● 3-shot
-                       │
-                       │          ● 2-shot
-                       │
-                       │      ● 1-shot
-                       │
-                       │  ● 0-shot
-                       │
-                       └────────────────────────►
+                       │  
+                       │   ● 0-shot
+                       └─────────────────────────────────────────────────►
                                 [Tokens]
 ```
 

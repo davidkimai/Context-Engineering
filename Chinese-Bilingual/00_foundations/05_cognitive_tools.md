@@ -1,5 +1,5 @@
 # Cognitive Tools: Extending the Context Engineering Framework  
-认知工具：扩展情境工程框架
+认知工具：扩展上下文工程框架
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/05_cognitive_tools.md#cognitive-tools-extending-the-context-engineering-framework)
 
@@ -12,7 +12,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/05_cognitive_tools.md#from-biology-to-cognition)
 
 Our journey through context engineering has followed a biological metaphor:  
-我们的情境工程之旅遵循了一个生物学隐喻：
+我们的上下文工程之旅遵循了一个生物学隐喻：
 
 ```
 ┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐

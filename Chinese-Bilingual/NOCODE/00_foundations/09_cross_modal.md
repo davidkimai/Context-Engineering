@@ -1,5 +1,5 @@
 # Cross-Modal Integration: Unified Context Engineering Across Modalities  
-跨模态集成：跨模态的统一情境工程
+跨模态集成：跨模态的统一上下文工程
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/09_cross_modal.md#cross-modal-integration-unified-context-engineering-across-modalities)
 
@@ -14,7 +14,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/09_cross_modal.md#introduction-beyond-single-modal-boundaries)
 
 Cross-modal integration represents the frontier of context engineering—moving beyond text-only approaches to create unified systems that operate coherently across different modalities (text, image, audio, code, etc.). This guide explores how to engineer contexts that maintain semantic coherence, field resonance, and symbolic integrity across these diverse representational forms.  
-跨模态集成代表着情境工程的前沿——它超越了纯文本方法，创建了能够跨不同模态（文本、图像、音频、代码等）协同运行的统一系统。本指南探讨了如何构建情境，使其能够在这些不同的表征形式之间保持语义一致性、场共振和符号完整性。
+跨模态集成代表着上下文工程的前沿——它超越了纯文本方法，创建了能够跨不同模态（文本、图像、音频、代码等）协同运行的统一系统。本指南探讨了如何构建情境，使其能够在这些不同的表征形式之间保持语义一致性、场共振和符号完整性。
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -1420,7 +1420,7 @@ Cross-modal integration is not a one-time event but an ongoing journey. Each int
 跨模式整合并非一次性事件，而是一个持续的旅程。每一次互动都建立在之前的互动之上，构成一幅丰富多彩、相互关联的模式图景，随着时间的推移，它变得更加细致入微，也更加强大。
 
 As you continue your cross-modal journey, periodically revisit the protocols and frameworks in this guide to refresh and evolve your integration approach. The true power of cross-modal context engineering emerges through consistent practice and thoughtful adaptation.  
-在您继续跨模式旅程的过程中，请定期回顾本指南中的协议和框架，以更新和改进您的集成方法。跨模式情境工程的真正力量源于持续的实践和深思熟虑的调整。
+在您继续跨模式旅程的过程中，请定期回顾本指南中的协议和框架，以更新和改进您的集成方法。跨模式上下文工程的真正力量源于持续的实践和深思熟虑的调整。
 
 ---
 

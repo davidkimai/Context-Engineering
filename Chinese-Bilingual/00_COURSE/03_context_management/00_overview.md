@@ -859,7 +859,7 @@ The following sections will dive deeper into:
 *   **Fundamental Constraints**: How computational limits shape our approach
     **基本约束** ：计算限制如何塑造我们的方法
 *   **Memory Hierarchies**: Multi-level storage and retrieval strategies
-    **内存层次结构** ：多级存储和检索策略
+    **记忆层次结构** ：多级存储和检索策略
 *   **Compression Techniques**: Optimizing information density
     **压缩技术** ：优化信息密度
 *   **Optimization Strategies**: Performance and efficiency improvements

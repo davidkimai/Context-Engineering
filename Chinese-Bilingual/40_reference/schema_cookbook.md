@@ -14,7 +14,7 @@ Schema Cookbook：全面的设计模式指南
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/schema_cookbook.md#introduction-the-foundation-of-structured-information)
 
 Schema design forms the cornerstone of context engineering that transforms unstructured data into coherent, processable knowledge representations. By defining clear information architectures, validation rules, and semantic relationships, schemas enable systems to understand, manipulate, and reason about complex data while maintaining consistency within the broader context field. Effective schema design serves as the blueprint for reliable information processing and intelligent system behavior.  
-模式设计是情境工程的基石，它将非结构化数据转化为连贯、可处理的知识表示。通过定义清晰的信息架构、验证规则和语义关系，模式使系统能够理解、操作和推理复杂数据，同时在更广泛的情境领域内保持一致性。有效的模式设计是可靠信息处理和智能系统行为的蓝图。
+模式设计是上下文工程的基石，它将非结构化数据转化为连贯、可处理的知识表示。通过定义清晰的信息架构、验证规则和语义关系，模式使系统能够理解、操作和推理复杂数据，同时在更广泛的情境领域内保持一致性。有效的模式设计是可靠信息处理和智能系统行为的蓝图。
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -284,10 +284,10 @@ Efficient schema design ensures that data processing remains performant as syste
         **缓存策略** ：在适当的情况下重复使用验证结果
     - **Lazy Evaluation**: Deferring expensive validation until necessary  
         **惰性求值** ：将昂贵的验证推迟到必要时进行
-2. **Memory Efficiency  内存效率**
+2. **Memory Efficiency  记忆效率**
     
     - **Compact Representations**: Minimizing memory footprint of schema structures  
-        **紧凑表示** ：最小化模式结构的内存占用
+        **紧凑表示** ：最小化模式结构的记忆占用
     - **Reference Management**: Efficient handling of shared and repeated elements  
         **参考管理** ：有效处理共享和重复元素
     - **Streaming Support**: Processing large data structures incrementally  
@@ -1217,7 +1217,7 @@ Schema integration must maintain system performance while adding validation and 
     - **Streaming Validation**: Processing large datasets incrementally  
         **流式验证** ：增量处理大型数据集
 2. **Memory Management Integration  
-    内存管理集成**
+    记忆管理集成**
     
     - **Schema Sharing**: Reusing schema objects across context processing  
         **模式共享** ：跨上下文处理重用模式对象
@@ -1502,7 +1502,7 @@ Continuous optimization improves schema performance and effectiveness over time.
     - **Validation Efficiency**: Streamlining validation rules for better performance  
         **验证效率** ：简化验证规则以获得更好的性能
     - **Memory Usage Optimization**: Reducing schema processing memory footprint  
-        **内存使用优化** ：减少模式处理内存占用
+        **记忆使用优化** ：减少模式处理记忆占用
     - **Processing Speed Enhancement**: Optimizing validation and transformation algorithms  
         **处理速度提升** ：优化验证和转换算法
 2. **Usability Optimization  可用性优化**
@@ -2157,4 +2157,4 @@ The future of data processing lies in systems that understand not just data stru
 ---
 
 _This comprehensive reference guide provides the foundational knowledge and practical frameworks necessary for implementing effective schema design in context engineering systems. For specific implementation guidance and domain-specific applications, practitioners should combine these frameworks with specialized expertise and continuous experimentation.  
-本指南提供了在情境工程系统中实施有效模式设计所需的基础知识和实践框架。对于具体的实施指导和特定领域的应用，从业者应将这些框架与专业知识和持续的实验相结合。_
+本指南提供了在上下文工程系统中实施有效模式设计所需的基础知识和实践框架。对于具体的实施指导和特定领域的应用，从业者应将这些框架与专业知识和持续的实验相结合。_

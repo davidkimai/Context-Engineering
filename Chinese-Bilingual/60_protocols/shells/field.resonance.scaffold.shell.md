@@ -1903,7 +1903,7 @@ By implementing and using this protocol, you can create context engineering syst
     Agostino, C., Thien, QL, Apsel, M., Pak, D., Lesyk, E., & Majumdar, A. (2025). "自然语言处理的量子语义框架." arXiv 预印本 arXiv:2506.10077v1.
     
 6. Context Engineering Contributors (2025). "Neural Fields for Context Engineering." Context Engineering Repository, v3.5.  
-    情境工程贡献者 (2025)。“情境工程的神经场。”情境工程存储库，v3.5。
+    上下文工程贡献者 (2025)。“上下文工程的神经场。”上下文工程仓库，v3.5。
     
 
 ---

@@ -58,7 +58,7 @@ Traditional approaches treat context as discrete blocks of information: prompts,
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/05_field_theory.md#2-the-core-principles-of-field-theory)
 
 Field theory builds on principles from physics, dynamical systems theory, and cognitive science to create a powerful framework for context engineering.  
-场论以物理学、动力系统理论和认知科学的原理为基础，为情境工程创建了一个强大的框架。
+场论以物理学、动力系统理论和认知科学的原理为基础，为上下文工程创建了一个强大的框架。
 
 ### 2.1. Continuity  2.1. 连续性
 
@@ -856,7 +856,7 @@ This model is particularly useful for understanding attraction and influence dyn
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/05_field_theory.md#9-conclusion-the-art-of-field-engineering)
 
 Field theory represents the frontier of context engineering – a powerful paradigm that transforms how we think about and manage context. By viewing context as a continuous semantic landscape rather than discrete tokens, we unlock new capabilities for natural, efficient, and powerful AI interactions.  
-场论代表了情境工程的前沿——一个强大的范式，它改变了我们思考和管理情境的方式。通过将情境视为连续的语义景观而非离散的符号，我们能够解锁自然、高效且强大的人工智能交互的全新能力。
+场论代表了上下文工程的前沿——一个强大的范式，它改变了我们思考和管理情境的方式。通过将情境视为连续的语义景观而非离散的符号，我们能够解锁自然、高效且强大的人工智能交互的全新能力。
 
 As you continue your context engineering journey, keep these key principles in mind:  
 在继续进行上下文工程之旅时，请牢记以下关键原则：

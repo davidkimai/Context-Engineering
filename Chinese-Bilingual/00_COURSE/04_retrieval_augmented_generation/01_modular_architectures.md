@@ -838,7 +838,7 @@ The next generation of modular RAG systems will feature:
 结论
 
 Modular RAG architectures represent the practical realization of Software 3.0 principles in context engineering. By integrating structured prompting for communication, modular programming for implementation, and protocol orchestration for coordination, these systems achieve unprecedented flexibility, scalability, and adaptability.
-模块化 RAG 架构代表了在情境工程中实现软件 3.0 原则的实际应用。通过整合用于通信的结构化提示、用于实现的模块化编程以及用于协调的协议编排，这些系统实现了前所未有的灵活性、可扩展性和适应性。
+模块化 RAG 架构代表了在上下文工程中实现软件 3.0 原则的实际应用。通过整合用于通信的结构化提示、用于实现的模块化编程以及用于协调的协议编排，这些系统实现了前所未有的灵活性、可扩展性和适应性。
 
 The progressive complexity layers—from basic modular components through adaptive systems to self-evolving ecosystems—demonstrate the potential for building increasingly sophisticated AI systems that remain manageable, understandable, and effective. As these architectures continue to evolve, they will enable the creation of AI systems that can autonomously adapt to new challenges while maintaining reliability and transparency.
 从基本模块组件到自适应系统再到自我进化的生态系统，逐步复杂化的层次展示了构建日益复杂的 AI 系统的潜力，同时这些系统仍然保持可管理性、可理解性和有效性。随着这些架构的持续演进，它们将能够创建能够自主适应新挑战，同时保持可靠性和透明度的 AI 系统。

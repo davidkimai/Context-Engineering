@@ -8,7 +8,7 @@
 > **模块 01.1** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Software 3.0 Paradigms
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进软件 3.0 范式
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进软件 3.0 范式
 
 * * *
 
@@ -2651,13 +2651,13 @@ def select_optimal_prompt_for_context(query: str, context_type: str,
 研究联系和高级应用
 
 ### Connection to Context Engineering Research
-与情境工程研究的联系
+与上下文工程研究的联系
 
 **Chain-of-Thought and Context Processing (§4.2)**:
 **思维链和上下文处理 （§4.2）：**
 
 *   Our reasoning chain implementations directly extend CoT research from the survey
-    我们的推理链实现直接扩展了调查中的 CoT 研究
+    我们的推理链实现直接扩展了调研中的 CoT 研究
 *   Integration with self-consistency and reflection mechanisms
     与自洽和反射机制集成
 *   Advanced reasoning guidance as part of context processing pipeline

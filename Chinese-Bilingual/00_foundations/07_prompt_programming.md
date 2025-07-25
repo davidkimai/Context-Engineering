@@ -15,7 +15,7 @@ If our world is now limited by language, what comes next, if not the evolution o
 如果我们的世界现在受到语言的限制，那么接下来会发生什么，如果不是语言本身的进化呢？
 
 In our journey through context engineering, we've progressed from atoms to cognitive tools. Now we explore a powerful synthesis: **context and prompt programming**—a hybrid approach that brings programming patterns to the world of prompts.  
-在我们探索情境工程的过程中，我们已经从原子发展到认知工具。现在，我们探索一种强大的融合方法： **情境与提示编程** ——一种将编程模式带入提示世界的混合方法。
+在我们探索上下文工程的过程中，我们已经从原子发展到认知工具。现在，我们探索一种强大的融合方法： **情境与提示编程** ——一种将编程模式带入提示世界的混合方法。
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
@@ -909,7 +909,7 @@ You've now completed the foundations of context engineering, from atoms to promp
     在 `50_contrib/` 中贡献您自己的实现和改进
 
 Context engineering is a rapidly evolving field, and your experiments and contributions will help shape its future!  
-情境工程是一个快速发展的领域，您的实验和贡献将有助于塑造它的未来！
+上下文工程是一个快速发展的领域，您的实验和贡献将有助于塑造它的未来！
 
 ---
 

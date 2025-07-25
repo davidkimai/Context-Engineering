@@ -1,5 +1,5 @@
 # Advanced Applications: Putting Context Engineering to Work  
-高级应用：将情境工程付诸实践
+高级应用：将上下文工程付诸实践
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/06_advanced_applications.md#advanced-applications-putting-context-engineering-to-work)
 
@@ -7,12 +7,12 @@
 > “理论上，理论和实践是相同的。但实际上，它们并非如此。”——阿尔伯特·爱因斯坦
 
 ## Beyond the Basics: Applied Context Engineering  
-超越基础：应用情境工程
+超越基础：应用上下文工程
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/06_advanced_applications.md#beyond-the-basics-applied-context-engineering)
 
 We've built a solid foundation of context engineering concepts, from atomic prompts to cognitive tools. Now it's time to see how these principles apply to real-world challenges that push the boundaries of what's possible with LLMs.  
-我们已经构建了坚实的情境工程概念基础，涵盖从原子提示到认知工具等各个方面。现在，我们来探讨如何将这些原则应用于现实世界的挑战，从而突破法学硕士（LLM）的极限。
+我们已经构建了坚实的上下文工程概念基础，涵盖从原子提示到认知工具等各个方面。现在，我们来探讨如何将这些原则应用于现实世界的挑战，从而突破法学硕士（LLM）的极限。
 
 ```
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
@@ -508,7 +508,7 @@ This implementation demonstrates:
 3. **Self-verification** to check work at each stage  
     **自我验证**以检查每个阶段的工作
 4. **Memory management** to maintain context throughout the solution process  
-    **内存管理**在整个解决方案过程中保持上下文
+    **记忆管理**在整个解决方案过程中保持上下文
 
 ## Application Domain: Knowledge Synthesis  
 应用领域：知识合成

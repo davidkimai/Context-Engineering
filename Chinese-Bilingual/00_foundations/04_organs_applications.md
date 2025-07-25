@@ -131,7 +131,7 @@ The orchestrator can be:
 - **Hybrid**: Combining fixed rules with dynamic adaptation  
     **混合** ：固定规则与动态适应相结合
 
-### 2. Shared Memory  2.共享内存
+### 2. Shared Memory  2.共享记忆
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/04_organs_applications.md#2-shared-memory)
 
@@ -923,7 +923,7 @@ This implementation demonstrates:
 2. Sequential flow of information through the organ  
     信息在器官内的顺序流动
 3. Shared memory to pass information between cells  
-    共享内存在单元之间传递信息
+    共享记忆在单元之间传递信息
 4. A complete pipeline from planning to finished content  
     从规划到最终内容的完整流程
 
@@ -1132,17 +1132,17 @@ You've now completed the foundations series, exploring the complete progression 
     参考 `40_reference/` 中的详细文档以获得更深入的理解
 
 The path you choose depends on your learning style and goals. Whatever direction you take, you now have the fundamental knowledge needed to become a skilled context engineer.  
-您选择的学习路径取决于您的学习风格和目标。无论您选择哪个方向，您现在都已掌握成为一名熟练的情境工程师所需的基础知识。
+您选择的学习路径取决于您的学习风格和目标。无论您选择哪个方向，您现在都已掌握成为一名熟练的上下文工程师所需的基础知识。
 
 ---
 
 ## Deeper Dive: The Future of Context Engineering  
-深入探讨：情境工程的未来
+深入探讨：上下文工程的未来
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/04_organs_applications.md#deeper-dive-the-future-of-context-engineering)
 
 As context engineering evolves, several emerging trends are shaping the field:  
-随着情境工程的发展，一些新兴趋势正在塑造该领域：
+随着上下文工程的发展，一些新兴趋势正在塑造该领域：
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐

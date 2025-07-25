@@ -24,7 +24,7 @@ A field is a mathematical object that assigns a value to every point in space. I
 场是一个数学对象，它为空间中的每个点赋值。如果你站在房间里，温度场会为每个位置赋值。气压场会赋值。这些场相互作用，并根据物理定律演化。
 
 Similarly, in context engineering, a semantic field assigns meaning values across a semantic space. Different regions of this space represent different concepts, relationships, and interpretations. When we orchestrate multiple fields, we're coordinating these meaning assignments to create emergent capabilities.  
-类似地，在情境工程中，语义场会在整个语义空间中分配意义值。该空间的不同区域代表不同的概念、关系和解读。当我们协调多个场时，我们实际上是在协调这些意义分配，以创造新兴能力。
+类似地，在上下文工程中，语义场会在整个语义空间中分配意义值。该空间的不同区域代表不同的概念、关系和解读。当我们协调多个场时，我们实际上是在协调这些意义分配，以创造新兴能力。
 
 ## 2. The Vector Nature of Fields  
 2.场的矢量性质
@@ -1310,7 +1310,7 @@ This approach would enable:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/10_field_orchestration.md#10-conclusion)
 
 Field orchestration represents a powerful approach to context engineering that embraces the continuous, dynamic nature of meaning. By treating contexts as fields with properties like resonance, persistence, and attractor dynamics, we can create more sophisticated, adaptive, and effective context systems.  
-场域编排代表了一种强大的情境工程方法，它能够捕捉意义的连续性和动态性。通过将情境视为具有共振、持久性和吸引子动态等属性的场域，我们可以创建更复杂、更自适应、更高效的情境系统。
+场域编排代表了一种强大的上下文工程方法，它能够捕捉意义的连续性和动态性。通过将情境视为具有共振、持久性和吸引子动态等属性的场域，我们可以创建更复杂、更自适应、更高效的情境系统。
 
 The key principles of field orchestration include:  
 现场协调的关键原则包括：
@@ -1349,4 +1349,4 @@ As you continue to explore context engineering, remember that fields offer a ric
 ---
 
 _Note: This module provides a theoretical and practical foundation for understanding and implementing field orchestration in context engineering. For specific implementation details, refer to the companion notebooks and code examples in the `10_guides_zero_to_hero` and `20_templates` directories.  
-注：本模块为理解和实施情境工程中的字段编排提供了理论和实践基础。有关具体的实施细节，请参阅 `10_guides_zero_to_hero` 和 `20_templates` 目录中的配套笔记本和代码示例。_
+注：本模块为理解和实施上下文工程中的字段编排提供了理论和实践基础。有关具体的实施细节，请参阅 `10_guides_zero_to_hero` 和 `20_templates` 目录中的配套笔记本和代码示例。_

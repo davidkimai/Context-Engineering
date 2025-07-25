@@ -14,7 +14,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/patterns.md#introduction-the-foundation-of-systematic-design)
 
 Design patterns form the cornerstone of context engineering that transforms ad-hoc solutions into systematic, reusable approaches. By codifying proven solutions to recurring problems, design patterns enable practitioners to build reliable, maintainable, and scalable systems while avoiding common pitfalls. These patterns serve as a shared vocabulary for describing complex architectural decisions and provide blueprints for implementing sophisticated context engineering solutions.  
-设计模式是情境工程的基石，它将临时解决方案转化为系统化的、可复用的方法。通过将反复出现的问题转化为成熟的解决方案，设计模式使从业者能够构建可靠、可维护且可扩展的系统，同时避免常见的陷阱。这些模式是描述复杂架构决策的通用词汇，并为实施复杂的情境工程解决方案提供了蓝图。
+设计模式是上下文工程的基石，它将临时解决方案转化为系统化的、可复用的方法。通过将反复出现的问题转化为成熟的解决方案，设计模式使从业者能够构建可靠、可维护且可扩展的系统，同时避免常见的陷阱。这些模式是描述复杂架构决策的通用词汇，并为实施复杂的上下文工程解决方案提供了蓝图。
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -526,7 +526,7 @@ Implementation patterns provide solutions for algorithm design, data structures,
     - **Immutable Object**: Preventing object modification after creation  
         **不可变对象** ：防止对象创建后被修改
     - **Copy-on-Write**: Optimizing memory usage for shared data structures  
-        **写时复制** ：优化共享数据结构的内存使用
+        **写时复制** ：优化共享数据结构的记忆使用
     - **Object Pool**: Reusing expensive objects to improve performance  
         **对象池** ：重用昂贵的对象来提高性能
 2. **Algorithm Patterns  算法模式**
@@ -1238,7 +1238,7 @@ Pattern implementation must include strategies for optimizing performance and mo
     - **Algorithmic Optimization**: Improving core algorithms within pattern constraints  
         **算法优化** ：在模式约束内改进核心算法
     - **Resource Management**: Optimizing memory, CPU, and I/O usage  
-        **资源管理** ：优化内存、CPU 和 I/O 使用率
+        **资源管理** ：优化记忆、CPU 和 I/O 使用率
     - **Concurrency Enhancement**: Leveraging parallelism while maintaining pattern integrity  
         **并发增强** ：利用并行性，同时保持模式完整性
 2. **Monitoring and Observability  
@@ -1587,7 +1587,7 @@ Pattern evolution benefits significantly from community involvement and collabor
     知识共享与学习**
     
     - **Pattern Libraries**: Shared repositories of pattern implementations and variations  
-        **模式库** ：模式实现和变体的共享存储库
+        **模式库** ：模式实现和变体的共享仓库
     - **Case Study Development**: Documented examples of successful pattern applications  
         **案例研究发展** ：成功模式应用的记录示例
     - **Conference and Workshop Participation**: Community events for knowledge sharing  
@@ -2208,4 +2208,4 @@ The future of software and system design lies in the intelligent application of 
 ---
 
 _This comprehensive reference guide provides the foundational knowledge and practical frameworks necessary for implementing effective design patterns in context engineering systems. For specific implementation guidance and domain-specific applications, practitioners should combine these frameworks with specialized expertise and continuous experimentation.  
-本指南提供全面的参考，涵盖在情境工程系统中实施有效设计模式所需的基础知识和实践框架。为了获得具体的实施指导和特定领域的应用，从业者应将这些框架与专业知识和持续的实验相结合。_
+本指南提供全面的参考，涵盖在上下文工程系统中实施有效设计模式所需的基础知识和实践框架。为了获得具体的实施指导和特定领域的应用，从业者应将这些框架与专业知识和持续的实验相结合。_

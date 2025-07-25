@@ -19,7 +19,7 @@ Have you ever had a conversation with someone who seems to forget important deta
 你是否曾与某人交谈，却似乎忘记了之前分享过的重要细节？又或者，你使用的工具需要你一遍又一遍地重复相同的指令？这种令人沮丧的经历源于缺乏持久记忆——即缺乏在互动和时间中保存重要信息的能力。
 
 In context engineering, persistent memory is crucial for creating systems that build upon past interactions rather than starting fresh each time. Yet traditional approaches often rely on explicit storage mechanisms that are limited by context windows, token budgets, and the challenge of determining what information is worth preserving.  
-在情境工程中，持久记忆对于创建基于过去交互而非每次都从头开始的系统至关重要。然而，传统方法通常依赖于显式存储机制，而这些机制受到情境窗口、令牌预算以及确定哪些信息值得保留的挑战的限制。
+在上下文工程中，持久记忆对于创建基于过去交互而非每次都从头开始的系统至关重要。然而，传统方法通常依赖于显式存储机制，而这些机制受到情境窗口、令牌预算以及确定哪些信息值得保留的挑战的限制。
 
 The `/context.memory.persistence.attractor.shell` protocol offers a different approach, enabling long-term persistence of context through stable attractor dynamics. Rather than explicitly storing and retrieving memories, this protocol maintains information as stable attractors in a semantic field—patterns that naturally persist and influence field dynamics over time.  
 `/context.memory.persistence.attractor.shell` 协议提供了一种不同的方法，通过稳定的吸引子动态实现上下文的长期持久化。该协议并非明确地存储和检索记忆，而是将信息作为稳定的吸引子保存在语义场中——这些模式会自然地持续存在并随着时间的推移影响场的动态。
@@ -251,7 +251,7 @@ input: {
 - `importance_signals`: Signals indicating the importance of different information.  
     `importance_signals` ：指示不同信息重要性的信号。
 - `persistence_parameters`: Configuration parameters for memory persistence and decay.  
-    `persistence_parameters` ：内存持久性和衰减的配置参数。
+    `persistence_parameters` ：记忆持久性和衰减的配置参数。
 
 ### 3.4. Protocol Process  3.4. 协议流程
 

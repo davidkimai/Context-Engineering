@@ -8,7 +8,7 @@
 > **模块 02.3** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Cross-Modal Context Systems
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进跨模态上下文系统
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进跨模态上下文系统
 
 * * *
 
@@ -1995,10 +1995,10 @@ if __name__ == "__main__":
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This multimodal context module directly extends concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个多模态上下文模块直接扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的概念：
+这个多模态上下文模块直接扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的概念：
 
 **Multi-Modal Integration Extensions**:
 **多模态集成扩展** ：

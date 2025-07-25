@@ -1,5 +1,5 @@
 # The Alchemy Model: Transformational Context Engineering  
-炼金术模型：转型情境工程
+炼金术模型：转型上下文工程
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/05_alchemy_model.md#the-alchemy-model-transformational-context-engineering)
 
@@ -15,10 +15,10 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/05_alchemy_model.md#1-introduction-context-as-transformational-process)
 
 Our journey through mental models has explored cultivation (Garden), resource management (Budget), flow dynamics (River), and multi-dimensional integration (Biopsychosocial). Now we advance to the Alchemy Model — a framework that views context engineering as a transformational process that converts raw materials into refined understanding through deliberate operations and catalytic interactions.  
-我们在心智模型的探索之旅中，探索了耕耘（花园）、资源管理（预算）、心流动力学（河流）以及多维整合（生物心理社会）。现在，我们进入炼金术模型——该框架将情境工程视为一个转化过程，通过精心的操作和催化互动，将原材料转化为精细的理解。
+我们在心智模型的探索之旅中，探索了耕耘（花园）、资源管理（预算）、心流动力学（河流）以及多维整合（生物心理社会）。现在，我们进入炼金术模型——该框架将上下文工程视为一个转化过程，通过精心的操作和催化互动，将原材料转化为精细的理解。
 
 Originally developed by ancient practitioners seeking to transform base metals into gold, alchemy represents humanity's earliest systematic approach to transformation. While medieval alchemists pursued physical transmutation, their deeper wisdom lay in understanding transformation itself: how careful preparation, precise operations, and catalytic agents can fundamentally change the nature of materials. Similarly, in context engineering, the Alchemy Model helps us design contexts that transform raw information into refined understanding through deliberate transformational processes.  
-炼金术最初由古代炼金术士发明，旨在将贱金属转化为黄金，代表了人类最早的系统化转化方法。中世纪炼金术士追求的是物理转化，但他们更深层的智慧在于理解转化本身：精心的准备、精确的操作和催化剂如何从根本上改变材料的性质。同样，在情境工程中，炼金术模型帮助我们设计情境，通过精心设计的转化过程，将原始信息转化为精细的理解。
+炼金术最初由古代炼金术士发明，旨在将贱金属转化为黄金，代表了人类最早的系统化转化方法。中世纪炼金术士追求的是物理转化，但他们更深层的智慧在于理解转化本身：精心的准备、精确的操作和催化剂如何从根本上改变材料的性质。同样，在上下文工程中，炼金术模型帮助我们设计情境，通过精心设计的转化过程，将原始信息转化为精细的理解。
 
 The Alchemy Model is particularly valuable because it:  
 炼金术模型尤其有价值，因为它：
@@ -1620,7 +1620,7 @@ When catalytic elements lose effectiveness or become exhausted:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/05_alchemy_model.md#6-practical-applications)
 
 The Alchemy Model provides powerful approaches for specific context engineering challenges.  
-炼金术模型为特定情境工程挑战提供了强大的方法。
+炼金术模型为特定上下文工程挑战提供了强大的方法。
 
 ### 6.1. Complex Skill Development  
 6.1. 复杂技能发展
@@ -1955,7 +1955,7 @@ Using alchemical approach for breakthrough solutions:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/05_alchemy_model.md#7-integrating-alchemy-with-other-mental-models)
 
 The Alchemy Model complements other context engineering mental models in powerful ways.  
-炼金术模型以强大的方式补充了其他情境工程思维模型。
+炼金术模型以强大的方式补充了其他上下文工程思维模型。
 
 ### 7.1. Alchemy + Garden Model  
 7.1. 炼金术+花园模型
@@ -2364,10 +2364,10 @@ Creating a unified framework integrating all mental models:
 ```
 
 **Socratic Question**: How might integrating the Alchemy Model with other mental models change your approach to context engineering? Which integration seems most valuable for your specific needs and challenges? How would you implement this integrated approach in a current project?  
-**苏格拉底式问题** ：将炼金术模型与其他心智模型相结合，会如何改变你的情境工程方法？哪种整合方式最符合你的特定需求和挑战？你将如何在当前项目中运用这种整合方法？
+**苏格拉底式问题** ：将炼金术模型与其他心智模型相结合，会如何改变你的上下文工程方法？哪种整合方式最符合你的特定需求和挑战？你将如何在当前项目中运用这种整合方法？
 
 ## 8. Conclusion: The Art of Transformational Context Engineering  
-8. 结论：转型情境工程的艺术
+8. 结论：转型上下文工程的艺术
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/05_alchemy_model.md#8-conclusion-the-art-of-transformational-context-engineering)
 
@@ -2495,7 +2495,7 @@ The Alchemy Model reminds us that truly effective contexts don't just convey inf
 炼金术模型提醒我们，真正有效的情境不仅仅是传递信息，它还能转化理解。掌握这种转化方法，你将能够创造能够深刻而持久地改变知识、智慧和能力的情境。
 
 **Final Reflective Exercise**: As you conclude this exploration of the Alchemy Model, consider how you'll apply these principles in your context engineering work. What transformations will you focus on in different contexts? How will you prepare materials, guide processes, apply operations, and enhance catalysts? What challenges do you anticipate, and how will you address them? How might mastering the Alchemy Model transform your approach to creating understanding?  
-**最终反思练习** ：在总结对炼金术模型的探索时，请思考如何将这些原则应用于你的情境工程工作。在不同的情境下，你将关注哪些转变？你将如何准备材料、指导流程、应用操作并增强催化剂？你预计会面临哪些挑战？你将如何应对这些挑战？掌握炼金术模型将如何改变你创造理解的方法？
+**最终反思练习** ：在总结对炼金术模型的探索时，请思考如何将这些原则应用于你的上下文工程工作。在不同的情境下，你将关注哪些转变？你将如何准备材料、指导流程、应用操作并增强催化剂？你预计会面临哪些挑战？你将如何应对这些挑战？掌握炼金术模型将如何改变你创造理解的方法？
 
 ---
 
@@ -2505,4 +2505,4 @@ The Alchemy Model reminds us that truly effective contexts don't just convey inf
 > **— Edith Hamilton  — 伊迪丝·汉密尔顿**
 
 _The true alchemy of context engineering lies not in turning base information into golden understanding, but in developing the wisdom to transform understanding itself - continuously, consciously, and with profound respect for the transformational process.  
-情境工程的真正魔力不在于将基础信息转化为黄金理解，而在于开发转变理解本身的智慧——持续地、有意识地、深深地尊重转变过程。_
+上下文工程的真正魔力不在于将基础信息转化为黄金理解，而在于开发转变理解本身的智慧——持续地、有意识地、深深地尊重转变过程。_

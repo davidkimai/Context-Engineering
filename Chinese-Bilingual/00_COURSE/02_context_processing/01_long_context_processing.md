@@ -2,13 +2,13 @@
 长上下文处理
 
 ## From Token Sequences to Infinite Memory Architectures
-从令牌序列到无限内存架构
+从令牌序列到无限记忆架构
 
 > **Module 02.1** | *Context Engineering Course: From Foundations to Frontier Systems*
 > **模块 02.1** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Information-Theoretic Context Optimization
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进信息论上下文优化
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进信息论上下文优化
 
 * * *
 
@@ -19,7 +19,7 @@ By the end of this module, you will understand and implement:
 在本模块结束时，您将了解并实现：
 
 *   **Memory Architecture Design**: From sliding windows to infinite attention systems
-    **内存架构设计** ：从滑动窗口到无限注意力系统
+    **记忆架构设计** ：从滑动窗口到无限注意力系统
 *   **Computational Scaling**: Managing O(n²) attention complexity across million-token contexts
     **计算扩展** ：管理跨百万代币上下文的 O（n²） 注意力复杂性
 *   **Information Preservation**: Maintaining coherence and relevance across extended sequences
@@ -30,7 +30,7 @@ By the end of this module, you will understand and implement:
 * * *
 
 ## Conceptual Progression: From Limited Windows to Infinite Memory
-概念进展：从有限的窗口到无限的内存
+概念进展：从有限的窗口到无限的记忆
 
 Think of context processing like human memory systems - from short-term working memory that can only hold a few items, to sophisticated long-term memory that can store and retrieve vast amounts of interconnected information.
 将上下文处理想象成人类记忆系统——从只能容纳少数项目的短期工作记忆，到可以存储和检索大量相互关联信息的复杂长期记忆。
@@ -154,10 +154,10 @@ Subject to constraints:
 ```
 
 **Intuitive Explanation**: We want to select the subset of information that provides the maximum predictive value for our task, subject to computational and memory constraints. Like choosing the most relevant pages from a library for answering a specific question.
-**直观的解释** ：我们想要选择为我们的任务提供最大预测值的信息子集，但要受到计算和内存限制。就像从图书馆中选择最相关的页面来回答特定问题一样。
+**直观的解释** ：我们想要选择为我们的任务提供最大预测值的信息子集，但要受到计算和记忆限制。就像从图书馆中选择最相关的页面来回答特定问题一样。
 
 ### Memory Compression Principles
-内存压缩原理
+记忆压缩原理
 
 ```
 Lossless Compression: H(X) ≤ |X|
@@ -175,7 +175,7 @@ Where:
 ```
 
 **Intuitive Explanation**: We want to compress information to fit memory constraints while preserving the essential content. Like creating a high-quality summary that captures all important information in fewer words.
-**直观的解释** ：我们希望压缩信息以适应内存限制，同时保留基本内容。就像创建一个高质量的摘要，用更少的字数捕获所有重要信息。
+**直观的解释** ：我们希望压缩信息以适应记忆限制，同时保留基本内容。就像创建一个高质量的摘要，用更少的字数捕获所有重要信息。
 
 * * *
 
@@ -235,13 +235,13 @@ PERFORMANCE CHARACTERISTICS:
 * * *
 
 ## Software 3.0 Paradigm 1: Prompts (Memory Architecture Templates)
-软件 3.0 范式 1：提示（内存架构模板）
+软件 3.0 范式 1：提示（记忆架构模板）
 
 Strategic prompts help systems reason about memory management and context selection in structured, reusable ways.
-战略提示帮助系统以结构化、可重用的方式推理内存管理和上下文选择。
+战略提示帮助系统以结构化、可重用的方式推理记忆管理和上下文选择。
 
 ### Hierarchical Memory Management Template
-分层内存管理模板
+分层记忆管理模板
 
 ```markdown
 # Hierarchical Memory Management Framework
@@ -366,7 +366,7 @@ FOR each memory\_level in \[episodic, long\_term, short\_term, working\]: releva
 3.  INCLUDE necessary short-term context for coherence
     包括必要的短期背景以实现连贯性
 4.  FILL remaining space with current working memory
-    用当前工作内存填充剩余空间
+    用当前工作记忆填充剩余空间
 5.  VERIFY context coherence and completeness
     验证上下文的一致性和完整性
 6.  ADJUST selection if quality metrics are unsatisfactory
@@ -567,7 +567,7 @@ FOR each memory\_level in \[episodic, long\_term, short\_term, working\]: releva
 * * *
 
 ## Software 3.0 Paradigm 2: Programming (Memory Architecture Implementation)
-软件 3.0 范式 2：编程（内存架构实现）
+软件 3.0 范式 2：编程（记忆架构实现）
 
 Programming provides the computational mechanisms that enable sophisticated long context processing.
 编程提供了支持复杂的长上下文处理的计算机制。
@@ -1405,7 +1405,7 @@ Protocols provide self-improving context processing patterns that evolve based o
 ```
 
 /process.infinite\_context{ intent="Process arbitrarily long sequences with constant memory usage and optimal information preservation",
-/process.infinite\_context{ intent=“以恒定的内存使用率和最佳信息保存处理任意长序列”，
+/process.infinite\_context{ intent=“以恒定的记忆使用率和最佳信息保存处理任意长序列”，
 
 ```
 input={
@@ -2193,10 +2193,10 @@ class LongContextEvaluator:
 研究联系和未来方向
 
 ## Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This long context processing module directly implements and extends key findings from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个长上下文处理模块直接实现和扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)的主要发现：
+这个长上下文处理模块直接实现和扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)的主要发现：
 
 **Context Processing (§4.2)**:
 **上下文处理 （§4.2）：**
@@ -2204,15 +2204,15 @@ This long context processing module directly implements and extends key findings
 *   Implements advanced attention mechanisms including Mamba, LongNet, and FlashAttention approaches
     实现高级注意力机制，包括 Mamba、LongNet 和 FlashAttention 方法
 *   Addresses StreamingLLM and InfiniAttention concepts through hierarchical memory systems
-    通过分层内存系统解决 StreamingLLM 和 InfiniAttention 概念
+    通过分层记忆系统解决 StreamingLLM 和 InfiniAttention 概念
 *   Extends MLLMs context processing to infinite sequence handling
     将 MLLM 上下文处理扩展到无限序列处理
 
 **Memory Systems Integration**:
-**内存系统集成** ：
+**记忆系统集成** ：
 
 *   Implements MemoryBank and MemLLM concepts through hierarchical memory architecture
-    通过分层内存架构实现 MemoryBank 和 MemLLM 概念
+    通过分层记忆架构实现 MemoryBank 和 MemLLM 概念
 *   Addresses long context evaluation challenges identified in LongMemEval
     解决 LongMemEval 中发现的长上下文评估挑战
 *   Provides solutions to O(n²) scaling limitations through constant memory architectures
@@ -2224,9 +2224,9 @@ This long context processing module directly implements and extends key findings
 *   Demonstrates LongMamba-inspired sliding attention mechanisms
     展示受 LongMamba 启发的滑动注意力机制
 *   Implements memory-augmented architectures extending current research
-    实施扩展当前研究的内存增强架构
+    实施扩展当前研究的记忆增强架构
 *   Provides context assembly optimization addressing survey recommendations
-    提供上下文装配优化，解决调查建议
+    提供上下文装配优化，解决调研建议
 
 * * *
 
@@ -2237,7 +2237,7 @@ This long context processing module directly implements and extends key findings
 **掌握的核心概念** ：
 
 *   Hierarchical memory systems enabling infinite context processing
-    支持无限上下文处理的分层内存系统
+    支持无限上下文处理的分层记忆系统
 *   Multi-level attention mechanisms optimizing computational efficiency
     优化计算效率的多级注意力机制
 *   Information-theoretic context selection and compression
@@ -2249,9 +2249,9 @@ This long context processing module directly implements and extends key findings
 **软件 3.0 集成** ：
 
 *   **Prompts**: Memory management templates for systematic context processing decisions
-    **提示** ：用于系统上下文处理决策的内存管理模板
+    **提示** ：用于系统上下文处理决策的记忆管理模板
 *   **Programming**: Hierarchical memory architectures with adaptive attention mechanisms
-    **编程** ：具有自适应注意力机制的分层内存架构
+    **编程** ：具有自适应注意力机制的分层记忆架构
 *   **Protocols**: Self-optimizing context processing systems that evolve based on performance
     **协议** ：根据性能演进的自我优化上下文处理系统
 
@@ -2259,9 +2259,9 @@ This long context processing module directly implements and extends key findings
 **实施技巧** ：
 
 *   Infinite context architectures with constant memory usage
-    具有恒定内存使用的无限上下文架构
+    具有恒定记忆使用的无限上下文架构
 *   Multi-level memory systems with intelligent consolidation
-    具有智能整合功能的多级内存系统
+    具有智能整合功能的多级记忆系统
 *   Adaptive attention allocation based on information value
     基于信息值的自适应注意力分配
 *   Comprehensive evaluation frameworks for long context processing
@@ -2276,4 +2276,4 @@ This long context processing module directly implements and extends key findings
 * * *
 
 *This module demonstrates the evolution from fixed context windows to infinite memory architectures, embodying the Software 3.0 principle of systems that not only process unlimited information but continuously optimize their own processing strategies for maximum effectiveness and efficiency.
-该模块演示了从固定上下文窗口到无限内存架构的演变，体现了软件 3.0 系统的原理，这些系统不仅处理无限信息，而且不断优化自己的处理策略，以实现最大的有效性和效率。*
+该模块演示了从固定上下文窗口到无限记忆架构的演变，体现了软件 3.0 系统的原理，这些系统不仅处理无限信息，而且不断优化自己的处理策略，以实现最大的有效性和效率。*

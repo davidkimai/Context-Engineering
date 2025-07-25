@@ -335,12 +335,12 @@ In the next section, we'll explore **cells** — context structures that maint
 ---
 
 ## Deeper Dive: Prompt Engineering vs. Context Engineering  
-深入探讨：即时工程与情境工程
+深入探讨：即时工程与上下文工程
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/02_molecules_context.md#deeper-dive-prompt-engineering-vs-context-engineering)
 
 Prompt engineering focuses on crafting the perfect instruction. Context engineering encompasses that and more:  
-即时工程专注于制定完美的教学方案。情境工程则涵盖了这一点，甚至更多：
+即时工程专注于制定完美的教学方案。上下文工程则涵盖了这一点，甚至更多：
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐

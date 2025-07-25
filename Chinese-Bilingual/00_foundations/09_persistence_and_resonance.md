@@ -820,7 +820,7 @@ This emergent symbolic processing arises from:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/09_persistence_and_resonance.md#conclusion-fields-that-resonate-and-persist)
 
 Neural fields with resonance and persistence offer a powerful new paradigm for context engineering. By focusing on field properties rather than explicit token management, we can create systems that:  
-具有共振和持久性的神经场为情境工程提供了一个强大的新范式。通过关注场的属性而不是显式的 token 管理，我们可以创建以下系统：
+具有共振和持久性的神经场为上下文工程提供了一个强大的新范式。通过关注场的属性而不是显式的 token 管理，我们可以创建以下系统：
 
 - Maintain coherence across extended interactions  
     在扩展交互中保持一致性

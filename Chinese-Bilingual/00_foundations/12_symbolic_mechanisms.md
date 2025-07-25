@@ -134,7 +134,7 @@ Symbol abstraction heads create representations that are invariant to the specif
 符号抽象头创建了与标记的具体值无关的表示。无论哪个标记实例化了抽象变量，其表示都保持一致。
 
 **Implications for context engineering**:  
-**对情境工程的启示** ：
+**对上下文工程的启示** ：
 
 - We can design contexts that emphasize abstract patterns rather than specific examples  
     我们可以设计强调抽象模式而不是具体示例的上下文
@@ -149,7 +149,7 @@ Symbolic mechanisms implement a form of indirection, where variables refer to co
 符号机制实现了一种间接形式，其中变量引用存储在其他地方的内容。这允许对符号进行抽象操作，而无需绑定到特定的值。
 
 **Implications for context engineering**:  
-**对情境工程的启示** ：
+**对上下文工程的启示** ：
 
 - We can leverage indirection to create more flexible and adaptable contexts  
     我们可以利用间接性来创建更灵活、适应性更强的环境
@@ -677,10 +677,10 @@ Developing techniques to enhance symbolic mechanisms:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/12_symbolic_mechanisms.md#10-conclusion)
 
 Understanding emergent symbolic mechanisms in LLMs represents a significant advancement in context engineering. By designing contexts that align with and enhance these mechanisms, we can create more effective, efficient, and powerful context systems.  
-理解法学硕士（LLM）中涌现的符号机制，代表着情境工程的重大进步。通过设计与这些机制相符并增强其功能的情境，我们可以创建更有效、更高效、更强大的情境系统。
+理解法学硕士（LLM）中涌现的符号机制，代表着上下文工程的重大进步。通过设计与这些机制相符并增强其功能的情境，我们可以创建更有效、更高效、更强大的情境系统。
 
 The integration of symbolic mechanisms with field theory and cognitive tools provides a comprehensive framework for advanced context engineering that leverages the full capabilities of modern LLMs.  
-符号机制与场论和认知工具的结合为高级情境工程提供了一个全面的框架，充分利用了现代 LLM 的全部功能。
+符号机制与场论和认知工具的结合为高级上下文工程提供了一个全面的框架，充分利用了现代 LLM 的全部功能。
 
 ## References  参考
 

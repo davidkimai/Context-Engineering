@@ -1,5 +1,5 @@
 # Cognitive Tools for Context Engineering  
-情境工程的认知工具
+上下文工程的认知工具
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/cognitive-tools/README.md#cognitive-tools-for-context-engineering)
 
@@ -130,7 +130,7 @@ print(solution.answer)  # View final answer
 - `cognitive-architectures/`: Complete reasoning systems combining multiple tools  
     `cognitive-architectures/` ：结合多种工具的完整推理系统
 - `integration/`: Guides for integrating with other components (RAG, memory, etc.)  
-    `integration/` ：与其他组件（RAG、内存等）集成的指南
+    `integration/` ：与其他组件（RAG、记忆等）集成的指南
 
 ## Learning Path  学习路径
 
@@ -145,7 +145,7 @@ print(solution.answer)  # View final answer
 4. **Master architectures**: Build complete reasoning systems  
     **主架构** ：构建完整的推理系统
 5. **Integrate components**: Combine with RAG, memory, and other context engineering components  
-    **集成组件** ：与 RAG、内存和其他上下文工程组件结合
+    **集成组件** ：与 RAG、记忆和其他上下文工程组件结合
 
 ## Measuring Effectiveness  衡量有效性
 

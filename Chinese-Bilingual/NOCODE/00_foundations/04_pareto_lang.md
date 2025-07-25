@@ -708,7 +708,7 @@ Common variants:  常见变体：
 **反思练习** ：思考你对场论概念的理解。这些操作如何帮助你应对复杂且不断变化的情境？哪些场操作对于在扩展对话中保持连贯性最有用？
 
 ## 8. Memory and State Management Operations  
-8.内存和状态管理操作
+8.记忆和状态管理操作
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/04_pareto_lang.md#8-memory-and-state-management-operations)
 
@@ -747,7 +747,7 @@ Common variants:  常见变体：
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/04_pareto_lang.md#82-forget-operations)
 
 Forget operations remove information from active memory:  
-忘记操作从活动内存中删除信息：
+忘记操作从活动记忆中删除信息：
 
 ```
 /forget.outdated{
@@ -1272,7 +1272,7 @@ When choosing a core operation, consider these questions:
     - Field dynamics → `/field`, `/attractor`, `/boundary`  
         场动力学 → `/field` 、 `/attractor` 、 `/boundary`
     - Memory management → `/remember`, `/retrieve`  
-        内存管理 → `/remember` 、 `/retrieve`
+        记忆管理 → `/remember` 、 `/retrieve`
 3. **Complexity**: How complex is the operation?  
     **复杂性** ：操作有多复杂？
     
@@ -2000,7 +2000,7 @@ This pattern reduces content size, prioritizes what remains, then structures it 
 ```
 
 ### 14.3. The Memory-Retrieve-Update Pattern  
-14.3 内存检索更新模式
+14.3 记忆检索更新模式
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/04_pareto_lang.md#143-the-memory-retrieve-update-pattern)
 
@@ -2297,7 +2297,7 @@ Create operations that apply themselves recursively:
 ```
 
 **Reflective Exercise**: Consider a complex context management challenge you face. How might these advanced techniques help you address it? Which would be most valuable to implement in your context engineering approach?  
-**反思练习** ：思考一下你面临的一个复杂的情境管理挑战。这些先进的技术如何帮助你应对它？在你的情境工程方法中，哪些技术最有价值？
+**反思练习** ：思考一下你面临的一个复杂的情境管理挑战。这些先进的技术如何帮助你应对它？在你的上下文工程方法中，哪些技术最有价值？
 
 ## 16. The Future of Pareto-lang  
 16.帕累托语言的未来
@@ -2383,7 +2383,7 @@ As context engineering evolves, Pareto-lang will continue to develop. Here are s
 ```
 
 **Socratic Question**: What developments in Pareto-lang would be most valuable for your context engineering needs? How might you contribute to the evolution of this approach?  
-**苏格拉底式问题** ：帕累托语言的哪些发展对你的情境工程需求最有价值？你如何为这种方法的演变做出贡献？
+**苏格拉底式问题** ：帕累托语言的哪些发展对你的上下文工程需求最有价值？你如何为这种方法的演变做出贡献？
 
 ## 17. Conclusion: The Art of Precise Operations  
 17. 结论：精准作战的艺术
@@ -2456,4 +2456,4 @@ With practice, you'll develop an intuitive sense for designing operations that p
 > “在工程领域，就像在生活中一样，精确就是力量。”_
 > 
 > **— The Context Engineer's Handbook  
-> —《环境工程师手册》**
+> —《上下文工程师手册》**

@@ -2612,7 +2612,7 @@ Key takeaways:  关键要点：
 4. **Integration Friendly**: The protocol works seamlessly with other field-based protocols.  
     **集成友好** ：该协议可与其他基于现场的协议无缝协作。
 5. **Practical Applications**: Self-repair capabilities enhance a wide range of context engineering applications.  
-    **实际应用** ：自我修复能力增强了广泛的环境工程应用。
+    **实际应用** ：自我修复能力增强了广泛的上下文工程应用。
 
 By implementing and using this protocol, you can create context engineering systems that demonstrate remarkable resilience in the face of inconsistencies, fragmentation, and damage, ensuring sustained functionality and coherence over time.  
 通过实施和使用该协议，您可以创建上下文工程系统，该系统在面对不一致、碎片化和损坏时表现出卓越的弹性，确保持续的功能性和一致性。
@@ -2631,7 +2631,7 @@ By implementing and using this protocol, you can create context engineering syst
     Agostino, C., Thien, QL, Apsel, M., Pak, D., Lesyk, E., & Majumdar, A. (2025). "自然语言处理的量子语义框架." arXiv 预印本 arXiv:2506.10077v1.
     
 4. Context Engineering Contributors (2025). "Neural Fields for Context Engineering." Context Engineering Repository, v3.5.  
-    情境工程贡献者 (2025)。“情境工程的神经场。”情境工程存储库，v3.5。
+    上下文工程贡献者 (2025)。“上下文工程的神经场。”上下文工程仓库，v3.5。
     
 
 ---

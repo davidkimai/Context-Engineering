@@ -8,7 +8,7 @@
 > **模块 02.4** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Knowledge Graph-Enhanced Context Systems
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进知识图谱增强的上下文系统
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进知识图谱增强的上下文系统
 
 * * *
 
@@ -450,7 +450,7 @@ IF Alice works\_at Google AND Google is\_a Tech\_Company THEN Alice works\_at a 
 ```
 
 **Ground-up Explanation**: This template works like a detective investigating a case through a network of interconnected clues. The detective doesn't just look at individual pieces of evidence but maps out how they connect, builds reasoning chains from clue to clue, and considers multiple possible explanations before reaching conclusions.
-**从头开始解释** ：这个模板就像侦探通过相互关联的线索网络调查案件一样。侦探不仅查看单个证据，还绘制出它们如何联系起来，从线索到线索建立推理链，并在得出结论之前考虑多种可能的解释。
+**从头开始解释** ：这个模板就像侦探通过相互关联的线索网络调研案件一样。侦探不仅查看单个证据，还绘制出它们如何联系起来，从线索到线索建立推理链，并在得出结论之前考虑多种可能的解释。
 
 * * *
 
@@ -1330,10 +1330,10 @@ if __name__ == "__main__":
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This structured context module directly implements and extends key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个结构化的上下文模块直接实现和扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的关键概念：
+这个结构化的上下文模块直接实现和扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的关键概念：
 
 **Knowledge Graph Integration (Referenced throughout)**:
 **知识图谱集成（全文引用）：**

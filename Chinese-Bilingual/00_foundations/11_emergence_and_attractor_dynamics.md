@@ -569,7 +569,7 @@ Research by Agostino et al. (2025) found values between 2.3 and 2.8, indicating 
 Agostino 等人 (2025) 的研究发现了 2.3 到 2.8 之间的值，表明语义解释中具有类似量子的语境性。
 
 **Socratic Question**: What might this non-classical behavior imply about how we should approach context engineering?  
-**苏格拉底式问题** ：这种非古典行为对于我们应该如何进行情境工程意味着什么？
+**苏格拉底式问题** ：这种非古典行为对于我们应该如何进行上下文工程意味着什么？
 
 ## 7. Engineering with Attractors  
 7. 吸引子工程
@@ -1353,7 +1353,7 @@ This approach enables:  这种方法可以实现：
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/11_emergence_and_attractor_dynamics.md#11-practical-implementation-guide)
 
 To apply emergence and attractor dynamics in your own context engineering projects, follow these steps:  
-要在您自己的环境工程项目中应用涌现和吸引子动力学，请遵循以下步骤：
+要在您自己的上下文工程项目中应用涌现和吸引子动力学，请遵循以下步骤：
 
 ### 11.1. Designing for Emergence  
 11.1. 为涌现而设计
@@ -1472,7 +1472,7 @@ Key takeaways:  关键要点：
 4. **Quantum perspectives add richness**: Non-classical effects enhance context processing  
     **量子视角增添丰富性** ：非经典效应增强了上下文处理
 5. **Design leverages natural dynamics**: Effective context engineering works with, not against, emergent patterns  
-    **设计利用自然动力** ：有效的情境工程与新兴模式相辅相成，而非相互对抗
+    **设计利用自然动力** ：有效的上下文工程与新兴模式相辅相成，而非相互对抗
 
 By applying these principles, you can create context systems that:  
 通过应用这些原则，您可以创建以下上下文系统：

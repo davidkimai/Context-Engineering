@@ -1280,7 +1280,7 @@ For effectively joining tributary ideas with the main flow:
 ```
 
 **Socratic Question**: Which navigation tools do you use most effectively in your context engineering? Which might you benefit from incorporating more deliberately? How would these tools help your audience navigate through complex information flows?  
-**苏格拉底式问题** ：在你的情境工程中，你最有效地使用了哪些导航工具？哪些工具可以让你更有针对性地融入其中？这些工具如何帮助你的受众在复杂的信息流中导航？
+**苏格拉底式问题** ：在你的上下文工程中，你最有效地使用了哪些导航工具？哪些工具可以让你更有针对性地融入其中？这些工具如何帮助你的受众在复杂的信息流中导航？
 
 ## 8. River Ecosystems (Context Environments)  
 8. 河流生态系统（背景环境）
@@ -2282,7 +2282,7 @@ Combining all three perspectives for comprehensive context engineering:
 ```
 
 **Socratic Question**: How might integrating the River Model with other mental models change your approach to context engineering? Which integration seems most valuable for your specific needs and challenges?  
-**苏格拉底式问题** ：将河流模型与其他心智模型相结合，会如何改变你的情境工程方法？哪种整合方式最符合你的特定需求和挑战？
+**苏格拉底式问题** ：将河流模型与其他心智模型相结合，会如何改变你的上下文工程方法？哪种整合方式最符合你的特定需求和挑战？
 
 ## 11. Practical Applications  
 11.实际应用
@@ -2290,7 +2290,7 @@ Combining all three perspectives for comprehensive context engineering:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/03_river_model.md#11-practical-applications)
 
 The River Model provides practical solutions to common context engineering challenges.  
-河流模型为常见的环境工程挑战提供了实用的解决方案。
+河流模型为常见的上下文工程挑战提供了实用的解决方案。
 
 ### 11.1. The Progressive Explanation  
 11.1. 渐进式解释

@@ -155,7 +155,7 @@ Creates and maintains memory through attractor dynamics, allowing information to
 - Persistence modeling  持久性建模
 - Retrieval pathways  检索路径
 - Decay management  腐烂管理
-- Memory integration  内存集成
+- Memory integration  记忆集成
 - Attractor reinforcement  吸引子强化
 
 [See full documentation  查看完整文档](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/60_protocols/shells/recursive.memory.attractor.shell.md)
@@ -482,7 +482,7 @@ def compose_protocols(field, protocol_sequence):
     Agostino, C., Thien, QL, Apsel, M., Pak, D., Lesyk, E., & Majumdar, A. (2025). "自然语言处理的量子语义框架." arXiv 预印本 arXiv:2506.10077v1.
     
 3. Context Engineering Contributors (2025). "Neural Fields for Context Engineering." Context Engineering Repository, v3.5.  
-    情境工程贡献者 (2025)。“情境工程的神经场。”情境工程存储库，v3.5。
+    上下文工程贡献者 (2025)。“上下文工程的神经场。”上下文工程仓库，v3.5。
     
 
 ## Related Documents  相关文件

@@ -18,7 +18,7 @@ This toy chatbot showcases the progression through context engineering layers:
 - **Molecules**: Context combinations and examples  
     **分子** ：上下文组合和例子
 - **Cells**: Memory and state management  
-    **单元** ：内存和状态管理
+    **单元** ：记忆和状态管理
 - **Organs**: Coordinated system behaviors  
     **器官** ：协调系统行为
 - **Fields**: Continuous semantic operations  
@@ -78,7 +78,7 @@ Context Field Architecture:
 - `/field.resonance.scaffold`: Conversation coherence maintenance  
     `/field.resonance.scaffold` ：对话连贯性维护
 - `/recursive.memory.attractor`: Memory persistence across sessions  
-    `/recursive.memory.attractor` ：跨会话的内存持久性
+    `/recursive.memory.attractor` ：跨会话的记忆持久性
 - `/field.self_repair`: Error recovery and adaptation  
     `/field.self_repair` ：错误恢复和适应
 

@@ -12,7 +12,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/01_atoms_prompting.md#the-atom-a-single-instruction)
 
 In our journey through context engineering, we begin with the most fundamental unit: the **atom** — a single, standalone instruction to an LLM.  
-在我们的情境工程之旅中，我们从最基本的单位开始： **原子** ——对 LLM 来说是一个独立的指令。
+在我们的上下文工程之旅中，我们从最基本的单位开始： **原子** ——对 LLM 来说是一个独立的指令。
 
 ```
 ┌───────────────────────────────────────────────┐
@@ -255,7 +255,7 @@ Before moving on, try this simple exercise:
 5. There's a power law relationship between context tokens and quality  
     上下文标记和质量之间存在幂律关系
 6. Moving beyond atoms is the first step toward context engineering  
-    超越原子是迈向情境工程的第一步
+    超越原子是迈向上下文工程的第一步
 
 ## Next Steps  后续步骤
 

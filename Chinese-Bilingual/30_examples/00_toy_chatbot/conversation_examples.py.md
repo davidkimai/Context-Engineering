@@ -929,10 +929,10 @@ Meta-recursive improvement is what allows systems to evolve beyond their initial
 元递归改进使系统能够超越其初始编程。每个步骤的工作原理如下：
 
 1. **Self-Observation**: The system monitors its own performance and the state of its context field. It looks for signs of suboptimal responses, inefficient memory usage, or unstable field dynamics.  
-    **自我观察** ：系统监控自身的性能及其上下文场的状态。它会寻找响应不理想、内存使用效率低下或场动态不稳定的迹象。
+    **自我观察** ：系统监控自身的性能及其上下文场的状态。它会寻找响应不理想、记忆使用效率低下或场动态不稳定的迹象。
     
 2. **Analysis**: Based on observations, the system identifies specific areas that could be improved. This might include response quality, memory management, conversation flow, or attractor dynamics.  
-    **分析** ：基于观察，系统识别出可以改进的具体领域。这可能包括响应质量、内存管理、对话流程或吸引子动态。
+    **分析** ：基于观察，系统识别出可以改进的具体领域。这可能包括响应质量、记忆管理、对话流程或吸引子动态。
     
 3. **Strategy Selection**: The system selects the most promising improvement strategy from its repertoire, choosing based on the specific issues identified.  
     **策略选择** ：系统根据所确定的具体问题，从其策略库中选择最有希望的改进策略。
@@ -969,4 +969,4 @@ In our example conversations, we can see meta-recursive improvement when:
     随着时间的推移，随着聊天机器人不断完善其理解和解释，这种改进也会不断增强
 
 This demonstrates how context engineering systems can grow beyond their initial capabilities through recursive self-improvement, ultimately developing emergent behaviors not explicitly programmed.  
-这表明了情境工程系统如何通过递归自我改进超越其初始能力，最终开发出未明确编程的新兴行为。
+这表明了上下文工程系统如何通过递归自我改进超越其初始能力，最终开发出未明确编程的新兴行为。

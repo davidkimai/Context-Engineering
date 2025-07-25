@@ -472,10 +472,10 @@ class ProcessingSpeedManager:
 ```
 
 ### 3\. Memory and Storage Constraints
-3\. 内存和存储限制
+3\. 记忆和存储限制
 
 #### PROTOCOLS for Memory Management
-内存管理协议
+记忆管理协议
 
 ```
 /memory.constraint.management{
@@ -590,7 +590,7 @@ Always understand your constraints before designing solutions:
 在设计解决方案之前，请务必了解您的约束：
 
 *   **Computational limits** (tokens, time, memory)
-    **计算限制** （令牌、时间、内存）
+    **计算限制** （令牌、时间、记忆）
 *   **Quality requirements** (accuracy, completeness, reliability)
     **质量要求** （准确性、完整性、可靠性）
 *   **Resource availability** (processing power, storage, bandwidth)

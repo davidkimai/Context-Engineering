@@ -8,7 +8,7 @@
 > **模块 02.2** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Self-Improving Context Systems
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进自我改进的上下文系统
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进自我改进的上下文系统
 
 * * *
 
@@ -1987,10 +1987,10 @@ Protocols provide self-modifying refinement patterns that evolve based on effect
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This self-refinement module directly implements and extends key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个自我细化模块直接实现和扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的关键概念：
+这个自我细化模块直接实现和扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的关键概念：
 
 **Self-Refinement Systems (Referenced throughout)**:
 **自我细化系统（贯穿始终）**：

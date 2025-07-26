@@ -8,7 +8,7 @@
 > **模块 01.3** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Software 3.0 Paradigms
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进软件 3.0 范式
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进软件 3.0 范式
 
 * * *
 
@@ -228,7 +228,7 @@ Where:
 *   **Bottom Layer**: All the different sources of context components (static templates, dynamic retrieval, user info, system state, learned patterns)
     **底层** ：上下文组件的所有不同来源（静态模板、动态检索、用户信息、系统状态、学习模式）
 *   **Middle Layer**: Selection and processing of specific components (instructions, knowledge, tools, memory, examples)
-    **中间层** ：特定组件（指令、知识、工具、内存、示例）的选择和处理
+    **中间层** ：特定组件（指令、知识、工具、记忆、示例）的选择和处理
 *   **Top Layer**: Intelligent orchestration that optimizes how components are combined, manages composition quality, and adapts based on outcomes
     **顶层** ：智能编排，可优化组件的组合方式、管理组合质量并根据结果进行调整
 
@@ -1594,7 +1594,7 @@ learning_system = SelfImprovingAssemblySystem()
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 **Dynamic Assembly and Context Processing (§4.2)**:
 **动态汇编和上下文处理 （§4.2）：**
@@ -1614,7 +1614,7 @@ learning_system = SelfImprovingAssemblySystem()
 *   Solves activation refilling through dynamic assembly strategies
     通过动态装配策略解决活化再填充问题
 *   Handles hierarchical memory through adaptive component integration
-    通过自适应组件集成处理分层内存
+    通过自适应组件集成处理分层记忆
 
 ### Novel Contributions Beyond Current Research
 超越当前研究的新贡献
@@ -1721,7 +1721,7 @@ Direct implementation and extension of context management research (§4.3) with 
     跨模态上下文集成和一致性优化
 
 **Next Steps**: With foundational context engineering mastered, you're ready to advance to sophisticated system implementations including memory systems (Module 05), tool-integrated reasoning (Module 06), and multi-agent orchestration (Module 07).
-**后续步骤** ：掌握基础上下文工程后，您就可以进入复杂的系统实现，包括内存系统（模块 05）、工具集成推理（模块 06）和多代理编排（模块 07）。
+**后续步骤** ：掌握基础上下文工程后，您就可以进入复杂的系统实现，包括记忆系统（模块 05）、工具集成推理（模块 06）和多代理编排（模块 07）。
 
 * * *
 

@@ -1702,7 +1702,7 @@ Resonance occurs when patterns in the field vibrate at compatible frequencies, r
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/30_examples/00_toy_chatbot/context_field.py.md#real-world-example)
 
 When you hear "context engineering," it naturally activates related concepts like "prompt design," "field operations," and "attractor dynamics." This is resonance in action - one concept triggers related ones.  
-当你听到“情境工程”这个词时，它自然会激活相关的概念，例如“即时设计”、“现场操作”和“吸引子动力学”。这就是共振——一个概念会触发相关的概念。
+当你听到“上下文工程”这个词时，它自然会激活相关的概念，例如“即时设计”、“现场操作”和“吸引子动力学”。这就是共振——一个概念会触发相关的概念。
 
 ## Field Evolution Over Time  
 领域随时间演变

@@ -1,5 +1,5 @@
 # Context Formalization: The Mathematical Heart of Context Engineering
-情境形式化：情境工程的数学核心
+情境形式化：上下文工程的数学核心
 
 > "Language shapes the way we think, and determines what we can think about."
 > “语言塑造了我们的思维方式，也决定了我们可以思考什么。”
@@ -14,7 +14,7 @@
 信息组织的数学语言
 
 > **Module 00.1** | *Context Engineering Course: From Foundations to Frontier Systems*
-> **模块 00.1** | *情境工程课程：从基础到前沿系统*
+> **模块 00.1** | *上下文工程课程：从基础到前沿系统*
 > 
 > *"Mathematics is the art of giving the same name to different things" — Henri Poincaré
 > “数学是给不同事物起相同名字的艺术” — Henri Poincaré*
@@ -45,7 +45,7 @@ C = A(c₁, c₂, c₃, c₄, c₅, c₆)
 ```
 
 This isn't just notation—it's a powerful framework that enables the three paradigms of Context Engineering mastery.
-这不仅仅是符号，而是一个强大的框架，支持掌握情境工程的三种范式。
+这不仅仅是符号，而是一个强大的框架，支持掌握上下文工程的三种范式。
 
 * * *
 
@@ -184,7 +184,7 @@ Structure all responses with:
 **从头开始解释** ：此 XML 模板像研究图书馆员一样组织外部信息 - 优先考虑最相关和最可靠的来源，同时保持明确的质量标准。
 
 #### Memory Context Template (c₄)
-内存上下文模板 （c₄）
+记忆上下文模板 （c₄）
 
 ```yaml
 # Memory Context Template (c₄)
@@ -226,7 +226,7 @@ memory_selection_rules:
 ```
 
 **Ground-up Explanation**: This YAML template manages memory like a personal assistant who remembers your preferences, tracks ongoing projects, and maintains context across conversations.
-**从头开始解释** ： 这个 YAML 模板像个人助理一样管理内存，它会记住您的偏好、跟踪正在进行的项目并在对话中维护上下文。
+**从头开始解释** ： 这个 YAML 模板像个人助理一样管理记忆，它会记住您的偏好、跟踪正在进行的项目并在对话中维护上下文。
 
 ### Assembly Strategy Templates
 装配体策略模板
@@ -1485,10 +1485,10 @@ class ContextFormalizationTester:
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This context formalization module directly implements and extends foundational concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-此上下文形式化模块直接实现和扩展[了上下文工程调查](https://arxiv.org/pdf/2507.13334)中的基本概念：
+此上下文形式化模块直接实现和扩展[了上下文工程调研](https://arxiv.org/pdf/2507.13334)中的基本概念：
 
 **Context Generation and Retrieval (§4.1)**:
 **上下文生成和检索 （§4.1）：**
@@ -1534,13 +1534,13 @@ This context formalization module directly implements and extends foundational c
 超越当前研究的新贡献
 
 **Mathematical Formalization Framework**: While the survey covers context engineering techniques, our systematic mathematical formalization C = A(c₁, c₂, ..., c₆) represents novel research into rigorous theoretical foundations for context optimization, enabling systematic analysis and improvement.
-**数学形式化框架** ：虽然该调查涵盖了上下文工程技术，但我们的系统数学形式化 C = A（c₁， c₂， ...， c₆） 代表了对上下文优化的严格理论基础的新研究，从而能够进行系统分析和改进。
+**数学形式化框架** ：虽然该调研涵盖了上下文工程技术，但我们的系统数学形式化 C = A（c₁， c₂， ...， c₆） 代表了对上下文优化的严格理论基础的新研究，从而能够进行系统分析和改进。
 
 **Three-Paradigm Integration**: The unified integration of Prompts (templates), Programming (algorithms), and Protocols (adaptive systems) extends beyond current research approaches by providing a comprehensive methodology that spans from tactical implementation to strategic evolution.
 **三范式集成** ：提示（模板）、编程（算法）和协议（自适应系统）的统一集成通过提供从战术实施到战略演变的综合方法，超越了当前的研究方法。
 
 **Quality-Driven Assembly Optimization**: Our multi-dimensional quality assessment framework (relevance, completeness, consistency, efficiency) with mathematical optimization represents advancement beyond current ad-hoc quality measures toward systematic, measurable context engineering.
-**质量驱动的装配优化** ：我们的多维质量评估框架（相关性、完整性、一致性、效率）与数学优化相结合，代表了超越当前临时质量衡量标准的进步，朝着系统化、可衡量的情境工程迈进。
+**质量驱动的装配优化** ：我们的多维质量评估框架（相关性、完整性、一致性、效率）与数学优化相结合，代表了超越当前临时质量衡量标准的进步，朝着系统化、可衡量的上下文工程迈进。
 
 **Adaptive Learning Architecture**: The integration of performance feedback loops, strategy evolution, and continuous improvement protocols represents frontier research into context systems that learn and optimize their own assembly strategies over time.
 **自适应学习架构** ：绩效反馈循环、策略进化和持续改进协议的集成代表了对情境系统的前沿研究，这些情境系统随着时间的推移学习和优化自己的装配策略。
@@ -1600,7 +1600,7 @@ This context formalization module directly implements and extends foundational c
 **上下文安全和隐私** ：研究上下文形式化框架，这些框架保持数学优化的有效性，同时将安全约束、隐私保护和信息访问控制作为一流的数学约束。
 
 **Context Engineering Standardization**: Research toward standardized mathematical frameworks and quality metrics that enable interoperability between different context engineering systems while maintaining optimization effectiveness and quality assurance.
-**情境工程标准化** ：对标准化数学框架和质量指标进行研究，以实现不同情境工程系统之间的互作性，同时保持优化有效性和质量保证。
+**上下文工程标准化** ：对标准化数学框架和质量指标进行研究，以实现不同上下文工程系统之间的互作性，同时保持优化有效性和质量保证。
 
 ### Theoretical Foundations for Advanced Applications
 高级应用的理论基础
@@ -1721,4 +1721,4 @@ The three-paradigm integration you've mastered here provides the architectural f
 - [ ] Self-evolution protocols for continuous improvement用于持续改进的自我进化协议
 
 This comprehensive foundation transforms context engineering from an art into a systematic, measurable, and continuously improving science.
-这个全面的基础将情境工程从一门艺术转变为一门系统、可衡量且持续改进的科学。
+这个全面的基础将上下文工程从一门艺术转变为一门系统、可衡量且持续改进的科学。

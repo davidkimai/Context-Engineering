@@ -3,7 +3,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/README.md#foundations)
 
 > _From atoms to unified fields: The theoretical backbone of context engineering  
-> 从原子到统一场：情境工程的理论支柱_
+> 从原子到统一场：上下文工程的理论支柱_
 > 
 > **“Order emerges from the interactions of chaos.” — Ilya Prigogine  
 > “秩序源于混乱的相互作用。”——伊利亚·普里高津**
@@ -42,9 +42,9 @@ The `00_foundations` directory contains the core theoretical foundations of co
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/README.md#biological-metaphor)
 
 Our approach is structured around a biological metaphor that provides an intuitive framework for understanding the increasing complexity of context engineering:  
-我们的方法围绕生物学隐喻构建，它为理解情境工程日益复杂的过程提供了一个直观的框架：
+我们的方法围绕生物学隐喻构建，它为理解上下文工程日益复杂的过程提供了一个直观的框架：
 
-|Level  等级|Metaphor  隐喻|Context Engineering Concept  <br>情境工程概念|
+|Level  等级|Metaphor  隐喻|Context Engineering Concept  <br>上下文工程概念|
 |---|---|---|
 |1|**Atoms  原子**|Basic instructions and prompts  <br>基本说明和提示|
 |2|**Molecules  分子**|Few-shot examples and demonstrations  <br>小样本示例和演示|
@@ -221,7 +221,7 @@ As we progress through these levels, we move from discrete, static approaches to
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/README.md#theoretical-perspectives)
 
 Our foundation modules approach context engineering from three complementary perspectives:  
-我们的基础模块从三个互补的角度来处理情境工程：
+我们的基础模块从三个互补的角度来处理上下文工程：
 
 ```
                         ┌─────────────────┐
@@ -383,7 +383,7 @@ Follow the full sequence from 1 to 14
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/README.md#integration-with-other-directories)
 
 The theoretical foundations in this directory support the practical implementations in the rest of the repository:  
-该目录中的理论基础支持存储库其余部分的实际实现：
+该目录中的理论基础支持仓库其余部分的实际实现：
 
 - **10_guides_zero_to_hero**: Practical notebooks implementing these concepts  
     **10_guides_zero_to_hero** ：实现这些概念的实用笔记本

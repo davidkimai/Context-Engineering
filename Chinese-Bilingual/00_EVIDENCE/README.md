@@ -195,7 +195,7 @@ Cognitive Tool Architecture:
 - Then context behaves like a continuous field with emergent properties  
     那么上下文就像一个具有突发属性的连续场
 - This validates field-theoretic approaches to context engineering  
-    这验证了场论方法对情境工程的有效性
+    这验证了场论方法对上下文工程的有效性
 
 **Step 3: If cognitive tools improve reasoning (Brown Ebouky et al.)...  
 步骤 3：如果认知工具能够改善推理能力（Brown Ebouky 等人）……**
@@ -217,7 +217,7 @@ Cognitive Tool Architecture:
 **基于证据的答案** ：
 
 - **Mechanism**: Context window as working memory + external storage systems  
-    **机制** ：上下文窗口作为工作内存+外部存储系统
+    **机制** ：上下文窗口作为工作记忆+外部存储系统
 - **Research**: Transformer memory mechanisms (Dai et al., 2019)  
     **研究** ：Transformer 记忆机制 (Dai et al., 2019)
 - **Implementation**: Compression algorithms preserve semantic content across sessions  

@@ -83,7 +83,7 @@ This relationship can be visualized as follows:
 ```
 
 ### 2.2. Implications for Context Engineering  
-2.2. 对情境工程的启示
+2.2. 对上下文工程的启示
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/13_quantum_semantics.md#22-implications-for-context-engineering)
 

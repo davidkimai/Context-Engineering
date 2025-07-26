@@ -68,7 +68,7 @@ Where:
 **挑战：** 处理超出标准上下文窗口的序列，同时保持连贯的理解。
 
 **Approach**: Hierarchical attention mechanisms, memory-augmented architectures, and sliding window techniques that preserve critical information while managing computational constraints.
-**方法** ：分层注意力机制、内存增强架构和滑动窗口技术，在管理计算约束的同时保留关键信息。
+**方法** ：分层注意力机制、记忆增强架构和滑动窗口技术，在管理计算约束的同时保留关键信息。
 
 **Mathematical Framework**:
 **数学框架** ：
@@ -199,7 +199,7 @@ Context Processing serves as the crucial bridge between foundational components 
 **上游集成** ：从上下文检索和生成系统接收原始上下文信息，包括提示、外部知识和动态上下文组装。
 
 **Downstream Integration**: Provides refined, structured context to advanced systems including RAG architectures, memory systems, tool-integrated reasoning, and multi-agent coordination.
-**下游集成** ：为高级系统提供精细的结构化上下文，包括 RAG 架构、内存系统、工具集成推理和多代理协调。
+**下游集成** ：为高级系统提供精细的结构化上下文，包括 RAG 架构、记忆系统、工具集成推理和多代理协调。
 
 **Horizontal Integration**: Collaborates with Context Management for resource optimization and efficient information organization.
 **水平整合** ：与上下文管理协作以实现资源优化和高效的信息组织。
@@ -266,7 +266,7 @@ Context Processing effectiveness is measured across multiple dimensions:
 *   **Latency**: Time from input to optimized output
     **延迟** ：从输入到优化输出的时间
 *   **Resource Utilization**: Computational and memory efficiency
-    **资源利用率** ：计算和内存效率
+    **资源利用率** ：计算和记忆效率
 *   **Scalability**: Performance under increasing load
     **可扩展性** ：负载增加下的性能
 
@@ -308,7 +308,7 @@ Long context processing introduces significant computational challenges, particu
 *   Hierarchical processing to manage complexity
     用于管理复杂性的分层处理
 *   Memory-efficient implementations for large-scale processing
-    用于大规模处理的内存高效实现
+    用于大规模处理的记忆高效实现
 
 ### Quality-Efficiency Trade-offs
 质量与效率的权衡

@@ -1037,7 +1037,7 @@ Implementation:
 ```
 
 ### Integration with Memory Hierarchies
-与内存层次结构的集成
+与记忆层次结构的集成
 
 **Cross-Level Compression Coordination:
 跨层次压缩协调：**
@@ -1259,14 +1259,14 @@ def coherence_preserving_compression(content):
 与其他上下文管理组件的集成
 
 ### Memory Hierarchy Integration
-内存层次结构集成
+记忆层次结构集成
 
 *   **Compression Level Coordination**: Different compression ratios for different memory levels
-    压缩级别协调：针对不同内存级别使用不同的压缩比率
+    压缩级别协调：针对不同记忆级别使用不同的压缩比率
 *   **Promotion/Demotion Triggers**: Use compression efficiency as factor in memory management
-    晋升/降级触发器：将压缩效率作为内存管理的一个因素
+    晋升/降级触发器：将压缩效率作为记忆管理的一个因素
 *   **Cross-Level Optimization**: Optimize compression strategies across memory hierarchy
-    跨级别优化：优化内存层次结构中的压缩策略
+    跨级别优化：优化记忆层次结构中的压缩策略
 
 ### Constraint Management Integration
 约束管理集成

@@ -9,12 +9,12 @@
 > **— Albert Einstein  — 阿尔伯特·爱因斯坦**
 
 ## Introduction: The Foundation of Context Engineering Assessment  
-引言：情境工程评估的基础
+引言：上下文工程评估的基础
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/eval_checklist.md#introduction-the-foundation-of-context-engineering-assessment)
 
 Evaluation methodology forms the cornerstone of context engineering that ensures systems perform reliably across diverse scenarios while maintaining coherent operation within the broader context field. By establishing systematic evaluation frameworks, measurement protocols, and continuous improvement cycles, evaluation methodology enables practitioners to ground their implementations in evidence-based performance while maintaining the semantic coherence of integrated systems.  
-评估方法论是情境工程的基石，它确保系统在不同场景下可靠运行，同时在更广泛的情境领域内保持一致的运行。通过建立系统的评估框架、测量协议和持续改进周期，评估方法论使实践者能够将其实施建立在基于证据的绩效基础之上，同时保持集成系统的语义一致性。
+评估方法论是上下文工程的基石，它确保系统在不同场景下可靠运行，同时在更广泛的情境领域内保持一致的运行。通过建立系统的评估框架、测量协议和持续改进周期，评估方法论使实践者能够将其实施建立在基于证据的绩效基础之上，同时保持集成系统的语义一致性。
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -155,7 +155,7 @@ Performance measurement is the cornerstone of evaluation methodology. How we qua
     - **Throughput**: Volume of operations per unit time  
         **吞吐量** ：单位时间内的操作量
     - **Resource Utilization**: Computational and memory efficiency  
-        **资源利用率** ：计算和内存效率
+        **资源利用率** ：计算和记忆效率
 3. **Quality Metrics  质量指标**
     
     - **Semantic Coherence**: Meaningfulness of outputs in context  
@@ -314,7 +314,7 @@ Evaluation results must clearly guide optimization efforts and system improvemen
 **第 2 步：** 复制并粘贴此提示：
 
 "I'm working on establishing a comprehensive evaluation methodology for my context engineering system. Help me design the foundational framework by addressing these key areas:  
-我正在为我的情境工程系统建立一套全面的评估方法。请帮助我设计基础框架，解决以下关键问题：
+我正在为我的上下文工程系统建立一套全面的评估方法。请帮助我设计基础框架，解决以下关键问题：
 
 1. **Measurability Assessment**:  
     **可测量性评估** ：
@@ -524,7 +524,7 @@ Unit-level evaluation focuses on the smallest testable components of the system.
     - **Correctness Verification**: Proper data manipulation and storage  
         **正确性验证** ：正确的数据操作和存储
     - **Efficiency Analysis**: Access patterns and memory usage  
-        **效率分析** ：访问模式和内存使用情况
+        **效率分析** ：访问模式和记忆使用情况
     - **Consistency Maintenance**: Data integrity across operations  
         **一致性维护** ：跨操作的数据完整性
 
@@ -581,7 +581,7 @@ Meta-evaluation assesses the evaluation methodology itself, ensuring continuous 
 **第 2 步：** 复制并粘贴此提示：
 
 "Let's design a complete assessment architecture for our context engineering system. For each layer, I'd like to make concrete decisions:  
-让我们为我们的情境工程系统设计一个完整的评估架构。对于每一层，我想做出具体的决策：
+让我们为我们的上下文工程系统设计一个完整的评估架构。对于每一层，我想做出具体的决策：
 
 1. **System-Level Architecture**:  
     **系统级架构** ：
@@ -957,7 +957,7 @@ Let's create a systematic measurement protocol that balances comprehensiveness w
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/eval_checklist.md#4-performance-integration-context-field-coherence)
 
 Effective evaluation methodology must integrate seamlessly with the context engineering system itself, maintaining semantic coherence while providing actionable insights. Let's explore how to embed evaluation within the context field:  
-有效的评估方法必须与情境工程系统本身无缝集成，在提供可操作见解的同时保持语义一致性。让我们探索如何将评估嵌入到情境领域中：
+有效的评估方法必须与上下文工程系统本身无缝集成，在提供可操作见解的同时保持语义一致性。让我们探索如何将评估嵌入到情境领域中：
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -1195,7 +1195,7 @@ Comprehensive evaluation often requires representing multiple, potentially confl
 **第 2 步：** 复制并粘贴此提示：
 
 "I need to integrate performance evaluation seamlessly into my context engineering system while maintaining coherence. Help me design the integration architecture:  
-我需要将绩效评估无缝集成到我的情境工程系统中，同时保持一致性。请帮我设计集成架构：
+我需要将绩效评估无缝集成到我的上下文工程系统中，同时保持一致性。请帮我设计集成架构：
 
 1. **Semantic Integration Strategy**:  
     **语义整合策略** ：
@@ -1931,7 +1931,7 @@ Let's create an advanced evaluation framework that provides deep insights while 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/eval_checklist.md#conclusion-building-excellence-through-systematic-evaluation)
 
 Evaluation methodology represents the foundation upon which reliable, high-performing context engineering systems are built. Through systematic measurement, analysis, and optimization, we can create systems that not only meet current requirements but continuously improve and adapt to evolving needs.  
-评估方法是构建可靠、高性能情境工程系统的基础。通过系统性的测量、分析和优化，我们可以创建不仅满足当前需求，而且能够持续改进并适应不断变化的需求的系统。
+评估方法是构建可靠、高性能上下文工程系统的基础。通过系统性的测量、分析和优化，我们可以创建不仅满足当前需求，而且能够持续改进并适应不断变化的需求的系统。
 
 ### Key Principles for Effective Evaluation:  
 有效评估的关键原则：
@@ -1969,9 +1969,9 @@ By following the frameworks and protocols outlined in this guide, practitioners 
 通过遵循本指南中概述的框架和协议，从业者可以构建评估方法，不仅可以评估当前的性能，还可以积极促进开发更强大、更可靠、更有效的上下文工程系统。
 
 The future of context engineering lies in systems that can evaluate themselves, learn from their assessments, and continuously optimize their own performance. Through systematic evaluation methodology, we lay the groundwork for this vision of self-improving, adaptive systems that grow more capable over time while maintaining reliability and coherence.  
-情境工程的未来在于能够自我评估、从评估中学习并持续优化自身性能的系统。通过系统化的评估方法，我们为这一愿景奠定了基础，即构建一个能够自我改进、自适应的系统，使其能够随着时间的推移而不断增强能力，同时保持可靠性和一致性。
+上下文工程的未来在于能够自我评估、从评估中学习并持续优化自身性能的系统。通过系统化的评估方法，我们为这一愿景奠定了基础，即构建一个能够自我改进、自适应的系统，使其能够随着时间的推移而不断增强能力，同时保持可靠性和一致性。
 
 ---
 
 _This comprehensive reference guide provides the foundational knowledge and practical frameworks necessary for implementing effective evaluation methodology in context engineering systems. For specific implementation guidance and advanced techniques, practitioners should combine these frameworks with domain-specific expertise and continuous experimentation.  
-本指南提供全面的参考，涵盖在情境工程系统中实施有效评估方法所需的基础知识和实践框架。为了获得具体的实施指导和高级技术，从业者应将这些框架与特定领域的专业知识和持续的实验相结合。_
+本指南提供全面的参考，涵盖在上下文工程系统中实施有效评估方法所需的基础知识和实践框架。为了获得具体的实施指导和高级技术，从业者应将这些框架与特定领域的专业知识和持续的实验相结合。_

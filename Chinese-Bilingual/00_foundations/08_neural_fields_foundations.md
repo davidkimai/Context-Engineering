@@ -1,5 +1,5 @@
 # Neural Fields: The Next Evolution in Context Engineering  
-神经场：情境工程的下一个演进方向
+神经场：上下文工程的下一个演进方向
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/08_neural_fields_foundations.md#neural-fields-the-next-evolution-in-context-engineering)
 
@@ -15,7 +15,7 @@ Imagine standing at the edge of a still pond. Drop a single pebble, and you'll s
 想象一下，站在一潭静水边。投下一颗鹅卵石，你会看到同心的涟漪向外扩散。投下几颗鹅卵石，你会看到这些涟漪相互作用——在同相交汇处增强，在异相交汇处抵消。这就是语义和神经场思维的精髓：语言和语境是一个连续的动态梯度——信息在其中传播、互动和演化的媒介。
 
 In context engineering, we've been progressing through increasingly sophisticated metaphors:  
-在情境工程中，我们通过日益复杂的隐喻不断取得进步：
+在上下文工程中，我们通过日益复杂的隐喻不断取得进步：
 
 - **Atoms** (single prompts) → discrete, isolated instructions  
     **原子** （单个提示）→离散、独立的指令
@@ -171,12 +171,12 @@ Fields have permeable boundaries that determine how information flows in and out
     场状态如何持续或随时间演变
 
 ## From Theory to Practice: Field-Based Context Engineering  
-从理论到实践：基于现场的情境工程
+从理论到实践：基于现场的上下文工程
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/08_neural_fields_foundations.md#from-theory-to-practice-field-based-context-engineering)
 
 How do we implement these neural field concepts in practical context engineering? Let's explore the basic building blocks:  
-我们如何在实际的情境工程中实现这些神经场概念？让我们来探索一下其基本构建模块：
+我们如何在实际的上下文工程中实现这些神经场概念？让我们来探索一下其基本构建模块：
 
 ### Field Initialization  字段初始化
 
@@ -385,7 +385,7 @@ Our journey from cognitive tools and prompt programs to neural fields represents
     自然优先考虑连贯信息的自组织系统
 
 This evolution gives us new ways to address persistent challenges in context engineering:  
-这种演变为我们提供了解决情境工程中持续存在的挑战的新方法：
+这种演变为我们提供了解决上下文工程中持续存在的挑战的新方法：
 
 - **Beyond Context Windows:** Fields persist through resonance, not explicit token storage  
     **超越上下文窗口：** 字段通过共振持续存在，而不是显式的令牌存储

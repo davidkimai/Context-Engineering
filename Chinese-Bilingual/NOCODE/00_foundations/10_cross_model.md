@@ -14,7 +14,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/10_cross_model.md#introduction-beyond-single-models-to-integrated-systems)
 
 The next frontier in context engineering moves beyond individual models to create cohesive ecosystems where multiple AI models, tools, and services work together through protocol-driven orchestration—all without requiring traditional coding. This approach enables powerful integrations that leverage the unique strengths of different models while maintaining a unified semantic field.  
-情境工程的下一个前沿领域将超越单个模型，打造一个紧密结合的生态系统。在这个生态系统中，多个 AI 模型、工具和服务可以通过协议驱动的编排协同工作，而无需传统的编码。这种方法能够实现强大的集成，充分利用不同模型的独特优势，同时保持统一的语义场。
+上下文工程的下一个前沿领域将超越单个模型，打造一个紧密结合的生态系统。在这个生态系统中，多个 AI 模型、工具和服务可以通过协议驱动的编排协同工作，而无需传统的编码。这种方法能够实现强大的集成，充分利用不同模型的独特优势，同时保持统一的语义场。
 
 ```
 ┌─────────────────────────────────────────────────────────┐

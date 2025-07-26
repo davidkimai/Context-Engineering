@@ -1000,7 +1000,7 @@ class AdaptiveLearningSystem:
 *   Spike-based fragment representation
     基于脉冲的片段表示
 *   Energy-efficient memory operations
-    节能型内存操作
+    节能型记忆操作
 
 ## Conclusion
 结论

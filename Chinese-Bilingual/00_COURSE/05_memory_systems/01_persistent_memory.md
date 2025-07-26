@@ -1,11 +1,11 @@
 # Persistent Memory: Long-Term Knowledge Storage and Evolution
-持久化内存：长期知识存储与演化
+持久化记忆：长期知识存储与演化
 
 ## Overview: The Challenge of Temporal Context Continuity
 概述：时间上下文连续性的挑战
 
 Persistent memory in context engineering addresses the fundamental challenge of maintaining coherent, evolving knowledge structures across extended time periods. Unlike traditional databases that store static data, persistent memory systems must maintain **semantic continuity**, **relational evolution**, and **adaptive knowledge updating** while preserving the integrity of learned patterns and associations.
-在上下文工程中，持久化内存解决了保持连贯、演化的知识结构在长时间段内持续性的基本挑战。与传统数据库存储静态数据不同，持久化内存系统必须在保持学习模式和关联完整性的同时，维护语义连续性、关系演化和自适应知识更新。
+在上下文工程中，持久化记忆解决了保持连贯、演化的知识结构在长时间段内持续性的基本挑战。与传统数据库存储静态数据不同，持久化记忆系统必须在保持学习模式和关联完整性的同时，维护语义连续性、关系演化和自适应知识更新。
 
 The persistence challenge in Software 3.0 systems encompasses three critical dimensions:
 软件 3.0 系统中的持久化挑战包含三个关键维度：
@@ -65,7 +65,7 @@ Network(t+1) = Network(t) + α × New_Connections - β × Weak_Connections
 ```
 
 ## Persistent Memory Architecture Paradigms
-持久化内存架构范式
+持久化记忆架构范式
 
 ### Architecture 1: Layered Persistence Model
 架构 1：分层持久化模型
@@ -135,10 +135,10 @@ Edge Types by Persistence:
 ```
 
 ### Architecture 3: Field-Theoretic Persistent Memory
-架构 3：场论持久化内存
+架构 3：场论持久化记忆
 
 Building on neural field theory, persistent memory exists as stable attractors in a continuous semantic field:
-基于神经场理论，持久化内存存在于连续语义场中的稳定吸引子：
+基于神经场理论，持久化记忆存在于连续语义场中的稳定吸引子：
 
 ```
 PERSISTENT MEMORY FIELD LANDSCAPE
@@ -388,7 +388,7 @@ class BasicPersistentMemory:
 ```
 
 ### Layer 2: Adaptive Persistent Memory (Software 2.0 Enhancement)
-第二层：自适应持久化内存（软件 2.0 增强）
+第二层：自适应持久化记忆（软件 2.0 增强）
 
 **Learning-Based Persistence with Statistical Adaptation
 基于学习的持久化与统计自适应**
@@ -687,10 +687,10 @@ class AdaptivePersistentMemory(BasicPersistentMemory):
 ```
 
 ### Layer 3: Protocol-Orchestrated Persistent Memory (Software 3.0 Integration)
-第三层：协议协调持久化内存（软件 3.0 集成）
+第三层：协议协调持久化记忆（软件 3.0 集成）
 
 **Structured Protocol-Based Memory Orchestration
-基于结构的协议式内存编排**
+基于结构的协议式记忆编排**
 
 ```python
 # Template: Protocol-Based Persistent Memory System
@@ -1075,7 +1075,7 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
 挑战 1：规模与性能
 
 **Problem**: Persistent memory systems must handle potentially vast amounts of information while maintaining fast access.
-问题：持久性内存系统必须处理大量信息，同时保持快速访问。
+问题：持久性记忆系统必须处理大量信息，同时保持快速访问。
 
 **Solution**: Hierarchical storage with intelligent caching and predictive pre-loading.
 解决方案：分层存储，结合智能缓存和预测性预加载。
@@ -1198,7 +1198,7 @@ The persistent memory foundation established here enables the development of sop
     通过专注学习在特定领域发展专业能力
 
 The next section will explore how these persistent memory capabilities integrate with agent architectures to create truly memory-enhanced intelligent systems that can grow and evolve through interaction while maintaining coherent, reliable knowledge stores.
-下一节将探讨这些持久化内存能力如何与智能体架构集成，以创建真正具有记忆增强功能的智能系统，这些系统可以通过交互成长和进化，同时保持连贯、可靠的知识存储。
+下一节将探讨这些持久化记忆能力如何与智能体架构集成，以创建真正具有记忆增强功能的智能系统，这些系统可以通过交互成长和进化，同时保持连贯、可靠的知识存储。
 
 This persistent memory framework provides the robust foundation needed for creating intelligent systems that can maintain coherent knowledge across time while continuously learning and adapting. The integration of deterministic storage operations, statistical learning patterns, and protocol-based orchestration creates memory systems that are both reliable and sophisticated, embodying the Software 3.0 paradigm for context engineering.
-这个持久化内存框架为创建能够在时间上保持连贯知识、同时持续学习和适应的智能系统提供了坚实的基础。确定性存储操作、统计学习模式以及基于协议的协调集成，创造了既可靠又复杂的内存系统，体现了软件 3.0 范式在上下文工程中的应用。
+这个持久化记忆框架为创建能够在时间上保持连贯知识、同时持续学习和适应的智能系统提供了坚实的基础。确定性存储操作、统计学习模式以及基于协议的协调集成，创造了既可靠又复杂的记忆系统，体现了软件 3.0 范式在上下文工程中的应用。

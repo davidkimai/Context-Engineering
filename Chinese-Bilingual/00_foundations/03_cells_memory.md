@@ -1,5 +1,5 @@
 # Cells: Adding Memory and State  
-单元：添加内存和状态
+单元：添加记忆和状态
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#cells-adding-memory-and-state)
 
@@ -29,7 +29,7 @@ Like a biological cell that maintains its internal state while interacting with 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#the-memory-problem)
 
 By default, LLMs have no memory. Each request is processed independently:  
-默认情况下，LLM 没有内存。每个请求都会被独立处理：
+默认情况下，LLM 没有记忆。每个请求都会被独立处理：
 
 ```
 ┌───────────────────────┐      ┌───────────────────────┐
@@ -84,7 +84,7 @@ Now the LLM can access previous exchanges and maintain continuity.
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#the-memory-token-budget-problem)
 
 As conversations grow, context windows fill up. We need memory management strategies:  
-随着对话的增长，上下文窗口会被填满。我们需要内存管理策略：
+随着对话的增长，上下文窗口会被填满。我们需要记忆管理策略：
 
 ```
           [Context Window Tokens]
@@ -115,7 +115,7 @@ Turn 5    │ History 2-4                User Input 5     │
 ```
 
 ## Memory Management Strategies  
-内存管理策略
+记忆管理策略
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#memory-management-strategies)
 
@@ -144,7 +144,7 @@ Several strategies help optimize the use of limited context windows:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#windowing-the-sliding-context)
 
 The simplest memory management approach keeps only the most recent conversation turns:  
-最简单的内存管理方法仅保留最近的对话轮次：
+最简单的记忆管理方法仅保留最近的对话轮次：
 
 ```
                     ┌───────────────────────────┐
@@ -176,7 +176,7 @@ This approach is simple but forgets information from earlier turns.
 这种方法很简单，但会忘记之前的信息。
 
 ## Summarization: Compressing Memory  
-总结：压缩内存
+总结：压缩记忆
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#summarization-compressing-memory)
 
@@ -203,7 +203,7 @@ Summarization preserves key information while reducing token count.
 摘要保留了关键信息，同时减少了标记数。
 
 ## Key-Value Memory: Structured State  
-键值内存：结构化状态
+键值记忆：结构化状态
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#key-value-memory-structured-state)
 
@@ -289,7 +289,7 @@ The state variable persists across turns, enabling continuous calculations.
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#long-term-memory-beyond-the-context-window)
 
 For truly persistent memory, we need external storage:  
-对于真正的持久内存，我们需要外部存储：
+对于真正的持久记忆，我们需要外部存储：
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
@@ -331,7 +331,7 @@ For truly persistent memory, we need external storage:
 ```
 
 This architecture enables potentially unlimited memory by:  
-该架构通过以下方式实现了无限的内存：
+该架构通过以下方式实现了无限的记忆：
 
 1. Extracting key information from conversations  
     从对话中提取关键信息
@@ -343,12 +343,12 @@ This architecture enables potentially unlimited memory by:
     将该上下文纳入提示中
 
 ## Cell Implementation: A Memory Manager  
-单元实现：内存管理器
+单元实现：记忆管理器
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#cell-implementation-a-memory-manager)
 
 Here's a Python class that implements basic memory management:  
-下面是实现基本内存管理的 Python 类：
+下面是实现基本记忆管理的 Python 类：
 
 ```python
 class ContextCell:
@@ -465,12 +465,12 @@ Different strategies optimize for different priorities. Choosing the right appro
 不同的策略针对不同的优先级进行优化。选择正确的方法取决于您的具体应用需求。
 
 ## Advanced Techniques: Memory Orchestration  
-高级技术：内存编排
+高级技术：记忆编排
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#advanced-techniques-memory-orchestration)
 
 For sophisticated applications, multiple memory systems can work together:  
-对于复杂的应用程序，多个内存系统可以协同工作：
+对于复杂的应用程序，多个记忆系统可以协同工作：
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -525,7 +525,7 @@ This architecture mirrors human memory systems, with:
     **长期记忆** ：持久的用户信息和偏好
 
 The memory manager orchestrates these systems, deciding what information to include in each context.  
-内存管理器协调这些系统，决定在每个上下文中包含哪些信息。
+记忆管理器协调这些系统，决定在每个上下文中包含哪些信息。
 
 ## Memory and Hallucination Reduction  
 记忆力和幻觉减少
@@ -636,7 +636,7 @@ LLM 本身会提取并更新需要记住的重要信息，从而创建一个自�
 5. **Structured state** enables sophisticated applications beyond simple conversations  
     **结构化状态**使复杂的应用程序超越简单的对话
 6. **Memory orchestration** combines multiple memory systems for optimal performance  
-    **内存编排**结合多个内存系统以实现最佳性能
+    **记忆编排**结合多个记忆系统以实现最佳性能
 7. **Self-improving memory** uses the LLM to help manage its own memory  
     **自我提升记忆**利用 LLM 来帮助管理自己的记忆
 
@@ -668,12 +668,12 @@ In the next section, we'll explore **organs** — multi-agent systems where mu
 ---
 
 ## Deeper Dive: Memory Abstractions  
-深入探究：内存抽象
+深入探究：记忆抽象
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/00_foundations/03_cells_memory.md#deeper-dive-memory-abstractions)
 
 Memory can be organized in multiple layers of abstraction:  
-内存可以按多个抽象层进行组织：
+记忆可以按多个抽象层进行组织：
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐

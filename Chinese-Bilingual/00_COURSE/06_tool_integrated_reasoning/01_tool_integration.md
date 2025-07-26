@@ -8,7 +8,7 @@ Building on our function calling fundamentals, tool integration strategies repre
 基于我们的功能调用基础，工具集成策略代表了复杂的协调层，其中单个功能演变为连贯、智能的工具生态系统。这一进程反映了从离散编程到情境协调的软件 3.0 范式转变。
 
 > **Context Engineering Evolution**: Tool integration transforms isolated capabilities into synergistic systems where the whole becomes greater than the sum of its parts.
-> 情境工程演进：工具集成将孤立的功能转化为协同的系统，整体大于部分之和。
+> 上下文工程演进：工具集成将孤立的功能转化为协同的系统，整体大于部分之和。
 
 ## Theoretical Framework: Tool Integration as Context Orchestration
 理论框架：工具集成作为情境编排

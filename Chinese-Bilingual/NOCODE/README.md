@@ -56,7 +56,7 @@ NOCODE 上下文工程是一个全面的框架，用于设计、管理和优化�
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/README.md#why-this-matters)
 
 As AI systems become more powerful, the limiting factor isn't their capabilities - it's how effectively we communicate with them. Context engineering is the art of shaping what AI sees and remembers, creating the conditions for optimal collaboration.  
-随着人工智能系统变得越来越强大，限制因素不再是它们的能力，而是我们与它们沟通的有效性。情境工程是一门塑造人工智能所见所闻、记忆内容的艺术，旨在为最佳协作创造条件。
+随着人工智能系统变得越来越强大，限制因素不再是它们的能力，而是我们与它们沟通的有效性。上下文工程是一门塑造人工智能所见所闻、记忆内容的艺术，旨在为最佳协作创造条件。
 
 ```
 Before Context Engineering:
@@ -241,7 +241,7 @@ Follow this recommended path to master NOCODE Context Engineering:
     结合多种方法，打造复杂的集成解决方案
 
 ## Visual Guide to Repository Structure (Updated Live)  
-存储库结构可视化指南（实时更新）
+仓库结构可视化指南（实时更新）
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/README.md#visual-guide-to-repository-structure-updated-live)
 
@@ -343,7 +343,7 @@ Ready to begin? Start with [NOCODE.md](https://github.com/KashiwaByte/Context-E
 准备好开始了吗？从 [NOCODE.md](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/NOCODE.md) 开始，掌握代币预算和上下文工程的基础知识。
 
 As you progress, we'll be expanding this repository with additional guides, examples, and templates to support your journey.  
-随着您的进步，我们将通过额外的指南、示例和模板来扩展此存储库，以支持您的旅程。
+随着您的进步，我们将通过额外的指南、示例和模板来扩展此仓库，以支持您的旅程。
 
 ---
 

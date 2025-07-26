@@ -160,7 +160,7 @@ To contribute a new protocol digest:
 5. Add links to related documentation  
     添加相关文档的链接
 6. Submit a pull request to the repository  
-    向存储库提交拉取请求
+    向仓库提交拉取请求
 
 ## Related Documents  相关文件
 

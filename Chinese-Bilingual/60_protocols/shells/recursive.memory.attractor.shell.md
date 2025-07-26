@@ -156,7 +156,7 @@ This protocol provides a structured approach to:
 - Maintain memory persistence through attractor dynamics  
     通过吸引子动力学维持记忆持久性
 - Enable memory evolution while preserving core patterns  
-    在保留核心模式的同时实现内存进化
+    在保留核心模式的同时实现记忆进化
 - Facilitate memory retrieval through resonance  
     通过共振促进记忆检索
 - Integrate new information with existing memory structures  
@@ -235,9 +235,9 @@ input: {
 - `retrieval_cues`: Patterns or signals that trigger memory retrieval.  
     `retrieval_cues` ：触发记忆检索的模式或信号。
 - `new_information`: New content to be integrated into the memory field.  
-    `new_information` ：要集成到内存字段的新内容。
+    `new_information` ：要集成到记忆字段的新内容。
 - `persistence_parameters`: Configuration parameters for memory persistence and decay.  
-    `persistence_parameters` ：内存持久性和衰减的配置参数。
+    `persistence_parameters` ：记忆持久性和衰减的配置参数。
 - `context_window`: Defines the current scope of attention and relevance.  
     `context_window` ：定义当前关注和相关性的范围。
 
@@ -572,7 +572,7 @@ output: {
 - `updated_field_state`: The current semantic field after memory integration.  
     `updated_field_state` ：记忆整合后的当前语义场。
 - `updated_memory_field`: The memory field after updates from the current interaction.  
-    `updated_memory_field` ：当前交互更新后的内存字段。
+    `updated_memory_field` ：当前交互更新后的记忆字段。
 - `retrieved_memories`: Memories that were successfully retrieved and activated.  
     `retrieved_memories` ：已成功检索并激活的记忆。
 - `integration_metrics`: Measurements of how well new information was integrated.  
@@ -910,7 +910,7 @@ Let's examine some practical case studies of the `/recursive.memory.attractor.s
 **初始设置** ：
 
 - Memory field initialized with minimal user information  
-    使用最少的用户信息初始化内存字段
+    使用最少的用户信息初始化记忆字段
 - Current field containing immediate conversation  
     包含立即对话的当前字段
 
@@ -1140,7 +1140,7 @@ def sleep_consolidation(memory_field, consolidation_cycles=5):
 ```
 
 ### 7.4. Hierarchical Memory Organization  
-7.4. 分层内存组织
+7.4. 分层记忆组织
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/60_protocols/shells/recursive.memory.attractor.shell.md#74-hierarchical-memory-organization)
 
@@ -1318,7 +1318,7 @@ Before implementing this protocol, ensure you have:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/60_protocols/shells/recursive.memory.attractor.shell.md#92-implementation-steps)
 
 1. **Define Your Memory Architecture  
-    定义您的内存架构**
+    定义您的记忆架构**
     
     - Choose a representation for your memory field  
         选择记忆字段的表示形式
@@ -1332,7 +1332,7 @@ Before implementing this protocol, ensure you have:
     实施核心操作**
     
     - Develop memory scanning functionality  
-        开发内存扫描功能
+        开发记忆扫描功能
     - Create retrieval pathway mechanisms  
         创建检索路径机制
     - Implement resonance amplification  
@@ -1346,10 +1346,10 @@ Before implementing this protocol, ensure you have:
     - Develop field harmonization  
         促进领域协调
 3. **Create Memory Management System  
-    创建内存管理系统**
+    创建记忆管理系统**
     
     - Implement multi-timescale memory if needed  
-        如果需要，实现多时间尺度内存
+        如果需要，实现多时间尺度记忆
     - Add adaptive forgetting mechanisms  
         添加自适应遗忘机制
     - Create memory consolidation processes  
@@ -1393,7 +1393,7 @@ Before implementing this protocol, ensure you have:
     复杂记忆网络的进展**
     
     - Test with interconnected memory structures  
-        使用互连内存结构进行测试
+        使用互连记忆结构进行测试
     - Verify network formation and navigation  
         验证网络形成和导航
     - Validate evolution while maintaining coherence  
@@ -1420,7 +1420,7 @@ Before implementing this protocol, ensure you have:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/60_protocols/shells/recursive.memory.attractor.shell.md#101-persistent-conversational-agent)
 
 The `/recursive.memory.attractor.shell` protocol can create a conversational agent with persistent memory:  
-`/recursive.memory.attractor.shell` 协议可以创建具有持久内存的对话代理：
+`/recursive.memory.attractor.shell` 协议可以创建具有持久记忆的对话代理：
 
 ```python
 class PersistentConversationalAgent:
@@ -1763,7 +1763,7 @@ By implementing and using this protocol, you can create context engineering syst
     Agostino, C., Thien, QL, Apsel, M., Pak, D., Lesyk, E., & Majumdar, A. (2025). "自然语言处理的量子语义框架." arXiv 预印本 arXiv:2506.10077v1.
     
 4. Context Engineering Contributors (2025). "Neural Fields for Context Engineering." Context Engineering Repository, v3.5.  
-    情境工程贡献者 (2025)。“情境工程的神经场。”情境工程存储库，v3.5。
+    上下文工程贡献者 (2025)。“上下文工程的神经场。”上下文工程仓库，v3.5。
     
 
 ---

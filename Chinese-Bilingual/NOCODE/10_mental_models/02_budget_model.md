@@ -17,7 +17,7 @@ While the Garden Model gives us an organic perspective on context, the Budget Mo
 花园模型为我们提供了一个有机的视角来看待环境，而预算模型则提供了一个互补的经济视角。该框架将环境视为一个有限资源的系统，必须谨慎地分配、投资和优化，才能创造最大价值。
 
 In the world of context engineering, every interaction has finite resources:  
-在情境工程的世界中，每次交互都有有限的资源：
+在上下文工程的世界中，每次交互都有有限的资源：
 
 - **Tokens**: The fundamental currency with hard limits  
     **代币** ：具有硬性限制的基础货币
@@ -507,7 +507,7 @@ Build on previous allocations with adjustments:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/02_budget_model.md#4-financial-disciplines-for-context-management)
 
 Many financial disciplines can be adapted to context engineering for powerful results.  
-许多金融学科可以适应情境工程以获得强大的成果。
+许多金融学科可以适应上下文工程以获得强大的成果。
 
 ### 4.1. ROI Analysis (Return on Investment)  
 4.1. ROI 分析（投资回报率）
@@ -713,7 +713,7 @@ Identify and mitigate potential context budget problems:
 ```
 
 **Reflective Exercise**: Think about your most important or challenging context engineering scenarios. Which financial discipline might offer the most valuable insights for those situations? How would you implement that approach specifically?  
-**反思练习** ：思考一下你最重要或最具挑战性的情境工程场景。哪些财务学科可能为这些情况提供最有价值的见解？你将如何具体实施这种方法？
+**反思练习** ：思考一下你最重要或最具挑战性的上下文工程场景。哪些财务学科可能为这些情况提供最有价值的见解？你将如何具体实施这种方法？
 
 ## 5. Budget Cycles and Planning  
 5. 预算周期和规划
@@ -948,7 +948,7 @@ Regular assessment and optimization:
 ```
 
 **Socratic Question**: How might explicitly thinking in terms of strategic, tactical, and operational planning change your approach to context engineering? Which planning horizon do you currently focus on most, and what might you gain by expanding your timeframe?  
-**苏格拉底式问题** ：明确地从战略、战术和运营规划的角度思考，会如何改变你对情境工程的理解？你目前最关注哪个规划范围？扩展你的时间框架能带来什么好处？
+**苏格拉底式问题** ：明确地从战略、战术和运营规划的角度思考，会如何改变你对上下文工程的理解？你目前最关注哪个规划范围？扩展你的时间框架能带来什么好处？
 
 ## 6. Budget Crises and Management  
 6.预算危机与管理
@@ -1284,7 +1284,7 @@ When your allocations need significant adjustment:
 ```
 
 **Reflective Exercise**: Consider a context engineering scenario where you've experienced misalignment, depletion, or the need for rebalancing. How did you address it? Which of the strategies described above might have been more effective?  
-**反思练习** ：设想一个情境工程场景，你曾经历过失调、损耗或需要重新平衡。你是如何应对的？上述哪种策略可能更有效？
+**反思练习** ：设想一个上下文工程场景，你曾经历过失调、损耗或需要重新平衡。你是如何应对的？上述哪种策略可能更有效？
 
 ## 7. Budget Model Mental Frameworks  
 7. 预算模型思维框架
@@ -1604,7 +1604,7 @@ Think of context resources as energy to be conserved and directed:
 ```
 
 **Socratic Question**: Which of these frameworks resonates most strongly with your context engineering challenges? How might adopting this perspective change how you approach resource allocation in your AI interactions?  
-**苏格拉底式问题** ：这些框架中哪一个与你的情境工程挑战最契合？采用这种视角会如何改变你在 AI 交互中处理资源分配的方式？
+**苏格拉底式问题** ：这些框架中哪一个与你的上下文工程挑战最契合？采用这种视角会如何改变你在 AI 交互中处理资源分配的方式？
 
 ## 8. Integration with Other Mental Models  
 8.与其他心智模型的整合
@@ -1612,7 +1612,7 @@ Think of context resources as energy to be conserved and directed:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/02_budget_model.md#8-integration-with-other-mental-models)
 
 The Budget Model complements other context engineering mental models in powerful ways.  
-预算模型以强大的方式补充了其他情境工程思维模型。
+预算模型以强大的方式补充了其他上下文工程思维模型。
 
 ### 8.1. Budget Model + Garden Model  
 8.1. 预算模型+花园模型
@@ -1813,7 +1813,7 @@ Combining economic and field perspectives:
 ```
 
 **Reflective Exercise**: Consider a context engineering challenge you're facing. How might combining the Budget Model with another mental model give you new insights or approaches? What specific integrated concepts would be most valuable to apply?  
-**反思练习** ：思考一下你面临的一个情境工程挑战。如何将预算模型与其他思维模型相结合，为你带来新的见解或方法？哪些具体的整合概念最值得应用？
+**反思练习** ：思考一下你面临的一个上下文工程挑战。如何将预算模型与其他思维模型相结合，为你带来新的见解或方法？哪些具体的整合概念最值得应用？
 
 ## 9. Practical Applications  
 9.实际应用
@@ -1821,7 +1821,7 @@ Combining economic and field perspectives:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/02_budget_model.md#9-practical-applications)
 
 The Budget Model offers practical solutions to common context engineering challenges.  
-预算模型为常见的环境工程挑战提供了实用的解决方案。
+预算模型为常见的上下文工程挑战提供了实用的解决方案。
 
 ### 9.1. The Token-Constrained Expert  
 9.1. 受令牌约束的专家
@@ -2088,7 +2088,7 @@ Balancing structure and exploration in creative contexts:
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/10_mental_models/02_budget_model.md#10-conclusion-the-art-of-resource-mastery)
 
 The Budget Model offers a powerful economic lens for context engineering, transforming how we think about and manage our limited resources. By viewing context as a system of economic constraints and opportunities, we gain clarity and control over our AI interactions.  
-预算模型为情境工程提供了强大的经济视角，彻底改变了我们思考和管理有限资源的方式。通过将情境视为一个包含经济约束和机遇的系统，我们可以更清晰地理解和掌控与 AI 的互动。
+预算模型为上下文工程提供了强大的经济视角，彻底改变了我们思考和管理有限资源的方式。通过将情境视为一个包含经济约束和机遇的系统，我们可以更清晰地理解和掌控与 AI 的互动。
 
 As you continue your context engineering journey, keep these key principles in mind:  
 在继续进行上下文工程之旅时，请牢记以下关键原则：
@@ -2336,7 +2336,7 @@ While the Budget Model provides powerful tools for context management, its great
 ```
 
 **Final Reflective Exercise**: As you complete this exploration of the Budget Model, consider how you'll apply these principles in your context engineering work. What allocation patterns will you adopt? How will you measure and optimize value? What budget-related habits will you develop? How might mastering the Budget Model transform your AI interactions?  
-**最终反思练习** ：完成预算模型的探索后，请思考如何在情境工程工作中运用这些原则。您将采用哪些分配模式？您将如何衡量和优化价值？您将养成哪些与预算相关的习惯？掌握预算模型将如何改变您的 AI 交互？
+**最终反思练习** ：完成预算模型的探索后，请思考如何在上下文工程工作中运用这些原则。您将采用哪些分配模式？您将如何衡量和优化价值？您将养成哪些与预算相关的习惯？掌握预算模型将如何改变您的 AI 交互？
 
 ---
 

@@ -14,7 +14,7 @@
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/cognitive_patterns.md#introduction-the-foundation-of-structured-thinking)
 
 Cognitive patterns form the cornerstone of context engineering that transforms raw computational capability into structured, reliable reasoning. By organizing and systematizing thinking processes, cognitive patterns enable models to approach complex problems with consistent methodologies while maintaining coherent operation within the broader context field. These patterns serve as reusable templates for reasoning that can be composed, adapted, and optimized across diverse domains.  
-认知模式构成了情境工程的基石，它将原始的计算能力转化为结构化、可靠的推理。通过组织和系统化思维过程，认知模式使模型能够以一致的方法论处理复杂问题，同时在更广泛的情境领域内保持一致的操作。这些模式作为可重用的推理模板，可以在不同领域进行组合、调整和优化。
+认知模式构成了上下文工程的基石，它将原始的计算能力转化为结构化、可靠的推理。通过组织和系统化思维过程，认知模式使模型能够以一致的方法论处理复杂问题，同时在更广泛的情境领域内保持一致的操作。这些模式作为可重用的推理模板，可以在不同领域进行组合、调整和优化。
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -77,7 +77,7 @@ In this comprehensive reference guide, we'll explore:
     **先进技术** ：探索元认知模式、涌现推理和递归思维等前沿方法
 
 Let's begin with the fundamental concepts that underpin effective cognitive pattern design in context engineering.  
-让我们从情境工程中有效认知模式设计的基本概念开始。
+让我们从上下文工程中有效认知模式设计的基本概念开始。
 
 ## 1. Foundational Principles of Cognitive Patterns  
 1. 认知模式的基本原理
@@ -322,7 +322,7 @@ Cognitive patterns must enable transparent reasoning that can be validated and t
 **第 2 步：** 复制并粘贴此提示：
 
 "I'm working on establishing a comprehensive cognitive pattern library for my context engineering system. Help me design the foundational framework by addressing these key areas:  
-我正在为我的情境工程系统建立一个全面的认知模式库。请帮助我设计基础框架，解决以下关键问题：
+我正在为我的上下文工程系统建立一个全面的认知模式库。请帮助我设计基础框架，解决以下关键问题：
 
 1. **Decomposability Design**:  
     **可分解性设计** ：
@@ -436,13 +436,13 @@ Strategic reasoning patterns address high-level problem-solving approaches and d
     - **Design Thinking**: Human-centered problem-solving methodology  
         **设计思维** ：以人为本的问题解决方法
     - **Scientific Method**: Hypothesis-driven investigation and validation  
-        **科学方法** ：假设驱动的调查和验证
+        **科学方法** ：假设驱动的调研和验证
 2. **Analytical Frameworks  分析框架**
     
     - **SWOT Analysis**: Strengths, Weaknesses, Opportunities, Threats assessment  
         **SWOT 分析** ：优势、劣势、机会、威胁评估
     - **Root Cause Analysis**: Systematic investigation of underlying causes  
-        **根本原因分析** ：系统调查根本原因
+        **根本原因分析** ：系统调研根本原因
     - **Decision Trees**: Structured decision-making with branching logic  
         **决策树** ：具有分支逻辑的结构化决策
 3. **Creative Reasoning  创造性推理**
@@ -538,7 +538,7 @@ Operational patterns provide the fundamental cognitive building blocks for all h
         **优先级** ：按重要性或相关性排序
     - **Quantification**: Measuring and expressing relationships numerically  
         **量化** ：用数字来测量和表达关系
-3. **Memory Operations  内存操作**
+3. **Memory Operations  记忆操作**
     
     - **Information Retrieval**: Accessing relevant stored knowledge  
         **信息检索** ：访问相关的存储知识
@@ -1003,7 +1003,7 @@ Let's create a systematic reasoning mechanism framework that balances power, eff
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/40_reference/cognitive_patterns.md#4-pattern-integration-context-field-coherence)
 
 Effective cognitive patterns must integrate seamlessly with the context engineering system, maintaining semantic coherence while enhancing reasoning capabilities. Let's explore how to embed cognitive patterns within the context field:  
-有效的认知模式必须与情境工程系统无缝集成，在增强推理能力的同时保持语义连贯性。让我们探索如何将认知模式嵌入情境场：
+有效的认知模式必须与上下文工程系统无缝集成，在增强推理能力的同时保持语义连贯性。让我们探索如何将认知模式嵌入情境场：
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -1234,7 +1234,7 @@ Integrated cognitive patterns require robust quality assurance to ensure reliabl
 **第 2 步：** 复制并粘贴此提示：
 
 "I need to integrate cognitive patterns seamlessly into my context engineering system while maintaining coherence. Help me design the integration architecture:  
-我需要将认知模式无缝集成到我的情境工程系统中，同时保持一致性。请帮我设计集成架构：
+我需要将认知模式无缝集成到我的上下文工程系统中，同时保持一致性。请帮我设计集成架构：
 
 1. **Semantic Integration Strategy**:  
     **语义整合策略** ：
@@ -1351,7 +1351,7 @@ Systematic analysis of cognitive pattern effectiveness enables targeted optimiza
     - **Processing Speed**: Time required for pattern execution  
         **处理速度** ：执行模式所需的时间
     - **Resource Utilization**: Computational and memory requirements  
-        **资源利用** ：计算和内存要求
+        **资源利用** ：计算和记忆要求
     - **Scalability**: Performance under increasing complexity  
         **可扩展性** ：在日益复杂的环境下的性能
 3. **Quality Metrics  质量指标**
@@ -1822,7 +1822,7 @@ Emergent patterns enable novel solution generation and creative insight formatio
     - **Serendipitous Discovery**: Unexpected solution finding  
         **意外发现** ：意外找到解决方案
     - **Creative Exploration**: Open-ended investigation of solution spaces  
-        **创造性探索** ：对解决方案空间的开放式调查
+        **创造性探索** ：对解决方案空间的开放式调研
     - **Innovation Facilitation**: Creating conditions for novel solutions  
         **创新促进** ：为创新解决方案创造条件
 
@@ -2136,4 +2136,4 @@ The future of artificial intelligence lies in systems that can think systematica
 ---
 
 _This comprehensive reference guide provides the foundational knowledge and practical frameworks necessary for implementing effective cognitive patterns in context engineering systems. For specific implementation guidance and domain-specific applications, practitioners should combine these frameworks with specialized expertise and continuous experimentation.  
-本指南提供了在情境工程系统中实施有效认知模式所需的基础知识和实践框架。对于具体的实施指导和特定领域的应用，从业者应将这些框架与专业知识和持续的实验相结合。_
+本指南提供了在上下文工程系统中实施有效认知模式所需的基础知识和实践框架。对于具体的实施指导和特定领域的应用，从业者应将这些框架与专业知识和持续的实验相结合。_

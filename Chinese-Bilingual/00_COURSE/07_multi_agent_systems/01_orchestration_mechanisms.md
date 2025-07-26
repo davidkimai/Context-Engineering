@@ -8,7 +8,7 @@
 > 模块 07.1 | 上下文工程课程：从基础到前沿系统
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Software 3.0 Paradigms
-> 基于上下文工程调查 | 推进软件 3.0 范式
+> 基于上下文工程调研 | 推进软件 3.0 范式
 
 * * *
 
@@ -1159,10 +1159,10 @@ The emergence detection is particularly important because it identifies when the
 高级研究连接
 
 ### Connection to Context Engineering Survey
-与上下文工程调查的连接
+与上下文工程调研的连接
 
 This orchestration module directly implements several key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个编排模块直接实现了上下文工程调查中的几个关键概念：
+这个编排模块直接实现了上下文工程调研中的几个关键概念：
 
 **Multi-Agent Systems (§5.4)**:
 多智能体系统（§5.4）：
@@ -1198,7 +1198,7 @@ This orchestration module directly implements several key concepts from the [Con
 新贡献
 
 **Field-Based Orchestration**: While the survey covers traditional coordination approaches, our field-based orchestration represents a novel contribution where coordination emerges from continuous semantic spaces rather than discrete message passing.
-基于领域的编排：虽然调查涵盖了传统的协调方法，但我们的基于领域的编排代表了一种新贡献，其中协调来自于连续的语义空间，而不是离散的消息传递。
+基于领域的编排：虽然调研涵盖了传统的协调方法，但我们的基于领域的编排代表了一种新贡献，其中协调来自于连续的语义空间，而不是离散的消息传递。
 
 **Multi-Modal Coordination**: The integration of text, visual, semantic, and field modalities for agent coordination extends beyond current research into truly multi-modal orchestration systems.
 多模态协调：将文本、视觉、语义和领域模态集成用于智能体协调，超出了当前对真正多模态编排系统的研究。
@@ -1343,7 +1343,7 @@ class FieldCoordinator:
     性能评估与优化
 
 **Research Grounding**: Direct implementation of multi-agent coordination concepts from the comprehensive survey, with novel extensions into field-based and multi-modal orchestration.
-研究基础：直接实现综合调查中的多智能体协调概念，并创新性地扩展到基于领域和多模态的编排。
+研究基础：直接实现综合调研中的多智能体协调概念，并创新性地扩展到基于领域和多模态的编排。
 
 **Next Module**: [02\_coordination\_strategies.md](02_coordination_strategies.md) - Deep dive into specific coordination algorithms and their optimization for different task types and agent configurations.
 下一个模块：02\_coordination\_strategies.md - 深入探讨具体的协调算法及其针对不同任务类型和智能体配置的优化。

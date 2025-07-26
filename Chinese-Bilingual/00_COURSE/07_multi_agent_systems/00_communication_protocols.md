@@ -8,7 +8,7 @@
 > 模块 07.0 | 上下文工程课程：从基础到前沿系统
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Software 3.0 Paradigms
-> 基于上下文工程调查 | 推进软件 3.0 范式
+> 基于上下文工程调研 | 推进软件 3.0 范式
 
 ## Learning Objectives
 学习目标
@@ -589,7 +589,7 @@ class FieldCommunicator:
 研究关联
 
 This module builds on key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-本模块基于《情境工程调查》中的关键概念构建：
+本模块基于《上下文工程调研》中的关键概念构建：
 
 *   **Multi-Agent Systems (§5.4)**: KQML, FIPA ACL, MCP protocols, AutoGen, MetaGPT
     多智能体系统（§5.4）：KQML、FIPA ACL、MCP 协议、AutoGen、MetaGPT

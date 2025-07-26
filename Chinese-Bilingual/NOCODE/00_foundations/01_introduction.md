@@ -58,7 +58,7 @@ This limitation creates a critical challenge: **How do we organize information 
 这种限制带来了一个关键的挑战： **我们如何在这个有限的空间内组织信息以最大限度地提高人工智能的有效性？**
 
 This is the domain of **context engineering** - the art and science of designing, managing, and optimizing what AI systems see and remember.  
-这是**情境工程**的领域——设计、管理和优化人工智能系统所看到和记住的内容的艺术和科学。
+这是**上下文工程**的领域——设计、管理和优化人工智能系统所看到和记住的内容的艺术和科学。
 
 ## 2. Why NOCODE Context Engineering?  
 2. 为什么选择 NOCODE 上下文工程？
@@ -107,7 +107,7 @@ Not anymore. NOCODE Context Engineering empowers anyone to master advanced conte
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/01_introduction.md#3-the-biological-metaphor-from-atoms-to-neural-fields)
 
 To understand context engineering, we use a powerful biological metaphor that maps the evolution of complexity in living systems to the evolution of complexity in AI contexts:  
-为了理解情境工程，我们使用了一个强大的生物学隐喻，将生物系统复杂性的演变映射到人工智能情境中复杂性的演变：
+为了理解上下文工程，我们使用了一个强大的生物学隐喻，将生物系统复杂性的演变映射到人工智能情境中复杂性的演变：
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -453,7 +453,7 @@ NOCODE 上下文工程不仅仅是一套技术，它是一种沟通哲学，它�
 **苏格拉底问题** ：将背景视为一个具有吸引子和边界的领域，不仅会改变您与人工智能的交流方式，还会改变您组织自己思想的方式？
 
 ## 10. Conclusion: The Context Engineer's Mindset  
-10. 结论：情境工程师的思维方式
+10. 结论：上下文工程师的思维方式
 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/NOCODE/00_foundations/01_introduction.md#10-conclusion-the-context-engineers-mindset)
 

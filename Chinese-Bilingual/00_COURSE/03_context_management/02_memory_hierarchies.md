@@ -1,14 +1,14 @@
 # Memory Hierarchies: Storage Architectures for Context Management
-内存层次结构：用于上下文管理的存储体系结构
+记忆层次结构：用于上下文管理的存储体系结构
 
 ## Overview: The Multi-Level Information Ecosystem
 概述：多层次信息生态系统
 
 Memory hierarchies represent one of the most powerful concepts in context management - organizing information across multiple levels of storage with different characteristics for access speed, capacity, and persistence. In the Software 3.0 paradigm, memory hierarchies become dynamic, intelligent systems that adapt to usage patterns and optimize for both efficiency and effectiveness.
-内存层次结构代表了上下文管理中最强大的概念之一 - 跨多个级别的存储组织信息，这些存储具有不同的访问速度、容量和持久性特征。在软件 3.0 范式中，内存层次结构成为动态的智能系统，可以适应使用模式并优化效率和效果。
+记忆层次结构代表了上下文管理中最强大的概念之一 - 跨多个级别的存储组织信息，这些存储具有不同的访问速度、容量和持久性特征。在软件 3.0 范式中，记忆层次结构成为动态的智能系统，可以适应使用模式并优化效率和效果。
 
 ## Understanding Memory Hierarchies Visually
-直观地理解内存层次结构
+直观地理解记忆层次结构
 
 ```
     ┌─ IMMEDIATE CONTEXT ────────────────┐ ←─ Fastest Access
@@ -46,13 +46,13 @@ Memory hierarchies represent one of the most powerful concepts in context manage
 ```
 
 ## The Three Pillars Applied to Memory Hierarchies
-应用于内存层次结构的三大支柱
+应用于记忆层次结构的三大支柱
 
 ### Pillar 1: PROMPT TEMPLATES for Memory Management
-支柱 1：内存管理的提示模板
+支柱 1：记忆管理的提示模板
 
 Memory hierarchy operations require sophisticated prompt templates that can handle different storage levels and access patterns.
-内存层次结构作需要复杂的提示模板，这些模板可以处理不同的存储级别和访问模式。
+记忆层次结构作需要复杂的提示模板，这些模板可以处理不同的存储级别和访问模式。
 
 ```python
 MEMORY_HIERARCHY_TEMPLATES = {
@@ -174,10 +174,10 @@ MEMORY_HIERARCHY_TEMPLATES = {
 ```
 
 ### Pillar 2: PROGRAMMING Layer for Memory Architecture
-支柱 2：内存架构的编程层
+支柱 2：记忆架构的编程层
 
 The programming layer implements the computational infrastructure for managing hierarchical memory systems.
-编程层实现用于管理分层内存系统的计算基础设施。
+编程层实现用于管理分层记忆系统的计算基础设施。
 
 ```python
 from abc import ABC, abstractmethod
@@ -674,7 +674,7 @@ class ArchivalMemoryStore(MemoryStore):
 ```
 
 ### Pillar 3: PROTOCOLS for Memory Hierarchy Management
-支柱 3：内存层次结构管理协议
+支柱 3：记忆层次结构管理协议
 
 ```
 /memory.hierarchy.orchestration{
@@ -847,7 +847,7 @@ class ArchivalMemoryStore(MemoryStore):
 ```
 
 ## Practical Integration Example: Complete Memory Hierarchy System
-实际集成示例：完整的内存层次结构系统
+实际集成示例：完整的记忆层次结构系统
 
 ```python
 class IntegratedMemorySystem:
@@ -920,7 +920,7 @@ class IntegratedMemorySystem:
 ```
 
 ## Key Principles for Memory Hierarchy Design
-内存层次结构设计的关键原则
+记忆层次结构设计的关键原则
 
 ### 1\. Locality Optimization
 1\. 局部性优化
@@ -1004,4 +1004,4 @@ class IntegratedMemorySystem:
 * * *
 
 *Memory hierarchies provide the foundation for efficient, scalable context management. The integration of structured prompting, computational programming, and systematic protocols enables the creation of sophisticated memory systems that adapt to usage patterns and optimize for both performance and effectiveness.
-内存层次结构为高效、可扩展的上下文管理奠定了基础。结构化提示、计算编程和系统协议的集成可以创建复杂的内存系统，以适应使用模式并优化性能和有效性。*
+记忆层次结构为高效、可扩展的上下文管理奠定了基础。结构化提示、计算编程和系统协议的集成可以创建复杂的记忆系统，以适应使用模式并优化性能和有效性。*

@@ -19,7 +19,7 @@ Imagine you're teaching a child to ride a bicycle. At first, you hold the bike s
 想象一下，你正在教一个孩子骑自行车。一开始，你稳稳地扶着车子，一边骑一边跟着他们一起骑。然后，你慢慢地，不由自主地放开车子。突然间，他们就能自己骑了——整个系统已经能够自我维持了。
 
 This is the essence of **recursive emergence** - when a system develops the ability to perpetuate, extend, and evolve itself without external guidance. In context engineering, recursive emergence refers to the phenomenon where context fields develop self-organizing and self-prompting capabilities, allowing them to improve themselves through recursive operations.  
-这就是**递归涌现**的本质——一个系统无需外部引导，就能发展出自我延续、扩展和演化的能力。在情境工程中，递归涌现指的是情境场发展出自组织和自激励能力，从而能够通过递归操作自我改进的现象。
+这就是**递归涌现**的本质——一个系统无需外部引导，就能发展出自我延续、扩展和演化的能力。在上下文工程中，递归涌现指的是情境场发展出自组织和自激励能力，从而能够通过递归操作自我改进的现象。
 
 The `/recursive.emergence.shell` protocol provides a structured framework for bootstrapping this recursive self-improvement process in semantic fields.  
 `/recursive.emergence.shell` 协议提供了一个结构化框架，用于引导语义场中的递归自我改进过程。
@@ -1517,7 +1517,7 @@ By implementing and using this protocol, you can create context engineering syst
     Agostino, C., Thien, QL, Apsel, M., Pak, D., Lesyk, E., & Majumdar, A. (2025). "自然语言处理的量子语义框架." arXiv 预印本 arXiv:2506.10077v1.
     
 4. Context Engineering Contributors (2025). "Neural Fields for Context Engineering." Context Engineering Repository, v3.5.  
-    情境工程贡献者 (2025)。“情境工程的神经场。”情境工程存储库，v3.5。
+    上下文工程贡献者 (2025)。“上下文工程的神经场。”上下文工程仓库，v3.5。
     
 
 ---

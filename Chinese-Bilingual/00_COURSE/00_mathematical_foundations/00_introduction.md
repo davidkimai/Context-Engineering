@@ -11,7 +11,7 @@
 > — [阿尔伯特·爱因斯坦](https://www.goodreads.com/quotes/85475-the-measure-of-intelligence-is-the-ability-to-change)
 
 > **Module 00.0** | *Context Engineering Course: From Foundations to Frontier Systems*
-> **模块 00.0** | *情境工程课程：从基础到前沿系统*
+> **模块 00.0** | *上下文工程课程：从基础到前沿系统*
 > 
 > *"Mathematics is the language with which God has written the universe" — Galileo Galilei
 > “数学是上帝用来书写宇宙的语言” — 伽利略·伽利莱*
@@ -19,7 +19,7 @@
 * * *
 
 ## Welcome to the Mathematical Heart of Context Engineering
-欢迎来到情境工程的数学核心
+欢迎来到上下文工程的数学核心
 
 Now let's begins the most transformative part of your journey: **translating intuitive understanding into mathematical precision that enables systematic optimization and continuous improvement.**
 现在让我们开始您旅程中最具变革性的部分： **将直观的理解转化为数学精度，从而实现系统优化和持续改进。**
@@ -49,7 +49,7 @@ Result: Optimal routes, continuous adaptation, predictable performance
 ```
 
 **From Context Engineering Intuition to Mathematical Mastery**:
-**从情境工程直觉到数学精通** ：
+**从上下文工程直觉到数学精通** ：
 
 ```
 Intuitive Approach: "Include relevant information and organize it clearly"
@@ -191,7 +191,7 @@ Scale Capability:               Unlimited vs. expert bottleneck
 ```
 
 **Why This Matters**: Mathematical foundations transform context engineering from a specialized craft into a systematic science that can be automated, optimized, and continuously improved.
-**为什么这很重要** ： 数学基础将情境工程从一门专门的工艺转变为一门可以自动化、优化和持续改进的系统科学。
+**为什么这很重要** ： 数学基础将上下文工程从一门专门的工艺转变为一门可以自动化、优化和持续改进的系统科学。
 
 * * *
 
@@ -285,7 +285,7 @@ class MathematicalContextOptimizer:
 *   Build mathematical intuition through visual representations
     通过视觉表示建立数学直觉
 *   Connect everyday optimization to context engineering challenges
-    将日常优化与情境工程挑战联系起来
+    将日常优化与上下文工程挑战联系起来
 
 **Phase 2: Formal Mathematical Language
 第 2 阶段：形式数学语言**
@@ -303,7 +303,7 @@ class MathematicalContextOptimizer:
 *   Implement mathematical concepts as working algorithms
     将数学概念实现为工作算法
 *   Optimize real context engineering problems using mathematical methods
-    使用数学方法优化真实环境工程问题
+    使用数学方法优化真实上下文工程问题
 *   Build complete mathematical optimization systems
     构建完整的数学优化系统
 
@@ -313,7 +313,7 @@ class MathematicalContextOptimizer:
 *   Apply mathematical frameworks to cutting-edge research problems
     将数学框架应用于前沿研究问题
 *   Develop novel mathematical approaches to context engineering
-    开发新颖的数学方法进行情境工程
+    开发新颖的数学方法进行上下文工程
 *   Contribute original mathematical insights to the field
     为该领域贡献原创数学见解
 
@@ -404,11 +404,11 @@ Implementation: λ·(token_count - budget_limit) + quality_objective
 第 3 级：数学创新
 
 *   Can you develop novel mathematical approaches to context engineering challenges?
-    您能否开发新颖的数学方法来应对情境工程挑战？
+    您能否开发新颖的数学方法来应对上下文工程挑战？
 *   Can you extend existing mathematical frameworks to new problem domains?
     您能否将现有的数学框架扩展到新的问题域？
 *   Can you contribute original mathematical insights to context engineering research?
-    您能为情境工程研究贡献原创的数学见解吗？
+    您能为上下文工程研究贡献原创的数学见解吗？
 
 ### Continuous Mathematical Assessment
 持续数学评估
@@ -458,7 +458,7 @@ Result: Systematic improvement, reproducible optimization, continuous learning
 **数学思维方式** ：
 
 *   Every context engineering challenge has a mathematical structure
-    每个情境工程挑战都有一个数学结构
+    每个上下文工程挑战都有一个数学结构
 *   Optimal solutions can be found through systematic mathematical methods
     可以通过系统的数学方法找到最优解决方案
 *   Performance can be measured, predicted, and improved mathematically
@@ -490,16 +490,16 @@ Result: Systematic improvement, reproducible optimization, continuous learning
 连接 1,400+ 研究论文
 
 This mathematical foundations sequence directly implements insights from the comprehensive Context Engineering survey, but elevates them to mathematical precision:
-这个数学基础序列直接实施了来自综合上下文工程调查的见解，但将它们提升到数学精度：
+这个数学基础序列直接实施了来自综合上下文工程调研的见解，但将它们提升到数学精度：
 
 **Survey Insight**: "Context engineering techniques show promise but lack systematic foundations" **Our Mathematical Response**: Rigorous mathematical formalization enabling systematic optimization
-**调查洞察** ：“情境工程技术前景光明，但缺乏系统基础” **我们的数学应对措施** ：严格的数学形式化实现系统优化
+**调研洞察** ：“上下文工程技术前景光明，但缺乏系统基础” **我们的数学应对措施** ：严格的数学形式化实现系统优化
 
 **Survey Insight**: "Quality assessment remains largely ad-hoc and subjective" **Our Mathematical Response**: Information-theoretic quality metrics with mathematical precision
-**调查洞察** ：“质量评估在很大程度上仍然是临时的和主观的” **我们的数学响应** ：具有数学精度的信息论质量指标
+**调研洞察** ：“质量评估在很大程度上仍然是临时的和主观的” **我们的数学响应** ：具有数学精度的信息论质量指标
 
 **Survey Insight**: "Adaptation and learning approaches are scattered and inconsistent" **Our Mathematical Response**: Bayesian frameworks for principled learning under uncertainty
-**调查洞察** ：“适应和学习方法是分散且不一致的” **我们的数学回应** ：不确定性下原则性学习的贝叶斯框架
+**调研洞察** ：“适应和学习方法是分散且不一致的” **我们的数学回应** ：不确定性下原则性学习的贝叶斯框架
 
 ### Bridging Theory and Practice
 桥接理论与实践
@@ -525,7 +525,7 @@ This mathematical foundations sequence directly implements insights from the com
 **技术掌握** ：
 
 *   Mathematical formulation of context engineering problems
-    情境工程问题的数学公式
+    上下文工程问题的数学公式
 *   Optimization techniques for systematic improvement
     系统改进的优化技术
 *   Information theory for precise relevance measurement
@@ -537,7 +537,7 @@ This mathematical foundations sequence directly implements insights from the com
 **认知转变** ：
 
 *   Systematic thinking about context engineering challenges
-    系统思考环境工程挑战
+    系统思考上下文工程挑战
 *   Principled approach to optimization and improvement
     优化和改进的原则性方法
 *   Quantitative assessment of solution quality
@@ -603,10 +603,10 @@ You'll know you're succeeding when:
 欢迎来到数学上下文工程
 
 **This is where context engineering transforms from art to science.
-这就是情境工程从艺术转变为科学的地方。**
+这就是上下文工程从艺术转变为科学的地方。**
 
 The mathematical foundations you're about to master will fundamentally change how you think about, approach, and solve context engineering challenges. You'll gain the mathematical toolkit to build systems that not only work better than manual approaches, but continue to improve themselves through principled mathematical learning.
-您将要掌握的数学基础将从根本上改变您思考、处理和解决情境工程挑战的方式。您将获得数学工具包，以构建不仅比手动方法效果更好的系统，而且可以通过有原则的数学学习继续改进自身。
+您将要掌握的数学基础将从根本上改变您思考、处理和解决上下文工程挑战的方式。您将获得数学工具包，以构建不仅比手动方法效果更好的系统，而且可以通过有原则的数学学习继续改进自身。
 
 **Ready to begin the mathematical transformation?
 准备好开始数学转换了吗？**
@@ -627,7 +627,7 @@ Let's start with: **[01\_context\_formalization.md](01_context_formalization.md)
 | 04\_bayesian | P(Strategy|Evidence)P（策略|证据） | Static → Learning静态→学习 | Adaptive improvement systems适应性改进系统 |
 
 **The Result**: Context engineering systems with mathematical precision, systematic optimization, and continuous learning capability that transcends individual human limitations.
-**结果** ：情境工程系统具有数学精度、系统优化和超越个人人类限制的持续学习能力。
+**结果** ：上下文工程系统具有数学精度、系统优化和超越个人人类限制的持续学习能力。
 
 *Welcome to the mathematical heart of Context Engineering mastery.
 欢迎来到精通上下文工程的数学核心。*

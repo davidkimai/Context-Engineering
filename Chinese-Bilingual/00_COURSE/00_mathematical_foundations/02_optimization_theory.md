@@ -1248,10 +1248,10 @@ Protocols provide self-improving optimization systems that learn which approache
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This optimization theory module directly implements and extends key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-该优化理论模块直接实现和扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的关键概念：
+该优化理论模块直接实现和扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的关键概念：
 
 **Context Optimization Foundations (§4.2 & §4.3)**:
 **上下文优化基础（§4.2 和 §4.3）：**
@@ -1287,7 +1287,7 @@ This optimization theory module directly implements and extends key concepts fro
 超越当前研究的新贡献
 
 **Mathematical Optimization Framework for Context Engineering**: While the survey covers context techniques, our systematic mathematical optimization approach F\* = arg max F(A, c₁, ..., c₆) represents novel research into rigorous optimization foundations for context assembly, enabling automatic discovery of optimal strategies.
-**上下文工程的数学优化框架** ：虽然调查涵盖了上下文技术，但我们的系统数学优化方法 F\* = arg max F（A， c₁， ...， c₆） 代表了对上下文组装的严格优化基础的新研究，能够自动发现最佳策略。
+**上下文工程的数学优化框架** ：虽然调研涵盖了上下文技术，但我们的系统数学优化方法 F\* = arg max F（A， c₁， ...， c₆） 代表了对上下文组装的严格优化基础的新研究，能够自动发现最佳策略。
 
 **Multi-Paradigm Optimization Integration**: The unified integration of gradient-based, evolutionary, and Bayesian optimization approaches specifically for context assembly extends beyond current research by providing comprehensive optimization strategies tailored to context engineering characteristics.
 **多范式优化集成** ：专门用于上下文组装的基于梯度、进化和贝叶斯优化方法的统一集成超越了当前的研究，提供了针对上下文工程特征量身定制的全面优化策略。
@@ -1478,7 +1478,7 @@ This optimization foundation enables:
 *   **Bayesian Inference** (Module 04): Probabilistic optimization under uncertainty
     **贝叶斯推理** （模块 04）：不确定性下的概率优化
 *   **Advanced Applications**: Systematic optimization in real-world context engineering systems
-    **高级应用** ：真实环境工程系统中的系统优化
+    **高级应用** ：真实上下文工程系统中的系统优化
 
 The mathematical optimization precision you've mastered here provides the computational foundation for finding truly optimal context assembly strategies rather than relying on heuristics or trial-and-error approaches.
 您在这里掌握的数学优化精度为找到真正最佳的上下文汇编策略提供了计算基础，而不是依赖启发式或试错方法。

@@ -11,7 +11,7 @@ This module implements the core functionality of our toy chatbot, demonstrating 
 [](https://github.com/KashiwaByte/Context-Engineering-Chinese-Bilingual/blob/main/Chinese-Bilingual/30_examples/00_toy_chatbot/chatbot_core.py.md#conceptual-overview)
 
 Our implementation follows the biological metaphor of context engineering:  
-我们的实施遵循情境工程的生物学隐喻：
+我们的实施遵循上下文工程的生物学隐喻：
 
 ```python
 ┌─────────────────────────────────────────────────────────┐
@@ -622,7 +622,7 @@ You can test this implementation by creating a `chatbot_core.py` file with the
 2. Context-based responses (molecular layer)  
     基于上下文的响应（分子层）
 3. Memory usage (cellular layer)  
-    内存使用情况（蜂窝层）
+    记忆使用情况（蜂窝层）
 4. Coordinated subsystems (organ layer)  
     协调子系统（器官层）
 5. Simulated field operations  

@@ -1,14 +1,14 @@
 # Memory System Evaluation: Challenges and Methodologies
-内存系统评估：挑战与方法论
+记忆系统评估：挑战与方法论
 
 ## Overview: The Complexity of Evaluating Intelligent Memory Systems
-概述：评估智能内存系统的复杂性
+概述：评估智能记忆系统的复杂性
 
 Evaluating memory systems in context engineering presents unique challenges that go far beyond traditional database or information retrieval metrics. Memory-enhanced agents and sophisticated memory architectures require evaluation frameworks that can assess not only storage and retrieval performance, but also learning effectiveness, behavioral coherence, adaptive capabilities, and long-term system evolution.
-在情境工程中评估内存系统面临着独特的挑战，这些挑战远超传统数据库或信息检索指标。增强记忆的代理和复杂的内存架构需要能够评估存储和检索性能、学习效果、行为一致性、适应能力以及长期系统演变的评估框架。
+在上下文工程中评估记忆系统面临着独特的挑战，这些挑战远超传统数据库或信息检索指标。增强记忆的代理和复杂的记忆架构需要能够评估存储和检索性能、学习效果、行为一致性、适应能力以及长期系统演变的评估框架。
 
 The evaluation challenges in Software 3.0 memory systems encompass multiple dimensions:
-软件 3.0 内存系统的评估挑战涵盖多个维度：
+软件 3.0 记忆系统的评估挑战涵盖多个维度：
 
 *   **Temporal Evaluation**: Assessing performance across extended time periods
     时间评估：评估跨长时间段的表现
@@ -23,10 +23,10 @@ The evaluation challenges in Software 3.0 memory systems encompass multiple dime
 数学基础：评估作为多维优化
 
 ### Comprehensive Memory System Evaluation Function
-综合内存系统评估函数
+综合记忆系统评估函数
 
 Memory system evaluation can be formalized as a multi-dimensional optimization problem:
-内存系统评估可以形式化为一个多维优化问题：
+记忆系统评估可以形式化为一个多维优化问题：
 
 ```
 E(M,t) = Σᵢ wᵢ × Evaluation_Dimensionᵢ(M,t)
@@ -36,7 +36,7 @@ Where:
 其中：
 
 *   **M**: Memory system state
-    M：内存系统状态
+    M：记忆系统状态
 *   **t**: Time/interaction index
     t: 时间/交互索引
 *   **wᵢ**: Dimension-specific weights
@@ -397,7 +397,7 @@ class MultiModalCoherenceEvaluator:
 挑战 5：上下文工程性能评估
 
 Building on the Mei et al. survey framework, memory system evaluation must assess the full context engineering pipeline:
-基于 Mei 等人调查框架，记忆系统评估必须评估完整的上下文工程流程：
+基于 Mei 等人调研框架，记忆系统评估必须评估完整的上下文工程流程：
 
 ```python
 # Template: Context Engineering Performance Evaluator
@@ -894,7 +894,7 @@ class ReliableMetricFramework:
 挑战：评估可扩展性
 
 **Problem**: Comprehensive evaluation of complex memory systems can be computationally and temporally expensive.
-问题：对复杂内存系统进行综合评估可能在计算和时序上非常昂贵。
+问题：对复杂记忆系统进行综合评估可能在计算和时序上非常昂贵。
 
 **Mitigation Strategy**: Hierarchical evaluation with selective deep assessment
 缓解策略：分层评估与选择性深度评估
@@ -941,13 +941,13 @@ class ScalableEvaluationFramework:
 ```
 
 ## Future Directions in Memory System Evaluation
-内存系统评估的未来方向
+记忆系统评估的未来方向
 
 ### Direction 1: Automated Evaluation Pipeline
 方向 1：自动化评估流程
 
 Developing automated evaluation pipelines that can continuously assess memory system performance without human intervention:
-开发无需人工干预即可持续评估内存系统性能的自动化评估流程：
+开发无需人工干预即可持续评估记忆系统性能的自动化评估流程：
 
 ```python
 class AutomatedEvaluationPipeline:
@@ -975,7 +975,7 @@ class AutomatedEvaluationPipeline:
 方向 2：人机协同评估
 
 Developing frameworks where humans and AI systems collaborate in evaluating complex memory systems:
-开发人类与人工智能系统协同评估复杂内存系统的框架：
+开发人类与人工智能系统协同评估复杂记忆系统的框架：
 
 ```
 /human_ai_collaborative.evaluation{
@@ -1001,10 +1001,10 @@ Developing frameworks where humans and AI systems collaborate in evaluating comp
 ```
 
 ## Conclusion: Toward Comprehensive Memory System Assessment
-结论：迈向全面的内存系统评估
+结论：迈向全面的记忆系统评估
 
 The evaluation of memory systems in context engineering requires sophisticated, multi-dimensional approaches that can capture the complexity, emergence, and temporal evolution of these systems. Key principles for effective evaluation include:
-在情境工程中对记忆系统的评估需要复杂、多维度的方法，这些方法能够捕捉这些系统的复杂性、涌现性和时间演变。有效评估的关键原则包括：
+在上下文工程中对记忆系统的评估需要复杂、多维度的方法，这些方法能够捕捉这些系统的复杂性、涌现性和时间演变。有效评估的关键原则包括：
 
 1.  **Multi-Temporal Assessment**: Evaluation across short-term, medium-term, and long-term timeframes
     多时间尺度评估：跨越短期、中期和长期时间框架的评估
@@ -1018,4 +1018,4 @@ The evaluation of memory systems in context engineering requires sophisticated, 
     软件 3.0 集成：系统整合提示、编程和协议的评估
 
 The frameworks and methodologies presented here provide a foundation for comprehensive memory system evaluation that can advance the field of context engineering.
-这里提出的框架和方法为全面记忆系统评估提供了基础，可以推动情境工程领域的发展。
+这里提出的框架和方法为全面记忆系统评估提供了基础，可以推动上下文工程领域的发展。

@@ -8,7 +8,7 @@ RAG 基础和动态知识编排
 > **模块 01.2** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Software 3.0 Paradigms
-> 基于[情境工程调查](https://arxiv.org/pdf/2507.13334) |推进软件 3.0 范式
+> 基于[上下文工程调研](https://arxiv.org/pdf/2507.13334) |推进软件 3.0 范式
 
 * * *
 
@@ -1589,7 +1589,7 @@ optimizer = RAGOptimizer()
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 **Retrieval-Augmented Generation (§5.1)**:
 **检索增强生成 （§5.1）：**

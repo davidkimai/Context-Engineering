@@ -245,14 +245,14 @@ The indexing structure determines how encoded knowledge is organized for efficie
     - Pros: Fast approximate search, handles high dimensionality well  
         优点：快速近似搜索，能很好地处理高维数据
     - Cons: More complex, memory-intensive  
-        缺点：更复杂，占用大量内存
+        缺点：更复杂，占用大量记忆
 4. **Quantization-Based Indices  
     基于量化的指数**
     
     - Compressed vector representations (e.g., PQ, ScaNN)  
         压缩向量表示（例如 PQ、ScaNN）
     - Pros: Memory efficient, faster search  
-        优点：内存效率高，搜索速度更快
+        优点：记忆效率高，搜索速度更快
     - Cons: Slight accuracy trade-off  
         缺点：准确性略有下降
 
@@ -540,7 +540,7 @@ This layer focuses on how embeddings and associated metadata are stored for effi
     - Handling growing collections  
         处理不断增长的收藏
     - Managing memory vs. disk trade-offs  
-        管理内存与磁盘的权衡
+        管理记忆与磁盘的权衡
 5. **Backup and Versioning  备份和版本控制**
     
     - Index versioning strategy  

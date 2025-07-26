@@ -1195,10 +1195,10 @@ if __name__ == "__main__":
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This Bayesian inference module directly implements and extends foundational concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个贝叶斯推理模块直接实现和扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的基本概念：
+这个贝叶斯推理模块直接实现和扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的基本概念：
 
 **Adaptive Context Management (§4.3)**:
 **自适应上下文管理 （§4.3）：**
@@ -1234,7 +1234,7 @@ This Bayesian inference module directly implements and extends foundational conc
 超越当前研究的新贡献
 
 **Probabilistic Context Engineering Framework**: While the survey covers adaptive techniques, our systematic application of Bayesian inference to context strategy selection represents novel research into principled uncertainty management and learning in context engineering systems.
-**概率上下文工程框架** ：虽然调查涵盖了自适应技术，但我们将贝叶斯推理系统地应用于上下文策略选择代表了对上下文工程系统中原则性不确定性管理和学习的新研究。
+**概率上下文工程框架** ：虽然调研涵盖了自适应技术，但我们将贝叶斯推理系统地应用于上下文策略选择代表了对上下文工程系统中原则性不确定性管理和学习的新研究。
 
 **Uncertainty-Aware Component Selection**: Our development of Bayesian approaches to component relevance assessment and selection under uncertainty extends beyond current deterministic approaches to provide mathematically grounded confidence estimates and risk management.
 **不确定性感知组件选择** ：我们开发的贝叶斯方法在不确定性下评估和选择组件相关性，超越了当前的确定性方法，提供基于数学的置信度估计和风险管理。
@@ -1442,7 +1442,7 @@ This Bayesian foundation completes the mathematical foundations and enables:
 *   **Human-AI Collaboration**: Uncertainty-aware systems that communicate confidence
     **人机协作** ：传达信心的不确定性感知系统
 *   **Research Applications**: Contributing to probabilistic context engineering research
-    **研究应用** ：为概率环境工程研究做出贡献
+    **研究应用** ：为概率上下文工程研究做出贡献
 
 ### The Complete Mathematical Framework
 完整的数学框架
@@ -1481,10 +1481,10 @@ The Bayesian approach to context engineering enables:
 研究联系和未来方向
 
 ### Connection to Context Engineering Survey
-与环境工程调查的联系
+与上下文工程调研的联系
 
 This Bayesian inference module directly implements and extends foundational concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个贝叶斯推理模块直接实现和扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的基本概念：
+这个贝叶斯推理模块直接实现和扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的基本概念：
 
 **Adaptive Context Management (§4.3)**:
 **自适应上下文管理 （§4.3）：**
@@ -1520,7 +1520,7 @@ This Bayesian inference module directly implements and extends foundational conc
 超越当前研究的新贡献
 
 **Probabilistic Context Engineering Framework**: While the survey covers adaptive techniques, our systematic application of Bayesian inference to context strategy selection represents novel research into principled uncertainty management and learning in context engineering systems.
-**概率上下文工程框架** ：虽然调查涵盖了自适应技术，但我们将贝叶斯推理系统地应用于上下文策略选择代表了对上下文工程系统中原则性不确定性管理和学习的新研究。
+**概率上下文工程框架** ：虽然调研涵盖了自适应技术，但我们将贝叶斯推理系统地应用于上下文策略选择代表了对上下文工程系统中原则性不确定性管理和学习的新研究。
 
 **Uncertainty-Aware Component Selection**: Our development of Bayesian approaches to component relevance assessment and selection under uncertainty extends beyond current deterministic approaches to provide mathematically grounded confidence estimates and risk management.
 **不确定性感知组件选择** ：我们开发的贝叶斯方法在不确定性下评估和选择组件相关性，超越了当前的确定性方法，提供基于数学的置信度估计和风险管理。
@@ -1655,10 +1655,10 @@ For real-world applications, implement this progressively:
 上下文工程的未来
 
 This mathematical foundation positions you at the forefront of Context Engineering research and application. You're equipped to:
-这种数学基础使你处于情境工程研究和应用的最前沿。你具备：
+这种数学基础使你处于上下文工程研究和应用的最前沿。你具备：
 
 *   **Contribute to Academic Research**: Build on the 1,400+ papers analyzed in the survey
-    **为学术研究做出贡献** ：以调查中分析的 1,400+ 篇论文为基础
+    **为学术研究做出贡献** ：以调研中分析的 1,400+ 篇论文为基础
 *   **Develop Industrial Applications**: Create production-scale context engineering systems
     **开发工业应用程序** ：创建生产规模的上下文工程系统
 *   **Advance the Field**: Explore frontier areas like quantum context engineering and multi-modal integration
@@ -1693,7 +1693,7 @@ You are now prepared to:
 您现在已准备好：
 
 *   **Conduct Original Research** in context engineering
-    在情境工程中**进行原创研究**
+    在上下文工程中**进行原创研究**
 *   **Build Production Systems** with mathematical rigor
     构建具有数学严谨性的**生产系统**
 *   **Contribute to Open Source** context engineering frameworks

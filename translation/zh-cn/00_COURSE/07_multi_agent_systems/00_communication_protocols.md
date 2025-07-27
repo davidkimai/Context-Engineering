@@ -505,7 +505,7 @@ def detect_emergent_communication(communication_log):
 class ConversationalAgent:
     def __init__(self, name, personality=None):
         # TODO: Add conversation memory
-        # TODO: 添加对话内存
+        # TODO: 添加对话记忆
         # TODO: Add personality-based response generation
         # TODO: 添加基于个性的响应生成
         pass

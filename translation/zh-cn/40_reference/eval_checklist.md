@@ -150,7 +150,7 @@ Performance measurement is the cornerstone of evaluation methodology. How we qua
 2. **性能指标**
    - **延迟**：从输入到输出的响应时间
    - **吞吐量**：单位时间内的操作量
-   - **资源利用率**：计算和内存效率
+   - **资源利用率**：计算和记忆效率
 
 3. **Quality Metrics**
    - **Semantic Coherence**: Meaningfulness of outputs in context
@@ -524,7 +524,7 @@ Unit-level evaluation focuses on the smallest testable components of the system.
 
 3. **数据结构评估**
    - **正确性验证**：正确的数据操作和存储
-   - **效率分析**：访问模式和内存使用
+   - **效率分析**：访问模式和记忆使用
    - **一致性维护**：操作之间的数据完整性
 
 ### 2.4 Meta-Evaluation Architecture （2.4 元评估架构）

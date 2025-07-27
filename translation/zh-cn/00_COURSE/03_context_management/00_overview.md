@@ -1317,7 +1317,7 @@ Each section will demonstrate the complete integration of prompts, programming, 
 
 以下各节将更深入地探讨：
 - **基本约束**：计算限制如何影响我们的方法
-- **内存层次结构**：多级存储和检索策略
+- **记忆层次结构**：多级存储和检索策略
 - **压缩技术**：优化信息密度
 - **优化策略**：性能和效率改进
 

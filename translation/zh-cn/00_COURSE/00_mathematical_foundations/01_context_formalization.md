@@ -1445,10 +1445,10 @@ class ContextFormalizationTester:
 ---
 ## Research Connections and Future Directions (研究联系和未来方向)
 
-### Connection to Context Engineering Survey (与上下文工程调查的联系)
+### Connection to Context Engineering Survey (与上下文工程调研的联系)
 
 This context formalization module directly implements and extends foundational concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-这个上下文形式化模块直接实现并扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的基础概念：
+这个上下文形式化模块直接实现并扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的基础概念：
 
 **Context Generation and Retrieval (§4.1)**:
 - Implements systematic component analysis frameworks from Chain-of-Thought, ReAct, and Auto-CoT methodologies
@@ -1493,7 +1493,7 @@ This context formalization module directly implements and extends foundational c
 ### Novel Contributions Beyond Current Research (超越当前研究的新颖贡献)
 
 **Mathematical Formalization Framework**: While the survey covers context engineering techniques, our systematic mathematical formalization C = A(c₁, c₂, ..., c₆) represents novel research into rigorous theoretical foundations for context optimization, enabling systematic analysis and improvement.
-**数学形式化框架**：虽然调查涵盖了上下文工程技术，但我们的系统化数学形式化 C = A(c₁, c₂, ..., c₆) 代表了对上下文优化的严格理论基础的新颖研究，从而实现了系统化的分析和改进。
+**数学形式化框架**：虽然调研涵盖了上下文工程技术，但我们的系统化数学形式化 C = A(c₁, c₂, ..., c₆) 代表了对上下文优化的严格理论基础的新颖研究，从而实现了系统化的分析和改进。
 
 **Three-Paradigm Integration**: The unified integration of Prompts (templates), Programming (algorithms), and Protocols (adaptive systems) extends beyond current research approaches by providing a comprehensive methodology that spans from tactical implementation to strategic evolution.
 **三范式集成**：提示（模板）、编程（算法）和协议（自适应系统）的统一集成超越了当前的研究方法，提供了一种从战术实施到战略演化的综合方法论。

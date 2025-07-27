@@ -67,7 +67,7 @@ _一份务实的、第一性原理的下一代大型语言模型编排手册_
    - `02_molecules_context.md`: Few-shot packs and examples
      `02_molecules_context.md`：少样本包和示例
    - `03_cells_memory.md`: Memory & logs for persistence
-     `03_cells_memory.md`：用于持久化的内存和日志
+     `03_cells_memory.md`：用于持久化的记忆和日志
    - `04_organs_applications.md`: Multi-step control flows and orchestration
      `04_organs_applications.md`：多步控制流和编排
    - `05_cognitive_tools.md`: Mental model extensions for reasoning

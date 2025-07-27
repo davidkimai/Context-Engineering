@@ -347,7 +347,7 @@ Applying the MEM1 approach (Singapore-MIT, 2025), our architecture implements ef
 ```
 
 This approach ensures that semantic interpretations are dynamically managed, with only the most relevant interpretations maintained in active memory based on context requirements.
-这种方法确保语义解释得到动态管理，只有最相关的解释才会根据上下文要求保留在活动内存中。
+这种方法确保语义解释得到动态管理，只有最相关的解释才会根据上下文要求保留在活动记忆中。
 
 ## 3. Core Components （核心组件）
 

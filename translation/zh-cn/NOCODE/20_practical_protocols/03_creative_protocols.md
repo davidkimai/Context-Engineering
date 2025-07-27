@@ -1464,7 +1464,7 @@ With these principles and the creative protocols in this guide, you're well-equi
 - `/conceptualize`: Develop initial creative concepts
   `/conceptualize`：发展初步的创意概念
 - `/explore`: Generate and investigate possibilities
-  `/explore`：生成和调查可能性
+  `/explore`：生成和调研可能性
 - `/craft`: Create content with specific techniques
   `/craft`：用特定的技术创作内容
 - `/refine`: Enhance and improve creative elements

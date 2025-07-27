@@ -84,7 +84,7 @@ A context organ has several key components:
 │  ┌─────────────────┐                                                      │
 │  │                 │                                                      │
 │  │  Shared Memory  │  Central repository of information accessible to all │
-│  │  （共享内存）     │  （所有细胞可访问的信息中心存储库）                  │
+│  │  （共享记忆）     │  （所有细胞可访问的信息中心存储库）                  │
 │  │                 │                                                      │
 │  └─────────────────┘                                                      │
 │         │   ▲                                                             │
@@ -144,7 +144,7 @@ The orchestrator can be:
 - **大型语言模型驱动的**：使用大型语言模型本身进行协调
 - **混合型**：结合固定规则和动态适应
 
-### 2. Shared Memory （共享内存）
+### 2. Shared Memory （共享记忆）
 
 The organ's memory systems enable information flow between cells:
 
@@ -153,7 +153,7 @@ The organ's memory systems enable information flow between cells:
 ```
 ┌───────────────────────────────────────────────────────────────┐
 │ SHARED MEMORY TYPES                                           │
-│ （共享内存类型）                                                │
+│ （共享记忆类型）                                                │
 ├───────────────────────────────────────────────────────────────┤
 │ ◆ Working Memory: Current task state and intermediate results │
 │   （工作记忆：当前任务状态和中间结果）                          │
@@ -977,7 +977,7 @@ This implementation demonstrates:
 这个实现展示了：
 1. 用于内容创建不同方面的专业细胞
 2. 信息通过器官的顺序流动
-3. 用于在细胞之间传递信息的共享内存
+3. 用于在细胞之间传递信息的共享记忆
 4. 从规划到完成内容的完整管道
 
 ## The Challenges of Organ Design （器官设计的挑战）
@@ -1168,7 +1168,7 @@ These capabilities open up entirely new possibilities for AI applications.
 
 1. **上下文器官**结合多个专业细胞来解决复杂问题
 2. **编排**协调细胞之间的信息流
-3. **共享内存**实现器官间的有效通信
+3. **共享记忆**实现器官间的有效通信
 4. **控制流模式**决定细胞如何交互（顺序、并行等）
 5. **涌现特性**源于细胞的相互作用，创造出超越任何单个细胞的能力
 6. **突破上下文限制**使得处理几乎无限的信息成为可能

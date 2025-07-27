@@ -46,7 +46,7 @@ ADAPTIVE OPTIMIZATION DIMENSIONS
 计算约束
 ├─ 令牌预算限制
 ├─ 处理时间约束
-├─ 内存容量边界
+├─ 记忆容量边界
 ├─ 带宽限制
 ├─ 能耗限制
 └─ 质量阈值要求
@@ -1490,7 +1490,7 @@ Implementation:
 - 优化算法以追求速度而非压缩率
 ```
 
-### Integration with Memory Hierarchies （与内存层次结构集成）
+### Integration with Memory Hierarchies （与记忆层次结构集成）
 
 **Cross-Level Compression Coordination:**
 **跨级压缩协调：**
@@ -1505,10 +1505,10 @@ Archival Storage    │ Maximum Compression    │       20%         │
 ```
 
 ```
-内存级别        │ 压缩策略    │ 保留率 │
+记忆级别        │ 压缩策略    │ 保留率 │
 ────────────────────┼────────────────────────┼───────────────────┤
 即时上下文   │ 最小（保留全部）    │       95%         │
-工作内存      │ 轻度语义         │       80%         │
+工作记忆      │ 轻度语义         │       80%         │
 短期存储  │ 分层           │       60%         │
 长期存储   │ 积极语义    │       40%         │
 存档存储    │ 最大压缩    │       20%         │
@@ -1736,14 +1736,14 @@ def coherence_preserving_compression(content):
 
 ## Integration with Other Context Management Components （与其他上下文管理组件集成）
 
-### Memory Hierarchy Integration （内存层次结构集成）
+### Memory Hierarchy Integration （记忆层次结构集成）
 - **Compression Level Coordination**: Different compression ratios for different memory levels
 - **Promotion/Demotion Triggers**: Use compression efficiency as factor in memory management
 - **Cross-Level Optimization**: Optimize compression strategies across memory hierarchy
 
-- **压缩级别协调**：不同内存级别的不同压缩率
-- **提升/降级触发器**：将压缩效率用作内存管理中的一个因素
-- **跨级优化**：在整个内存层次结构中优化压缩策略
+- **压缩级别协调**：不同记忆级别的不同压缩率
+- **提升/降级触发器**：将压缩效率用作记忆管理中的一个因素
+- **跨级优化**：在整个记忆层次结构中优化压缩策略
 
 ### Constraint Management Integration （约束管理集成）
 - **Resource-Aware Compression**: Adapt compression based on available computational resources

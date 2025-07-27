@@ -585,7 +585,7 @@ Your Answer: "Why don't scientists trust atoms? Because they make up everything!
 **这里发生了什么？**
 1. AI 识别出娱乐请求
 2. 幽默区成为主要吸引子（((幽默区))）——吸引了大量注意力
-3. 内存搜索帮助找到合适的笑话
+3. 记忆搜索帮助找到合适的笑话
 4. 安全检查确保笑话合适
 5. AI 迅速讲出笑话
 
@@ -740,7 +740,7 @@ Now that you understand field maps, let's see how they help solve real problems:
 
 **The Investigation**: Researchers created field maps to see what was happening:
 
-**调查**：研究人员创建了场地图来查看发生了什么：
+**调研**：研究人员创建了场地图来查看发生了什么：
 
 ```
 Job Application: "Sarah Johnson, Software Engineer, 5 years experience"
@@ -797,7 +797,7 @@ Job Application: "Sarah Johnson, Software Engineer, 5 years experience"
 
 **The Field Map Investigation**:
 
-**场地图调查**：
+**场地图调研**：
 
 ```
 Question: "I have a headache, what should I do?"

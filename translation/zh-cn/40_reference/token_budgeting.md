@@ -13,7 +13,7 @@
 ## 1. Introduction: The Economy of Context （1. 引言：上下文的经济性）
 Imagine your context window as a precious, finite resource - like memory on an old computer or water in a desert. Every token you use is a drop of water or a byte of memory. Spend too many on the wrong things, and you'll run dry exactly when you need it most.
 
-想象一下您的上下文窗口是一个宝贵的、有限的资源——就像旧电脑上的内存或沙漠中的水。您使用的每个 token 都是一滴水或一个字节的内存。在错误的事情上花费太多，您就会在最需要它的时候耗尽。
+想象一下您的上下文窗口是一个宝贵的、有限的资源——就像旧电脑上的记忆或沙漠中的水。您使用的每个 token 都是一滴水或一个字节的记忆。在错误的事情上花费太多，您就会在最需要它的时候耗尽。
 
 Token budgeting is the art and science of making the most of this finite resource. It's about maximizing the value of every token while ensuring your most critical information gets through.
 
@@ -224,7 +224,7 @@ def summarize_history(messages, summarization_prompt):
     ]
 ```
 
-#### 3.2.3. Key-Value Memory （3.2.3. 键值内存）
+#### 3.2.3. Key-Value Memory （3.2.3. 键值记忆）
 
 Store only the most important information from the conversation:
 
@@ -735,7 +735,7 @@ class TokenBudgetPlanner:
         return report
 ```
 
-### 8.2. Memory Manager （8.2. 内存管理器）
+### 8.2. Memory Manager （8.2. 记忆管理器）
 
 ```python
 class ContextMemoryManager:

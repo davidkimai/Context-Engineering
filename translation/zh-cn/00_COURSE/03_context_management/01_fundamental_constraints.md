@@ -38,7 +38,7 @@ STRUCTURAL CONSTRAINTS
 计算约束
 ├─ 上下文窗口（令牌限制）
 ├─ 处理速度（延迟）
-├─ 内存容量（存储）
+├─ 记忆容量（存储）
 ├─ I/O 带宽（吞吐量）
 ├─ 能源消耗（资源）
 └─ 并发操作（并行性）
@@ -773,9 +773,9 @@ class ProcessingSpeedManager:
         return optimization_plan
 ```
 
-### 3. Memory and Storage Constraints （3. 内存和存储约束）
+### 3. Memory and Storage Constraints （3. 记忆和存储约束）
 
-#### PROTOCOLS for Memory Management （用于内存管理的协议）
+#### PROTOCOLS for Memory Management （用于记忆管理的协议）
 
 ```
 /memory.constraint.management{
@@ -832,7 +832,7 @@ class ProcessingSpeedManager:
 
 ```
 /memory.constraint.management{
-    intent="在保持性能和可访问性的同时，优化分层存储系统中的内存利用率",
+    intent="在保持性能和可访问性的同时，优化分层存储系统中的记忆利用率",
 
     input={
         available_memory={
@@ -840,14 +840,14 @@ class ProcessingSpeedManager:
             short_term_storage="<会话级容量>",
             long_term_storage="<持久容量>"
         },
-        current_utilization="<内存使用明细>",
+        current_utilization="<记忆使用明细>",
         access_patterns="<信息的访问方式>",
         performance_requirements="<速度和延迟约束>"
     },
 
     process=[
         /memory.audit{
-            action="分析当前内存利用率并识别优化机会",
+            action="分析当前记忆利用率并识别优化机会",
             audit_dimensions=[
                 "利用效率",
                 "访问频率模式",
@@ -857,9 +857,9 @@ class ProcessingSpeedManager:
         },
 
         /hierarchical.optimization{
-            action="优化内存层次结构级别的数据放置",
+            action="优化记忆层次结构级别的数据放置",
             placement_strategy=[
-                /hot_data{placement="工作内存", criteria="频繁访问或当前活动"},
+                /hot_data{placement="工作记忆", criteria="频繁访问或当前活动"},
                 /warm_data{placement="短期存储", criteria="最近使用或可能很快需要"},
                 /cold_data{placement="长期存储", criteria="存档或很少访问"}
             ]
@@ -878,7 +878,7 @@ class ProcessingSpeedManager:
     output={
         optimized_memory_layout="跨层次结构的高效数据组织",
         performance_projections="预期的访问时间改进",
-        capacity_utilization="可用内存资源的最佳利用"
+        capacity_utilization="可用记忆资源的最佳利用"
     }
 }
 ```
@@ -948,7 +948,7 @@ Always understand your constraints before designing solutions:
 - **Resource availability** (processing power, storage, bandwidth)
 
 在设计解决方案之前，务必了解您的约束：
-- **计算限制**（令牌、时间、内存）
+- **计算限制**（令牌、时间、记忆）
 - **质量要求**（准确性、完整性、可靠性）
 - **资源可用性**（处理能力、存储、带宽）
 

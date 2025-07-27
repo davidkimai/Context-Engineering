@@ -246,7 +246,7 @@ The indexing structure determines how encoded knowledge is organized for efficie
 3. **基于图的索引**
    - 相似项目的连接网络（例如，HNSW）
    - 优点：快速近似搜索，很好地处理高维度
-   - 缺点：更复杂，内存密集型
+   - 缺点：更复杂，记忆密集型
 
 4. **Quantization-Based Indices**
    - Compressed vector representations (e.g., PQ, ScaNN)
@@ -255,7 +255,7 @@ The indexing structure determines how encoded knowledge is organized for efficie
 
 4. **基于量化的索引**
    - 压缩向量表示（例如，PQ、ScaNN）
-   - 优点：内存高效，搜索更快
+   - 优点：记忆高效，搜索更快
    - 缺点：略微牺牲准确性
 
 ### 1.4 Query Transformation: Bridging Intent and Content （1.4 查询转换：连接意图与内容）
@@ -555,7 +555,7 @@ This layer focuses on how embeddings and associated metadata are stored for effi
 4. **扩展策略**
    - 分片和分区方法
    - 处理不断增长的集合
-   - 管理内存与磁盘的权衡
+   - 管理记忆与磁盘的权衡
 
 5. **Backup and Versioning**
    - Index versioning strategy

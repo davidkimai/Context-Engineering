@@ -1212,10 +1212,10 @@ Protocols provide self-improving optimization systems that learn which approache
 
 ## Research Connections and Future Directions (研究联系和未来方向)
 
-### Connection to Context Engineering Survey (与上下文工程调查的联系)
+### Connection to Context Engineering Survey (与上下文工程调研的联系)
 
 This optimization theory module directly implements and extends key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-该优化理论模块直接实现并扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的关键概念：
+该优化理论模块直接实现并扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的关键概念：
 
 **Context Optimization Foundations (§4.2 & §4.3)**:
 - Implements systematic approaches to context processing optimization through mathematical formalization
@@ -1250,7 +1250,7 @@ This optimization theory module directly implements and extends key concepts fro
 ### Novel Contributions Beyond Current Research (超越当前研究的新颖贡献)
 
 **Mathematical Optimization Framework for Context Engineering**: While the survey covers context engineering techniques, our systematic mathematical optimization approach F* = arg max F(A, c₁, ..., c₆) represents novel research into rigorous optimization foundations for context assembly, enabling automatic discovery of optimal strategies.
-**上下文工程的数学优化框架**：虽然调查涵盖了上下文工程技术，但我们的系统化数学优化方法 F* = arg max F(A, c₁, ..., c₆) 代表了对上下文组合的严格优化基础的新颖研究，从而能够自动发现最优策略。
+**上下文工程的数学优化框架**：虽然调研涵盖了上下文工程技术，但我们的系统化数学优化方法 F* = arg max F(A, c₁, ..., c₆) 代表了对上下文组合的严格优化基础的新颖研究，从而能够自动发现最优策略。
 
 **Multi-Paradigm Optimization Integration**: The unified integration of gradient-based, evolutionary, and Bayesian optimization approaches specifically for context assembly extends beyond current research by providing comprehensive optimization strategies tailored to context engineering characteristics.
 **多范式优化集成**：专门针对上下文组合的基于梯度、进化和贝叶斯优化方法的统一集成超越了当前的研究，提供了针对上下文工程特征量身定制的综合优化策略。

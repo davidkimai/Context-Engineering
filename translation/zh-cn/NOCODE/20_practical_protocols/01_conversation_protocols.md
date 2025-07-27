@@ -1599,7 +1599,7 @@ With these principles and the protocol templates in this guide, you're well-equi
 - `/prioritize`：确定相对重要性
 - `/structure`：逻辑地组织信息
 - `/verify`：确认准确性或有效性
-- `/explore`：调查可能性
+- `/explore`：调研可能性
 - `/refine`：通过迭代进行改进
 
 ### Field Dynamics Quick Setup (场动力学快速设置)

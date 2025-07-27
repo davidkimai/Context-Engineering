@@ -2059,7 +2059,7 @@ The pattern analyzer is like having a data scientist study your team's collabora
 
 ## Research Connections and Future Directions （研究联系和未来方向）
 
-### Connection to Context Engineering Survey （与上下文工程调查的联系）
+### Connection to Context Engineering Survey （与上下文工程调研的联系）
 
 This coordination strategies module directly implements and extends key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
 
@@ -2073,7 +2073,7 @@ This coordination strategies module directly implements and extends key concepts
 **多智能体协调 (§5.4)**：
 - 实现了来自 AutoGen、MetaGPT 和 CrewAI 框架的协调策略
 - 将通信协议从基本的消息传递扩展到战略交互
-- 通过博弈论方法解决了调查中确定的协调挑战
+- 通过博弈论方法解决了调研中确定的协调挑战
 
 **System Integration Challenges**:
 - Tackles multi-tool coordination through strategic resource allocation algorithms
@@ -2099,7 +2099,7 @@ This coordination strategies module directly implements and extends key concepts
 
 **Strategic Adaptation**: While the survey covers coordination mechanisms, our adaptive strategy evolution represents novel research into coordination strategies that improve themselves over time.
 
-**战略适应**：虽然该调查涵盖了协调机制，但我们的自适应策略演进代表了对协调策略的新颖研究，这些策略会随着时间的推移而自我改进。
+**战略适应**：虽然该调研涵盖了协调机制，但我们的自适应策略演进代表了对协调策略的新颖研究，这些策略会随着时间的推移而自我改进。
 
 **Multi-Level Coordination**: The hierarchical coordination across individual, team, department, and organizational levels extends beyond current multi-agent research into true organizational coordination systems.
 

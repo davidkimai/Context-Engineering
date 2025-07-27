@@ -11,7 +11,7 @@
 ## Introduction to Research Protocols （研究协议简介）
 
 Research protocols transform the often messy, nonlinear process of knowledge discovery into structured, efficient workflows that consistently produce reliable insights. By establishing explicit frameworks for investigation and analysis, these protocols help you navigate complex information landscapes with clarity and purpose.
-研究协议将通常混乱、非线性的知识发现过程转变为结构化、高效的工作流程，从而持续产生可靠的见解。通过为调查和分析建立明确的框架，这些协议帮助您清晰、有目的地驾驭复杂的信息环境。
+研究协议将通常混乱、非线性的知识发现过程转变为结构化、高效的工作流程，从而持续产生可靠的见解。通过为调研和分析建立明确的框架，这些协议帮助您清晰、有目的地驾驭复杂的信息环境。
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -477,7 +477,7 @@ Protocol:
 | 战略相关性 | 对决策的可操作性影响 | 与战略选择的清晰联系 |
 | 监控价值 | 预警框架的有用性 | 可观察的、领先的指标 |
 
-## 4. The Problem Investigation Protocol （问题调查协议）
+## 4. The Problem Investigation Protocol （问题调研协议）
 
 **When to use this protocol:**
 Need to understand complex problems with unclear causes or dimensions? This protocol guides you through systematic problem exploration—perfect for root cause analysis, problem framing, issue diagnosis, or challenge mapping.
@@ -586,9 +586,9 @@ Protocol:
      识别受影响的利益相关者和影响
 
 4. **Investigation Goal Setting**:
-   **调查目标设定**：
+   **调研目标设定**：
    - Define specific outcomes needed from investigation
-     定义调查所需的具体结果
+     定义调研所需的具体结果
    - Include both analytical and practical goals
      包括分析和实际目标
    - Consider information needs for decision-making
@@ -1023,7 +1023,7 @@ Protocol:
 **When to use this protocol:**
 Need to develop a systematic approach to answer research questions? This protocol guides you through research methodology development—perfect for study design, investigation planning, methodology selection, or research proposal development.
 **何时使用此协议：**
-需要制定一个系统的方法来回答研究问题吗？该协议将指导您进行研究方法论的开发——非常适合研究设计、调查规划、方法论选择或研究提案的撰写。
+需要制定一个系统的方法来回答研究问题吗？该协议将指导您进行研究方法论的开发——非常适合研究设计、调研规划、方法论选择或研究提案的撰写。
 
 ```
 Prompt: I'm planning a research study to understand how gamification elements impact user engagement and retention in health and wellness apps. I need to design a comprehensive methodology that will provide reliable insights into which game mechanics most effectively drive sustained engagement across different user demographics and health goals.
@@ -1409,7 +1409,7 @@ Research protocols provide structure without stifling discovery. Consider these 
 1. **Method with Openness**: Establish methodological rigor while remaining open to unexpected findings
    **有开放性的方法**：建立方法论的严谨性，同时对意外的发现保持开放
 2. **Structure with Exploration**: Create structured processes that include divergent investigation
-   **有探索性的结构**：创建包含发散性调查的结构化流程
+   **有探索性的结构**：创建包含发散性调研的结构化流程
 3. **Precision with Adaptability**: Develop precise approaches that can adapt to emerging insights
    **有适应性的精确**：开发能够适应新兴见解的精确方法
 4. **Efficiency with Thoroughness**: Build efficient workflows that maintain comprehensive coverage
@@ -1421,7 +1421,7 @@ Successful research protocols create frameworks that ensure quality while enabli
 ## Conclusion: The Evolution of Knowledge Discovery （结论：知识发现的演变）
 
 Research protocols transform the often chaotic process of investigation into structured, reliable pathways to insight without sacrificing the essential elements of discovery and creativity. By providing explicit architecture for research processes, they enable more systematic, efficient, and high-quality knowledge development.
-研究协议将通常混乱的调查过程转变为结构化、可靠的通往洞察力的途径，而不会牺牲发现和创造力的基本要素。通过为研究过程提供明确的架构，它们能够实现更系统、更高效、更高质量的知识发展。
+研究协议将通常混乱的调研过程转变为结构化、可靠的通往洞察力的途径，而不会牺牲发现和创造力的基本要素。通过为研究过程提供明确的架构，它们能够实现更系统、更高效、更高质量的知识发展。
 
 As you build your research protocol library, remember these principles:
 在构建您的研究协议库时，请记住以下原则：
@@ -1438,10 +1438,10 @@ As you build your research protocol library, remember these principles:
    **内置质量**：在多个阶段融合验证和批判性评估
 
 With these principles and the research protocols in this guide, you're well-equipped to transform unpredictable research processes into reliable, rigorous investigations that consistently produce valuable insights.
-有了这些原则和本指南中的研究协议，您就具备了将不可预测的研究过程转变为可靠、严谨的调查的能力，从而持续产生有价值的见解。
+有了这些原则和本指南中的研究协议，您就具备了将不可预测的研究过程转变为可靠、严谨的调研的能力，从而持续产生有价值的见解。
 
 **Reflective Question**: How might these research protocols change not just your investigation processes, but your understanding of what constitutes quality in knowledge discovery?
-**反思性问题**：这些研究协议不仅会改变您的调查过程，还会如何改变您对知识发现中质量构成的理解？
+**反思性问题**：这些研究协议不仅会改变您的调研过程，还会如何改变您对知识发现中质量构成的理解？
 
 ---
 
@@ -1476,7 +1476,7 @@ With these principles and the research protocols in this guide, you're well-equi
 - `/map`: Create structured representation of domain
   `/map`：创建领域的结构化表示
 - `/explore`: Investigate possibilities or factors
-  `/explore`：调查可能性或因素
+  `/explore`：调研可能性或因素
 - `/validate`: Verify quality, accuracy, or appropriateness
   `/validate`：验证质量、准确性或适宜性
 - `/contextualize`: Consider relevant context or situation

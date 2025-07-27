@@ -5,7 +5,7 @@
 > **模块 01.3** | *上下文工程课程：从基础到前沿系统*
 > 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Advancing Software 3.0 Paradigms
-> 基于 [上下文工程调查](https://arxiv.org/pdf/2507.13334) | 推进软件 3.0 范式
+> 基于 [上下文工程调研](https://arxiv.org/pdf/2507.13334) | 推进软件 3.0 范式
 
 ---
 
@@ -1550,7 +1550,7 @@ learning_system = SelfImprovingAssemblySystem()
 
 ## Research Connections and Future Directions (研究联系和未来方向)
 
-### Connection to Context Engineering Survey (与上下文工程调查的联系)
+### Connection to Context Engineering Survey (与上下文工程调研的联系)
 
 **Dynamic Assembly and Context Processing (§4.2)**:
 - Our implementations extend context processing beyond basic assembly to intelligent orchestration

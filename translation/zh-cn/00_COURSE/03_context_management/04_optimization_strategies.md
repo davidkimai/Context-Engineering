@@ -37,7 +37,7 @@ OPTIMIZATION STRATEGIES
 ```
 性能优化维度
 ├─ 计算效率（速度和资源使用）
-├─ 内存利用率（存储和访问优化）
+├─ 记忆利用率（存储和访问优化）
 ├─ 质量保留（信息保真度）
 ├─ 可扩展性（增长和负载处理）
 ├─ 适应性（对变化的动态响应）
@@ -46,7 +46,7 @@ OPTIMIZATION STRATEGIES
 优化目标
 ├─ 延迟降低（更快的响应时间）
 ├─ 吞吐量最大化（更高的处理量）
-├─ 资源节约（有效利用计算/内存）
+├─ 资源节约（有效利用计算/记忆）
 ├─ 质量提升（更好的输出质量）
 ├─ 可靠性改进（一致的性能）
 └─ 成本优化（经济效率）
@@ -209,7 +209,7 @@ OPTIMIZATION_TEMPLATES = {
 
     ## 当前性能指标
     处理速度：{current_speed} 操作/秒
-    内存利用率：{memory_usage}% 可用
+    记忆利用率：{memory_usage}% 可用
     质量得分：{quality_score}/1.0
     资源效率：{resource_efficiency}%
     用户满意度：{user_satisfaction_score}/10
@@ -221,7 +221,7 @@ OPTIMIZATION_TEMPLATES = {
 
     ## 优化目标
     速度提升目标：{speed_target}% 提升
-    内存优化目标：{memory_target}% 降低
+    记忆优化目标：{memory_target}% 降低
     质量维护：最低 {quality_threshold}
 
     ## 分析请求
@@ -275,7 +275,7 @@ OPTIMIZATION_TEMPLATES = {
 
     ## 当前资源概况
     CPU 利用率：{cpu_usage}% 平均，{cpu_peak}% 峰值
-    内存使用情况：{memory_current}MB 已用，共 {memory_total}MB 可用
+    记忆使用情况：{memory_current}MB 已用，共 {memory_total}MB 可用
     I/O 操作：{io_operations}/秒
     网络带宽：{network_usage}% 可用
     存储利用率：{storage_usage}% 容量
@@ -449,7 +449,7 @@ class PerformanceMonitor:
 
     def _measure_memory_usage(self) -> float:
         """Measure current memory usage percentage"""
-        # “测量当前内存使用百分比”
+        # “测量当前记忆使用百分比”
         return 45.0  # percentage # 百分比
 
     def _measure_cpu_usage(self) -> float:
@@ -603,7 +603,7 @@ class CacheOptimizer:
             self.max_cache_size = min(self.max_cache_size * 1.2, 10000)
         elif current_hit_rate > target_hit_rate + 0.1:
             # Decrease cache size to save memory
-            # 减小缓存大小以节省内存
+            # 减小缓存大小以节省记忆
             self.max_cache_size = max(self.max_cache_size * 0.9, 100)
 
 class AdaptiveOptimizer:
@@ -694,7 +694,7 @@ class AdaptiveOptimizer:
             strategy['algorithm_optimization'] = True
             strategy['cache_optimization'] = True
 
-        if metrics.memory_usage > 80:  # High memory usage # 高内存使用率
+        if metrics.memory_usage > 80:  # High memory usage # 高记忆使用率
             strategy['cache_optimization'] = True
             strategy['resource_reallocation'] = True
 
@@ -1109,13 +1109,13 @@ class ParallelProcessingOptimizer:
         current_performance_profile="<综合系统性能指标>",
         optimization_objectives=[
             {target="速度", weight=0.3, threshold="<性能阈值>", direction="最大化"},
-            {target="内存", weight=0.2, threshold="<内存阈值>", direction="最小化"},
+            {target="记忆", weight=0.2, threshold="<记忆阈值>", direction="最小化"},
             {target="质量", weight=0.4, threshold="<质量阈值>", direction="最大化"},
             {target="成本", weight=0.1, threshold="<成本阈值>", direction="最小化"}
         ],
         system_constraints={
             computational_limits="<可用的处理资源>",
-            memory_constraints="<内存边界>",
+            memory_constraints="<记忆边界>",
             time_constraints="<优化时间预算>",
             quality_requirements="<最低质量标准>"
         },
@@ -1136,9 +1136,9 @@ class ParallelProcessingOptimizer:
                     output="计算效率报告"
                 },
                 /memory_utilization_analysis{
-                    scope="内存使用模式、分配效率、垃圾回收",
-                    methods=["内存分析", "分配跟踪", "泄漏检测"],
-                    output="内存优化机会"
+                    scope="记忆使用模式、分配效率、垃圾回收",
+                    methods=["记忆分析", "分配跟踪", "泄漏检测"],
+                    output="记忆优化机会"
                 },
                 /throughput_and_latency_analysis{
                     scope="请求处理速度、系统响应能力、容量限制",
@@ -1200,7 +1200,7 @@ class ParallelProcessingOptimizer:
                 },
                 /resource_optimization{
                     techniques=[
-                        "内存池管理",
+                        "记忆池管理",
                         "CPU 亲和性优化",
                         "I/O 优化",
                         "资源调度"
@@ -1215,8 +1215,8 @@ class ParallelProcessingOptimizer:
                         "预测性预加载",
                         "多级缓存"
                     ],
-                    monitoring=["命中率", "缓存效率", "内存开销"],
-                    adaptation_triggers=["命中率下降", "内存压力", "访问模式变化"]
+                    monitoring=["命中率", "缓存效率", "记忆开销"],
+                    adaptation_triggers=["命中率下降", "记忆压力", "访问模式变化"]
                 },
                 /parallel_processing_optimization{
                     techniques=[

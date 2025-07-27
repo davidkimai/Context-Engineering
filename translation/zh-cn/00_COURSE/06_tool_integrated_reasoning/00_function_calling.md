@@ -557,7 +557,7 @@ def execute_with_resource_limits(function, max_time=30, max_memory=None):
     with timeout(max_time):
         if max_memory:
             # Set memory limit (implementation depends on platform)
-            # 设置内存限制（实现取决于平台）
+            # 设置记忆限制（实现取决于平台）
             resource.setrlimit(resource.RLIMIT_AS, (max_memory, max_memory))
         
         return function()

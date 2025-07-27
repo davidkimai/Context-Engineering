@@ -1612,7 +1612,7 @@ The key insight is that you can't directly control emergence (that would defeat 
 
 The protocol addresses the key challenges: managing diversity without chaos, combining different thinking styles productively, creating shared memory systems, and establishing feedback loops that help the collective intelligence improve itself over time.
 
-该协议解决了关键挑战：在不造成混乱的情况下管理多样性，有效地结合不同的思维方式，创建共享内存系统，以及建立有助于集体智能随着时间的推移自我完善的反馈循环。
+该协议解决了关键挑战：在不造成混乱的情况下管理多样性，有效地结合不同的思维方式，创建共享记忆系统，以及建立有助于集体智能随着时间的推移自我完善的反馈循环。
 
 ---
 

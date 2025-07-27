@@ -84,7 +84,7 @@ Connected Memories: (连接的记忆)
     ██████████████████████████████████████████
     
 Processing Characteristics: (处理特性)
-- Constant memory usage regardless of sequence length (内存使用量恒定，与序列长度无关)
+- Constant memory usage regardless of sequence length (记忆使用量恒定，与序列长度无关)
 - Adaptive attention to relevant information (对相关信息的自适应注意力)
 - Perfect recall of important details (完美回忆重要细节)
 - Seamless integration of new information (无缝集成新信息)
@@ -101,7 +101,7 @@ Processing Characteristics: (处理特性)
 Standard Attention: O(n²) complexity (标准注意力：O(n²) 复杂度)
 For sequence length n, attention matrix is n×n (对于长度为 n 的序列，注意力矩阵为 n×n)
 
-Memory requirement: n² × d_model (内存需求)
+Memory requirement: n² × d_model (记忆需求)
 Computation time: n² × d_model × operations_per_element (计算时间)
 
 Example scaling: (扩展示例)
@@ -128,7 +128,7 @@ Subject to constraints: (约束条件：)
 - Computational_Cost(C) ≤ Budget (计算成本预算)
 ```
 **Intuitive Explanation**: We want to select the subset of information that provides the maximum predictive value for our task, subject to computational and memory constraints. Like choosing the most relevant pages from a library for answering a specific question.
-**直观解释**: 我们希望在计算和内存约束下，选择能为我们的任务提供最大预测价值的信息子集。就像为了回答一个特定问题，从图书馆中挑选最相关的几页。
+**直观解释**: 我们希望在计算和记忆约束下，选择能为我们的任务提供最大预测价值的信息子集。就像为了回答一个特定问题，从图书馆中挑选最相关的几页。
 
 ### Memory Compression Principles (记忆压缩原理)
 ```
@@ -146,7 +146,7 @@ Where: (其中：)
 - δ = maximum acceptable distortion (最大可接受失真)
 ```
 **Intuitive Explanation**: We want to compress information to fit memory constraints while preserving the essential content. Like creating a high-quality summary that captures all important information in fewer words.
-**直观解释**: 我们希望在保留基本内容的同时，压缩信息以适应内存限制。就像创建一个高质量的摘要，用更少的词语捕捉所有重要信息。
+**直观解释**: 我们希望在保留基本内容的同时，压缩信息以适应记忆限制。就像创建一个高质量的摘要，用更少的词语捕捉所有重要信息。
 
 ---
 
@@ -209,7 +209,7 @@ Where: (其中：)
 └─────────────────────────────────────────────────────────────────┘
 
 PERFORMANCE CHARACTERISTICS: (性能特点)
-• Memory Usage: O(1) constant regardless of total sequence length (内存使用：O(1) 常数，与总序列长度无关)
+• Memory Usage: O(1) constant regardless of total sequence length (记忆使用：O(1) 常数，与总序列长度无关)
 • Retrieval Time: O(log n) for relevant information lookup (检索时间：O(log n) 用于相关信息查找)
 • Context Quality: Maintains coherence across arbitrary distances (上下文质量：在任意距离上保持连贯性)
 • Adaptation: Real-time optimization based on query patterns (自适应：基于查询模式的实时优化)
@@ -625,7 +625,7 @@ class WorkingMemory(MemoryLevel):
         
     def store(self, segment: MemorySegment) -> bool:
         """Store in working memory with LRU eviction if necessary"""
-        """存储在工作内存中，必要时使用 LRU 驱逐策略"""
+        """存储在工作记忆中，必要时使用 LRU 驱逐策略"""
         # Check if we can fit this segment
         # 检查是否能容纳此段
         segment_tokens = len(segment.content.split())
@@ -668,7 +668,7 @@ class WorkingMemory(MemoryLevel):
     
     def retrieve(self, query_embedding: np.ndarray, top_k: int = 5) -> List[MemorySegment]:
         """Retrieve most relevant segments from working memory"""
-        """从工作内存中检索最相关的段"""
+        """从工作记忆中检索最相关的段"""
         if not self.segments:
             return []
         
@@ -1114,7 +1114,7 @@ class HierarchicalMemorySystem:
         segment = self._create_memory_segment(content, importance_score)
         
         # Store in working memory
-        # 存储在工作内存中
+        # 存储在工作记忆中
         self.working_memory.store(segment)
         
         # Check if consolidation is needed
@@ -1517,7 +1517,7 @@ Protocols provide self-improving context processing patterns that evolve based o
 ```
 /process.infinite_context{
     intent="Process arbitrarily long sequences with constant memory usage and optimal information preservation",
-    intent="以恒定的内存使用和最佳的信息保存方式处理任意长的序列",
+    intent="以恒定的记忆使用和最佳的信息保存方式处理任意长的序列",
     
     input={
         sequence_stream=<incoming_token_stream>,
@@ -1552,7 +1552,7 @@ Protocols provide self-improving context processing patterns that evolve based o
             action="Select optimal processing approach based on sequence characteristics",
             action="根据序列特征选择最佳处理方法",
             method="Multi-objective optimization across memory, speed, and quality",
-            method="跨内存、速度和质量的多目标优化",
+            method="跨记忆、速度和质量的多目标优化",
             strategy_selection=[
                 {
                     condition="sequence_length < 4K AND complexity = low",
@@ -1920,7 +1920,7 @@ class PerformanceMonitor:
                 return True
         
         # Check memory utilization
-        # 检查内存利用率
+        # 检查记忆利用率
         latest_memory = recent_metrics[-1].get('memory_usage', {})
         if isinstance(latest_memory, dict):
             wm_util = latest_memory.get('working_memory', {}).get('segment_utilization', 0)
@@ -1951,7 +1951,7 @@ class PerformanceMonitor:
             suggestions['target_compression_ratio'] = 0.2
         
         # Suggest memory management changes
-        # 建议更改内存管理
+        # 建议更改记忆管理
         latest_memory = recent_metrics[-1].get('memory_usage', {})
         if isinstance(latest_memory, dict):
             wm_util = latest_memory.get('working_memory', {}).get('segment_utilization', 0)
@@ -2094,7 +2094,7 @@ class LongContextEvaluator:
             test_seq = self._create_test_sequence(length)
             
             # Measure memory usage
-            # 测量内存使用情况
+            # 测量记忆使用情况
             start_memory = self._get_memory_usage(system)
             system.process_input(test_seq, importance_score=0.7)
             end_memory = self._get_memory_usage(system)
@@ -2221,7 +2221,7 @@ class LongContextEvaluator:
             throughput = seq_length / max(processing_time, 0.001)
             
             # Measure memory efficiency
-            # 测量内存效率
+            # 测量记忆效率
             memory_usage = self._get_memory_usage(system)
             memory_efficiency = seq_length / max(memory_usage, 1)
             

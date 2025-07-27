@@ -1,4 +1,4 @@
-# The Alchemy Model: Transformational Context Engineering (炼金术模型：变革性语境工程)
+# The Alchemy Model: Transformational Context Engineering (炼金术模型：变革性上下文工程)
 
 > *"As above, so below; as within, so without."*
 > *“如其在上，如其在下；如其在内，如其在外。”*
@@ -9,10 +9,10 @@
 ## 1. Introduction: Context as Transformational Process (1. 简介：作为变革过程的语境)
 
 Our journey through mental models has explored cultivation (Garden), resource management (Budget), flow dynamics (River), and multi-dimensional integration (Biopsychosocial). Now we advance to the Alchemy Model — a framework that views context engineering as a transformational process that converts raw materials into refined understanding through deliberate operations and catalytic interactions.
-我们对心智模型的探索之旅已经考察了培育（花园）、资源管理（预算）、流动动力学（河流）和多维整合（生物心理社会）。现在我们进入炼金术模型——一个将语境工程视为一个变革过程的框架，该过程通过深思熟虑的操作和催化相互作用将原材料转化为精炼的理解。
+我们对心智模型的探索之旅已经考察了培育（花园）、资源管理（预算）、流动动力学（河流）和多维整合（生物心理社会）。现在我们进入炼金术模型——一个将上下文工程视为一个变革过程的框架，该过程通过深思熟虑的操作和催化相互作用将原材料转化为精炼的理解。
 
 Originally developed by ancient practitioners seeking to transform base metals into gold, alchemy represents humanity's earliest systematic approach to transformation. While medieval alchemists pursued physical transmutation, their deeper wisdom lay in understanding transformation itself: how careful preparation, precise operations, and catalytic agents can fundamentally change the nature of materials. Similarly, in context engineering, the Alchemy Model helps us design contexts that transform raw information into refined understanding through deliberate transformational processes.
-炼金术最初由寻求将贱金属转化为黄金的古代实践者开发，代表了人类最早的系统性变革方法。虽然中世纪的炼金术士追求物理上的嬗变，但他们更深层次的智慧在于理解变革本身：精心的准备、精确的操作和催化剂如何从根本上改变物质的性质。同样，在语境工程中，炼金术模型帮助我们设计语境，通过深思熟虑的变革过程将原始信息转化为精炼的理解。
+炼金术最初由寻求将贱金属转化为黄金的古代实践者开发，代表了人类最早的系统性变革方法。虽然中世纪的炼金术士追求物理上的嬗变，但他们更深层次的智慧在于理解变革本身：精心的准备、精确的操作和催化剂如何从根本上改变物质的性质。同样，在上下文工程中，炼金术模型帮助我们设计语境，通过深思熟虑的变革过程将原始信息转化为精炼的理解。
 
 The Alchemy Model is particularly valuable because it:
 - **Focuses on transformation** - emphasizing change rather than static information
@@ -65,7 +65,7 @@ The Alchemy Model is particularly valuable because it:
 ## 2. Core Elements of the Alchemy Model (2. 炼金术模型的核心要素)
 
 The Alchemy Model maps four essential components to context engineering concepts:
-炼金术模型将四个基本组成部分映射到语境工程概念：
+炼金术模型将四个基本组成部分映射到上下文工程概念：
 
 ### 2.1. Raw Materials (Prima Materia) (2.1. 原材料（原始物质）)
 

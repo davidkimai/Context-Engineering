@@ -1,10 +1,10 @@
-# Persistent Memory: Long-Term Knowledge Storage and Evolution （持久化内存：长期知识存储与演化）
+# Persistent Memory: Long-Term Knowledge Storage and Evolution （持久化记忆：长期知识存储与演化）
 
 ## Overview: The Challenge of Temporal Context Continuity （概述：时间上下文连续性的挑战）
 
 Persistent memory in context engineering addresses the fundamental challenge of maintaining coherent, evolving knowledge structures across extended time periods. Unlike traditional databases that store static data, persistent memory systems must maintain **semantic continuity**, **relational evolution**, and **adaptive knowledge updating** while preserving the integrity of learned patterns and associations.
 
-在上下文工程中，持久化内存解决了在长时间内维护连贯、演化的知识结构这一根本挑战。与存储静态数据的传统数据库不同，持久化内存系统必须保持**语义连续性**、**关系演化**和**自适应知识更新**，同时保持已学习模式和关联的完整性。
+在上下文工程中，持久化记忆解决了在长时间内维护连贯、演化的知识结构这一根本挑战。与存储静态数据的传统数据库不同，持久化记忆系统必须保持**语义连续性**、**关系演化**和**自适应知识更新**，同时保持已学习模式和关联的完整性。
 
 The persistence challenge in Software 3.0 systems encompasses three critical dimensions:
 - **Temporal Coherence**: Maintaining consistent knowledge despite information evolution
@@ -22,7 +22,7 @@ The persistence challenge in Software 3.0 systems encompasses three critical dim
 
 Persistent memory can be modeled as an evolving information field where knowledge transforms over time while maintaining core invariants:
 
-持久化内存可以被建模为一个演化的信息场，其中知识随时间转换，同时保持核心不变量：
+持久化记忆可以被建模为一个演化的信息场，其中知识随时间转换，同时保持核心不变量：
 
 ```
 M(t+Δt) = M(t) + ∫[t→t+Δt] [Learning(τ) - Forgetting(τ)] dτ
@@ -58,7 +58,7 @@ Semantic_Alignment(t) = Original_Meaning ⊗ Drift_Correction(t)
 Network(t+1) = Network(t) + α × New_Connections - β × Weak_Connections
 ```
 
-## Persistent Memory Architecture Paradigms （持久化内存架构范式）
+## Persistent Memory Architecture Paradigms （持久化记忆架构范式）
 
 ### Architecture 1: Layered Persistence Model （架构一：分层持久化模型）
 
@@ -131,11 +131,11 @@ Edge Types by Persistence:
 • 实验性：试探性连接（无强化则快速衰减）
 ```
 
-### Architecture 3: Field-Theoretic Persistent Memory （架构三：场论持久化内存）
+### Architecture 3: Field-Theoretic Persistent Memory （架构三：场论持久化记忆）
 
 Building on neural field theory, persistent memory exists as stable attractors in a continuous semantic field:
 
-基于神经场理论，持久化内存作为连续语义场中的稳定吸引子存在：
+基于神经场理论，持久化记忆作为连续语义场中的稳定吸引子存在：
 
 ```
 PERSISTENT MEMORY FIELD LANDSCAPE
@@ -175,7 +175,7 @@ Field Properties:
 
 ```python
 # Template: Basic Persistent Memory Operations
-# 模板：基础持久化内存操作
+# 模板：基础持久化记忆操作
 import json
 import pickle
 import sqlite3
@@ -184,7 +184,7 @@ from typing import Dict, List, Any, Optional
 
 class BasicPersistentMemory:
     """Foundational persistent memory with explicit storage operations"""
-    """带有显式存储操作的基础持久化内存"""
+    """带有显式存储操作的基础持久化记忆"""
     
     def __init__(self, storage_path: str, retention_policy: Dict[str, int]):
         self.storage_path = storage_path
@@ -406,14 +406,14 @@ class BasicPersistentMemory:
         }
 ```
 
-### Layer 2: Adaptive Persistent Memory (Software 2.0 Enhancement) （第二层：自适应持久化内存（软件2.0增强））
+### Layer 2: Adaptive Persistent Memory (Software 2.0 Enhancement) （第二层：自适应持久化记忆（软件2.0增强））
 
 **Learning-Based Persistence with Statistical Adaptation**
 **基于学习的持久化与统计自适应**
 
 ```python
 # Template: Adaptive Persistent Memory with Learning
-# 模板：带学习功能的自适应持久化内存
+# 模板：带学习功能的自适应持久化记忆
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -422,7 +422,7 @@ import pickle
 
 class AdaptivePersistentMemory(BasicPersistentMemory):
     """Enhanced persistent memory with learned patterns and adaptation"""
-    """具有学习模式和自适应能力的增强型持久化内存"""
+    """具有学习模式和自适应能力的增强型持久化记忆"""
     
     def __init__(self, storage_path: str, retention_policy: Dict[str, int]):
         super().__init__(storage_path, retention_policy)
@@ -745,17 +745,17 @@ class AdaptivePersistentMemory(BasicPersistentMemory):
             pass  # Start with empty patterns # 从空模式开始
 ```
 
-### Layer 3: Protocol-Orchestrated Persistent Memory (Software 3.0 Integration) （第三层：协议编排的持久化内存（软件3.0集成））
+### Layer 3: Protocol-Orchestrated Persistent Memory (Software 3.0 Integration) （第三层：协议编排的持久化记忆（软件3.0集成））
 
 **Structured Protocol-Based Memory Orchestration**
-**基于结构化协议的内存编排**
+**基于结构化协议的记忆编排**
 
 ```python
 # Template: Protocol-Based Persistent Memory System
-# 模板：基于协议的持久化内存系统
+# 模板：基于协议的持久化记忆系统
 class ProtocolPersistentMemory(AdaptivePersistentMemory):
     """Protocol-orchestrated persistent memory with structured operations"""
-    """具有结构化操作的协议编排持久化内存"""
+    """具有结构化操作的协议编排持久化记忆"""
     
     def __init__(self, storage_path: str, retention_policy: Dict[str, int]):
         super().__init__(storage_path, retention_policy)
@@ -766,10 +766,10 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
         
     def _initialize_memory_protocols(self):
         """Initialize core memory management protocols"""
-        """初始化核心内存管理协议"""
+        """初始化核心记忆管理协议"""
         
         # Memory Storage Protocol
-        # 内存存储协议
+        # 记忆存储协议
         self.protocol_registry['memory_storage'] = {
             'intent': 'Systematically store information with optimal organization',
             'intent': '以最优的组织方式系统地存储信息',
@@ -783,7 +783,7 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
         }
         
         # Memory Retrieval Protocol  
-        # 内存检索协议
+        # 记忆检索协议
         self.protocol_registry['memory_retrieval'] = {
             'intent': 'Retrieve relevant memories through multi-strategy search',
             'intent': '通过多策略搜索检索相关记忆',
@@ -797,10 +797,10 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
         }
         
         # Memory Consolidation Protocol
-        # 内存整合协议
+        # 记忆整合协议
         self.protocol_registry['memory_consolidation'] = {
             'intent': 'Optimize memory organization through consolidation',
-            'intent': '通过整合优化内存组织',
+            'intent': '通过整合优化记忆组织',
             'steps': [
                 'identify_consolidation_opportunities',
                 'evaluate_consolidation_benefits',
@@ -812,7 +812,7 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
         
     def execute_memory_protocol(self, protocol_name: str, **kwargs) -> Dict:
         """Execute structured memory protocol with full orchestration"""
-        """以完整的编排执行结构化内存协议"""
+        """以完整的编排执行结构化记忆协议"""
         
         if protocol_name not in self.protocol_registry:
             raise ValueError(f"Unknown protocol: {protocol_name}")
@@ -1192,7 +1192,7 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
 ### Challenge 1: Scale and Performance （挑战一：规模与性能）
 
 **Problem**: Persistent memory systems must handle potentially vast amounts of information while maintaining fast access.
-**问题**：持久化内存系统必须处理可能海量的信息，同时保持快速访问。
+**问题**：持久化记忆系统必须处理可能海量的信息，同时保持快速访问。
 
 **Solution**: Hierarchical storage with intelligent caching and predictive pre-loading.
 **解决方案**：采用智能缓存和预测性预加载的分层存储。
@@ -1200,7 +1200,7 @@ class ProtocolPersistentMemory(AdaptivePersistentMemory):
 ```python
 class ScalablePersistentMemory:
     def __init__(self):
-        self.hot_cache = {}     # Frequently accessed (in-memory) # 频繁访问（内存中）
+        self.hot_cache = {}     # Frequently accessed (in-memory) # 频繁访问（记忆中）
         self.warm_storage = {}  # Recently accessed (fast storage) # 最近访问（快速存储）
         self.cold_storage = {}  # Archived memories (slow storage) # 归档记忆（慢速存储）
         
@@ -1251,7 +1251,7 @@ class SemanticDriftManager:
 ### Challenge 3: Privacy and Security （挑战三：隐私与安全）
 
 **Problem**: Persistent memories may contain sensitive information that requires protection.
-**问题**：持久化内存可能包含需要保护的敏感信息。
+**问题**：持久化记忆可能包含需要保护的敏感信息。
 
 **Solution**: Encryption, access controls, and selective forgetting mechanisms.
 **解决方案**：加密、访问控制和选择性遗忘机制。
@@ -1278,7 +1278,7 @@ class SecurePersistentMemory:
         pass
 ```
 
-## Evaluation Metrics for Persistent Memory （持久化内存的评估指标）
+## Evaluation Metrics for Persistent Memory （持久化记忆的评估指标）
 
 ### Persistence Quality Metrics （持久化质量指标）
 - **Retention Accuracy**: How well information is preserved over time
@@ -1311,7 +1311,7 @@ class SecurePersistentMemory:
 
 The persistent memory foundation established here enables the development of sophisticated memory-enhanced agents that can:
 
-这里建立的持久化内存基础，使得开发复杂的记忆增强型代理成为可能，这些代理能够：
+这里建立的持久化记忆基础，使得开发复杂的记忆增强型代理成为可能，这些代理能够：
 
 1. **Maintain Conversational Continuity** across extended interactions
 2. **Learn and Adapt** from experiences over time
@@ -1325,8 +1325,8 @@ The persistent memory foundation established here enables the development of sop
 
 The next section will explore how these persistent memory capabilities integrate with agent architectures to create truly memory-enhanced intelligent systems that can grow and evolve through interaction while maintaining coherent, reliable knowledge stores.
 
-下一节将探讨这些持久化内存功能如何与代理架构集成，以创建真正意义上的记忆增强型智能系统，这些系统可以通过交互实现成长和演化，同时保持连贯、可靠的知识库。
+下一节将探讨这些持久化记忆功能如何与代理架构集成，以创建真正意义上的记忆增强型智能系统，这些系统可以通过交互实现成长和演化，同时保持连贯、可靠的知识库。
 
 This persistent memory framework provides the robust foundation needed for creating intelligent systems that can maintain coherent knowledge across time while continuously learning and adapting. The integration of deterministic storage operations, statistical learning patterns, and protocol-based orchestration creates memory systems that are both reliable and sophisticated, embodying the Software 3.0 paradigm for context engineering.
 
-这个持久化内存框架为创建能够在时间上保持连贯知识、同时不断学习和适应的智能系统提供了坚实的基础。确定性存储操作、统计学习模式和基于协议的编排的集成，创造了既可靠又复杂的内存系统，体现了上下文工程的软件3.0范式。
+这个持久化记忆框架为创建能够在时间上保持连贯知识、同时不断学习和适应的智能系统提供了坚实的基础。确定性存储操作、统计学习模式和基于协议的编排的集成，创造了既可靠又复杂的记忆系统，体现了上下文工程的软件3.0范式。

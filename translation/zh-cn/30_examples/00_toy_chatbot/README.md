@@ -17,7 +17,7 @@ This toy chatbot showcases the progression through context engineering layers:
 这个玩具聊天机器人展示了上下文工程层级的演进：
 - **原子**：基本提示和响应
 - **分子**：上下文组合和示例
-- **细胞**：内存和状态管理
+- **细胞**：记忆和状态管理
 - **器官**：协调系统行为
 - **场**：连续语义操作
 - **元递归**：自我改进能力
@@ -72,7 +72,7 @@ Context Field Architecture:
 
 - `/attractor.co.emerge`：上下文模式检测和浮现
 - `/field.resonance.scaffold`：对话连贯性维护
-- `/recursive.memory.attractor`：跨会话的内存持久性
+- `/recursive.memory.attractor`：跨会话的记忆持久性
 - `/field.self_repair`：错误恢复和适应
 
 ## Files （文件）

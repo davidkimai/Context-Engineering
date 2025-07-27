@@ -7,7 +7,7 @@
 
 > Building on [Context Engineering Survey](https://arxiv.org/pdf/2507.13334) | Culminating Software 3.0 Mastery
 >
-> 基于[背景工程调查](https://arxiv.org/pdf/2507.13334) | 最终软件 3.0 精通
+> 基于[背景工程调研](https://arxiv.org/pdf/2507.13334) | 最终软件 3.0 精通
 
 ---
 
@@ -937,7 +937,7 @@ You'll demonstrate your system's capabilities in real-time, showing:
 
 ### Track A: Intelligent Research Assistant （方向 A：智能研究助理）
 **Vision**: Create an AI system that can conduct autonomous research investigations
-**愿景**：创建一个能够进行自主研究调查的人工智能系统
+**愿景**：创建一个能够进行自主研究调研的人工智能系统
 
 #### System Requirements （系统要求）
 ```
@@ -1567,10 +1567,10 @@ Day 5-7: Integration Pattern Design and Interface Definition
 ---
 ## Research Connections and Future Directions （研究联系与未来方向）
 
-### Connection to Context Engineering Survey （与背景工程调查的联系）
+### Connection to Context Engineering Survey （与背景工程调研的联系）
 
 This orchestration capstone directly implements and synthesizes the complete vision outlined in the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334), representing the culmination of systematic context engineering research:
-此编排顶石项目直接实现并综合了[背景工程调查](https://arxiv.org/pdf/2507.13334)中概述的完整愿景，代表了系统性背景工程研究的顶峰：
+此编排顶石项目直接实现并综合了[背景工程调研](https://arxiv.org/pdf/2507.13334)中概述的完整愿景，代表了系统性背景工程研究的顶峰：
 
 **Foundational Components Integration (§4)**:
 **基础组件集成 (§4)**：
@@ -1623,7 +1623,7 @@ This orchestration capstone directly implements and synthesizes the complete vis
 ### Novel Contributions Beyond Current Research （超越当前研究的新颖贡献）
 
 **Orchestrated Emergence Architecture**: While the survey identifies emergent behaviors as a challenge, our capstone demonstrates systematic approaches to cultivating and harnessing emergence through orchestration design. This represents novel research into predictable emergence within complex AI systems.
-**编排涌现架构**：虽然调查将涌现行为确定为一个挑战，但我们的顶石项目展示了通过编排设计来培养和利用涌现的系统方法。这代表了对复杂人工智能系统中可预测涌现的新颖研究。
+**编排涌现架构**：虽然调研将涌现行为确定为一个挑战，但我们的顶石项目展示了通过编排设计来培养和利用涌现的系统方法。这代表了对复杂人工智能系统中可预测涌现的新颖研究。
 
 **Meta-Recursive Orchestration**: The capstone extends beyond static system integration to create orchestration frameworks that improve their own orchestration capabilities. This meta-recursive approach represents frontier research into self-evolving coordination intelligence.
 **元递归编排**：该顶石项目超越了静态系统集成，创建了能够改进自身编排能力的编排框架。这种元递归方法代表了自我演进协调智能的前沿研究。

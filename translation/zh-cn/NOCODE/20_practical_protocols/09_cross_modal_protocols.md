@@ -461,7 +461,7 @@ Protocol:
 4. **Analysis Focus Clarification**:
    **分析重点澄清**：
    - Define specific areas of investigation
-     定义具体的调查领域
+     定义具体的调研领域
    - Note particular relationships of interest
      注意感兴趣的特定关系
    - Consider both explicit and implicit patterns

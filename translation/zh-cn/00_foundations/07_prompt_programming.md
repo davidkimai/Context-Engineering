@@ -898,7 +898,7 @@ The boundary between traditional programming and prompt programming will likely 
 
 Prompt program and protocol template that empowers the agent with a meta template to design its own cognitive tools, guided by the user—serving as a translation layer, Rosetta Stone, and language engine for agent, protocol, memory communication, and more. 
 
-提示程序和协议模板，使用户能够指导代理设计自己的认知工具，充当代理、协议、内存通信等的翻译层、罗塞塔石碑和语言引擎。
+提示程序和协议模板，使用户能够指导代理设计自己的认知工具，充当代理、协议、记忆通信等的翻译层、罗塞塔石碑和语言引擎。
 
 It leverages the same mechanisms of tokenization—first principles reductionism of operations for intuitive use by advanced transformers. At its core, pareto-lang encodes every operation, protocol, or agent action as:
 

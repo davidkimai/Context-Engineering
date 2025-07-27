@@ -437,7 +437,7 @@ Strategic reasoning patterns address high-level problem-solving approaches and d
 1. **问题解决策略**
    - **系统思维**：理解相互联系和涌现特性
    - **设计思维**：以人为中心的问题解决方法
-   - **科学方法**：假设驱动的调查和验证
+   - **科学方法**：假设驱动的调研和验证
 
 2. **Analytical Frameworks**
    - **SWOT Analysis**: Strengths, Weaknesses, Opportunities, Threats assessment
@@ -446,7 +446,7 @@ Strategic reasoning patterns address high-level problem-solving approaches and d
 
 2. **分析框架**
    - **SWOT 分析**：优势、劣势、机会、威胁评估
-   - **根本原因分析**：系统调查根本原因
+   - **根本原因分析**：系统调研根本原因
    - **决策树**：具有分支逻辑的结构化决策
 
 3. **Creative Reasoning**
@@ -550,7 +550,7 @@ Operational patterns provide the fundamental cognitive building blocks for all h
    - **Pattern Matching**: Comparing current situation to known patterns
    - **Contextualization**: Placing information within appropriate frameworks
 
-3. **内存操作**
+3. **记忆操作**
    - **信息检索**：访问相关的存储知识
    - **模式匹配**：将当前情况与已知模式进行比较
    - **情境化**：将信息置于适当的框架内
@@ -662,7 +662,7 @@ Let's create a comprehensive architecture that enables sophisticated reasoning w
 3. **操作层架构**：
    - 对于我的系统，哪些基本认知操作是必不可少的？
    - 我应该如何构建推理的基本构建块？
-   - 哪些通信和内存操作最有价值？
+   - 哪些通信和记忆操作最有价值？
 
 4. **元认知层架构**：
    - 我如何实现有效的模式选择和编排？
@@ -775,7 +775,7 @@ Heuristic mechanisms use rules of thumb and practical shortcuts for efficient re
 1. **可用性启发式**
    - **近期信息偏差**：更容易回忆起的信息权重更高
    - **显著性效应**：强调生动或令人难忘的例子
-   - **实现**：基于内存可访问性的快速相关性评估
+   - **实现**：基于记忆可访问性的快速相关性评估
 
 2. **Representativeness Heuristic**
    - **Similarity Matching**: Judging likelihood based on similarity to prototypes
@@ -1138,7 +1138,7 @@ Cognitive patterns require sophisticated execution frameworks that balance reaso
    - **Progress Tracking**: Monitoring reasoning advancement and completion
 
 3. **状态管理**
-   - **工作内存**：维护中间推理结果
+   - **工作记忆**：维护中间推理结果
    - **上下文保留**：在推理步骤中保留相关信息
    - **进度跟踪**：监控推理进展和完成情况
 
@@ -1379,7 +1379,7 @@ Systematic analysis of cognitive pattern effectiveness enables targeted optimiza
 
 2. **效率指标**
    - **处理速度**：模式执行所需时间
-   - **资源利用率**：计算和内存要求
+   - **资源利用率**：计算和记忆要求
    - **可扩展性**：在复杂性增加下的性能
 
 3. **Quality Metrics**
@@ -1856,7 +1856,7 @@ Emergent patterns enable novel solution generation and creative insight formatio
 
 4. **自发解决方案生成**
    - **意外发现**：意外找到解决方案
-   - **创造性探索**：开放式地调查解决方案空间
+   - **创造性探索**：开放式地调研解决方案空间
    - **创新促进**：为新颖解决方案创造条件
 
 ### 6.4 Quantum Semantic Reasoning （6.4 量子语义推理）

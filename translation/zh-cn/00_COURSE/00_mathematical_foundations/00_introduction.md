@@ -8,14 +8,14 @@
 
 
 > **Module 00.0** | *Context Engineering Course: From Foundations to Frontier Systems*
-> **模块 00.0** | *语境工程课程：从基础到前沿系统*
+> **模块 00.0** | *上下文工程课程：从基础到前沿系统*
 > 
 > *"Mathematics is the language with which God has written the universe" — Galileo Galilei*
 > *“数学是上帝用来书写宇宙的语言”——伽利略·伽利雷*
 
 ---
 
-## Welcome to the Mathematical Heart of Context Engineering (欢迎来到语境工程的数学核心)
+## Welcome to the Mathematical Heart of Context Engineering (欢迎来到上下文工程的数学核心)
 
 Now let's begin with the most transformative part of your journey: **translating intuitive understanding into mathematical precision that enables systematic optimization and continuous improvement.**
 现在，让我们开始您旅程中最具变革性的部分：**将直觉理解转化为能够实现系统优化和持续改进的数学精度。**
@@ -42,7 +42,7 @@ Result: Optimal routes, continuous adaptation, predictable performance
 ```
 
 **From Context Engineering Intuition to Mathematical Mastery**:
-**从语境工程直觉到数学精通**：
+**从上下文工程直觉到数学精通**：
 ```
 Intuitive Approach: "Include relevant information and organize it clearly"
 Mathematical Framework: "Optimize C = A(c₁, c₂, ..., c₆) subject to constraints"
@@ -162,7 +162,7 @@ Module_Learning(concepts) =
 ### Real Impact: The Performance Revolution (真正的影响：性能革命)
 
 **Quantified Benefits of Mathematical Context Engineering**:
-**量化的数学语境工程的好处**：
+**量化的数学上下文工程的好处**：
 ```
 Traditional Approach vs. Mathematical Approach:
 
@@ -174,7 +174,7 @@ Scale Capability:               Unlimited vs. expert bottleneck
 ```
 
 **Why This Matters**: Mathematical foundations transform context engineering from a specialized craft into a systematic science that can be automated, optimized, and continuously improved.
-**为什么这很重要**：数学基础将语境工程从一门专门的手艺转变为一门可以自动化、优化和持续改进的系统科学。
+**为什么这很重要**：数学基础将上下文工程从一门专门的手艺转变为一门可以自动化、优化和持续改进的系统科学。
 
 ---
 
@@ -458,24 +458,24 @@ Result: Systematic improvement, reproducible optimization, continuous learning
 ### Connection to 1,400+ Research Papers (与 1400 多篇研究论文的联系)
 
 This mathematical foundations sequence directly implements insights from the comprehensive Context Engineering survey, but elevates them to mathematical precision:
-这个数学基础序列直接实现了综合性上下文工程调查的见解，但将其提升到了数学精度：
+这个数学基础序列直接实现了综合性上下文工程调研的见解，但将其提升到了数学精度：
 
 **Survey Insight**: "Context engineering techniques show promise but lack systematic foundations"
 **Our Mathematical Response**: Rigorous mathematical formalization enabling systematic optimization
 
-**调查洞见**：“上下文工程技术显示出前景，但缺乏系统的基础”
+**调研洞见**：“上下文工程技术显示出前景，但缺乏系统的基础”
 **我们的数学回应**：严谨的数学形式化，实现系统优化
 
 **Survey Insight**: "Quality assessment remains largely ad-hoc and subjective"
 **Our Mathematical Response**: Information-theoretic quality metrics with mathematical precision
 
-**调查洞见**：“质量评估在很大程度上仍然是临时的和主观的”
+**调研洞见**：“质量评估在很大程度上仍然是临时的和主观的”
 **我们的数学回应**：具有数学精度的信息论质量指标
 
 **Survey Insight**: "Adaptation and learning approaches are scattered and inconsistent"
 **Our Mathematical Response**: Bayesian frameworks for principled learning under uncertainty
 
-**调查洞见**：“适应和学习方法分散且不一致”
+**调研洞见**：“适应和学习方法分散且不一致”
 **我们的数学回应**：用于在不确定性下进行原则性学习的贝叶斯框架
 
 ### Bridging Theory and Practice (连接理论与实践)

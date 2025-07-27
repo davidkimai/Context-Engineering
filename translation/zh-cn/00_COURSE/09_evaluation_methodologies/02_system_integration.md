@@ -3,7 +3,7 @@
 
 > **模块 09.3** | *上下文工程课程：从基础到前沿系统*
 >
-> 基于 [上下文工程调查](https://arxiv.org/pdf/2507.13334) | 推进软件 3.0 范式
+> 基于 [上下文工程调研](https://arxiv.org/pdf/2507.13334) | 推进软件 3.0 范式
 
 ---
 
@@ -131,7 +131,7 @@ Resilience(S, t) = Performance(S, t) / Performance(S, baseline)
 - 消息格式兼容性：JSON、XML、自定义协议
 - 通信时序：同步与异步要求
 - 错误传播：故障如何通过系统级联
-- 资源共享：内存、计算、存储冲突
+- 资源共享：记忆、计算、存储冲突
 ```
 
 **数据流完整性**：
@@ -352,7 +352,7 @@ Resilience(S, t) = Performance(S, t) / Performance(S, baseline)
         <resource_categories>
           <computational_resources>
             - 跨组件的 CPU 使用分布
-            - 内存分配和垃圾回收模式
+            - 记忆分配和垃圾回收模式
             - 需要加速的组件的 GPU 利用率
             - 处理队列长度和等待时间
           </computational_resources>
@@ -367,7 +367,7 @@ Resilience(S, t) = Performance(S, t) / Performance(S, baseline)
           <system_resources>
             - 文件描述符和句柄使用
             - 线程池利用率和争用
-            - 内存带宽和缓存命中率
+            - 记忆带宽和缓存命中率
             - 进程间通信开销
           </system_resources>
         </resource_categories>
@@ -399,9 +399,9 @@ Resilience(S, t) = Performance(S, t) / Performance(S, baseline)
         </cpu_bound_components>
         
         <memory_bound_components>
-          <characteristics>高内存使用率，频繁垃圾回收</characteristics>
-          <identification_methods>内存分析，分配跟踪</identification_methods>
-          <optimization_strategies>内存优化，流式处理，数据结构改进</optimization_strategies>
+          <characteristics>高记忆使用率，频繁垃圾回收</characteristics>
+          <identification_methods>记忆分析，分配跟踪</identification_methods>
+          <optimization_strategies>记忆优化，流式处理，数据结构改进</optimization_strategies>
         </memory_bound_components>
         
         <algorithm_complexity_bottlenecks>
@@ -1210,7 +1210,7 @@ if __name__ == "__main__":
     ┌─────────────────────────────────────────────────────────────────────────────┐
     │                        集成流分析                                            │
     │                                                                             │
-    │  用户查询 → 检索 → 处理 → 生成 → 内存 → 响应                                │
+    │  用户查询 → 检索 → 处理 → 生成 → 记忆 → 响应                                │
     │      ↓           ↓           ↓           ↓          ↓         ↓            │
     │   输入         上下文        增强        响应       存储       输出         │
     │ 验证         发现        分析        生成       更新       交付         │
@@ -1227,7 +1227,7 @@ if __name__ == "__main__":
     │ 检索          🔴           🟡           🟢           🟡                    │
     │ 处理          🟡           🟢           🟡           🔴                    │
     │ 生成          🔴           🟡           🔴           🟡                    │
-    │ 内存          🟢           🟢           🟢           🟢                    │
+    │ 记忆          🟢           🟢           🟢           🟢                    │
     │                                                                             │
     │ 图例：🔴 高影响  🟡 中等影响  🟢 低影响                                    │
     └─────────────────────────────────────────────────────────────────────────────┘
@@ -1474,7 +1474,7 @@ def assess_multimodal_content_system():
 - 性能优化建议生成
 - 实际条件下的鲁棒性评估
 
-**研究基础**：直接实施上下文工程调查中的系统集成挑战，并扩展到一致性评估、涌现行为检测和自适应优化。
+**研究基础**：直接实施上下文工程调研中的系统集成挑战，并扩展到一致性评估、涌现行为检测和自适应优化。
 
 **主要创新**：
 - **集成一致性指标**：系统级行为一致性的定量评估

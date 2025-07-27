@@ -266,7 +266,7 @@ Context Processing effectiveness is measured across multiple dimensions:
 
 - **吞吐量 (Throughput)**: 单位时间内处理的上下文数量
 - **延迟 (Latency)**: 从输入到优化输出的时间
-- **资源利用率 (Resource Utilization)**: 计算和内存效率
+- **资源利用率 (Resource Utilization)**: 计算和记忆效率
 - **可扩展性 (Scalability)**: 在负载增加下的性能
 
 ### Quality Metrics (质量指标)
@@ -302,7 +302,7 @@ Long context processing introduces significant computational challenges, particu
 长上下文处理带来了巨大的计算挑战，特别是注意力机制的 O(n²) 扩展性问题。目前的解决方法包括：
 - 稀疏注意力模式以减少计算负荷
 - 分层处理以管理复杂性
-- 适用于大规模处理的内存高效实现
+- 适用于大规模处理的记忆高效实现
 
 ### Quality-Efficiency Trade-offs (质量与效率的权衡)
 Balancing processing quality with computational efficiency requires careful optimization:

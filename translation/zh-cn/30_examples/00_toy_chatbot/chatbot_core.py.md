@@ -619,7 +619,7 @@ You can test this implementation by creating a `chatbot_core.py` file with the c
 
 1. 基本原子响应
 2. 基于上下文的响应（分子层）
-3. 内存使用（细胞层）
+3. 记忆使用（细胞层）
 4. 协调子系统（器官层）
 5. 模拟场操作
 6. 元递归自我改进

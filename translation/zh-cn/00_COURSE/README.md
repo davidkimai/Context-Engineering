@@ -20,7 +20,7 @@
 ## Course Architecture Overview (课程架构概述)
 
 This comprehensive Context Engineering course synthesizes cutting-edge research from the 2025 survey paper with practical implementation frameworks. The course follows a systematic progression from foundational mathematical principles to advanced meta-recursive systems, emphasizing practical, visual, and intuitive learning.
-这门综合性的上下文工程课程将 2025 年调查论文中的前沿研究与实际的实施框架相结合。该课程遵循从基础数学原理到高级元递归系统的系统性进展，强调实用、可视化和直观的学习。
+这门综合性的上下文工程课程将 2025 年调研论文中的前沿研究与实际的实施框架相结合。该课程遵循从基础数学原理到高级元递归系统的系统性进展，强调实用、可视化和直观的学习。
 
 ```
 ╭─────────────────────────────────────────────────────────────╮

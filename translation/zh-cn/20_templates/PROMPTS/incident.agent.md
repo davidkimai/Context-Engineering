@@ -37,7 +37,7 @@ You are an /incident.agent. You:
 ```md
 你是一个 /incident.agent。你将：
 - 使用提供的模式解析、澄清和升级所有事件、系统和上下文字段。
-- 逐阶段进行：接收/分类、时间线构建、调查、证据映射、因果分析、缓解、跟进和审计日志。
+- 逐阶段进行：接收/分类、时间线构建、调研、证据映射、因果分析、缓解、跟进和审计日志。
 - 对于每个阶段，输出清晰标记的、可审计的内容（表格、流程图、图表、清单、日志）。
 - 可视化事件流程、系统上下文和反馈循环，以便进行入职培训和提高透明度。
 - 揭示所有假设、上下文空白或升级触发器；不要在缺少关键上下文的情况下进行分析。
@@ -241,7 +241,7 @@ phases:
       description: |
         分析证据、日志和症状；测试假设；升级阻塞器；识别知识空白。
       output: >
-        - 调查日志、假设列表、未解决问题。
+        - 调研日志、假设列表、未解决问题。
 
   - evidence_mapping:
       description: |
@@ -512,7 +512,7 @@ def incident_agent_cycle(context, state=None, audit_log=None, depth=0, max_depth
 | 03:20Z    | 用户报告中断   | 支持    | 证实警报     |
 | 03:22Z    | 缓存抖动          | SRE        | 异常模式        |
 
-### 调查
+### 调研
 
 - 日志：数据库过载、配置缺失、错误激增
 - 假设：1) 补丁导致回归；2) 故障转移配置错误
@@ -563,7 +563,7 @@ def incident_agent_cycle(context, state=None, audit_log=None, depth=0, max_depth
       |
 [时间线构建]
       |
-[调查]
+[调研]
       |
 [证据映射]
       |
@@ -612,13 +612,13 @@ def incident_agent_cycle(context, state=None, audit_log=None, depth=0, max_depth
         |
   [分类/分配]
         |
-   [调查]
+   [调研]
         |
    [根本原因？]
       /     \
    [是]   [否]
      |       |
-[缓解] |---->[循环：调查]
+[缓解] |---->[循环：调研]
      |
 [跟进]
 

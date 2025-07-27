@@ -248,7 +248,7 @@ Based on MEM1 principles, the system maintains efficient agent coordination memo
 │  │ Problems:             │           │ Benefits:             │      │
 │  │ （问题：）           │           │ （优点：）           │      │
 │  │ • Memory bloat        │           │ • Efficient memory    │      │
-│  │   （内存膨胀）        │           │   （高效内存）        │      │
+│  │   （记忆膨胀）        │           │   （高效记忆）        │      │
 │  │ • Slow coordination   │           │ • Fast decision making│      │
 │  │   （协调缓慢）        │           │   （快速决策）        │      │
 │  │ • Information         │           │ • Learned patterns    │      │

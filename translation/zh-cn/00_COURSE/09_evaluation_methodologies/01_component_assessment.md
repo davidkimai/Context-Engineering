@@ -3,7 +3,7 @@
 
 > **模块 09.2** | *上下文工程课程：从基础到前沿系统*
 >
-> 基于 [上下文工程调查](https://arxiv.com/pdf/2507.13334) | 推进软件 3.0 范式
+> 基于 [上下文工程调研](https://arxiv.com/pdf/2507.13334) | 推进软件 3.0 范式
 
 ---
 
@@ -182,7 +182,7 @@ Scalability_Analysis = {
 - 高负载条件下的性能
 - 资源匮乏时的行为
 - 对格式错误或对抗性输入的响应
-- 长期稳定性和内存泄漏检测
+- 长期稳定性和记忆泄漏检测
 
 **故障模式分析**：
 - 最常见的故障场景是什么？
@@ -372,7 +372,7 @@ Scalability_Analysis = {
       <failure_mode_analysis>
         <common_failure_patterns>
           <resource_exhaustion>
-            - 大输入时的内存溢出
+            - 大输入时的记忆溢出
             - 复杂处理时的 CPU 超时
             - 累积数据时的存储溢出
           </resource_exhaustion>
@@ -1503,7 +1503,7 @@ if __name__ == "__main__":
                 {dynamic_test_generation="根据发现的问题创建额外的测试"},
                 {intelligent_boundary_probing="将边界测试集中在出现问题的区域"},
                 {performance_hotspot_investigation="深入研究性能瓶颈"},
-                {failure_pattern_analysis="调查组件故障中的系统模式"}
+                {failure_pattern_analysis="调研组件故障中的系统模式"}
             ],
             continuous_refinement=[
                 {test_effectiveness_monitoring="跟踪哪些测试提供最有价值的见解"},
@@ -2408,7 +2408,7 @@ def analyze_rag_specific_patterns(assessment_report):
     return insights
 ```
 
-### 示例 2：内存组件生命周期评估
+### 示例 2：记忆组件生命周期评估
 
 ```python
 def demonstrate_memory_component_lifecycle():
@@ -2839,7 +2839,7 @@ def analyze_lifecycle_progression(lifecycle_assessments):
 - 生命周期适用的评估策略
 - 组件演进跟踪和预测系统
 
-**研究基础**：直接实施上下文工程调查中的组件级评估挑战，并扩展到自适应评估、生命周期评估和演进跟踪。
+**研究基础**：直接实施上下文工程调研中的组件级评估挑战，并扩展到自适应评估、生命周期评估和演进跟踪。
 
 **主要创新**：
 - **边界智能**：系统地映射组件操作限制

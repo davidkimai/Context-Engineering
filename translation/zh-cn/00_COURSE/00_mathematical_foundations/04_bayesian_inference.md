@@ -1100,10 +1100,10 @@ if __name__ == "__main__":
 
 ## Research Connections and Future Directions (研究联系和未来方向)
 
-### Connection to Context Engineering Survey (与上下文工程调查的联系)
+### Connection to Context Engineering Survey (与上下文工程调研的联系)
 
 This Bayesian inference module directly implements and extends foundational concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-该贝叶斯推断模块直接实现并扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的基础概念：
+该贝叶斯推断模块直接实现并扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的基础概念：
 
 **Adaptive Context Management (§4.3)**:
 - Implements dynamic context adaptation through Bayesian belief updating
@@ -1138,7 +1138,7 @@ This Bayesian inference module directly implements and extends foundational conc
 ### Novel Contributions Beyond Current Research (超越当前研究的新颖贡献)
 
 **Probabilistic Context Engineering Framework**: While the survey covers adaptive techniques, our systematic application of Bayesian inference to context strategy selection represents novel research into principled uncertainty management and learning in context engineering systems.
-**概率上下文工程框架**：虽然调查涵盖了自适应技术，但我们将贝叶斯推断系统地应用于上下文策略选择，代表了对上下文工程系统中原则性不确定性管理和学习的新颖研究。
+**概率上下文工程框架**：虽然调研涵盖了自适应技术，但我们将贝叶斯推断系统地应用于上下文策略选择，代表了对上下文工程系统中原则性不确定性管理和学习的新颖研究。
 
 **Uncertainty-Aware Component Selection**: Our development of Bayesian approaches to component relevance assessment and selection under uncertainty extends beyond current deterministic approaches to provide mathematically grounded confidence estimates and risk management.
 **不确定性感知组件选择**：我们开发的用于在不确定性下进行组件相关性评估和选择的贝叶斯方法，超越了当前的确定性方法，提供了基于数学的置信度估计和风险管理。
@@ -1274,7 +1274,7 @@ This mathematical foundation positions you at the forefront of Context Engineeri
 - **Advance the Field**: Explore frontier areas like quantum context engineering and multi-modal integration
 - **Bridge Theory and Practice**: Translate mathematical insights into practical AI improvements
 
-- **为学术研究做出贡献**：在调查中分析的 1400 多篇论文的基础上进行构建
+- **为学术研究做出贡献**：在调研中分析的 1400 多篇论文的基础上进行构建
 - **开发工业应用**：创建生产规模的上下文工程系统
 - **推动该领域的发展**：探索量子上下文工程和多模态集成等前沿领域
 - **连接理论与实践**：将数学见解转化为实际的人工智能改进

@@ -534,7 +534,7 @@ Implementation patterns provide solutions for algorithm design, data structures,
 
 1. **数据结构模式**
    - **不可变对象**：防止对象创建后修改
-   - **写时复制**：优化共享数据结构的内存使用
+   - **写时复制**：优化共享数据结构的记忆使用
    - **对象池**：重用昂贵对象以提高性能
 
 2. **Algorithm Patterns**
@@ -1229,7 +1229,7 @@ Pattern implementation must include strategies for optimizing performance and mo
 1. **性能优化策略**
    - **性能分析和测量**：系统识别性能瓶颈
    - **算法优化**：在模式约束内改进核心算法
-   - **资源管理**：优化内存、CPU 和 I/O 使用
+   - **资源管理**：优化记忆、CPU 和 I/O 使用
    - **并发增强**：在保持模式完整性的同时利用并行性
 
 2. **Monitoring and Observability**

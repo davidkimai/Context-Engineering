@@ -484,7 +484,7 @@ def ethics_agent_cycle(context, state=None, audit_log=None, depth=0, max_depth=5
 
 ### 利益相关者反馈
 
-- 申请人调查：“标准不明确”；监管机构：“标记了不利影响”；银行：“需要更好的可解释性”
+- 申请人调研：“标准不明确”；监管机构：“标记了不利影响”；银行：“需要更好的可解释性”
 
 ### 建议
 

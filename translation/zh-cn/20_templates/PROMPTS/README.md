@@ -198,7 +198,7 @@ Templates for autonomous agent implementations:
 | [`comms.agent.md`](./comms.agent.md) | Communication management | Audience analysis, messaging strategy, tone calibration |
 | [`comms.agent.md`](./comms.agent.md) | 通信管理 | 受众分析、消息策略、语调校准 |
 | [`diligence.agent.md`](./diligence.agent.md) | Thorough investigation | Comprehensive analysis, source triangulation, assumption testing |
-| [`diligence.agent.md`](./diligence.agent.md) | 彻底调查 | 全面分析、来源三角测量、假设测试 |
+| [`diligence.agent.md`](./diligence.agent.md) | 彻底调研 | 全面分析、来源三角测量、假设测试 |
 | [`ethics.agent.md`](./ethics.agent.md) | Ethical decision making | Value frameworks, stakeholder analysis, principle application |
 | [`ethics.agent.md`](./ethics.agent.md) | 伦理决策 | 价值框架、利益相关者分析、原则应用 |
 | [`triage.agent.md`](./triage.agent.md) | Priority assessment | Impact evaluation, urgency assessment, resource allocation |

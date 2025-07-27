@@ -12,7 +12,7 @@ Our journey through mental models has explored gardens (cultivation), budgets (r
 我们对心智模型的探索之旅已经考察了花园（培育）、预算（资源）和河流（流动）。现在我们进入生物心理社会模型——一个将语境视为一个复杂的、相互依赖的、同时在多个维度上运作的系统的框架。
 
 Originally developed for healthcare, the Biopsychosocial Model recognizes that to truly understand a person's health, we must consider biological factors (physiology), psychological factors (thoughts, emotions), and social factors (relationships, environment) as an integrated whole. Similarly, in context engineering, this model helps us design contexts that address multiple dimensions of understanding and experience.
-生物心理社会模型最初是为医疗保健而开发的，它认识到要真正了解一个人的健康，我们必须将生物因素（生理）、心理因素（思想、情绪）和社会因素（关系、环境）视为一个有机的整体。同样，在语境工程中，这个模型帮助我们设计能够处理多个理解和体验维度的语境。
+生物心理社会模型最初是为医疗保健而开发的，它认识到要真正了解一个人的健康，我们必须将生物因素（生理）、心理因素（思想、情绪）和社会因素（关系、环境）视为一个有机的整体。同样，在上下文工程中，这个模型帮助我们设计能够处理多个理解和体验维度的语境。
 
 The Biopsychosocial Model is particularly valuable because it:
 - **Integrates multiple perspectives** - connecting different types of information
@@ -60,7 +60,7 @@ The Biopsychosocial Model is particularly valuable because it:
 ## 2. Core Dimensions of the Biopsychosocial Model (2. 生物心理社会模型的核心维度)
 
 The Biopsychosocial Model maps three key dimensions to context engineering concepts:
-生物心理社会模型将三个关键维度映射到语境工程概念：
+生物心理社会模型将三个关键维度映射到上下文工程概念：
 
 ### 2.1. Foundational Dimension (Biological) (2.1. 基础维度（生物学）)
 
@@ -2030,7 +2030,7 @@ The Biopsychosocial Model reminds us that truly effective contexts address the w
 生物心理社会模型提醒我们，真正有效的语境要关注整个人——他们对事实准确性的需求、他们的认知和情感体验，以及他们更广泛的社会和文化背景。通过掌握这种多维方法，您将为任何目的创建更强大、更有吸引力和更有效的语境。
 
 **Final Reflective Exercise**: As you conclude this exploration of the Biopsychosocial Model, consider how you'll apply these principles in your context engineering work. What dimensions will you focus on in different contexts? How will you ensure appropriate balance and integration? What challenges do you anticipate, and how will you address them? How might mastering the Biopsychosocial Model transform your approach to communication and understanding?
-**最后的反思练习**：在您结束对生物心理社会模型的探索时，请思考您将如何在您的语境工程工作中应用这些原则。在不同的语境中，您将关注哪些维度？您将如何确保适当的平衡和整合？您预计会遇到哪些挑战，您将如何应对？掌握生物心理社会模型会如何改变您的沟通和理解方式？
+**最后的反思练习**：在您结束对生物心理社会模型的探索时，请思考您将如何在您的上下文工程工作中应用这些原则。在不同的语境中，您将关注哪些维度？您将如何确保适当的平衡和整合？您预计会遇到哪些挑战，您将如何应对？掌握生物心理社会模型会如何改变您的沟通和理解方式？
 
 ---
 

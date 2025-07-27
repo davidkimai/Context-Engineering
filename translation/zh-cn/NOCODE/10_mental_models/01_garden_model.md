@@ -9,7 +9,7 @@
 ## 1. Introduction: Why Think of Context as a Garden? (1. 简介：为什么把语境想象成一个花园？)
 
 In our journey through context engineering, we've explored tokens, protocols, and field theory. Now, we turn to powerful mental models that make these abstract concepts intuitive and practical. The Garden Model is the first and perhaps most comprehensive of these frameworks.
-在我们的语境工程之旅中，我们已经探讨了令牌、协议和场论。现在，我们转向强大的心智模型，这些模型使这些抽象概念变得直观和实用。花园模型是这些框架中第一个，也可能是最全面的一个。
+在我们的上下文工程之旅中，我们已经探讨了令牌、协议和场论。现在，我们转向强大的心智模型，这些模型使这些抽象概念变得直观和实用。花园模型是这些框架中第一个，也可能是最全面的一个。
 
 Why a garden? Because context, like a garden, is:
 - **Living and evolving** - not static or fixed
@@ -57,7 +57,7 @@ The Garden Model provides a rich, intuitive framework for thinking about how to 
 ## 2. Garden Components and Context Parallels (2. 花园组件和语境的相似之处)
 
 The Garden Model maps garden elements directly to context engineering concepts:
-花园模型将花园元素直接映射到语境工程概念：
+花园模型将花园元素直接映射到上下文工程概念：
 
 ### 2.1. Soil (Foundation) (2.1. 土壤（基础）)
 
@@ -345,7 +345,7 @@ Adding nutrients enhances garden vitality:
 ```
 
 **Socratic Question**: Which of these garden cultivation practices do you currently employ most effectively in your context engineering? Which might benefit from more attention? How would focusing on a neglected practice change your results?
-**苏格拉底式提问**：在您的语境工程中，您目前最有效地运用了哪些花园培育实践？哪些可能需要更多关注？关注一个被忽视的实践会如何改变您的结果？
+**苏格拉底式提问**：在您的上下文工程中，您目前最有效地运用了哪些花园培育实践？哪些可能需要更多关注？关注一个被忽视的实践会如何改变您的结果？
 
 ## 4. Garden Varieties (Context Types) (4. 花园品种（语境类型）)
 
@@ -752,9 +752,9 @@ When harmful elements threaten garden health:
 ```
 
 **Reflective Exercise**: What garden problems have you encountered in your context engineering work? How did you address them? Which preventative measures might help you avoid similar issues in the future?
-**反思练习**：您在语境工程工作中遇到过哪些花园问题？您是如何解决它们的？哪些预防措施可能有助于您在未来避免类似问题？
+**反思练习**：您在上下文工程工作中遇到过哪些花园问题？您是如何解决它们的？哪些预防措施可能有助于您在未来避免类似问题？
 
-## 7. Garden Tools (Context Engineering Techniques) (7. 花园工具（语境工程技术）)
+## 7. Garden Tools (Context Engineering Techniques) (7. 花园工具（上下文工程技术）)
 
 Every gardener needs the right tools. Here are key techniques mapped to garden implements:
 每个园丁都需要合适的工具。以下是映射到园艺工具的关键技术：
@@ -880,7 +880,7 @@ For evaluation and planning:
 ```
 
 **Socratic Question**: Which garden tools do you use most comfortably in your context engineering? Which might you benefit from incorporating more intentionally? How could developing skill with an underutilized tool expand your capabilities?
-**苏格拉底式提问**：在您的语境工程中，您最得心应手地使用哪些花园工具？哪些工具您可能会从更有意识地整合中受益？发展一项未充分利用的工具的技能如何扩展您的能力？
+**苏格拉底式提问**：在您的上下文工程中，您最得心应手地使用哪些花园工具？哪些工具您可能会从更有意识地整合中受益？发展一项未充分利用的工具的技能如何扩展您的能力？
 
 ## 8. The Gardener's Mindset (8. 园丁的心态)
 
@@ -996,7 +996,7 @@ Gardeners serve the garden, not just themselves:
 ```
 
 **Reflective Exercise**: Which gardener's mindset quality comes most naturally to you? Which requires more intentional development? How might strengthening a challenging mindset quality change your context engineering approach?
-**反思练习**：哪种园丁的心态品质对您来说最自然？哪种需要更有意识地培养？加强一种具有挑战性的心态品质会如何改变您的语境工程方法？
+**反思练习**：哪种园丁的心态品质对您来说最自然？哪种需要更有意识地培养？加强一种具有挑战性的心态品质会如何改变您的上下文工程方法？
 
 ## 9. Garden Design Patterns (9. 花园设计模式)
 
@@ -1117,7 +1117,7 @@ For shared creation and co-development contexts:
 ## 10. Conclusion: Becoming a Master Gardener (10. 结论：成为一名园艺大师)
 
 Context engineering through the Garden Model is not just a technique but an ongoing practice and mindset. As you develop your gardening skills, you'll move from simply following instructions to developing an intuitive sense for what works in different situations.
-通过花园模型进行语境工程不仅仅是一种技术，更是一种持续的实践和心态。随着您园艺技能的提高，您将从简单地遵循说明转变为对在不同情况下什么有效形成直观的感觉。
+通过花园模型进行上下文工程不仅仅是一种技术，更是一种持续的实践和心态。随着您园艺技能的提高，您将从简单地遵循说明转变为对在不同情况下什么有效形成直观的感觉。
 
 The journey to mastery involves:
 掌握之旅包括：
@@ -1135,7 +1135,7 @@ The journey to mastery involves:
 5. **社区参与** - 向其他园丁学习并为他们做出贡献
 
 As you continue your context engineering journey, let the Garden Model serve as both a practical framework and an inspirational metaphor. Your gardens will become more beautiful, productive, and sustainable with each cycle of growth.
-在您继续您的语境工程之旅时，让花园模型既作为一个实用的框架，又作为一个鼓舞人心的比喻。您的花园将在每个生长周期中变得更加美丽、多产和可持续。
+在您继续您的上下文工程之旅时，让花园模型既作为一个实用的框架，又作为一个鼓舞人心的比喻。您的花园将在每个生长周期中变得更加美丽、多产和可持续。
 
 **Final Reflective Exercise**: Envision the next context "garden" you want to create. What type will it be? What will you plant? How will you tend it? What do you hope to harvest? What lesson from this guide will you apply most deliberately?
 **最后的反思练习**：设想您想要创建的下一个语境“花园”。它会是什么类型？您会种什么？您将如何照料它？您希望收获什么？您将最刻意地应用本指南中的哪一课？

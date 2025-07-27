@@ -940,11 +940,11 @@ Meta-recursive improvement is what allows systems to evolve beyond their initial
 
 1. **Self-Observation**: The system monitors its own performance and the state of its context field. It looks for signs of suboptimal responses, inefficient memory usage, or unstable field dynamics.
 
-1. **自我观察**：系统监控自身的性能及其上下文场的状态。它寻找次优响应、低效内存使用或不稳定场动力学的迹象。
+1. **自我观察**：系统监控自身的性能及其上下文场的状态。它寻找次优响应、低效记忆使用或不稳定场动力学的迹象。
 
 2. **Analysis**: Based on observations, the system identifies specific areas that could be improved. This might include response quality, memory management, conversation flow, or attractor dynamics.
 
-2. **分析**：根据观察结果，系统识别出可以改进的具体领域。这可能包括响应质量、内存管理、对话流程或吸引子动力学。
+2. **分析**：根据观察结果，系统识别出可以改进的具体领域。这可能包括响应质量、记忆管理、对话流程或吸引子动力学。
 
 3. **Strategy Selection**: The system selects the most promising improvement strategy from its repertoire, choosing based on the specific issues identified.
 

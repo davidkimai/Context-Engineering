@@ -707,7 +707,7 @@ def implement_meta_recursion():
 
 **For the Research Scientist**: The framework represents a serious attempt to implement cutting-edge research findings in practical systems. It deserves empirical investigation and iterative refinement.
 
-**对于研究科学家**：该框架代表了在实际系统中实现尖端研究成果的认真尝试。它值得进行经验调查和迭代改进。
+**对于研究科学家**：该框架代表了在实际系统中实现尖端研究成果的认真尝试。它值得进行经验调研和迭代改进。
 
 
 ## Appendix: Research Citations and Evidence （附录：研究引用与证据）
@@ -756,4 +756,4 @@ def implement_meta_recursion():
 
 *In the spirit of scientific inquiry, we invite skeptical investigation, empirical testing, and iterative refinement of these ideas. Science advances through rigorous skepticism applied to bold hypotheses.*
 
-*本着科学探究的精神，我们邀请对这些思想进行怀疑性调查、经验测试和迭代改进。科学通过对大胆假设应用严谨的怀疑而进步。*
+*本着科学探究的精神，我们邀请对这些思想进行怀疑性调研、经验测试和迭代改进。科学通过对大胆假设应用严谨的怀疑而进步。*

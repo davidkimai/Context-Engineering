@@ -1,4 +1,4 @@
-# Memory Systems for Context Engineering （面向上下文工程的内存系统）
+# Memory Systems for Context Engineering （面向上下文工程的记忆系统）
 
 > "Memory is not like a container that gradually fills up; it is more like a tree that grows hooks onto which the memories are hung." — Peter Russell
 
@@ -6,7 +6,7 @@
 
 Welcome to the Memory Systems module, where we explore how to create sophisticated memory architectures that persist, evolve, and adapt across multiple interactions. This module moves beyond simple conversation history to implement brain-inspired memory systems that truly learn and grow.
 
-欢迎来到内存系统模块，在这里我们将探讨如何创建能够在多次交互中持久、演化和适应的复杂内存架构。本模块超越了简单的对话历史，旨在实现受大脑启发的、能够真正学习和成长的内存系统。
+欢迎来到记忆系统模块，在这里我们将探讨如何创建能够在多次交互中持久、演化和适应的复杂记忆架构。本模块超越了简单的对话历史，旨在实现受大脑启发的、能够真正学习和成长的记忆系统。
 
 ## Learning Objectives （学习目标）
 
@@ -20,10 +20,10 @@ By the end of this module, you will understand:
 4. **Memory Management**: Strategies for handling token limits and memory optimization
 5. **Persistent Agents**: Creating agents that maintain coherent memory across sessions
 
-1. **内存架构**：人工智能系统中持久性内存的不同方法
+1. **记忆架构**：人工智能系统中持久性记忆的不同方法
 2. **吸引子动力学**：稳定的记忆模式如何在神经场中形成和演化
 3. **重构记忆**：受大脑启发的、组合而非检索的记忆系统
-4. **内存管理**：处理令牌限制和内存优化的策略
+4. **记忆管理**：处理令牌限制和记忆优化的策略
 5. **持久性代理**：创建能够在会话间保持连贯记忆的代理
 
 ## Module Structure （模块结构）
@@ -31,11 +31,11 @@ By the end of this module, you will understand:
 ### [00_memory_architectures.md](00_memory_architectures.md)
 **Foundation: Understanding Memory Systems**
 
-**基础：理解内存系统**
+**基础：理解记忆系统**
 
 Explores different memory architectures for AI systems, from simple conversation history to sophisticated persistent memory systems. Covers the fundamental challenges of memory persistence, token budget management, and the evolution from storage-retrieval to dynamic memory systems.
 
-探讨人工智能系统的不同内存架构，从简单的对话历史到复杂的持久性内存系统。涵盖内存持久性、令牌预算管理以及从存储-检索到动态内存系统的演变等基本挑战。
+探讨人工智能系统的不同记忆架构，从简单的对话历史到复杂的持久性记忆系统。涵盖记忆持久性、令牌预算管理以及从存储-检索到动态记忆系统的演变等基本挑战。
 
 **Key Concepts:**
 - Memory system architectures (storage-based vs. field-based)
@@ -44,19 +44,19 @@ Explores different memory architectures for AI systems, from simple conversation
 - Persistence strategies and trade-offs
 
 **关键概念：**
-- 内存系统架构（基于存储与基于场）
+- 记忆系统架构（基于存储与基于场）
 - 令牌预算挑战与解决方案
-- 内存层次结构与组织
+- 记忆层次结构与组织
 - 持久性策略与权衡
 
 ### [01_persistent_memory.md](01_.md) 
 **Implementation: Building Persistent Memory Systems**
 
-**实现：构建持久性内存系统**
+**实现：构建持久性记忆系统**
 
 Practical implementation of persistent memory systems that maintain state across multiple sessions. Covers external storage integration, memory consolidation strategies, and the engineering challenges of long-term memory persistence.
 
-跨多个会话维护状态的持久性内存系统的实际实现。涵盖外部存储集成、内存整合策略以及长期内存持久性的工程挑战。
+跨多个会话维护状态的持久性记忆系统的实际实现。涵盖外部存储集成、记忆整合策略以及长期记忆持久性的工程挑战。
 
 **Key Concepts:**
 - External storage integration patterns
@@ -66,18 +66,18 @@ Practical implementation of persistent memory systems that maintain state across
 
 **关键概念：**
 - 外部存储集成模式
-- 内存整合与摘要
+- 记忆整合与摘要
 - 跨会话状态管理
-- 内存检索与索引策略
+- 记忆检索与索引策略
 
 ### [02_memory_enhanced_agents.md](02_memory_enhanced_agents.md)
 **Application: Agents with Sophisticated Memory**
 
-**应用：具有复杂内存的代理**
+**应用：具有复杂记忆的代理**
 
 Advanced agent architectures that leverage sophisticated memory systems for enhanced performance. Explores how memory-enhanced agents can provide more personalized, context-aware, and adaptive interactions.
 
-利用复杂内存系统以增强性能的高级代理架构。探讨内存增强代理如何提供更个性化、上下文感知和自适应的交互。
+利用复杂记忆系统以增强性能的高级代理架构。探讨记忆增强代理如何提供更个性化、上下文感知和自适应的交互。
 
 **Key Concepts:**
 - Memory-enhanced agent architectures
@@ -86,19 +86,19 @@ Advanced agent architectures that leverage sophisticated memory systems for enha
 - Multi-modal memory integration
 
 **关键概念：**
-- 内存增强代理架构
-- 通过内存实现个性化
-- 基于内存模式的自适应行为
-- 多模态内存集成
+- 记忆增强代理架构
+- 通过记忆实现个性化
+- 基于记忆模式的自适应行为
+- 多模态记忆集成
 
 ### [03_evaluation_challenges.md](03_evaluation_challenges.md)
 **Assessment: Measuring Memory System Performance**
 
-**评估：衡量内存系统性能**
+**评估：衡量记忆系统性能**
 
 Comprehensive evaluation frameworks for memory systems, covering both quantitative metrics and qualitative assessments. Addresses the unique challenges of evaluating systems that evolve and adapt over time.
 
-内存系统的综合评估框架，涵盖定量指标和定性评估。解决评估随时间演化和适应的系统所面临的独特挑战。
+记忆系统的综合评估框架，涵盖定量指标和定性评估。解决评估随时间演化和适应的系统所面临的独特挑战。
 
 **Key Concepts:**
 - Memory system evaluation metrics
@@ -107,10 +107,10 @@ Comprehensive evaluation frameworks for memory systems, covering both quantitati
 - Memory quality and coherence evaluation
 
 **关键概念：**
-- 内存系统评估指标
+- 记忆系统评估指标
 - 纵向评估挑战
 - 用户体验测量
-- 内存质量与一致性评估
+- 记忆质量与一致性评估
 
 ### [04_reconstructive_memory.md](04_reconstructive_memory.md) ⭐ **NEW**
 **Innovation: Brain-Inspired Memory Reconstruction**
@@ -119,7 +119,7 @@ Comprehensive evaluation frameworks for memory systems, covering both quantitati
 
 Revolutionary approach to memory systems inspired by how human brains actually work. Instead of storing and retrieving complete memories, this system stores fragments and dynamically reconstructs memories using AI reasoning, current context, and field dynamics.
 
-受人脑实际工作方式启发的革命性内存系统方法。该系统不存储和检索完整的记忆，而是存储碎片，并利用人工智能推理、当前上下文和场动力学动态重构记忆。
+受人脑实际工作方式启发的革命性记忆系统方法。该系统不存储和检索完整的记忆，而是存储碎片，并利用人工智能推理、当前上下文和场动力学动态重构记忆。
 
 **Key Concepts:**
 - Fragment-based memory storage
@@ -130,7 +130,7 @@ Revolutionary approach to memory systems inspired by how human brains actually w
 - Emergent memory properties and natural forgetting
 
 **关键概念：**
-- 基于碎片的内存存储
+- 基于碎片的记忆存储
 - 上下文驱动的记忆重构
 - 人工智能驱动的空白填充和一致性创建
 - 通过重构反馈实现自适应记忆演化
@@ -149,17 +149,17 @@ Traditional AI memory systems hit fundamental limitations—token budgets, rigid
 ### For Beginners （初学者）
 Start with **Memory Architectures** to understand the fundamental concepts, then progress to **Persistent Memory** for practical implementation patterns. The **Reconstructive Memory** section provides cutting-edge insights but may require understanding of neural fields.
 
-从**内存架构**开始，理解基本概念，然后学习**持久性内存**以了解实际的实现模式。**重构记忆**部分提供了前沿的见解，但可能需要对神经场有所了解。
+从**记忆架构**开始，理解基本概念，然后学习**持久性记忆**以了解实际的实现模式。**重构记忆**部分提供了前沿的见解，但可能需要对神经场有所了解。
 
 ### For Intermediate Practitioners （中级从业者）
 Begin with **Reconstructive Memory** to understand the paradigm shift, then explore **Memory Enhanced Agents** for application patterns. Use **Evaluation Challenges** to assess your implementations.
 
-从**重构记忆**开始，理解范式转变，然后探索**内存增强代理**的应用模式。使用**评估挑战**来评估您的实现。
+从**重构记忆**开始，理解范式转变，然后探索**记忆增强代理**的应用模式。使用**评估挑战**来评估您的实现。
 
 ### For Advanced Researchers （高级研究人员）
 Focus on **Reconstructive Memory** and **Memory Enhanced Agents** for novel research directions. The reconstructive approach opens entirely new research questions around adaptive memory systems and emergent memory properties.
 
-专注于**重构记忆**和**内存增强代理**，以寻找新颖的研究方向。重构方法为自适应记忆系统和涌现记忆属性开辟了全新的研究问题。
+专注于**重构记忆**和**记忆增强代理**，以寻找新颖的研究方向。重构方法为自适应记忆系统和涌现记忆属性开辟了全新的研究问题。
 
 ## Key Insights （核心见解）
 
@@ -214,7 +214,7 @@ This module lays groundwork for:
 4. **Evaluate and Improve**: Use evaluation frameworks to assess and improve your systems
 5. **Apply to Real Problems**: Integrate memory systems into practical applications
 
-1. **理解基础知识**：从内存架构开始，建立基础理解
+1. **理解基础知识**：从记忆架构开始，建立基础理解
 2. **探索重构记忆**：深入了解彻底改变一切的革命性新方法
 3. **实现和实验**：尝试构建简单的重构记忆系统
 4. **评估和改进**：使用评估框架来评估和改进您的系统
@@ -291,7 +291,7 @@ Your understanding of memory systems should enable you to:
 - [ ] Evaluate memory system performance comprehensively
 - [ ] Integrate memory systems with existing AI architectures
 
-- [ ] 为特定应用设计合适的内存架构
+- [ ] 为特定应用设计合适的记忆架构
 - [ ] 使用碎片存储实现重构记忆系统
 - [ ] 创建上下文感知的记忆重构过程
 - [ ] 构建通过使用而改进的自适应记忆系统
@@ -332,8 +332,8 @@ After completing this module:
 
 Memory systems represent one of the most exciting frontiers in AI development. The shift from storage-based to reconstruction-based memory opens up entirely new possibilities for creating AI systems that truly learn, adapt, and evolve. This module provides both the theoretical foundation and practical tools needed to build the next generation of memory-enhanced AI systems.
 
-记忆系统是人工智能发展中最令人兴奋的前沿领域之一。从基于存储到基于重构的记忆的转变为创建真正能够学习、适应和演化的人工智能系统开辟了全新的可能性。本模块提供了构建下一代内存增强型人工智能系统所需的理论基础和实用工具。
+记忆系统是人工智能发展中最令人兴奋的前沿领域之一。从基于存储到基于重构的记忆的转变为创建真正能够学习、适应和演化的人工智能系统开辟了全新的可能性。本模块提供了构建下一代记忆增强型人工智能系统所需的理论基础和实用工具。
 
 **Ready to revolutionize how AI systems remember and learn?** Start with [Memory Architectures](00_memory_architectures.md) to build your foundation, then dive into [Reconstructive Memory](03_reconstructive_memory.md) to explore the cutting edge of memory system design.
 
-**准备好彻底改变人工智能系统的记忆和学习方式了吗？** 从[内存架构](00_memory_architectures.md)开始，奠定您的基础，然后深入研究[重构记忆](03_reconstructive_memory.md)，探索记忆系统设计的前沿。
+**准备好彻底改变人工智能系统的记忆和学习方式了吗？** 从[记忆架构](00_memory_architectures.md)开始，奠定您的基础，然后深入研究[重构记忆](03_reconstructive_memory.md)，探索记忆系统设计的前沿。

@@ -691,7 +691,7 @@ Common variants:
 ### 8.2. Forget Operations (8.2. 忘记操作)
 
 Forget operations remove information from active memory:
-忘记操作从活动内存中删除信息：
+忘记操作从活动记忆中删除信息：
 
 ```
 /forget.outdated{
@@ -1182,7 +1182,7 @@ When choosing a core operation, consider these questions:
    - 整个文档 → `/document`
    - 对话历史 → `/history`
    - 场动态 → `/field`, `/attractor`, `/boundary`
-   - 内存管理 → `/remember`, `/retrieve`
+   - 记忆管理 → `/remember`, `/retrieve`
 
 3. **Complexity**: How complex is the operation?
    - Simple, single action → Basic operation

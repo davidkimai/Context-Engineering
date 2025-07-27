@@ -291,8 +291,8 @@ Efficient schema design ensures that data processing remains performant as syste
    - **Reference Management**: Efficient handling of shared and repeated elements
    - **Streaming Support**: Processing large data structures incrementally
 
-2. **内存效率**
-   - **紧凑表示**：最小化模式结构的内存占用
+2. **记忆效率**
+   - **紧凑表示**：最小化模式结构的记忆占用
    - **引用管理**：高效处理共享和重复元素
    - **流式支持**：增量处理大型数据结构
 
@@ -1250,7 +1250,7 @@ Schema integration must maintain system performance while adding validation and 
    - **Efficient Representation**: Optimizing schema storage and access
    - **Garbage Collection**: Managing schema lifecycle within context field
 
-2. **内存管理集成**
+2. **记忆管理集成**
    - **模式共享**：在上下文处理中重用模式对象
    - **高效表示**：优化模式存储和访问
    - **垃圾回收**：管理上下文场中的模式生命周期
@@ -1540,7 +1540,7 @@ Continuous optimization improves schema performance and effectiveness over time.
 
 1. **性能优化**
    - **验证效率**：简化验证规则以提高性能
-   - **内存使用优化**：减少模式处理内存占用
+   - **记忆使用优化**：减少模式处理记忆占用
    - **处理速度增强**：优化验证和转换算法
 
 2. **Usability Optimization**

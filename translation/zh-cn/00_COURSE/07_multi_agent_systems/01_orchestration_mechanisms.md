@@ -1204,7 +1204,7 @@ The emergence detection is particularly important because it identifies when the
 
 ## Advanced Research Connections （高级研究联系）
 
-### Connection to Context Engineering Survey （与上下文工程调查的联系）
+### Connection to Context Engineering Survey （与上下文工程调研的联系）
 
 This orchestration module directly implements several key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
 
@@ -1244,7 +1244,7 @@ This orchestration module directly implements several key concepts from the [Con
 
 **Field-Based Orchestration**: While the survey covers traditional coordination approaches, our field-based orchestration represents a novel contribution where coordination emerges from continuous semantic spaces rather than discrete message passing.
 
-**基于场的编排**：虽然该调查涵盖了传统的协调方法，但我们基于场的编排代表了一项新颖的贡献，其中协调从连续的语义空间而不是离散的消息传递中涌现出来。
+**基于场的编排**：虽然该调研涵盖了传统的协调方法，但我们基于场的编排代表了一项新颖的贡献，其中协调从连续的语义空间而不是离散的消息传递中涌现出来。
 
 **Multi-Modal Coordination**: The integration of text, visual, semantic, and field modalities for agent coordination extends beyond current research into truly multi-modal orchestration systems.
 
@@ -1410,7 +1410,7 @@ class FieldCoordinator:
 
 **Research Grounding**: Direct implementation of multi-agent coordination concepts from the comprehensive survey, with novel extensions into field-based and multi-modal orchestration.
 
-**研究基础**：直接实现综合调查中的多智能体协调概念，并将其新颖地扩展到基于场和多模态的编排中。
+**研究基础**：直接实现综合调研中的多智能体协调概念，并将其新颖地扩展到基于场和多模态的编排中。
 
 **Next Module**: [02_coordination_strategies.md](02_coordination_strategies.md) - Deep dive into specific coordination algorithms and their optimization for different task types and agent configurations.
 

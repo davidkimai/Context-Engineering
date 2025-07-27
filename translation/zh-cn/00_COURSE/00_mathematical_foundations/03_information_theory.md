@@ -1089,10 +1089,10 @@ Protocols provide self-improving information systems that learn optimal informat
 
 ## Research Connections and Future Directions (研究联系和未来方向)
 
-### Connection to Context Engineering Survey (与上下文工程调查的联系)
+### Connection to Context Engineering Survey (与上下文工程调研的联系)
 
 This information theory module directly implements and extends foundational concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
-该信息论模块直接实现并扩展了[上下文工程调查](https://arxiv.org/pdf/2507.13334)中的基础概念:
+该信息论模块直接实现并扩展了[上下文工程调研](https://arxiv.org/pdf/2507.13334)中的基础概念:
 
 **Information-Theoretic Context Optimization (§4.1 & §4.2)**:
 - Implements systematic approaches to context generation through mutual information maximization
@@ -1127,7 +1127,7 @@ This information theory module directly implements and extends foundational conc
 ### Novel Contributions Beyond Current Research (超越当前研究的新颖贡献)
 
 **Mathematical Information Framework for Context Engineering**: While the survey covers context engineering techniques, our systematic application of Shannon information theory (entropy, mutual information, conditional entropy) to context component selection represents novel research into rigorous information-theoretic foundations for context quality measurement.
-**上下文工程的数学信息框架**: 虽然调查涵盖了上下文工程技术，但我们将香农信息论（熵、互信息、条件熵）系统地应用于上下文组件选择，代表了对上下文质量测量的严格信息论基础的新颖研究。
+**上下文工程的数学信息框架**: 虽然调研涵盖了上下文工程技术，但我们将香农信息论（熵、互信息、条件熵）系统地应用于上下文组件选择，代表了对上下文质量测量的严格信息论基础的新颖研究。
 
 **Redundancy-Aware Optimization**: Our integration of redundancy detection and elimination through mutual information calculations extends beyond current approaches by providing mathematical frameworks for identifying and removing duplicate information while preserving unique value.
 **冗余感知优化**: 我们通过互信息计算整合冗余检测和消除，超越了当前的方法，为识别和删除重复信息同时保留独特价值提供了数学框架。

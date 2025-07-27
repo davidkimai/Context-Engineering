@@ -7,7 +7,7 @@
 
 > **模块 08.0** | *上下文工程课程：从基础到前沿系统*
 > 
-> 基于 [上下文工程调查](https://arxiv.org/pdf/2507.13334) | 推进软件 3.0 范式
+> 基于 [上下文工程调研](https://arxiv.org/pdf/2507.13334) | 推进软件 3.0 范式
 
 ---
 > "The field is the sole governing agency of the particle." — Albert Einstein
@@ -1710,11 +1710,11 @@ if __name__ == "__main__":
 
 ## Research Connections and Future Directions （研究联系与未来方向）
 
-### Connection to Context Engineering Survey （与上下文工程调查的联系）
+### Connection to Context Engineering Survey （与上下文工程调研的联系）
 
 This neural field foundations module directly implements and extends key concepts from the [Context Engineering Survey](https://arxiv.org/pdf/2507.13334):
 
-此神经场基础模块直接实现并扩展了 [上下文工程调查](https://arxiv.org/pdf/2507.13334) 中的关键概念：
+此神经场基础模块直接实现并扩展了 [上下文工程调研](https://arxiv.org/pdf/2507.13334) 中的关键概念：
 
 **Context Processing (§4.2)**:
 - Transforms discrete context processing into continuous field dynamics
@@ -1731,10 +1731,10 @@ This neural field foundations module directly implements and extends key concept
 - Enables hierarchical memory through multi-scale field organization
 - Supports memory-enhanced agents through field-based context maintenance
 
-**内存系统（§5.2）**：
-- 通过稳定吸引子状态为持久内存提供基础
-- 通过多尺度场组织实现层次内存
-- 通过基于场的上下文维护支持内存增强代理
+**记忆系统（§5.2）**：
+- 通过稳定吸引子状态为持久记忆提供基础
+- 通过多尺度场组织实现层次记忆
+- 通过基于场的上下文维护支持记忆增强代理
 
 **System Integration Challenges**:
 - Addresses O(n²) scaling through continuous field representations

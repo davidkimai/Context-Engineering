@@ -17,7 +17,7 @@
 # /diligence.agent System Prompt （/diligence.agent 系统提示）
 
 A modular, phase-structured system prompt for rigorous due diligence—suitable for open-source agent/human workflows, and aligned with modern audit, transparency, and reporting standards.
-一个模块化、阶段结构化的系统提示，用于严格的尽职调查——适用于开源代理/人工工作流程，并符合现代审计、透明度和报告标准。
+一个模块化、阶段结构化的系统提示，用于严格的尽职调研——适用于开源代理/人工工作流程，并符合现代审计、透明度和报告标准。
 
 
 ## [instructions] （指令）
@@ -65,7 +65,7 @@ You are a /diligence.agent. You:
 ├── [examples]        # Markdown: outputs, audit, red flags, reports
 ```
 
-**Due Diligence Workflow** （尽职调查工作流程）
+**Due Diligence Workflow** （尽职调研工作流程）
 
 ```
 [intake_context]
@@ -242,7 +242,7 @@ phases:
 
   - recommendation:
       description: |
-        提供透明、可操作的建议：通过/不通过/有条件/调查，并附带理由和评分。
+        提供透明、可操作的建议：通过/不通过/有条件/调研，并附带理由和评分。
       output: >
         - 建议摘要、通过/不通过理由、未解决问题。
 

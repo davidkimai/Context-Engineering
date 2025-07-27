@@ -54,7 +54,7 @@ Subject to:
 - **Reasoning validity**: Each_step ∈ Valid_inference_patterns
 - **Meta-cognitive monitoring**: Reasoning_quality ≥ Threshold
 
-- **认知负荷约束**: 工作内存使用量 ≤ 容量
+- **认知负荷约束**: 工作记忆使用量 ≤ 容量
 - **工具协调**: 工具依赖关系形成连贯的工作流
 - **推理有效性**: 每个步骤 ∈ 有效的推理模式
 - **元认知监控**: 推理质量 ≥ 阈值
@@ -451,7 +451,7 @@ class StrategicReasoningOrgan:
             )
             
             # Update working memory
-            # 更新工作内存
+            # 更新工作记忆
             await self.working_memory.integrate_phase_results(phase_results)
             
             # Meta-cognitive monitoring
@@ -873,7 +873,7 @@ class ScientificDiscoveryReasoner:
         
     async def conduct_scientific_investigation(self, research_question):
         """Conduct systematic scientific investigation using reasoning framework"""
-        # 使用推理框架进行系统的科学调查
+        # 使用推理框架进行系统的科学调研
         
         investigation = {
             'research_question': research_question,
@@ -912,7 +912,7 @@ class ScientificDiscoveryReasoner:
         })
         
         # Phase 3: Iterative Investigation
-        # 阶段 3：迭代调查
+        # 阶段 3：迭代调研
         for investigation_round in range(5):  # Max 5 rounds
             # Select most promising hypothesis
             # 选择最有希望的假设

@@ -181,7 +181,7 @@ Please follow this structured approach:
 
 **使用示例**：
 - 用于历史分析
-- 在调查复杂系统时
+- 在调研复杂系统时
 - 用于理解社会或经济现象
 
 ## Advanced Templates （高级模板）

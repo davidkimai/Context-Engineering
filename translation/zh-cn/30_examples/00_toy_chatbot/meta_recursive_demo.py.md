@@ -732,7 +732,7 @@ This chart shows which improvement strategies the system chose most frequently:
 - **Attractor Tuning**: Optimizing field attractors for better coherence
 
 - **响应质量增强**：提高响应的质量和深度
-- **内存优化**：增强内存保留和检索
+- **记忆优化**：增强记忆保留和检索
 - **对话流程优化**：改善对话的自然流畅性
 - **吸引子调优**：优化场吸引子以获得更好的相干性
 
@@ -847,13 +847,13 @@ The system has its first conversations and collects data about its performance. 
 
 With improved responses, the system now has more coherent conversations. It might notice that it's not efficiently retaining important information, so it selects "memory_optimization" to enhance its memory capabilities.
 
-随着响应的改进，系统现在可以进行更连贯的对话。它可能会注意到它没有有效地保留重要信息，因此它选择"memory_optimization"来增强其内存能力。
+随着响应的改进，系统现在可以进行更连贯的对话。它可能会注意到它没有有效地保留重要信息，因此它选择"memory_optimization"来增强其记忆能力。
 
 ### Cycle 3: Developing Sophistication （周期 3：发展复杂性）
 
 The system's improved memory allows it to maintain more context. Now it might notice that conversations don't flow naturally, so it selects "conversation_flow_refinement" to create more organic interactions.
 
-系统改进的内存使其能够保持更多上下文。现在它可能会注意到对话不自然，因此它选择"conversation_flow_refinement"来创建更自然的交互。
+系统改进的记忆使其能够保持更多上下文。现在它可能会注意到对话不自然，因此它选择"conversation_flow_refinement"来创建更自然的交互。
 
 ### Cycle 4: Field Optimization （周期 4：场优化）
 
@@ -901,7 +901,7 @@ The system's improved memory allows it to maintain more context. Now it might no
 ```
 With better responses, memory, and flow, the system might now focus on optimizing its field operations by selecting "attractor_tuning" to enhance the stability and coherence of its context field.
 
-随着更好的响应、内存和流程，系统现在可能会通过选择"attractor_tuning"来优化其场操作，以增强其上下文场的稳定性和相干性。
+随着更好的响应、记忆和流程，系统现在可能会通过选择"attractor_tuning"来优化其场操作，以增强其上下文场的稳定性和相干性。
 
 ### Cycle 5: Emergence （周期 5：涌现）
 

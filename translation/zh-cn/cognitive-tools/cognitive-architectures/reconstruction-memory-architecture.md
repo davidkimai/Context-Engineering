@@ -705,7 +705,7 @@ class AdaptiveLearningMemoryArchitecture:
 
 ## Implementation Guidelines （实施指南）
 
-### 1. Memory Efficiency （内存效率）
+### 1. Memory Efficiency （记忆效率）
 
 - **Fragment Pruning**: Regularly remove low-utility fragments
   **碎片修剪**：定期移除低效用碎片
@@ -943,7 +943,7 @@ The integration of brain-inspired principles with AI reasoning capabilities open
 2. **Domain Specialization**: Adapt the architecture for specific application domains
    **领域专业化**：为特定的应用领域调整架构
 3. **Performance Optimization**: Optimize for speed and memory efficiency
-   **性能优化**：优化速度和内存效率
+   **性能优化**：优化速度和记忆效率
 4. **Integration Testing**: Test integration with existing systems
    **集成测试**：测试与现有系统的集成
 5. **User Study**: Conduct user studies to validate effectiveness

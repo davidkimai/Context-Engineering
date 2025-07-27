@@ -1,12 +1,12 @@
-# Memory Hierarchies: Storage Architectures for Context Management （内存层次结构：上下文管理的存储架构）
+# Memory Hierarchies: Storage Architectures for Context Management （记忆层次结构：上下文管理的存储架构）
 
 ## Overview: The Multi-Level Information Ecosystem （概述：多层次信息生态系统）
 
 Memory hierarchies represent one of the most powerful concepts in context management - organizing information across multiple levels of storage with different characteristics for access speed, capacity, and persistence. In the Software 3.0 paradigm, memory hierarchies become dynamic, intelligent systems that adapt to usage patterns and optimize for both efficiency and effectiveness.
 
-内存层次结构是上下文管理中最强大的概念之一——将信息组织在具有不同访问速度、容量和持久性特征的多个存储级别上。在软件 3.0 范式中，内存层次结构成为动态、智能的系统，能够适应使用模式并优化效率和有效性。
+记忆层次结构是上下文管理中最强大的概念之一——将信息组织在具有不同访问速度、容量和持久性特征的多个存储级别上。在软件 3.0 范式中，记忆层次结构成为动态、智能的系统，能够适应使用模式并优化效率和有效性。
 
-## Understanding Memory Hierarchies Visually （直观理解内存层次结构）
+## Understanding Memory Hierarchies Visually （直观理解记忆层次结构）
 
 ```
     ┌─ IMMEDIATE CONTEXT ────────────────┐ ←─ Fastest Access
@@ -50,7 +50,7 @@ Memory hierarchies represent one of the most powerful concepts in context manage
     │ • 即时工作状态         │    最易失
     └───────────────────────────────────┘
                      ↕
-    ┌─ 工作内存 ───────────────────┐
+    ┌─ 工作记忆 ───────────────────┐
     │ • 最近的对话历史     │
     │ • 活动协议状态          │
     │ • 临时计算          │
@@ -78,13 +78,13 @@ Memory hierarchies represent one of the most powerful concepts in context manage
     └───────────────────────────────────┘
 ```
 
-## The Three Pillars Applied to Memory Hierarchies （应用于内存层次结构的三大支柱）
+## The Three Pillars Applied to Memory Hierarchies （应用于记忆层次结构的三大支柱）
 
-### Pillar 1: PROMPT TEMPLATES for Memory Management （支柱 1：用于内存管理的提示模板）
+### Pillar 1: PROMPT TEMPLATES for Memory Management （支柱 1：用于记忆管理的提示模板）
 
 Memory hierarchy operations require sophisticated prompt templates that can handle different storage levels and access patterns.
 
-内存层次结构操作需要能够处理不同存储级别和访问模式的复杂提示模板。
+记忆层次结构操作需要能够处理不同存储级别和访问模式的复杂提示模板。
 
 ```python
 MEMORY_HIERARCHY_TEMPLATES = {
@@ -216,9 +216,9 @@ MEMORY_HIERARCHY_TEMPLATES = {
     紧急程度：{retrieval_urgency}
     质量要求：{quality_threshold}
 
-    ## 内存级别规范
+    ## 记忆级别规范
     即时上下文：{immediate_search_scope}
-    工作内存：{working_memory_scope}
+    工作记忆：{working_memory_scope}
     短期存储：{shortterm_search_scope}
     长期存储：{longterm_search_scope}
 
@@ -229,7 +229,7 @@ MEMORY_HIERARCHY_TEMPLATES = {
 
     ## 输出要求
     - 来自每个搜索级别的按相关性排序的结果
-    - 来源归属（哪个内存级别提供了哪条信息）
+    - 来源归属（哪个记忆级别提供了哪条信息）
     - 检索信息的置信度分数
     - 如果不完整，建议进行后续搜索
 
@@ -237,7 +237,7 @@ MEMORY_HIERARCHY_TEMPLATES = {
     """,
 
     'memory_consolidation': """
-    # 内存整合请求
+    # 记忆整合请求
 
     ## 整合范围
     源级别：{source_memory_level}
@@ -292,7 +292,7 @@ MEMORY_HIERARCHY_TEMPLATES = {
     """,
 
     'cross_level_integration': """
-    # 跨级内存集成
+    # 跨级记忆集成
 
     ## 集成范围
     主要来源：{primary_memory_level}
@@ -301,12 +301,12 @@ MEMORY_HIERARCHY_TEMPLATES = {
 
     ## 信息片段
     即时上下文：{immediate_information}
-    工作内存：{working_memory_information}
+    工作记忆：{working_memory_information}
     存储的知识：{stored_knowledge_information}
 
     ## 集成要求
     - 解决来自不同级别的信息之间的冲突
-    - 保持跨内存级别的时间一致性
+    - 保持跨记忆级别的时间一致性
     - 保留来源归属和置信度级别
     - 在尊重层次结构的同时创建连贯的统一视图
     - 识别并标记任何不一致或差距
@@ -319,16 +319,16 @@ MEMORY_HIERARCHY_TEMPLATES = {
     - 任何未解决冲突的识别
     - 解决信息差距的建议
 
-    请跨内存级别集成信息。
+    请跨记忆级别集成信息。
     """
 }
 ```
 
-### Pillar 2: PROGRAMMING Layer for Memory Architecture （支柱 2：用于内存架构的编程层）
+### Pillar 2: PROGRAMMING Layer for Memory Architecture （支柱 2：用于记忆架构的编程层）
 
 The programming layer implements the computational infrastructure for managing hierarchical memory systems.
 
-编程层实现了用于管理分层内存系统的计算基础设施。
+编程层实现了用于管理分层记忆系统的计算基础设施。
 
 ```python
 from abc import ABC, abstractmethod
@@ -347,7 +347,7 @@ class MemoryLevel(Enum):
 @dataclass
 class MemoryItem:
     """Represents an item stored in memory hierarchy"""
-    # “表示存储在内存层次结构中的项目”
+    # “表示存储在记忆层次结构中的项目”
     content: Any
     metadata: Dict[str, Any]
     access_count: int = 0
@@ -364,7 +364,7 @@ class MemoryItem:
 
 class MemoryStore(ABC):
     """Abstract base class for memory storage implementations"""
-    # “内存存储实现的抽象基类”
+    # “记忆存储实现的抽象基类”
 
     @abstractmethod
     def store(self, key: str, item: MemoryItem) -> bool:
@@ -564,7 +564,7 @@ class WorkingMemoryStore(MemoryStore):
 
 class HierarchicalMemoryManager:
     """Orchestrates memory operations across the entire hierarchy"""
-    # “在整个层次结构中协调内存操作”
+    # “在整个层次结构中协调记忆操作”
 
     def __init__(self):
         self.memory_stores = {
@@ -612,7 +612,7 @@ class HierarchicalMemoryManager:
 
     def smart_search(self, query: str, max_results: int = 10) -> List[tuple]:
         """Intelligent search across all memory levels"""
-        # “跨所有内存级别的智能搜索”
+        # “跨所有记忆级别的智能搜索”
         results = []
 
         for level in MemoryLevel:
@@ -627,7 +627,7 @@ class HierarchicalMemoryManager:
 
     def _search_level(self, query: str, level: MemoryLevel, max_results: int) -> List[MemoryItem]:
         """Search within a specific memory level"""
-        # “在特定内存级别内搜索”
+        # “在特定记忆级别内搜索”
         store = self.memory_stores[level]
         results = []
 
@@ -640,7 +640,7 @@ class HierarchicalMemoryManager:
 
     def _calculate_relevance(self, query: str, item: MemoryItem) -> float:
         """Calculate relevance score between query and memory item"""
-        # “计算查询和内存项之间的相关性分数”
+        # “计算查询和记忆项之间的相关性分数”
         # Simplified relevance calculation
         # 简化的相关性计算
         content_str = str(item.content).lower()
@@ -659,7 +659,7 @@ class HierarchicalMemoryManager:
 
     def _consider_promotion(self, key: str, item: MemoryItem, current_level: MemoryLevel):
         """Consider promoting item to higher memory level based on usage"""
-        # “根据使用情况考虑将项目提升到更高的内存级别”
+        # “根据使用情况考虑将项目提升到更高的记忆级别”
         if current_level == MemoryLevel.IMMEDIATE:
             return  # Already at highest level # 已经是最高级别
 
@@ -692,7 +692,7 @@ class HierarchicalMemoryManager:
     def consolidate_memory(self, source_level: MemoryLevel, target_level: MemoryLevel,
                           consolidation_criteria: Dict = None):
         """Consolidate memory from one level to another"""
-        # “将内存从一个级别整合到另一个级别”
+        # “将记忆从一个级别整合到另一个级别”
         criteria = consolidation_criteria or {
             'min_importance': 0.5,
             'min_access_count': 2,
@@ -734,7 +734,7 @@ class HierarchicalMemoryManager:
 
     def _optimize_for_level(self, item: MemoryItem, target_level: MemoryLevel) -> MemoryItem:
         """Optimize memory item for specific storage level"""
-        # “针对特定存储级别优化内存项”
+        # “针对特定存储级别优化记忆项”
         # Create optimized copy
         # 创建优化副本
         optimized_item = MemoryItem(
@@ -770,7 +770,7 @@ class HierarchicalMemoryManager:
 
     def get_hierarchy_statistics(self) -> Dict[str, Any]:
         """Get comprehensive statistics across the memory hierarchy"""
-        # “获取整个内存层次结构的综合统计信息”
+        # “获取整个记忆层次结构的综合统计信息”
         stats = {}
 
         for level, store in self.memory_stores.items():
@@ -790,7 +790,7 @@ class HierarchicalMemoryManager:
         return stats
 
 # Simplified implementations for other memory store types
-# 其他内存存储类型的简化实现
+# 其他记忆存储类型的简化实现
 class ShortTermMemoryStore(MemoryStore):
     """Larger capacity, moderate access speed"""
     # “更大的容量，中等的访问速度”
@@ -869,7 +869,7 @@ class ArchivalMemoryStore(MemoryStore):
         return {'total_items': len(self.storage)}
 ```
 
-### Pillar 3: PROTOCOLS for Memory Hierarchy Management （支柱 3：用于内存层次结构管理的协议）
+### Pillar 3: PROTOCOLS for Memory Hierarchy Management （支柱 3：用于记忆层次结构管理的协议）
 
 ```
 /memory.hierarchy.orchestration{
@@ -1043,7 +1043,7 @@ class ArchivalMemoryStore(MemoryStore):
 
 ```
 /memory.hierarchy.orchestration{
-    intent="智能地管理跨分层内存级别的信息流和优化",
+    intent="智能地管理跨分层记忆级别的信息流和优化",
 
     input={
         current_memory_state="<所有级别的综合状态>",
@@ -1054,7 +1054,7 @@ class ArchivalMemoryStore(MemoryStore):
 
     process=[
         /hierarchy.assessment{
-            action="分析所有内存级别的当前状态和性能",
+            action="分析所有记忆级别的当前状态和性能",
             assessment_dimensions=[
                 /utilization_analysis{
                     metric="每个级别的容量使用情况",
@@ -1102,7 +1102,7 @@ class ArchivalMemoryStore(MemoryStore):
                     implementation=[
                         "对相关信息进行分组以优化局部性",
                         "在确定放置时考虑任务上下文",
-                        "在内存级别内保持语义连贯性",
+                        "在记忆级别内保持语义连贯性",
                         "优化交叉引用和集成效率"
                     ]
                 }
@@ -1112,7 +1112,7 @@ class ArchivalMemoryStore(MemoryStore):
         },
 
         /dynamic.caching.optimization{
-            action="在内存级别上实施和优化缓存策略",
+            action="在记忆级别上实施和优化缓存策略",
             caching_algorithms=[
                 /multi_level_lru{
                     description="具有级别感知提升/降级的最近最少使用",
@@ -1191,7 +1191,7 @@ class ArchivalMemoryStore(MemoryStore):
     ],
 
     output={
-        optimized_memory_hierarchy="全面的优化内存系统配置",
+        optimized_memory_hierarchy="全面的优化记忆系统配置",
         performance_improvements={
             access_speed_gains="信息访问延迟的测量改进",
             efficiency_gains="存储利用率和成本效益的改进",
@@ -1211,12 +1211,12 @@ class ArchivalMemoryStore(MemoryStore):
 }
 ```
 
-## Practical Integration Example: Complete Memory Hierarchy System （实际集成示例：完整的内存层次结构系统）
+## Practical Integration Example: Complete Memory Hierarchy System （实际集成示例：完整的记忆层次结构系统）
 
 ```python
 class IntegratedMemorySystem:
     """Complete integration of prompts, programming, and protocols for memory hierarchy management"""
-    # “用于内存层次结构管理的提示、编程和协议的完整集成”
+    # “用于记忆层次结构管理的提示、编程和协议的完整集成”
 
     def __init__(self):
         self.memory_manager = HierarchicalMemoryManager()
@@ -1229,7 +1229,7 @@ class IntegratedMemorySystem:
         # “演示信息检索的完整集成”
 
         # 1. ASSESS CURRENT MEMORY STATE (Programming)
-        # 1. 评估当前内存状态（编程）
+        # 1. 评估当前记忆状态（编程）
         memory_stats = self.memory_manager.get_hierarchy_statistics()
         access_patterns = self.performance_monitor.get_access_patterns()
 
@@ -1293,7 +1293,7 @@ class IntegratedMemorySystem:
         return optimization_result
 ```
 
-## Key Principles for Memory Hierarchy Design （内存层次结构设计的关键原则）
+## Key Principles for Memory Hierarchy Design （记忆层次结构设计的关键原则）
 
 ### 1. Locality Optimization （1. 局部性优化）
 - **Temporal Locality**: Recently accessed information should be in faster levels
@@ -1370,4 +1370,4 @@ class IntegratedMemorySystem:
 
 *Memory hierarchies provide the foundation for efficient, scalable context management. The integration of structured prompting, computational programming, and systematic protocols enables the creation of sophisticated memory systems that adapt to usage patterns and optimize for both performance and effectiveness.*
 
-*内存层次结构为高效、可扩展的上下文管理奠定了基础。结构化提示、计算编程和系统化协议的集成为创建复杂的内存系统提供了可能，这些系统能够适应使用模式并优化性能和效率。*
+*记忆层次结构为高效、可扩展的上下文管理奠定了基础。结构化提示、计算编程和系统化协议的集成为创建复杂的记忆系统提供了可能，这些系统能够适应使用模式并优化性能和效率。*

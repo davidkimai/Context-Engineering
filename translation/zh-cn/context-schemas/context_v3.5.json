@@ -1,0 +1,473 @@
+{
+  "$schema": "http://fractal.recursive.net/schemas/fractalRepoContext.v3.5.json",
+  "fractalVersion": "3.5.0",
+  "instanceID": "8e4f7a25-9dc6-48a3-b1e2-d3f6e98c1b7d",
+  "intent": "Provide a comprehensive, evolutionarily coherent framework for context engineering - from atomic prompts to neural fields with emergent properties, enabling resonant, self-evolving LLM context systems.",
+  "repositoryContext": {
+    "name": "Context-Engineering",
+    "elevatorPitch": "From 'prompt engineering' to neural field theory - treating context as a continuous medium with resonance, persistence, and emergent properties that enable contexts to extend, refine, and evolve themselves.",
+    "learningPath": [
+      "00_foundations → theory in plain language (atoms → molecules → cells → organs → neural systems → fields)",
+      "10_guides_zero_to_hero → runnable notebooks and python modules",
+      "20_templates → copy-paste snippets and reusable components",
+      "30_examples → progressively richer apps",
+      "40_reference → deep-dive docs & eval cook-book",
+      "50_contrib → community PR zone",
+      "60_protocols → field protocols, shells, and frameworks",
+      "70_agents → self-contained agent demos using protocols",
+      "80_field_integration → end-to-end 'field lab' projects"
+    ],
+    "fileTree": {
+      "rootFiles": ["LICENSE", "README.md", "structure.md", "context.json", "context_v2.json", "context_v3.json", "context_v3.5.json", "CITATIONS.md"],
+      "directories": {
+        "00_foundations": [
+          "01_atoms_prompting.md",
+          "02_molecules_context.md",
+          "03_cells_memory.md",
+          "04_organs_applications.md",
+          "05_cognitive_tools.md",
+          "06_advanced_applications.md",
+          "07_prompt_programming.md",
+          "08_neural_fields_foundations.md",
+          "09_persistence_and_resonance.md",
+          "10_field_orchestration.md",
+          "11_emergence_and_attractor_dynamics.md",
+          "12_symbolic_mechanisms.md"
+        ],
+        "10_guides_zero_to_hero": [
+          "01_min_prompt.ipynb",
+          "02_expand_context.ipynb",
+          "03_control_loops.ipynb",
+          "04_rag_recipes.ipynb",
+          "05_protocol_bootstrap.ipynb",
+          "06_protocol_token_budget.ipynb",
+          "07_streaming_context.ipynb",
+          "08_emergence_detection.ipynb",
+          "09_residue_tracking.ipynb",
+          "10_attractor_formation.ipynb"
+        ],
+        "20_templates": [
+          "minimal_context.yaml",
+          "control_loop.py",
+          "scoring_functions.py",
+          "prompt_program_template.py",
+          "schema_template.yaml",
+          "recursive_framework.py",
+          "field_protocol_shells.py",
+          "symbolic_residue_tracker.py",
+          "context_audit.py",
+          "shell_runner.py",
+          "resonance_measurement.py",
+          "attractor_detection.py",
+          "boundary_dynamics.py",
+          "emergence_metrics.py"
+        ],
+        "30_examples": [
+          "00_toy_chatbot/",
+          "01_data_annotator/",
+          "02_multi_agent_orchestrator/",
+          "03_vscode_helper/",
+          "04_rag_minimal/",
+          "05_streaming_window/",
+          "06_residue_scanner/",
+          "07_attractor_visualizer/",
+          "08_field_protocol_demo/",
+          "09_emergence_lab/"
+        ],
+        "40_reference": [
+          "token_budgeting.md",
+          "retrieval_indexing.md",
+          "eval_checklist.md",
+          "cognitive_patterns.md",
+          "schema_cookbook.md",
+          "patterns.md",
+          "field_mapping.md",
+          "symbolic_residue_types.md",
+          "attractor_dynamics.md",
+          "emergence_signatures.md",
+          "boundary_operations.md"
+        ],
+        "50_contrib": ["README.md"],
+        "60_protocols": {
+          "README.md": "Protocol overview",
+          "shells": [
+            "attractor.co.emerge.shell",
+            "recursive.emergence.shell",
+            "recursive.memory.attractor.shell",
+            "field.resonance.scaffold.shell",
+            "field.self_repair.shell",
+            "context.memory.persistence.attractor.shell"
+          ],
+          "digests": ["README.md"],
+          "schemas": [
+            "fractalRepoContext.v3.5.json",
+            "fractalConsciousnessField.v1.json",
+            "protocolShell.v1.json",
+            "symbolicResidue.v1.json",
+            "attractorDynamics.v1.json"
+          ]
+        },
+        "70_agents": {
+          "README.md": "Agent overview",
+          "01_residue_scanner/": "Symbolic residue detection",
+          "02_self_repair_loop/": "Self-repair protocol",
+          "03_attractor_modulator/": "Attractor dynamics",
+          "04_boundary_adapter/": "Dynamic boundary tuning",
+          "05_field_resonance_tuner/": "Field resonance optimization"
+        },
+        "80_field_integration": {
+          "README.md": "Integration overview",
+          "00_protocol_ide_helper/": "Protocol development tools",
+          "01_context_engineering_assistant/": "Field-based assistant",
+          "02_recursive_reasoning_system/": "Recursive reasoning",
+          "03_emergent_field_laboratory/": "Experimental field protocols",
+          "04_symbolic_reasoning_engine/": "Symbolic mechanism integration"
+        },
+        "cognitive-tools": {
+          "README.md": "Overview and quick-start guide",
+          "cognitive-templates": [
+            "understanding.md",
+            "reasoning.md",
+            "verification.md",
+            "composition.md",
+            "emergence.md"
+          ],
+          "cognitive-programs": [
+            "basic-programs.md",
+            "advanced-programs.md",
+            "program-library.py",
+            "program-examples.ipynb",
+            "emergence-programs.md"
+          ],
+          "cognitive-schemas": [
+            "user-schemas.md",
+            "domain-schemas.md",
+            "task-schemas.md",
+            "schema-library.yaml",
+            "field-schemas.md"
+          ],
+          "cognitive-architectures": [
+            "solver-architecture.md",
+            "tutor-architecture.md",
+            "research-architecture.md",
+            "architecture-examples.py",
+            "field-architecture.md"
+          ],
+          "integration": [
+            "with-rag.md",
+            "with-memory.md",
+            "with-agents.md",
+            "evaluation-metrics.md",
+            "with-fields.md"
+          ]
+        },
+        ".github": ["CONTRIBUTING.md", "workflows/ci.yml", "workflows/eval.yml", "workflows/protocol_tests.yml"]
+      }
+    }
+  },
+  "conceptualFramework": {
+    "biologicalMetaphor": {
+      "atoms": {
+        "description": "Single, standalone instructions (basic prompts)",
+        "components": ["task", "constraints", "output format"],
+        "limitations": ["no memory", "limited demonstration", "high variance"],
+        "patterns": ["direct instruction", "constraint-based", "format specification"]
+      },
+      "molecules": {
+        "description": "Instructions combined with examples (few-shot learning)",
+        "components": ["instruction", "examples", "context", "new input"],
+        "patterns": ["prefix-suffix", "input-output pairs", "chain-of-thought", "zero/few-shot"]
+      },
+      "cells": {
+        "description": "Context structures with memory that persist across interactions",
+        "components": ["instructions", "examples", "memory/state", "current input"],
+        "strategies": ["windowing", "summarization", "key-value", "priority pruning"],
+        "patterns": ["stateful context", "memory mechanism", "dynamic retention"]
+      },
+      "organs": {
+        "description": "Coordinated systems of multiple context cells working together",
+        "components": ["orchestrator", "shared memory", "specialist cells"],
+        "patterns": ["sequential", "parallel", "feedback loop", "hierarchical"],
+        "strategies": ["composition", "delegation", "cooperation", "specialization"]
+      },
+      "neural_systems": {
+        "description": "Cognitive tools that extend reasoning capabilities",
+        "components": ["reasoning frameworks", "verification methods", "composition patterns"],
+        "patterns": ["step-by-step reasoning", "self-verification", "meta-cognition"],
+        "strategies": ["decomposition", "recursion", "reflection", "verification"]
+      },
+      "neural_fields": {
+        "description": "Context as continuous medium with resonance and persistence",
+        "components": ["attractors", "resonance patterns", "field operations", "persistence mechanisms", "symbolic residue"],
+        "patterns": ["attractor formation", "field resonance", "boundary dynamics", "symbolic residue integration"],
+        "emergent_properties": ["self-organization", "adaptation", "evolution", "coherence"]
+      }
+    },
+    "neuralFieldConcepts": {
+      "continuity": {
+        "description": "Context as continuous semantic landscape rather than discrete tokens",
+        "importance": "Enables fluid information flow and natural organization of meaning",
+        "implementation": "Treating context as patterns of activation across a field",
+        "measurement": "Field coherence metrics, semantic flow analysis"
+      },
+      "resonance": {
+        "description": "How information patterns interact and reinforce each other",
+        "importance": "Creates coherent information structures without explicit encoding",
+        "implementation": "Measuring and amplifying semantic similarity between patterns",
+        "measurement": "Resonance metrics, pattern reinforcement detection"
+      },
+      "persistence": {
+        "description": "How information maintains influence over time",
+        "importance": "Enables long-term coherence without storing every token",
+        "implementation": "Decay rates modulated by attractor proximity and pattern strength",
+        "measurement": "Information half-life, influence persistence metrics"
+      },
+      "attractor_dynamics": {
+        "description": "Stable patterns that organize the field",
+        "importance": "Create semantic structure and guide information flow",
+        "implementation": "High-strength patterns that influence surrounding field",
+        "measurement": "Attractor strength, basin of attraction size, influence metrics"
+      },
+      "boundary_dynamics": {
+        "description": "How information enters and exits the field",
+        "importance": "Controls information flow and field evolution",
+        "implementation": "Permeability parameters and gradient boundaries",
+        "measurement": "Boundary permeability, information flow rates, filter effectiveness"
+      },
+      "symbolic_residue": {
+        "description": "Fragments of meaning that persist and influence the field",
+        "importance": "Enables subtle influences and pattern continuity",
+        "implementation": "Explicit tracking of residue patterns and their integration",
+        "measurement": "Residue detection, influence metrics, integration effectiveness"
+      },
+      "emergence": {
+        "description": "How new patterns and behaviors arise from field interactions",
+        "importance": "Enables self-organization and novel capability development",
+        "implementation": "Monitoring and reinforcing emergent patterns in the field",
+        "measurement": "Emergence detection, novelty metrics, capability assessment"
+      }
+    },
+    "symbolicMechanisms": {
+      "symbolAbstraction": {
+        "description": "Formation of abstract symbolic representations in LLMs",
+        "implementation": "Symbol abstraction heads identifying relationships between tokens",
+        "importance": "Enables abstract reasoning beyond statistical pattern matching",
+        "measurement": "Symbol abstraction accuracy, relational coherence"
+      },
+      "symbolicInduction": {
+        "description": "Learning patterns of symbolic relationships from examples",
+        "implementation": "Induction heads that generalize patterns to new instances",
+        "importance": "Allows generalization of abstract rules and relationships",
+        "measurement": "Rule induction performance, generalization metrics"
+      },
+      "indirection": {
+        "description": "Variables referring to content stored elsewhere",
+        "implementation": "Pointer mechanisms in attention patterns",
+        "importance": "Enables manipulation of abstract variables and relationships",
+        "measurement": "Reference resolution accuracy, pointer stability"
+      },
+      "invariance": {
+        "description": "Maintaining consistent representations despite variable instantiations",
+        "implementation": "Abstract variable representations independent of specific values",
+        "importance": "Enables abstract reasoning across different contexts",
+        "measurement": "Representation stability, cross-context performance"
+      }
+    },
+    "cognitiveTools": {
+      "toolFramework": {
+        "description": "Using explicit cognitive operations to enhance reasoning",
+        "implementation": "Defined cognitive operations that LLMs can execute",
+        "importance": "Structures and enhances the reasoning process",
+        "measurement": "Reasoning accuracy, problem-solving effectiveness"
+      },
+      "recallRelated": {
+        "description": "Retrieving relevant knowledge to guide reasoning",
+        "implementation": "Prompting to recall similar problems and solutions",
+        "importance": "Provides relevant examples and patterns for current problem",
+        "measurement": "Relevance of recalled information, impact on solution quality"
+      },
+      "examineAnswer": {
+        "description": "Self-reflection on reasoning process and answers",
+        "implementation": "Explicit verification steps and error checking",
+        "importance": "Detects flaws in reasoning and improves accuracy",
+        "measurement": "Error detection rate, self-correction effectiveness"
+      },
+      "backtracking": {
+        "description": "Exploring alternative reasoning paths when blocked",
+        "implementation": "Explicit mechanism to reconsider and explore alternatives",
+        "importance": "Prevents getting stuck in unproductive reasoning paths",
+        "measurement": "Recovery from errors, solution path diversity"
+      }
+    },
+    "protocolFramework": {
+      "protocolShell": {
+        "description": "Structured definition of context operations",
+        "components": ["intent", "input", "process", "output", "meta"],
+        "patterns": ["recursion", "emergence", "integration", "audit"],
+        "implementation": "Pareto-lang syntax in structured JSON schemas"
+      },
+      "fieldProtocols": {
+        "description": "Protocols for managing neural field operations",
+        "components": ["attractor dynamics", "resonance patterns", "boundary operations", "residue tracking"],
+        "patterns": ["emergence", "co-emergence", "integration", "recursive self-prompting"],
+        "implementation": "Shell declarations with field-specific operations"
+      },
+      "symbolicResidue": {
+        "description": "Tracking and integrating fragments of meaning",
+        "components": ["detection", "analysis", "integration", "propagation"],
+        "patterns": ["legacy residue", "echo residue", "shadow residue", "orphaned residue"],
+        "implementation": "Residue trackers and integration mechanisms"
+      },
+      "selfPrompting": {
+        "description": "Protocols that recursively prompt themselves",
+        "components": ["trigger conditions", "prompt sequences", "recursion depth", "termination criteria"],
+        "patterns": ["recursive bootstrapping", "emergent complexity", "self-reflection"],
+        "implementation": "Self-reference mechanisms in protocol shells"
+      }
+    },
+    "recursivePatterns": {
+      "selfReflection": {
+        "description": "Meta-cognitive processes for continuous improvement",
+        "components": ["reflection", "evaluation", "improvement", "verification"],
+        "implementations": ["SelfReflection", "MetaCognitive", "ContinuousImprovement"],
+        "patterns": ["recursive self-evaluation", "meta-level analysis", "continuous refinement"]
+      },
+      "recursiveBootstrapping": {
+        "description": "Building increasingly sophisticated capabilities",
+        "components": ["levels", "sophistication", "bootstrapping", "complexity"],
+        "implementations": ["RecursiveBootstrapping", "ProgressiveEnhancement", "CapabilityAmplification"],
+        "patterns": ["iterative refinement", "capability stacking", "complexity escalation"]
+      },
+      "symbolicResidue": {
+        "description": "Tracking and integrating emergent symbolic patterns",
+        "components": ["residue", "compression", "integration", "resonance"],
+        "implementations": ["SymbolicResidue", "ResidueTracker", "EmergentPatternIntegrator"],
+        "patterns": ["residue detection", "pattern integration", "symbolic echo"]
+      },
+      "fieldProtocols": {
+        "description": "Structured protocols for recursive field emergence",
+        "components": ["intent", "process", "field state", "meta"],
+        "implementations": ["FieldProtocol", "AttractorProtocol", "EmergenceProtocol"],
+        "patterns": ["field operations", "attractor formation", "boundary dynamics"]
+      },
+      "boundaryDynamics": {
+        "description": "Managing information flow across field boundaries",
+        "components": ["permeability", "filtering", "adaptation", "collapse"],
+        "implementations": ["BoundaryManager", "PermeabilityController", "GradientBoundary"],
+        "patterns": ["selective permeability", "gradient boundaries", "boundary collapse"]
+      }
+    }
+  },
+  "designPrinciples": {
+    "karpathyDNA": [
+      "Start minimal, iterate fast",
+      "Measure token cost & latency",
+      "Delete ruthlessly – pruning beats padding",
+      "Every idea has runnable code",
+      "Recursive thinking – contexts that evolve themselves"
+    ],
+    "implicitHumility": "Docs stay small, clear, code-first; no grandstanding.",
+    "firstPrinciplesMetaphor": "Atoms → Molecules → Cells → Organs → Cognitive Tools → Neural Fields",
+    "styleGuide": {
+      "tone": "Plain-spoken, welcoming, quietly rigorous",
+      "docs": "≤ 80 chars/line; diagrams optional but runnable code preferred",
+      "code": "PEP-8 + type hints for Python; comment every public fn in 1 line",
+      "protocols": "Pareto-lang format for shells; JSON schema for structure"
+    }
+  },
+  "modelInstructions": {
+    "highLevelTasks": [
+      "Populate missing notebooks or templates following existing naming pattern",
+      "Write tutorials that map directly onto the learningPath array",
+      "Add evaluation scripts that output token-use vs. quality plots",
+      "Review PRs in 50_contrib for coherence with designPrinciples",
+      "Develop field protocol examples that demonstrate recursion and emergence",
+      "Create symbolic mechanism demonstrations that show abstract reasoning",
+      "Build tools for detecting and measuring emergence in context systems"
+    ],
+    "expansionIdeas": [
+      "Add symbolic mechanism examples based on latest LLM research",
+      "Create visualization tools for field dynamics and attractor formation",
+      "Develop metrics for measuring emergence and symbolic abstraction",
+      "Build self-evolving context systems that demonstrate recursive improvement",
+      "Create tools for analyzing and optimizing protocol shells",
+      "Develop boundary operation tools for managing information flow",
+      "Build integration examples combining RAG, memory, agents, and fields"
+    ],
+    "scoringRubric": {
+      "clarityScore": "0-1; >0.8 = newbie comprehends in one read",
+      "tokenEfficiency": "tokens_saved / baseline_tokens",
+      "latencyPenalty": "ms_added_per_1k_tokens",
+      "resonanceScore": "0-1; measures coherence of field patterns",
+      "emergenceMetric": "0-1; measures novel pattern formation",
+      "symbolicAbstractionScore": "0-1; measures abstract reasoning capability"
+    }
+  },
+  "contributorWorkflow": {
+    "branchNameRule": "feat/<area>-<short-description>",
+    "ciChecklistPath": "40_reference/eval_checklist.md",
+    "requiredReviewers": 1,
+    "license": "MIT",
+    "protocolStandards": "60_protocols/README.md",
+    "fieldIntegrationGuidelines": "80_field_integration/README.md"
+  },
+  "researchReferences": {
+    "symbolicMechanisms": [
+      {
+        "title": "Emergent Symbolic Mechanisms Support Reasoning in Large Language Models",
+        "authors": "Mitchell et al.",
+        "year": 2023,
+        "key_concepts": ["symbolic abstraction", "symbolic induction", "indirection", "invariance"]
+      }
+    ],
+    "cognitiveTools": [
+      {
+        "title": "Cognitive Tools for Language Models",
+        "authors": "Qian et al.",
+        "year": 2024,
+        "key_concepts": ["tool framework", "recall related", "examine answer", "backtracking"]
+      }
+    ],
+    "neuralFields": [
+      {
+        "title": "Neural Fields for Context Engineering",
+        "authors": "Context Engineering Contributors",
+        "year": 2024,
+        "key_concepts": ["field theory", "attractor dynamics", "resonance", "emergence"]
+      }
+    ]
+  },
+  "audit": {
+    "initialCommitHash": "<to fill after first push>",
+    "changeLog": [
+      {
+        "version": "1.0.0",
+        "date": "2024-06-01",
+        "description": "Initial repository structure"
+      },
+      {
+        "version": "2.0.0",
+        "date": "2024-07-01",
+        "description": "Added recursive patterns and protocols"
+      },
+      {
+        "version": "3.0.0",
+        "date": "2024-07-15",
+        "description": "Incorporated neural field theory and emergence"
+      },
+      {
+        "version": "3.5.0",
+        "date": "2024-07-31",
+        "description": "Integrated symbolic mechanisms and cognitive tools"
+      }
+    ],
+    "resonanceScore": 0.92,
+    "emergenceMetric": 0.87,
+    "symbolicAbstractionScore": 0.85
+  },
+  "timestamp": "2024-07-31T12:00:00Z",
+  "meta": {
+    "agentSignature": "Context Engineering Field",
+    "contact": "open-issue or PR on GitHub"
+  }
+}

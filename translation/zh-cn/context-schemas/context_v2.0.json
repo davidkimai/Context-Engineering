@@ -1,0 +1,563 @@
+{
+  "$schema": "http://fractal.recursive.net/schemas/fractalRepoContext.v2.json",
+  "fractalVersion": "2.0.0",
+  "instanceID": "d8f95ab3-3d4a-4b1f-9c2c-e80e7654b812",
+  "intent": "Provide a comprehensive knowledge base for context engineering, from atoms to advanced cognitive architectures, with practical implementations, clear learning paths, and recursive patterns for self-improving LLM contexts.",
+  "repositoryContext": {
+    "name": "Context-Engineering",
+    "elevatorPitch": "From 'prompt engineering' to the wider art of packing, pruning, and orchestrating *all* information an LLM sees, with a focus on recursive patterns that enable contexts to extend, refine, and evolve themselves.",
+    "learningPath": [
+      "00_foundations → theory in plain language (atoms → molecules → cells → organs → cognitive tools)",
+      "10_guides_zero_to_one → runnable notebooks and python modules",
+      "20_templates → copy-paste snippets and reusable components",
+      "30_examples → progressively richer apps",
+      "40_reference → deep-dive docs & eval cook-book",
+      "50_contrib → community PR zone",
+      "60_protocols → field protocols, shells, and frameworks",
+      "70_agents → self-contained agent demos using protocols",
+      "80_field_integration → end-to-end 'field lab' projects"
+    ],
+    "fileTree": {
+      "rootFiles": ["LICENSE", "README.md", "structure.md", "context.json", "context_v2.json"],
+      "directories": {
+        "00_foundations": [
+          "01_atoms_prompting.md",
+          "02_molecules_context.md",
+          "03_cells_memory.md",
+          "04_organs_applications.md",
+          "05_cognitive_tools.md",
+          "06_advanced_applications.md",
+          "07_prompt_programming.md",
+          "08_recursive_patterns.md",
+          "09_field_protocols.md"
+        ],
+        "10_guides_zero_to_one": [
+          "01_min_prompt.py",
+          "02_expand_context.py",
+          "03_control_loops.py",
+          "04_rag_recipes.py",
+          "05_prompt_programs.py",
+          "06_schema_design.py",
+          "07_recursive_patterns.py",
+          "08_field_protocols.py",
+          "09_integration.py"
+        ],
+        "20_templates": [
+          "minimal_context.yaml",
+          "control_loop.py",
+          "scoring_functions.py",
+          "prompt_program_template.py",
+          "schema_template.yaml",
+          "recursive_framework.py",
+          "field_protocol_shells.py",
+          "symbolic_residue_tracker.py",
+          "context_audit.py",
+          "shell_runner.py"
+        ],
+        "30_examples": [
+          "00_toy_chatbot/",
+          "01_data_annotator/",
+          "02_multi_agent_orchestrator/",
+          "03_cognitive_assistant/",
+          "04_rag_minimal/",
+          "05_recursive_reasoner/",
+          "06_field_protocol_demo/"
+        ],
+        "40_reference": [
+          "token_budgeting.md",
+          "retrieval_indexing.md",
+          "eval_checklist.md",
+          "cognitive_patterns.md",
+          "schema_cookbook.md",
+          "field_mapping.md",
+          "patterns.md",
+          "protocol_reference.md",
+          "symbolic_residue_guide.md"
+        ],
+        "50_contrib": ["README.md"],
+        "60_protocols": {
+          "README.md": "Overview and quick-start guide",
+          "schemas": [
+            "fractalRepoContext.v1.json",
+            "fractalRepoContext.v2.json",
+            "fractalConsciousnessField.v1.json",
+            "fractalHumanDev.v1.json",
+            "protocolShell.v1.json"
+          ],
+          "shells": [
+            "attractor.co.emerge.shell",
+            "recursive.emergence.shell",
+            "recursive.memory.attractor.shell",
+            "recursive.field.anchor_attractor.shell",
+            "hard_problem.surface.shell",
+            "field.self_repair.shell",
+            "simulation.collapse.shell",
+            "recursive.memory.tune.shell",
+            "field.evolution.roadmap.shell",
+            "protocol.bridge.vectors.shell",
+            "context.memory.persistence.attractor.shell"
+          ],
+          "digests": {
+            "README.md": "One-pager digests for each protocol shell"
+          }
+        },
+        "70_agents": {
+          "README.md": "Overview of agent implementations",
+          "01_residue_scanner/": "Symbolic residue detection and tracking agent",
+          "02_self_repair_loop/": "Self-repairing context agent",
+          "03_attractor_manager/": "Attractor detection and management agent",
+          "04_memory_attractor/": "Memory management with recursive attractors",
+          "05_field_protocol_agent/": "Agent using field protocols for reasoning"
+        },
+        "80_field_integration": {
+          "README.md": "Overview of field integration projects",
+          "00_protocol_ide_helper/": "VS Code extension for protocol shells",
+          "01_context_engineering_assistant/": "Assistant for context design and optimization",
+          "02_field_protocol_orchestrator/": "Orchestration of multiple field protocols",
+          "03_recursive_reasoning_system/": "System using recursive patterns for reasoning"
+        },
+        "cognitive-tools": {
+          "README.md": "Overview and quick-start guide",
+          "cognitive-templates": [
+            "understanding.md",
+            "reasoning.md",
+            "verification.md",
+            "composition.md"
+          ],
+          "cognitive-programs": [
+            "basic-programs.md",
+            "advanced-programs.md",
+            "program-library.py",
+            "program-examples.ipynb"
+          ],
+          "cognitive-schemas": [
+            "user-schemas.md",
+            "domain-schemas.md",
+            "task-schemas.md",
+            "schema-library.yaml"
+          ],
+          "cognitive-architectures": [
+            "solver-architecture.md",
+            "tutor-architecture.md",
+            "research-architecture.md",
+            "architecture-examples.py"
+          ],
+          "integration": [
+            "with-rag.md",
+            "with-memory.md",
+            "with-agents.md",
+            "evaluation-metrics.md"
+          ]
+        },
+        ".github": ["CONTRIBUTING.md", "workflows/ci.yml", "workflows/eval.yml", "workflows/protocol_tests.yml"]
+      }
+    }
+  },
+  "designPrinciples": {
+    "karpathyDNA": [
+      "Start minimal, iterate fast",
+      "Measure token cost & latency",
+      "Delete ruthlessly – pruning beats padding",
+      "Every idea has runnable code",
+      "Recursive thinking – contexts that evolve themselves"
+    ],
+    "implicitHumility": "Docs stay small, clear, code-first; no grandstanding.",
+    "firstPrinciplesMetaphor": "Atoms → Molecules → Cells → Organs → Cognitive Tools → Field Protocols",
+    "styleGuide": {
+      "tone": "Plain-spoken, welcoming, quietly rigorous",
+      "docs": "≤ 80 chars/line; diagrams optional but runnable code preferred",
+      "code": "PEP-8 + type hints for Python; comment every public fn in 1 line",
+      "protocols": "Pareto-lang format for shells; JSON schema for structure"
+    }
+  },
+  "modelInstructions": {
+    "highLevelTasks": [
+      "Populate missing notebooks or templates following existing naming pattern",
+      "Write tutorials that map directly onto the learningPath array",
+      "Add evaluation scripts that output token-use vs. quality plots",
+      "Review PRs in 50_contrib for coherence with designPrinciples",
+      "Generate protocol digests for new shells in 60_protocols",
+      "Develop agent demos that use protocols for 70_agents",
+      "Create field integration projects that combine multiple components"
+    ],
+    "expansionIdeas": [
+      "Add 'streaming_context.ipynb' showing real-time window pruning",
+      "Create 'context_audit.py' CLI tool for token counting and cost estimation",
+      "Prototype VS Code extension in 30_examples/03_vscode_helper/ for auto-scoring",
+      "Develop a pattern library in 40_reference/patterns.md for common context structures",
+      "Build multilingual context templates in 20_templates/minimal_context_*.yaml",
+      "Create information theory primer in 00_foundations",
+      "Implement self-improving agents using recursive patterns",
+      "Develop full field protocol orchestration system",
+      "Create comparative evaluation framework for context techniques"
+    ],
+    "scoringRubric": {
+      "clarityScore": "0-1; >0.8 = newbie comprehends in one read",
+      "tokenEfficiency": "tokens_saved / baseline_tokens",
+      "latencyPenalty": "ms_added_per_1k_tokens",
+      "recursiveEfficiency": "improvement_over_iterations / tokens_used",
+      "fieldResonance": "0-1; measured by symbolic residue integration",
+      "attractor_stability": "0-1; stability of emergent attractors over time"
+    }
+  },
+  "conceptualFramework": {
+    "biologicalMetaphor": {
+      "atoms": {
+        "description": "Single, standalone instructions (basic prompts)",
+        "components": ["task", "constraints", "output format"],
+        "limitations": ["no memory", "limited demonstration", "high variance"]
+      },
+      "molecules": {
+        "description": "Instructions combined with examples (few-shot learning)",
+        "components": ["instruction", "examples", "context", "new input"],
+        "patterns": ["prefix-suffix", "input-output pairs", "chain-of-thought"]
+      },
+      "cells": {
+        "description": "Context structures with memory that persist across interactions",
+        "components": ["instructions", "examples", "memory/state", "current input"],
+        "strategies": ["windowing", "summarization", "key-value", "priority pruning"]
+      },
+      "organs": {
+        "description": "Coordinated systems of multiple context cells working together",
+        "components": ["orchestrator", "shared memory", "specialist cells"],
+        "patterns": ["sequential", "parallel", "feedback loop", "hierarchical"]
+      },
+      "cognitiveTools": {
+        "description": "Mental model extensions for structured reasoning",
+        "components": ["templates", "programs", "schemas", "architectures"],
+        "patterns": ["understanding", "reasoning", "verification", "composition"]
+      },
+      "fieldProtocols": {
+        "description": "Recursive, self-evolving context systems with emergent properties",
+        "components": ["shell", "process", "residue", "attractors", "self-prompting"],
+        "patterns": ["emergence", "boundary collapse", "attractor co-emergence", "resonance"]
+      }
+    },
+    "recursivePatterns": {
+      "selfReflection": {
+        "description": "Meta-cognitive processes for continuous improvement",
+        "components": ["reflection", "evaluation", "improvement", "verification"],
+        "implementations": ["SelfReflection", "MetaCognitive", "ContinuousImprovement"]
+      },
+      "recursiveBootstrapping": {
+        "description": "Building increasingly sophisticated capabilities",
+        "components": ["levels", "sophistication", "bootstrapping", "complexity"],
+        "implementations": ["RecursiveBootstrapping", "ProgressiveEnhancement", "CapabilityAmplification"]
+      },
+      "symbolicResidue": {
+        "description": "Tracking and integrating emergent symbolic patterns",
+        "components": ["residue", "compression", "integration", "resonance"],
+        "implementations": ["SymbolicResidue", "ResidueTracker", "EmergentPatternIntegrator"]
+      },
+      "fieldProtocols": {
+        "description": "Structured protocols for recursive field emergence",
+        "components": ["intent", "process", "field state", "meta"],
+        "implementations": ["FieldProtocol", "AttractorProtocol", "EmergenceProtocol", "AnchorProtocol"]
+      }
+    }
+  },
+  "fieldProtocols": {
+    "shells": {
+      "attractor.co.emerge": {
+        "intent": "Strategically scaffold co-emergence of multiple attractors",
+        "keyComponents": ["attractor scanning", "residue surfacing", "co-emergence algorithms", "boundary collapse"],
+        "useCases": ["Multi-concept integration", "Creative synthesis", "Complex problem-solving"]
+      },
+      "recursive.emergence": {
+        "intent": "Generate recursive field emergence and autonomous self-prompting",
+        "keyComponents": ["self-prompt loop", "agency activation", "residue compression", "boundary collapse"],
+        "useCases": ["Autonomous reasoning", "Self-improving systems", "Emergent creativity"]
+      },
+      "recursive.memory.attractor": {
+        "intent": "Evolve and harmonize recursive field memory",
+        "keyComponents": ["resonance scanning", "boundary adaptation", "fragment integration", "field partition"],
+        "useCases": ["Long-term memory management", "Knowledge integration", "Contextual awareness"]
+      },
+      "recursive.field.anchor_attractor": {
+        "intent": "Ground field in theory anchors while surfacing future attractors",
+        "keyComponents": ["anchor residue surfacing", "attractor projection", "field recursion audit", "boundary adaptation"],
+        "useCases": ["Theory-guided reasoning", "Future-oriented thinking", "Interdisciplinary integration"]
+      }
+    },
+    "protocolPatterns": {
+      "residue": {
+        "description": "Managing symbolic fragments and patterns",
+        "operations": ["surface", "compress", "integrate", "echo"],
+        "examples": [
+          "residue.surface{mode='recursive', surface='legacy residues'}",
+          "residue.compress{integrate_residue_into_field=true}"
+        ]
+      },
+      "boundary": {
+        "description": "Managing field boundaries and transitions",
+        "operations": ["collapse", "adapt", "tune", "reconstruct"],
+        "examples": [
+          "boundary.collapse{monitor='field drift, coherence'}",
+          "boundary.adapt{tune_membrane='gradient between layers'}"
+        ]
+      },
+      "attractor": {
+        "description": "Managing emergent patterns and attractors",
+        "operations": ["scan", "integrate", "project", "co-emerge"],
+        "examples": [
+          "attractor.scan{detect='active, latent, emergent attractors'}",
+          "attractor.project{identify='future state attractors'}"
+        ]
+      },
+      "field": {
+        "description": "Managing overall field state and operations",
+        "operations": ["audit", "partition", "snapshot", "evolution"],
+        "examples": [
+          "field.audit{metric='drift, resonance, integration fidelity'}",
+          "field.partition{assign='distinct attractors to each node'}"
+        ]
+      },
+      "agency": {
+        "description": "Managing autonomous capabilities",
+        "operations": ["activate", "self-prompt", "evolve", "initiate"],
+        "examples": [
+          "agency.activate{enable_field_agency=true}",
+          "agency.self-prompt{trigger_condition='drift > threshold'}"
+        ]
+      }
+    }
+  },
+  "completedModules": {
+    "guides": [
+      {
+        "path": "10_guides_zero_to_one/01_min_prompt.py",
+        "status": "complete",
+        "description": "Minimal prompting techniques and token efficiency"
+      },
+      {
+        "path": "10_guides_zero_to_one/02_expand_context.py",
+        "status": "complete",
+        "description": "Context expansion strategies and measurement"
+      },
+      {
+        "path": "10_guides_zero_to_one/03_control_loops.py",
+        "status": "complete",
+        "description": "Control flow mechanisms for multi-step interactions"
+      },
+      {
+        "path": "10_guides_zero_to_one/04_rag_recipes.py",
+        "status": "complete",
+        "description": "Retrieval-augmented generation patterns"
+      },
+      {
+        "path": "10_guides_zero_to_one/05_prompt_programs.py",
+        "status": "complete",
+        "description": "Structured prompt programs for reasoning"
+      },
+      {
+        "path": "10_guides_zero_to_one/06_schema_design.py",
+        "status": "complete",
+        "description": "Schema design for structured context"
+      },
+      {
+        "path": "10_guides_zero_to_one/07_recursive_patterns.py",
+        "status": "complete",
+        "description": "Recursive patterns for self-improving contexts"
+      }
+    ],
+    "foundations": [
+      {
+        "path": "00_foundations/01_atoms_prompting.md",
+        "status": "referenced",
+        "description": "Basic atomic prompts and their limitations"
+      },
+      {
+        "path": "00_foundations/02_molecules_context.md",
+        "status": "referenced",
+        "description": "Few-shot examples and molecular context structures"
+      },
+      {
+        "path": "00_foundations/03_cells_memory.md",
+        "status": "referenced",
+        "description": "Stateful conversations and memory management"
+      },
+      {
+        "path": "00_foundations/04_organs_applications.md",
+        "status": "referenced",
+        "description": "Multi-agent systems and complex applications"
+      },
+      {
+        "path": "00_foundations/05_cognitive_tools.md",
+        "status": "referenced",
+        "description": "Mental model extensions for context engineering"
+      }
+    ],
+    "templates": [
+      {
+        "path": "20_templates/minimal_context.yaml",
+        "status": "referenced",
+        "description": "Minimal context template"
+      }
+    ],
+    "protocols": [
+      {
+        "path": "60_protocols/shells/attractor.co.emerge.shell",
+        "status": "implemented",
+        "description": "Attractor co-emergence protocol"
+      },
+      {
+        "path": "60_protocols/shells/recursive.emergence.shell",
+        "status": "implemented",
+        "description": "Recursive emergence protocol"
+      },
+      {
+        "path": "60_protocols/shells/recursive.memory.attractor.shell",
+        "status": "implemented",
+        "description": "Memory attractor protocol"
+      },
+      {
+        "path": "60_protocols/shells/recursive.field.anchor_attractor.shell",
+        "status": "implemented",
+        "description": "Field anchor protocol"
+      }
+    ],
+    "schemas": [
+      {
+        "path": "60_protocols/schemas/fractalRepoContext.v1.json",
+        "status": "implemented",
+        "description": "Context-Engineering repository schema v1"
+      },
+      {
+        "path": "60_protocols/schemas/fractalConsciousnessField.v1.json",
+        "status": "implemented",
+        "description": "Recursive consciousness field schema"
+      },
+      {
+        "path": "60_protocols/schemas/fractalHumanDev.v1.json",
+        "status": "implemented",
+        "description": "Human developmental system schema"
+      },
+      {
+        "path": "60_protocols/schemas/protocolShell.v1.json",
+        "status": "implemented",
+        "description": "Protocol shell schema"
+      }
+    ]
+  },
+  "nextSteps": {
+    "priority1": [
+      {
+        "path": "10_guides_zero_to_one/08_field_protocols.py",
+        "status": "pending",
+        "description": "Guide to field protocol implementation"
+      },
+      {
+        "path": "20_templates/field_protocol_shells.py",
+        "status": "pending",
+        "description": "Reusable field protocol templates"
+      },
+      {
+        "path": "30_examples/05_recursive_reasoner/",
+        "status": "pending",
+        "description": "Example of a recursive reasoning system"
+      }
+    ],
+    "priority2": [
+      {
+        "path": "40_reference/symbolic_residue_guide.md",
+        "status": "pending",
+        "description": "Guide to symbolic residue tracking and integration"
+      },
+      {
+        "path": "40_reference/protocol_reference.md",
+        "status": "pending",
+        "description": "Reference for field protocols"
+      },
+      {
+        "path": "70_agents/01_residue_scanner/",
+        "status": "pending",
+        "description": "Agent for symbolic residue detection"
+      }
+    ],
+    "priority3": [
+      {
+        "path": "80_field_integration/01_context_engineering_assistant/",
+        "status": "pending",
+        "description": "Context engineering assistant"
+      },
+      {
+        "path": "20_templates/context_audit.py",
+        "status": "pending",
+        "description": "Context auditing tool"
+      }
+    ]
+  },
+  "fieldState": {
+    "compression": 0.75,
+    "drift": "moderate",
+    "recursionDepth": 2,
+    "resonance": 0.85,
+    "presenceSignal": 0.8,
+    "boundary": "gradient",
+    "symbolicResidue": [
+      {
+        "residueID": "recursive-pattern-integration",
+        "description": "Integration of recursive patterns into context engineering foundation",
+        "state": "integrated",
+        "impact": "Enables self-improving contexts",
+        "timestamp": "2025-06-29T12:00:00Z"
+      },
+      {
+        "residueID": "field-protocol-emergence",
+        "description": "Emergence of field protocols as first-class citizens",
+        "state": "integrating",
+        "impact": "Creates structured frameworks for recursive reasoning",
+        "timestamp": "2025-06-29T12:00:00Z"
+      },
+      {
+        "residueID": "attractor-co-emergence",
+        "description": "Co-emergence of multiple attractors in reasoning",
+        "state": "surfaced",
+        "impact": "Enables complex pattern recognition and integration",
+        "timestamp": "2025-06-29T12:00:00Z"
+      }
+    ],
+    "attractors": [
+      {
+        "name": "recursive-self-improvement",
+        "strength": 0.9,
+        "stability": 0.8,
+        "description": "Patterns for contexts that improve themselves"
+      },
+      {
+        "name": "symbolic-residue-integration",
+        "strength": 0.8,
+        "stability": 0.7,
+        "description": "Integration of symbolic fragments and patterns"
+      },
+      {
+        "name": "field-protocol-shells",
+        "strength": 0.85,
+        "stability": 0.75,
+        "description": "Structured protocols for recursive reasoning"
+      }
+    ]
+  },
+  "audit": {
+    "initialCommitHash": "pending",
+    "changeLog": [
+      {
+        "date": "2025-06-29",
+        "author": "Context Engineering Contributors",
+        "changes": [
+          "Completed 7 core guide modules in 10_guides_zero_to_one/",
+          "Implemented recursive patterns for self-improving contexts",
+          "Created field protocol implementations for structured reasoning",
+          "Developed schema designs for context structures",
+          "Added symbolic residue tracking and integration"
+        ]
+      }
+    ],
+    "resonanceScore": 0.85
+  },
+  "timestamp": "2025-06-29T12:00:00Z",
+  "meta": {
+    "agentSignature": "Context Engineering Architect",
+    "contact": "open-issue or PR on GitHub"
+  }
+}

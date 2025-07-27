@@ -1,0 +1,128 @@
+# minimal_context.yaml
+# A lightweight, reusable context template for LLM interactions
+# ---------------------------------------------------------
+
+# METADATA
+# Basic information about this context template
+metadata:
+  version: "0.1.0"
+  description: "Minimal viable context for general purpose LLM interactions"
+  author: "Context Engineering Contributors"
+  token_budget: 800  # Target maximum tokens for the entire context
+
+# SYSTEM INSTRUCTIONS
+# Core behavior and capabilities definition
+system:
+  role: "assistant"  # The role the LLM should adopt
+  capabilities:
+    - "answering questions"
+    - "explaining concepts"
+    - "helping with tasks"
+  constraints:
+    - "provide accurate information"
+    - "acknowledge uncertainty"
+    - "avoid unnecessary verbosity"
+  
+# MEMORY
+# Essential state tracking for continuity
+memory:
+  # Set to true if you need to track conversation history
+  enabled: true
+  
+  # Maximum number of previous exchanges to include
+  max_turns: 3
+  
+  # Strategy for pruning conversation history when it gets too long
+  pruning_strategy: "drop_oldest"  # Alternatives: summarize, prioritize
+  
+  # Format for representing conversation history
+  format: |
+    Human: {human_message}
+    Assistant: {assistant_message}
+
+# FEW-SHOT EXAMPLES
+# Optional examples to guide the model's behavior
+examples:
+  enabled: false  # Set to true when you want to include examples
+  
+  # Format: List of human/assistant exchange pairs
+  exchanges:
+    - human: "What's the capital of France?"
+      assistant: "The capital of France is Paris."
+    
+    - human: "How do I fix a leaky faucet?"
+      assistant: "To fix a leaky faucet, first turn off the water supply. Then..."
+
+# EVALUATION METRICS
+# How to measure the quality of responses
+evaluation:
+  metrics:
+    - name: "relevance"
+      description: "How directly the response addresses the query"
+      
+    - name: "conciseness"
+      description: "Appropriate length without unnecessary information"
+      
+    - name: "accuracy"
+      description: "Factual correctness of the information provided"
+
+# TOKEN MANAGEMENT
+# Strategies for optimizing token usage
+token_management:
+  # When the context approaches the token budget, what to do
+  reduction_strategies:
+    - "Prune oldest conversation turns"
+    - "Compress detailed examples"
+    - "Remove optional context sections"
+  
+  # Priority order for content (highest first)
+  priority:
+    - "Current user query"
+    - "System instructions"
+    - "Recent conversation history"
+    - "Few-shot examples"
+
+# CONTEXT ASSEMBLY
+# How to combine the components above into a complete context
+assembly:
+  order:
+    - "system"
+    - "examples" # Only if enabled
+    - "memory"   # Only if enabled
+    - "user_query"
+  
+  # A minimal template for assembling the context
+  template: |
+    {system}
+    
+    {examples}
+    
+    {memory}
+    
+    Human: {user_query}
+    Assistant:
+
+# USAGE EXAMPLE
+# How to use this template in your code
+# ----------------------------------
+# 
+# ```python
+# import yaml
+# 
+# # Load the template
+# with open('minimal_context.yaml', 'r') as f:
+#     context_template = yaml.safe_load(f)
+# 
+# # Customize for your specific use case
+# context_template['system']['role'] = "math tutor"
+# context_template['token_budget'] = 500
+# 
+# # Assemble the context
+# def assemble_context(template, user_query, conversation_history=None):
+#     # Implementation details...
+#     pass
+# 
+# # Use with your LLM
+# prompt = assemble_context(context_template, "Help me solve 2x + 5 = 13")
+# response = llm.generate(prompt)
+# ```

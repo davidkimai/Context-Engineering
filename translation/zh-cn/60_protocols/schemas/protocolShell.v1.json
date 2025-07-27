@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Protocol Shell Schema",
+  "description": "Schema for validating field protocol shells",
+  "type": "object",
+  "required": ["intent", "input", "process", "output", "meta"],
+  "properties": {
+    "intent": {
+      "type": "string",
+      "description": "Clear statement of the protocol's purpose"
+    },
+    "input": {
+      "type": "object",
+      "description": "Input parameters required by the protocol",
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string",
+            "description": "Type description or placeholder for input value"
+          },
+          {
+            "type": "object",
+            "description": "Structured input parameter with type and constraints"
+          }
+        ]
+      }
+    },
+    "process": {
+      "type": "array",
+      "description": "Sequence of operations to execute",
+      "items": {
+        "type": "string",
+        "description": "Operation in Pareto-lang format",
+        "pattern": "^/[a-zA-Z0-9_]+\\.[a-zA-Z0-9_]+\\{.*\\}$"
+      },
+      "minItems": 1
+    },
+    "output": {
+      "type": "object",
+      "description": "Output values produced by the protocol",
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string",
+            "description": "Type description or placeholder for output value"
+          },
+          {
+            "type": "object",
+            "description": "Structured output parameter with type and format"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "description": "Metadata about the protocol",
+      "required": ["version"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "Semantic version of the protocol",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "timestamp": {
+          "type": "string",
+          "description": "Timestamp when the protocol was created or updated"
+        },
+        "author": {
+          "type": "string",
+          "description": "Author of the protocol"
+        },
+        "description": {
+          "type": "string",
+          "description": "Extended description of the protocol"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Tags for categorizing the protocol",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "operationPattern": {
+      "type": "string",
+      "pattern": "^/[a-zA-Z0-9_]+\\.[a-zA-Z0-9_]+\\{.*\\}$",
+      "description": "Pattern for Pareto-lang operations"
+    },
+    "parameterPattern": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_]+=('|\")[^'\"]*('|\")$",
+      "description": "Pattern for operation parameters"
+    }
+  }
+}

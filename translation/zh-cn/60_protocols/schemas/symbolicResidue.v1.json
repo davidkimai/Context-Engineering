@@ -1,0 +1,352 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Symbolic Residue Schema",
+  "description": "Schema for tracking and managing symbolic residue in semantic fields",
+  "type": "object",
+  "required": ["residueTracking", "residueTypes", "residueOperations"],
+  "properties": {
+    "residueTracking": {
+      "type": "object",
+      "description": "Configuration for tracking symbolic residue",
+      "required": ["enabled", "trackedResidues", "residueMetrics", "processingStrategy"],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether residue tracking is enabled"
+        },
+        "trackedResidues": {
+          "type": "array",
+          "description": "List of residues currently being tracked",
+          "items": {
+            "type": "object",
+            "required": ["id", "content", "strength", "state"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Unique identifier for the residue"
+              },
+              "content": {
+                "type": "string",
+                "description": "Semantic content of the residue"
+              },
+              "source": {
+                "type": "string",
+                "description": "Source of the residue"
+              },
+              "strength": {
+                "type": "number",
+                "description": "Strength of the residue (0.0 to 1.0)",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "state": {
+                "type": "string",
+                "description": "Current state of the residue",
+                "enum": ["surfaced", "echo", "integrated", "shadow", "orphaned"]
+              },
+              "interactions": {
+                "type": "array",
+                "description": "Interactions with other field elements",
+                "items": {
+                  "type": "object",
+                  "required": ["target", "type", "strength_delta"],
+                  "properties": {
+                    "target": {
+                      "type": "string",
+                      "description": "Target of the interaction (attractor ID, field region, etc.)"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of interaction",
+                      "enum": ["integration", "resonance", "echo", "inhibition", "amplification"]
+                    },
+                    "strength_delta": {
+                      "type": "number",
+                      "description": "Change in strength due to the interaction"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "description": "When the interaction occurred",
+                      "format": "date-time"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "residueMetrics": {
+          "type": "object",
+          "description": "Metrics about residue tracking",
+          "properties": {
+            "integrated_count": {
+              "type": "integer",
+              "description": "Number of residues successfully integrated"
+            },
+            "surfaced_count": {
+              "type": "integer",
+              "description": "Number of residues currently surfaced"
+            },
+            "echo_count": {
+              "type": "integer",
+              "description": "Number of residues in echo state"
+            },
+            "average_strength": {
+              "type": "number",
+              "description": "Average strength of all tracked residues"
+            },
+            "integration_rate": {
+              "type": "number",
+              "description": "Rate of successful residue integration"
+            }
+          }
+        },
+        "processingStrategy": {
+          "type": "object",
+          "description": "Strategy for processing residue",
+          "properties": {
+            "surface_threshold": {
+              "type": "number",
+              "description": "Threshold for surfacing residue"
+            },
+            "integration_threshold": {
+              "type": "number",
+              "description": "Threshold for integrating residue"
+            },
+            "echo_threshold": {
+              "type": "number",
+              "description": "Threshold for echo effects"
+            },
+            "compression_enabled": {
+              "type": "boolean",
+              "description": "Whether residue compression is enabled"
+            },
+            "auto_integration": {
+              "type": "boolean",
+              "description": "Whether automatic integration is enabled"
+            }
+          }
+        }
+      }
+    },
+    "residueTypes": {
+      "type": "object",
+      "description": "Definitions of residue types",
+      "properties": {
+        "surfaced": {
+          "type": "object",
+          "description": "Newly detected symbolic fragments",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of surfaced residue"
+            },
+            "decay_rate": {
+              "type": "number",
+              "description": "Rate at which surfaced residue decays"
+            },
+            "integration_probability": {
+              "type": "number",
+              "description": "Probability of successful integration"
+            }
+          }
+        },
+        "echo": {
+          "type": "object",
+          "description": "Residue that continues to influence the field after removal",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of echo residue"
+            },
+            "decay_rate": {
+              "type": "number",
+              "description": "Rate at which echo residue decays"
+            },
+            "resonance_factor": {
+              "type": "number",
+              "description": "Factor affecting resonance with field elements"
+            }
+          }
+        },
+        "integrated": {
+          "type": "object",
+          "description": "Residue successfully incorporated into field structure",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of integrated residue"
+            },
+            "stability_factor": {
+              "type": "number",
+              "description": "Factor affecting integration stability"
+            },
+            "influence_radius": {
+              "type": "number",
+              "description": "Radius of influence on surrounding field"
+            }
+          }
+        },
+        "shadow": {
+          "type": "object",
+          "description": "Subtle imprint of previously processed information",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of shadow residue"
+            },
+            "detection_threshold": {
+              "type": "number",
+              "description": "Threshold for detecting shadow residue"
+            },
+            "influence_factor": {
+              "type": "number",
+              "description": "Factor affecting influence on field"
+            }
+          }
+        },
+        "orphaned": {
+          "type": "object",
+          "description": "Residue disconnected from its original context",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of orphaned residue"
+            },
+            "reconnection_probability": {
+              "type": "number",
+              "description": "Probability of reconnecting to context"
+            },
+            "decay_rate": {
+              "type": "number",
+              "description": "Rate at which orphaned residue decays"
+            }
+          }
+        }
+      }
+    },
+    "residueOperations": {
+      "type": "object",
+      "description": "Operations for managing symbolic residue",
+      "properties": {
+        "surface": {
+          "type": "object",
+          "description": "Operation for surfacing residue",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of the surface operation"
+            },
+            "parameters": {
+              "type": "object",
+              "description": "Parameters for the surface operation",
+              "properties": {
+                "mode": {
+                  "type": "string",
+                  "description": "Mode for surfacing residue",
+                  "enum": ["standard", "recursive", "deep", "adaptive"]
+                },
+                "sensitivity": {
+                  "type": "number",
+                  "description": "Sensitivity of residue detection"
+                },
+                "max_count": {
+                  "type": "integer",
+                  "description": "Maximum number of residues to surface"
+                }
+              }
+            }
+          }
+        },
+        "compress": {
+          "type": "object",
+          "description": "Operation for compressing residue",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of the compress operation"
+            },
+            "parameters": {
+              "type": "object",
+              "description": "Parameters for the compress operation",
+              "properties": {
+                "ratio": {
+                  "type": "number",
+                  "description": "Compression ratio"
+                },
+                "preserve_semantics": {
+                  "type": "boolean",
+                  "description": "Whether to preserve semantic content"
+                },
+                "algorithm": {
+                  "type": "string",
+                  "description": "Compression algorithm",
+                  "enum": ["semantic", "pattern", "entropy", "hybrid"]
+                }
+              }
+            }
+          }
+        },
+        "integrate": {
+          "type": "object",
+          "description": "Operation for integrating residue into field",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of the integrate operation"
+            },
+            "parameters": {
+              "type": "object",
+              "description": "Parameters for the integrate operation",
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "description": "Integration method",
+                  "enum": ["direct", "gradual", "resonant", "attractor-mediated"]
+                },
+                "target": {
+                  "type": "string",
+                  "description": "Target for integration (field, attractor, etc.)"
+                },
+                "strength_factor": {
+                  "type": "number",
+                  "description": "Factor affecting integration strength"
+                }
+              }
+            }
+          }
+        },
+        "echo": {
+          "type": "object",
+          "description": "Operation for creating residue echoes",
+          "properties": {
+            "description": {
+              "type": "string",
+              "description": "Description of the echo operation"
+            },
+            "parameters": {
+              "type": "object",
+              "description": "Parameters for the echo operation",
+              "properties": {
+                "resonance_factor": {
+                  "type": "number",
+                  "description": "Factor affecting echo resonance"
+                },
+                "decay_rate": {
+                  "type": "number",
+                  "description": "Rate at which echoes decay"
+                },
+                "propagation_pattern": {
+                  "type": "string",
+                  "description": "Pattern of echo propagation",
+                  "enum": ["radial", "directed", "attractor-guided", "boundary-following"]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

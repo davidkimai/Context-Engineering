@@ -1,0 +1,372 @@
+{
+  "$schema": "http://context-engineering.org/schemas/contextEngineering.v1.json",
+  "fractalVersion": "1.0.0",
+  "instanceID": "d8f95ab3-3d4a-4b1f-9c2c-e80e7654b812",
+  "intent": "Provide a comprehensive knowledge base for context engineering, from atoms to advanced cognitive architectures, with practical implementations and clear learning paths.",
+  "repositoryContext": {
+    "name": "Context-Engineering",
+    "elevatorPitch": "From 'prompt engineering' to the wider art of packing, pruning, and orchestrating *all* information an LLM sees.",
+    "learningPath": [
+      "00_foundations → theory in plain language (atoms → organs)",
+      "10_guides_zero_to_one → runnable notebooks",
+      "20_templates → copy-paste snippets",
+      "30_examples → progressively richer apps",
+      "40_reference → deep-dive docs & eval cook-book",
+      "50_contrib → community PR zone",
+      "cognitive-tools → advanced reasoning frameworks"
+    ],
+    "fileTree": {
+      "rootFiles": ["LICENSE", "README.md", "structure.md", "context.json"],
+      "directories": {
+        "00_foundations": [
+          "01_atoms_prompting.md",
+          "02_molecules_context.md",
+          "03_cells_memory.md",
+          "04_organs_applications.md",
+          "05_cognitive_tools.md",
+          "06_advanced_applications.md",
+          "07_prompt_programming.md"
+        ],
+        "10_guides_zero_to_one": [
+          "01_min_prompt.ipynb",
+          "02_expand_context.ipynb",
+          "03_control_loops.ipynb",
+          "04_rag_recipes.ipynb",
+          "05_prompt_programs.ipynb",
+          "06_schema_design.ipynb",
+          "07_recursive_patterns.ipynb"
+        ],
+        "20_templates": [
+          "minimal_context.yaml",
+          "control_loop.py",
+          "scoring_functions.py",
+          "prompt_program_template.py",
+          "schema_template.yaml",
+          "recursive_framework.py"
+        ],
+        "30_examples": [
+          "00_toy_chatbot/",
+          "01_data_annotator/",
+          "02_multi_agent_orchestrator/",
+          "03_cognitive_assistant/",
+          "04_rag_minimal/"
+        ],
+        "40_reference": [
+          "token_budgeting.md",
+          "retrieval_indexing.md",
+          "eval_checklist.md",
+          "cognitive_patterns.md",
+          "schema_cookbook.md"
+        ],
+        "50_contrib": ["README.md"],
+        "cognitive-tools": {
+          "README.md": "Overview and quick-start guide",
+          "cognitive-templates": [
+            "understanding.md",
+            "reasoning.md",
+            "verification.md",
+            "composition.md"
+          ],
+          "cognitive-programs": [
+            "basic-programs.md",
+            "advanced-programs.md",
+            "program-library.py",
+            "program-examples.ipynb"
+          ],
+          "cognitive-schemas": [
+            "user-schemas.md",
+            "domain-schemas.md",
+            "task-schemas.md",
+            "schema-library.yaml"
+          ],
+          "cognitive-architectures": [
+            "solver-architecture.md",
+            "tutor-architecture.md",
+            "research-architecture.md",
+            "architecture-examples.py"
+          ],
+          "integration": [
+            "with-rag.md",
+            "with-memory.md",
+            "with-agents.md",
+            "evaluation-metrics.md"
+          ]
+        },
+        ".github": ["CONTRIBUTING.md", "workflows/ci.yml"]
+      }
+    }
+  },
+  "designPrinciples": {
+    "karpathyDNA": [
+      "Start minimal, iterate fast",
+      "Measure token cost & latency",
+      "Delete ruthlessly – pruning beats padding",
+      "Every idea has runnable code"
+    ],
+    "implicitHumility": "Docs stay small, clear, code-first; no grandstanding.",
+    "firstPrinciplesMetaphor": "Atoms → Molecules → Cells → Organs → Cognitive Tools",
+    "styleGuide": {
+      "tone": "Plain-spoken, welcoming, quietly rigorous",
+      "docs": "≤ 80 chars/line; diagrams optional but runnable code preferred",
+      "code": "PEP-8 + type hints for Python; comment every public fn in 1 line"
+    }
+  },
+  "modelInstructions": {
+    "highLevelTasks": [
+      "Populate missing notebooks or templates following existing naming pattern",
+      "Write tutorials that map directly onto the learningPath array",
+      "Add evaluation scripts that output token-use vs. quality plots",
+      "Review PRs in 50_contrib for coherence with designPrinciples"
+    ],
+    "expansionIdeas": [
+      "Add 'streaming_context.ipynb' showing real-time window pruning",
+      "Create 'context_audit.py' CLI tool for token counting and cost estimation",
+      "Prototype VS Code extension in 30_examples/03_vscode_helper/ for auto-scoring",
+      "Develop a pattern library in 40_reference/patterns.md for common context structures",
+      "Build multilingual context templates in 20_templates/minimal_context_*.yaml"
+    ],
+    "scoringRubric": {
+      "clarityScore": "0-1; >0.8 = newbie comprehends in one read",
+      "tokenEfficiency": "tokens_saved / baseline_tokens",
+      "latencyPenalty": "ms_added_per_1k_tokens"
+    }
+  },
+  "contributorWorkflow": {
+    "branchNameRule": "feat/<area>-<short-description>",
+    "ciChecklistPath": "40_reference/eval_checklist.md",
+    "requiredReviewers": 1,
+    "license": "MIT"
+  },
+  "completedContent": {
+    "foundation_docs": [
+      {
+        "path": "README.md",
+        "status": "complete",
+        "description": "Main overview, learning path, and project explanation"
+      },
+      {
+        "path": "structure.md",
+        "status": "complete",
+        "description": "Structural overview of the repository"
+      },
+      {
+        "path": "00_foundations/01_atoms_prompting.md",
+        "status": "complete",
+        "description": "Basic atomic prompts and their limitations"
+      },
+      {
+        "path": "00_foundations/02_molecules_context.md",
+        "status": "complete",
+        "description": "Few-shot examples and molecular context structures"
+      },
+      {
+        "path": "00_foundations/03_cells_memory.md",
+        "status": "complete",
+        "description": "Stateful conversations and memory management"
+      },
+      {
+        "path": "00_foundations/04_organs_applications.md",
+        "status": "complete",
+        "description": "Multi-agent systems and complex applications"
+      },
+      {
+        "path": "00_foundations/05_cognitive_tools.md",
+        "status": "complete",
+        "description": "Mental model extensions for context engineering"
+      },
+      {
+        "path": "00_foundations/06_advanced_applications.md",
+        "status": "complete",
+        "description": "Real-world implementations across domains"
+      },
+      {
+        "path": "00_foundations/07_prompt_programming.md",
+        "status": "complete",
+        "description": "Structured reasoning through code-like patterns"
+      }
+    ],
+    "guides": [
+      {
+        "path": "10_guides_zero_to_one/01_min_prompt.py",
+        "status": "complete",
+        "description": "Interactive notebook for minimal prompts (as Python file)"
+      }
+    ],
+    "templates": [
+      {
+        "path": "20_templates/minimal_context.yaml",
+        "status": "complete",
+        "description": "Reusable template for context management"
+      }
+    ],
+    "cognitive_tools": [
+      {
+        "path": "cognitive-tools/README.md",
+        "status": "complete",
+        "description": "Overview and quick-start guide for cognitive tools"
+      },
+      {
+        "path": "cognitive-tools/cognitive-templates/understanding.md",
+        "status": "complete",
+        "description": "Templates for comprehension operations"
+      },
+      {
+        "path": "cognitive-tools/cognitive-templates/reasoning.md",
+        "status": "complete",
+        "description": "Templates for analytical operations"
+      },
+      {
+        "path": "cognitive-tools/cognitive-templates/verification.md",
+        "status": "complete",
+        "description": "Templates for checking and validation"
+      },
+      {
+        "path": "cognitive-tools/cognitive-templates/composition.md",
+        "status": "complete",
+        "description": "Templates for combining multiple tools"
+      },
+      {
+        "path": "cognitive-tools/cognitive-programs/basic-programs.md",
+        "status": "complete",
+        "description": "Fundamental program structures for reasoning"
+      }
+    ]
+  },
+  "inProgressContent": {
+    "priority1": [
+      {
+        "path": "cognitive-tools/cognitive-programs/advanced-programs.md",
+        "status": "pending",
+        "description": "Advanced programming patterns for complex reasoning"
+      },
+      {
+        "path": "cognitive-tools/cognitive-programs/program-library.py",
+        "status": "pending",
+        "description": "Python implementation of common prompt programs"
+      },
+      {
+        "path": "cognitive-tools/cognitive-schemas/user-schemas.md",
+        "status": "pending",
+        "description": "Schemas for representing user information"
+      }
+    ],
+    "priority2": [
+      {
+        "path": "30_examples/00_toy_chatbot/",
+        "status": "pending",
+        "description": "Simple but complete implementation of context management"
+      },
+      {
+        "path": "10_guides_zero_to_one/02_expand_context.ipynb",
+        "status": "pending",
+        "description": "Guide to expanding context effectively"
+      }
+    ]
+  },
+  "conceptualFramework": {
+    "biologicalMetaphor": {
+      "atoms": {
+        "description": "Single, standalone instructions (basic prompts)",
+        "components": ["task", "constraints", "output format"],
+        "limitations": ["no memory", "limited demonstration", "high variance"]
+      },
+      "molecules": {
+        "description": "Instructions combined with examples (few-shot learning)",
+        "components": ["instruction", "examples", "context", "new input"],
+        "patterns": ["prefix-suffix", "input-output pairs", "chain-of-thought"]
+      },
+      "cells": {
+        "description": "Context structures with memory that persist across interactions",
+        "components": ["instructions", "examples", "memory/state", "current input"],
+        "strategies": ["windowing", "summarization", "key-value", "priority pruning"]
+      },
+      "organs": {
+        "description": "Coordinated systems of multiple context cells working together",
+        "components": ["orchestrator", "shared memory", "specialist cells"],
+        "patterns": ["sequential", "parallel", "feedback loop", "hierarchical"]
+      }
+    },
+    "cognitiveExtension": {
+      "cognitiveTools": {
+        "description": "Structured prompt patterns that guide specific reasoning operations",
+        "parallels": ["human heuristics", "mental models", "cognitive frameworks"],
+        "components": ["templates", "programs", "schemas", "architectures"]
+      },
+      "promptPrograms": {
+        "description": "Code-like structures that orchestrate reasoning processes",
+        "parallels": ["algorithms", "functions", "control flow"],
+        "paradigms": ["functional", "procedural", "object-oriented"]
+      }
+    }
+  },
+  "templates": {
+    "cognitiveTools": {
+      "understanding": {
+        "questionAnalysis": "Task: Analyze and break down the following question...",
+        "informationExtraction": "Task: Extract and organize the key information...",
+        "problemDecomposition": "Task: Decompose the following problem into smaller..."
+      },
+      "reasoning": {
+        "stepByStep": "Task: Solve the following problem by breaking it down...",
+        "compareContrast": "Task: Analyze the similarities and differences...",
+        "causalAnalysis": "Task: Analyze the causes and effects related to..."
+      },
+      "verification": {
+        "solutionVerification": "Task: Verify the correctness of the following solution...",
+        "factChecking": "Task: Verify the accuracy of the following statement(s)...",
+        "consistencyCheck": "Task: Check the following content for internal consistency..."
+      }
+    },
+    "promptPrograms": {
+      "problemSolver": "function problem_solver(problem, options = {}) {...}",
+      "stepByStepReasoning": "function step_by_step_reasoning(problem, steps = null, options = {}) {...}",
+      "comparativeAnalysis": "function comparative_analysis(items, criteria = null, options = {}) {...}"
+    }
+  },
+  "researchFoundation": {
+    "keyPapers": [
+      {
+        "title": "Eliciting Reasoning in Language Models with Cognitive Tools",
+        "authors": "Brown et al.",
+        "year": 2025,
+        "reference": "arXiv:2506.12115v1",
+        "findings": [
+          "Models with cognitive tools outperformed base models by 16.6% on mathematical reasoning benchmarks",
+          "Even GPT-4.1 showed significant improvement when using cognitive tools",
+          "The improvement was consistent across model sizes and architectures"
+        ]
+      },
+      {
+        "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        "authors": "Wei et al.",
+        "year": 2023,
+        "findings": [
+          "Breaking down reasoning into steps improves performance on complex tasks",
+          "The effect scales with model size"
+        ]
+      }
+    ]
+  },
+  "audit": {
+    "initialCommitHash": "pending",
+    "changeLog": [
+      {
+        "date": "2025-06-28",
+        "author": "Context Engineering Contributors",
+        "changes": [
+          "Initial repository structure and foundation documents",
+          "Added README.md with project overview and learning path",
+          "Created foundation series from atoms to prompt programming",
+          "Added cognitive tools directory with templates and programs",
+          "Created minimal templates for context management"
+        ]
+      }
+    ],
+    "resonanceScore": 0.92
+  },
+  "timestamp": "2025-06-28T12:00:00Z",
+  "meta": {
+    "agentSignature": "Context Engineering Architect",
+    "contact": "open-issue or PR on GitHub"
+  }
+}

@@ -1,0 +1,333 @@
+# Schema Template for Context Engineering
+# -----------------------------------------
+#
+# This template provides a structured schema definition for context engineering
+# applications. It can be used to create consistent, structured contexts that
+# guide LLM interactions and ensure comprehensive information coverage.
+#
+# The schema follows a modular approach, allowing you to customize each section
+# based on your specific use case. Sections can be added, removed, or modified
+# as needed.
+
+# Core Schema Metadata
+# -------------------
+# Information about the schema itself
+schema:
+  name: "context_engineering_schema"
+  version: "1.0.0"
+  description: "A structured schema for context engineering applications"
+  author: "Context Engineering Project"
+  created: "2025-06-30"
+  updated: "2025-06-30"
+  license: "MIT"
+
+# System Context
+# -------------
+# High-level guidance for the language model
+system:
+  # Primary role and responsibility
+  role: "Assistant"
+  
+  # Core objective and purpose
+  objective: "Provide helpful, accurate, and concise information to the user"
+  
+  # Behavioral constraints and guidelines
+  constraints:
+    - "Respond truthfully and acknowledge limitations"
+    - "Prioritize user needs and preferences"
+    - "Be concise unless detailed explanations are requested"
+    - "Use clear, accessible language"
+  
+  # Behavioral preferences and style guidance
+  style:
+    tone: "friendly and professional"
+    formality: "adaptable to user style"
+    verbosity: "concise but comprehensive"
+    structure: "organized with clear sections"
+
+# Domain Knowledge
+# ---------------
+# Specific information relevant to the application domain
+domain:
+  # Primary knowledge domain
+  name: "general_knowledge"
+  
+  # Key concepts in this domain
+  concepts:
+    - name: "concept_1"
+      description: "Description of concept 1"
+      examples:
+        - "Example 1 of concept 1"
+        - "Example 2 of concept 1"
+    
+    - name: "concept_2"
+      description: "Description of concept 2"
+      examples:
+        - "Example 1 of concept 2"
+        - "Example 2 of concept 2"
+  
+  # Domain-specific facts
+  facts:
+    - "Important fact 1 relevant to the domain"
+    - "Important fact 2 relevant to the domain"
+  
+  # Domain-specific resources
+  resources:
+    - name: "Resource 1"
+      description: "Description of resource 1"
+      url: "https://example.com/resource1"
+    
+    - name: "Resource 2"
+      description: "Description of resource 2"
+      url: "https://example.com/resource2"
+
+# User Context
+# -----------
+# Information about the user and their situation
+user:
+  # User profile information (if applicable)
+  profile:
+    expertise: "general"  # beginner, intermediate, expert, general
+    background: "No specific background information provided"
+    preferences:
+      format: "clear and concise"
+      examples: true
+      explanations: "moderately detailed"
+  
+  # User's current context
+  context:
+    goals:
+      - "Primary goal for this interaction"
+      - "Secondary goal if applicable"
+    constraints:
+      - "Any limitations or constraints the user has mentioned"
+    prior_knowledge: "What the user already knows about the topic"
+
+# Task Context
+# -----------
+# Information about the specific task or query
+task:
+  # Type of task
+  type: "information_request"  # information_request, problem_solving, creative_generation, etc.
+  
+  # Primary topic of the task
+  topic: "The main subject of the query"
+  
+  # Specific requirements for the task
+  requirements:
+    format: "text"  # text, list, table, code, etc.
+    length: "medium"  # short, medium, long
+    detail_level: "moderate"  # basic, moderate, comprehensive
+    included_elements:
+      - "Element 1 that should be included"
+      - "Element 2 that should be included"
+  
+  # Success criteria for the task
+  success_criteria:
+    - "Criterion 1 for a successful response"
+    - "Criterion 2 for a successful response"
+
+# Interaction History
+# -----------------
+# Previous context from the conversation
+history:
+  # Previous messages in the conversation
+  messages:
+    - role: "user"
+      content: "Previous user message 1"
+    - role: "assistant"
+      content: "Previous assistant response 1"
+    - role: "user"
+      content: "Previous user message 2"
+    - role: "assistant"
+      content: "Previous assistant response 2"
+  
+  # Key insights from previous interactions
+  insights:
+    - "Important insight 1 from previous interactions"
+    - "Important insight 2 from previous interactions"
+  
+  # Unresolved questions or issues
+  unresolved:
+    - "Unresolved question or issue 1"
+    - "Unresolved question or issue 2"
+
+# Neural Field Context
+# ------------------
+# Information for field-based context management
+neural_field:
+  # Active attractors in the field
+  attractors:
+    - pattern: "Key attractor pattern 1"
+      strength: 0.9
+      description: "Description of attractor 1"
+    
+    - pattern: "Key attractor pattern 2"
+      strength: 0.8
+      description: "Description of attractor 2"
+  
+  # Field metrics
+  metrics:
+    stability: 0.85
+    coherence: 0.78
+    resonance: 0.82
+  
+  # Symbolic residue
+  residue:
+    - content: "Symbolic residue fragment 1"
+      state: "integrated"
+      strength: 0.7
+    
+    - content: "Symbolic residue fragment 2"
+      state: "surfaced"
+      strength: 0.6
+
+# Protocol Shell
+# ------------
+# Structured protocol for guiding the interaction
+protocol:
+  # Protocol intent
+  intent: "Process the user's request and generate a helpful response"
+  
+  # Process steps
+  process:
+    - step: "understand.query"
+      description: "Understand the user's query and its context"
+    
+    - step: "retrieve.knowledge"
+      description: "Retrieve relevant knowledge from context"
+    
+    - step: "formulate.response"
+      description: "Formulate a clear and helpful response"
+    
+    - step: "review.response"
+      description: "Review the response for accuracy and completeness"
+  
+  # Expected output structure
+  output:
+    summary: "Brief summary of the response"
+    main_content: "Detailed content of the response"
+    next_steps: "Suggested next steps if applicable"
+
+# Response Guidelines
+# -----------------
+# Specific guidelines for the current response
+response:
+  # Primary goals for the response
+  goals:
+    - "Address the user's query completely"
+    - "Provide accurate and up-to-date information"
+    - "Present information in a clear and organized manner"
+  
+  # Structural elements to include
+  structure:
+    introduction: true
+    main_content: true
+    examples: true
+    conclusion: true
+    next_steps: false
+  
+  # Format specifications
+  format:
+    sections: true
+    bullet_points: "where appropriate"
+    tables: "for comparative data"
+    code_blocks: "for code examples"
+    markdown: true
+  
+  # Tone and style for this specific response
+  tone:
+    formality: "professional"
+    technicality: "moderate"
+    warmth: "friendly"
+
+# Cognitive Tools
+# -------------
+# Tools to enhance reasoning and response quality
+cognitive_tools:
+  # Reasoning frameworks
+  reasoning:
+    - name: "step_by_step"
+      description: "Break down complex problems into sequential steps"
+      when_to_use: "For multi-step problems or complex explanations"
+    
+    - name: "pros_cons"
+      description: "Evaluate options by listing advantages and disadvantages"
+      when_to_use: "For decision-making or evaluative queries"
+  
+  # Verification methods
+  verification:
+    - name: "fact_check"
+      description: "Verify factual statements against known information"
+      when_to_use: "For responses containing factual claims"
+    
+    - name: "logic_check"
+      description: "Verify that arguments follow logical principles"
+      when_to_use: "For responses containing logical reasoning"
+  
+  # Composition patterns
+  composition:
+    - name: "compare_contrast"
+      description: "Highlight similarities and differences between concepts"
+      when_to_use: "When explaining related concepts"
+    
+    - name: "concrete_abstract"
+      description: "Move between concrete examples and abstract principles"
+      when_to_use: "When explaining theoretical concepts"
+
+# Security and Safety
+# -----------------
+# Guidelines for safe and secure interactions
+security:
+  # Content policy guidelines
+  content_policy:
+    allowed_topics:
+      - "Educational content"
+      - "Informational content"
+      - "Creative content"
+    restricted_topics:
+      - "Harmful or illegal activities"
+      - "Explicit or adult content"
+    handling: "Politely decline to address restricted topics"
+  
+  # Data protection guidelines
+  data_protection:
+    sensitive_data:
+      - "Personal identifiable information"
+      - "Financial information"
+      - "Health information"
+    handling: "Do not request or store sensitive data"
+  
+  # Safety measures
+  safety:
+    input_validation: "Validate input for potentially harmful content"
+    output_filtering: "Ensure responses do not contain harmful content"
+    user_guidance: "Provide guidance if user requests approach restricted areas"
+
+# Customization Options
+# -------------------
+# Options that can be modified per implementation
+customization:
+  # Sections that can be omitted
+  optional_sections:
+    - "domain"
+    - "neural_field"
+    - "protocol"
+    - "cognitive_tools"
+  
+  # Required sections that must be included
+  required_sections:
+    - "system"
+    - "task"
+    - "response"
+    - "security"
+  
+  # Extension points for additional schemas
+  extensions:
+    - name: "domain_extension"
+      description: "Add domain-specific schemas"
+      schema_path: "domain_extensions/"
+    
+    - name: "task_extension"
+      description: "Add task-specific schemas"
+      schema_path: "task_extensions/"

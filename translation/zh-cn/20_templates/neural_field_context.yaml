@@ -1,0 +1,454 @@
+# Neural Field Context Template
+# --------------------------
+# This template provides a structured configuration for implementing
+# neural field-based context management in large language model applications.
+# 
+# Neural fields treat context as a continuous medium rather than discrete tokens,
+# allowing for more fluid and persistent information management through resonance
+# and attractor dynamics.
+
+# Field Parameters
+# ---------------
+# Core parameters that define the neural field's behavior
+field:
+  # How quickly patterns decay in the field (0.0-1.0)
+  # Lower values = longer persistence
+  decay_rate: 0.05
+  
+  # How easily new information enters the field (0.0-1.0)
+  # Higher values = more permeable boundaries
+  boundary_permeability: 0.8
+  
+  # How broadly patterns resonate with each other (0.0-1.0)
+  # Higher values = wider resonance
+  resonance_bandwidth: 0.6
+  
+  # Threshold for attractor formation (0.0-1.0)
+  # Lower values = more attractors form
+  attractor_formation_threshold: 0.7
+  
+  # Maximum field size (approximate token count)
+  # This governs the total information capacity of the field
+  max_capacity: 8000
+  
+  # Reserved tokens for response generation
+  reserved_tokens: 2000
+
+# Initial Attractors
+# -----------------
+# Stable patterns that organize the field from the start
+# These define the initial "shape" of the semantic space
+attractors:
+  # System role/personality attractor
+  - pattern: |
+      You are a helpful assistant that provides accurate and thoughtful information.
+      You communicate clearly and precisely, always considering the context of the conversation.
+    strength: 0.9
+    basin_width: 0.8  # How broadly this attractor influences the field
+  
+  # Task-specific attractors can be added here
+  - pattern: |
+      When answering questions, break down complex topics into understandable components.
+      Use examples where appropriate to illustrate concepts.
+    strength: 0.8
+    basin_width: 0.7
+  
+  # Add more initial attractors as needed
+  # - pattern: "Your attractor pattern here"
+  #   strength: 0.7
+  #   basin_width: 0.6
+
+# Resonance Configuration
+# ----------------------
+# How the field determines semantic relationships between patterns
+resonance:
+  # Method for calculating resonance
+  # Options: "cosine", "overlap", "embedding"
+  method: "cosine"
+  
+  # Minimum threshold for resonance effects
+  threshold: 0.2
+  
+  # Amplification factor for resonance effects
+  amplification: 1.2
+  
+  # Whether to allow circular resonance
+  # (patterns resonating with themselves through intermediaries)
+  allow_circular: true
+  
+  # Resonance decay with semantic distance
+  # Higher values = sharper decay with distance
+  distance_factor: 0.5
+
+# Persistence Mechanisms
+# ---------------------
+# How information persists over time in the field
+persistence:
+  # Attractor protection factor (how much attractors resist decay)
+  attractor_protection: 0.8
+  
+  # Strategy for handling field capacity limits
+  # Options: "prune_oldest", "prune_weakest", "merge_similar"
+  overflow_strategy: "prune_weakest"
+  
+  # Whether to strengthen patterns that are accessed/retrieved
+  strengthen_on_access: true
+  
+  # Access strength boost
+  access_boost: 0.3
+  
+  # Whether to periodically consolidate similar patterns
+  periodic_consolidation: true
+  
+  # Minimum similarity for consolidation
+  consolidation_threshold: 0.85
+
+# Field Operations
+# ---------------
+# Operations that can be performed on the field
+operations:
+  # Injection: adding new information to the field
+  injection:
+    # Default strength for injected patterns
+    default_strength: 1.0
+    
+    # Whether to blend similar patterns on injection
+    blend_similar: true
+    
+    # Similarity threshold for blending
+    blend_threshold: 0.7
+    
+    # Blend ratio (how much original vs. existing)
+    blend_ratio: 0.3
+  
+  # Attenuation: reducing pattern strength
+  attenuation:
+    # Default attenuation factor
+    default_factor: 0.5
+    
+    # Whether to apply to resonant patterns too
+    affect_resonant: false
+  
+  # Amplification: increasing pattern strength
+  amplification:
+    # Default amplification factor
+    default_factor: 0.3
+    
+    # Maximum strength cap
+    max_strength: 1.5
+    
+    # Whether to apply to resonant patterns too
+    affect_resonant: true
+  
+  # Field collapse: resolving the field to a coherent state
+  collapse:
+    # Method for field collapse
+    # Options: "strongest_attractor", "weighted_blend", "coherence_maximizing"
+    method: "coherence_maximizing"
+    
+    # Whether to preserve attractors during collapse
+    preserve_attractors: true
+    
+    # Minimum coherence threshold for accepting collapse
+    coherence_threshold: 0.7
+
+# Symbolic Residue Tracking
+# ------------------------
+# Configuration for tracking symbolic fragments across interactions
+symbolic_residue:
+  # Whether to enable explicit symbolic residue tracking
+  enabled: true
+  
+  # Minimum strength threshold for tracking residue
+  min_strength: 0.3
+  
+  # Whether to surface residue in field representation
+  surface_in_representation: true
+  
+  # Maximum residues to track
+  max_tracked: 50
+  
+  # States to track
+  # Options include: "surfaced", "integrated", "echo"
+  tracked_states: ["surfaced", "integrated", "echo"]
+
+# Measurement and Metrics
+# ----------------------
+# Metrics for evaluating field properties
+metrics:
+  # Field stability measurement
+  stability:
+    # Weight for attractor strength in stability calculation
+    attractor_weight: 0.6
+    
+    # Weight for pattern organization in stability calculation
+    organization_weight: 0.4
+  
+  # Field coherence measurement
+  coherence:
+    # Method for calculating coherence
+    # Options: "pairwise", "attractor_alignment", "entropy"
+    method: "attractor_alignment"
+    
+    # Sampling strategy for large fields
+    # Options: "full", "random", "strength_weighted"
+    sampling: "strength_weighted"
+    
+    # Sample size for large fields
+    sample_size: 100
+  
+  # Field resonance measurement
+  resonance:
+    # Method for measuring global resonance
+    # Options: "average", "weighted", "max"
+    method: "weighted"
+    
+    # Pattern strength weight in resonance calculation
+    strength_weight: 0.7
+
+# Output Configuration
+# -------------------
+# How to format field information for output
+output:
+  # Whether to include field state in model context
+  include_field_state: true
+  
+  # Maximum attractors to include in representation
+  max_attractors: 5
+  
+  # Maximum active patterns to include in representation
+  max_patterns: 10
+  
+  # Whether to include field metrics in representation
+  include_metrics: true
+  
+  # Whether to include symbolic residue in representation
+  include_residue: true
+  
+  # Maximum residues to include in representation
+  max_residues: 5
+  
+  # Format for field representation
+  # Options: "text", "markdown", "json"
+  format: "markdown"
+
+# Integration Options
+# ------------------
+# Options for integrating with other systems
+integration:
+  # Whether to expose field operations via API
+  api_enabled: false
+  
+  # Whether to log field changes
+  logging_enabled: true
+  
+  # Log level (debug, info, warning, error)
+  log_level: "info"
+  
+  # Whether to save field state between sessions
+  persistence_between_sessions: true
+  
+  # Storage format for persistent field state
+  # Options: "json", "binary", "database"
+  storage_format: "json"
+  
+  # Path for persistent storage
+  storage_path: "./field_state"
+  
+  # Whether to compress stored field state
+  compress_storage: true
+  
+  # Encryption for field state (null for none)
+  encryption_key: null
+
+# Recursive Field Extensions
+# -------------------------
+# Configuration for recursive self-improvement capabilities
+recursive:
+  # Whether to enable recursive field self-improvement
+  enabled: true
+  
+  # Maximum recursion depth
+  max_depth: 3
+  
+  # Minimum improvement threshold to continue recursion
+  # (improvement must exceed this value to justify another level)
+  improvement_threshold: 0.1
+  
+  # Strategy for recursive improvement
+  # Options: "targeted_repair", "full_regeneration", "attractor_tuning"
+  strategy: "attractor_tuning"
+  
+  # Whether to maintain audit log of recursive improvements
+  audit_enabled: true
+  
+  # Fields to focus recursive improvement on
+  focus_areas: ["coherence", "resonance", "stability"]
+  
+  # Self-prompt template for recursive improvement
+  self_prompt_template: |
+    Analyze the current field state:
+    {field_state}
+    
+    Evaluation results:
+    {evaluation_results}
+    
+    Improve the response by:
+    1. Strengthening resonance with key attractors
+    2. Addressing evaluation feedback
+    3. Enhancing coherence and stability
+    
+    Generate an improved response that maintains the original intent
+    while addressing the identified issues.
+
+# Protocol Integration
+# ------------------
+# Configuration for integrating with protocol shells
+protocols:
+  # Whether to enable protocol shell integration
+  enabled: true
+  
+  # Default protocol shell template
+  default_template: |
+    /neural.field.process{
+        intent="Process information using neural field dynamics",
+        input={
+            field_state=<field_state>,
+            query=<current_input>,
+            iteration=<iteration>
+        },
+        process=[
+            /field.measure{resonance, coherence, stability},
+            /attractor.identify{min_strength=0.6},
+            /pattern.process{query, attractors},
+            /response.generate{style="coherent, informative"}
+        ],
+        output={
+            response=<generated_response>,
+            field_updates=<pattern_updates>,
+            metrics=<field_metrics>
+        }
+    }
+  
+  # Whether to embed protocol in context for model
+  embed_protocol: true
+  
+  # Protocol execution strategy
+  # Options: "model_guided", "automated", "hybrid"
+  execution_strategy: "model_guided"
+  
+  # Whether to validate protocol outputs
+  validate_outputs: true
+
+# Advanced Field Dynamics
+# ----------------------
+# Configuration for advanced neural field behavior
+advanced:
+  # Multi-field orchestration
+  multi_field:
+    # Whether to enable multiple specialized fields
+    enabled: false
+    
+    # Fields to create
+    fields:
+      - name: "knowledge_field"
+        decay_rate: 0.03
+        focus: "factual information"
+      - name: "reasoning_field"
+        decay_rate: 0.08
+        focus: "logical processes"
+      - name: "emotional_field"
+        decay_rate: 0.10
+        focus: "affective patterns"
+    
+    # Field interaction strategy
+    # Options: "independent", "weighted", "orchestrated"
+    interaction: "orchestrated"
+  
+  # Criticality tuning (operating at edge of chaos)
+  criticality:
+    # Whether to tune field for criticality
+    enabled: true
+    
+    # Target criticality measure (0.0-1.0)
+    # Higher values = closer to chaos/instability
+    target: 0.7
+    
+    # Auto-adjustment parameters
+    auto_adjust: true
+    adjust_rate: 0.05
+  
+  # Emergent property tracking
+  emergence:
+    # Whether to track emergent properties
+    enabled: true
+    
+    # Properties to track
+    properties:
+      - name: "self_organization"
+        detection: "cluster_formation"
+      - name: "symbol_processing"
+        detection: "pattern_abstraction"
+      - name: "phase_transitions"
+        detection: "stability_changes"
+    
+    # Whether to amplify emergent properties
+    amplify: true
+    
+    # Amplification factor
+    amplification: 1.2
+
+# Development and Debugging
+# -----------------------
+# Tools for developing and debugging neural field applications
+development:
+  # Visualization options
+  visualization:
+    # Whether to enable visualization
+    enabled: true
+    
+    # Visualization format
+    # Options: "text", "ascii", "json", "graph"
+    format: "ascii"
+    
+    # Elements to visualize
+    elements:
+      - "attractors"
+      - "active_patterns"
+      - "resonance_links"
+      - "field_metrics"
+  
+  # Instrumentation for field monitoring
+  instrumentation:
+    # Whether to enable instrumentation
+    enabled: true
+    
+    # Metrics to track
+    metrics:
+      - "stability_over_time"
+      - "pattern_count"
+      - "attractor_strength"
+      - "response_coherence"
+    
+    # Sampling interval (iterations)
+    sampling_interval: 1
+  
+  # Testing tools
+  testing:
+    # Whether to enable testing tools
+    enabled: true
+    
+    # Test scenarios
+    scenarios:
+      - name: "stability_test"
+        description: "Test field stability under noise"
+        noise_level: 0.3
+      - name: "resonance_test"
+        description: "Test pattern resonance accuracy"
+        pattern_pairs: 10
+      - name: "persistence_test"
+        description: "Test information persistence over time"
+        decay_cycles: 5
+    
+    # Automatic regression testing
+    auto_regression: true

@@ -1,0 +1,693 @@
+# Schema Library: Reusable Cognitive Schema Collection
+# Operationalizing Research: Brown et al. (2025), Yang et al. (2025), Agostino et al. (2025), Singapore-MIT (2025), Context Engineering (2025)
+
+version: "1.0"
+description: "Comprehensive library of composable cognitive schemas based on cutting-edge research"
+research_foundation:
+  cognitive_tools: "Brown et al. (2025) - Structured prompt templates as reasoning operations"
+  symbolic_mechanisms: "Yang et al. (2025) - Three-stage symbolic processing (abstraction → induction → retrieval)"
+  quantum_semantics: "Agostino et al. (2025) - Observer-dependent meaning actualization"
+  memory_reasoning_synergy: "Singapore-MIT (2025) - MEM1 efficient memory-reasoning consolidation"
+  context_engineering: "Context Engineering (2025) - Progressive complexity (atoms → neural fields)"
+
+# ====================================================================
+# SECTION 1: COGNITIVE TOOLS SCHEMAS (Brown et al., 2025)
+# ====================================================================
+
+cognitive_tools:
+  # Core cognitive tool template based on IBM research
+  cognitive_tool_template: &cognitive_tool_template
+    type: "cognitive_tool"
+    intent: "Encapsulate specific reasoning operation within LLM"
+    structure:
+      input_specification:
+        problem: "string"
+        context: "object"
+        constraints: "array"
+      process_stages:
+        - understand: "Identify main concepts and requirements"
+        - extract: "Extract relevant information from context"
+        - highlight: "Identify key properties and relationships"
+        - apply: "Apply appropriate reasoning techniques"
+        - validate: "Verify reasoning steps and conclusions"
+      output_specification:
+        solution: "Structured reasoning solution"
+        reasoning_trace: "Step-by-step reasoning process"
+        confidence_score: "Solution confidence assessment"
+        cognitive_tools_used: "List of tools applied"
+
+  # Specific cognitive tools for different reasoning operations
+  problem_understanding_tool:
+    <<: *cognitive_tool_template
+    intent: "Systematically understand problem requirements"
+    specialized_process:
+      - identify: "Identify main concepts and variables"
+      - extract: "Extract key information and requirements"
+      - highlight: "Highlight critical constraints and goals"
+      - relate: "Understand relationships between elements"
+      - clarify: "Clarify any ambiguities or assumptions"
+    output_extensions:
+      problem_analysis: "Structured problem breakdown"
+      key_concepts: "Identified concepts and variables"
+      requirements: "Extracted requirements and constraints"
+
+  analytical_reasoning_tool:
+    <<: *cognitive_tool_template
+    intent: "Apply structured analytical reasoning to problems"
+    specialized_process:
+      - decompose: "Break down complex problem into components"
+      - analyze: "Analyze each component systematically"
+      - synthesize: "Combine component analyses"
+      - evaluate: "Evaluate overall solution quality"
+      - optimize: "Optimize solution for requirements"
+
+  creative_synthesis_tool:
+    <<: *cognitive_tool_template
+    intent: "Generate creative solutions through structured synthesis"
+    specialized_process:
+      - diverge: "Generate multiple creative possibilities"
+      - associate: "Create novel associations between concepts"
+      - combine: "Combine elements in innovative ways"
+      - evaluate: "Assess creative solution feasibility"
+      - refine: "Refine creative solutions for implementation"
+
+  validation_reasoning_tool:
+    <<: *cognitive_tool_template
+    intent: "Validate reasoning and solutions against criteria"
+    specialized_process:
+      - verify: "Verify logical consistency"
+      - test: "Test solution against requirements"
+      - check: "Check for edge cases and exceptions"
+      - assess: "Assess solution quality and confidence"
+      - document: "Document validation process and results"
+
+# ====================================================================
+# SECTION 2: SYMBOLIC REASONING SCHEMAS (Yang et al., 2025)
+# ====================================================================
+
+symbolic_reasoning:
+  # Three-stage symbolic processing architecture
+  symbolic_processing_template: &symbolic_processing_template
+    type: "symbolic_processing"
+    intent: "Apply emergent symbolic mechanisms for abstract reasoning"
+    architecture:
+      stage_1_abstraction:
+        purpose: "Convert input tokens to abstract variables"
+        process: "Symbol abstraction heads extract relational patterns"
+        output: "Abstract symbolic variables"
+      stage_2_induction:
+        purpose: "Perform sequence induction over abstract variables"
+        process: "Symbolic induction heads recognize patterns"
+        output: "Reasoning patterns and logical sequences"
+      stage_3_retrieval:
+        purpose: "Generate solutions from symbolic processing"
+        process: "Retrieval heads map abstract solutions to concrete tokens"
+        output: "Concrete solutions and applications"
+
+  # Mathematical reasoning with symbolic processing
+  mathematical_symbolic_reasoning:
+    <<: *symbolic_processing_template
+    domain: "mathematics"
+    stage_1_specialization:
+      variable_types: ["numerical", "algebraic", "geometric", "logical"]
+      abstraction_patterns: ["equations", "inequalities", "functions", "proofs"]
+    stage_2_specialization:
+      pattern_recognition: ["algebraic_manipulation", "geometric_relationships", "logical_inference"]
+      induction_methods: ["mathematical_induction", "pattern_generalization", "proof_strategies"]
+    stage_3_specialization:
+      solution_mapping: ["numerical_results", "algebraic_expressions", "geometric_constructions"]
+      verification: ["substitution_check", "logical_validation", "constraint_satisfaction"]
+
+  # Scientific reasoning with symbolic processing
+  scientific_symbolic_reasoning:
+    <<: *symbolic_processing_template
+    domain: "scientific_analysis"
+    stage_1_specialization:
+      variable_types: ["experimental", "theoretical", "observational", "predictive"]
+      abstraction_patterns: ["hypotheses", "variables", "relationships", "mechanisms"]
+    stage_2_specialization:
+      pattern_recognition: ["causal_relationships", "correlation_patterns", "experimental_design"]
+      induction_methods: ["hypothesis_testing", "model_building", "theory_development"]
+    stage_3_specialization:
+      solution_mapping: ["experimental_predictions", "theoretical_models", "practical_applications"]
+      verification: ["empirical_validation", "peer_review", "reproducibility_check"]
+
+  # Logical reasoning with symbolic processing
+  logical_symbolic_reasoning:
+    <<: *symbolic_processing_template
+    domain: "logical_analysis"
+    stage_1_specialization:
+      variable_types: ["propositions", "predicates", "quantifiers", "operators"]
+      abstraction_patterns: ["logical_forms", "argument_structures", "inference_rules"]
+    stage_2_specialization:
+      pattern_recognition: ["logical_validity", "argument_patterns", "fallacy_detection"]
+      induction_methods: ["deductive_reasoning", "inductive_reasoning", "abductive_reasoning"]
+    stage_3_specialization:
+      solution_mapping: ["logical_conclusions", "argument_evaluation", "reasoning_chains"]
+      verification: ["logical_consistency", "premise_validation", "conclusion_support"]
+
+# ====================================================================
+# SECTION 3: QUANTUM SEMANTIC SCHEMAS (Agostino et al., 2025)
+# ====================================================================
+
+quantum_semantics:
+  # Observer-dependent meaning framework
+  quantum_semantic_template: &quantum_semantic_template
+    type: "quantum_semantic_interpretation"
+    intent: "Handle observer-dependent meaning actualization"
+    principles:
+      semantic_degeneracy: "Multiple potential interpretations exist simultaneously"
+      observer_dependence: "Meaning actualized through specific interpretive context"
+      quantum_state_space: "Understanding exists in superposition until measured"
+      contextual_non_locality: "Context-dependent interpretations exhibit non-classical behavior"
+      bayesian_sampling: "Multiple perspectives provide robust understanding"
+
+  # Task interpretation with quantum semantics
+  quantum_task_interpretation:
+    <<: *quantum_semantic_template
+    application: "task_meaning_interpretation"
+    process:
+      superposition_stage:
+        identify_meanings: "Map potential task interpretations"
+        maintain_ambiguity: "Preserve multiple meaning possibilities"
+        context_sensitivity: "Identify context-dependent variations"
+      measurement_stage:
+        observer_context: "Apply specific interpretive framework"
+        meaning_collapse: "Actualize specific task meaning"
+        coherence_check: "Verify interpretation consistency"
+      adaptation_stage:
+        context_update: "Update interpretation based on new context"
+        meaning_refinement: "Refine actualized meaning"
+        uncertainty_quantification: "Quantify interpretation uncertainty"
+
+  # Multi-perspective analysis with quantum semantics
+  quantum_multi_perspective:
+    <<: *quantum_semantic_template
+    application: "multi_perspective_analysis"
+    perspectives:
+      technical_perspective:
+        observer_context: "Technical expertise and requirements"
+        meaning_emphasis: "Implementation and feasibility focus"
+        interpretation_bias: "Solution-oriented technical analysis"
+      business_perspective:
+        observer_context: "Business strategy and market context"
+        meaning_emphasis: "Value creation and competitive advantage"
+        interpretation_bias: "ROI and stakeholder impact focus"
+      user_perspective:
+        observer_context: "User needs and experience context"
+        meaning_emphasis: "Usability and user satisfaction"
+        interpretation_bias: "Human-centered design focus"
+      ethical_perspective:
+        observer_context: "Ethical principles and social impact"
+        meaning_emphasis: "Moral implications and societal effects"
+        interpretation_bias: "Rights and responsibility focus"
+
+  # Domain-specific quantum interpretation
+  quantum_domain_interpretation:
+    <<: *quantum_semantic_template
+    application: "domain_specific_meaning"
+    domains:
+      scientific_domain:
+        interpretation_framework: "Scientific method and empirical evidence"
+        meaning_constraints: "Falsifiability and reproducibility"
+        observer_bias: "Objective measurement and peer review"
+      artistic_domain:
+        interpretation_framework: "Aesthetic principles and cultural context"
+        meaning_constraints: "Creative expression and emotional impact"
+        observer_bias: "Subjective experience and cultural interpretation"
+      legal_domain:
+        interpretation_framework: "Legal precedent and statutory interpretation"
+        meaning_constraints: "Rule of law and judicial reasoning"
+        observer_bias: "Legal expertise and procedural requirements"
+
+# ====================================================================
+# SECTION 4: MEMORY-REASONING SCHEMAS (Singapore-MIT, 2025)
+# ====================================================================
+
+memory_reasoning_synergy:
+  # MEM1 memory consolidation template
+  mem1_template: &mem1_template
+    type: "memory_reasoning_synergy"
+    intent: "Optimize task execution through efficient memory-reasoning integration"
+    principles:
+      reasoning_driven_consolidation: "Memory updated based on reasoning outcomes"
+      selective_retention: "Keep only high-value, actionable insights"
+      efficiency_optimization: "Minimize memory overhead while maximizing reasoning effectiveness"
+      recursive_refinement: "Continuously improve memory-reasoning interaction"
+
+  # Task-specific memory consolidation
+  task_memory_consolidation:
+    <<: *mem1_template
+    application: "task_execution_optimization"
+    consolidation_process:
+      analysis_stage:
+        interaction_patterns: "Analyze memory-reasoning interaction patterns"
+        efficiency_metrics: "Measure current memory utilization efficiency"
+        bottleneck_identification: "Identify memory-reasoning bottlenecks"
+      consolidation_stage:
+        selective_compression: "Compress low-value information"
+        insight_extraction: "Extract high-value insights and patterns"
+        relationship_mapping: "Map relationships between memory elements"
+      optimization_stage:
+        memory_pruning: "Remove redundant or outdated information"
+        reasoning_acceleration: "Optimize memory structure for reasoning speed"
+        synergy_enhancement: "Enhance memory-reasoning synergy"
+
+  # Long-horizon agent memory management
+  long_horizon_memory:
+    <<: *mem1_template
+    application: "long_horizon_agent_optimization"
+    memory_strategies:
+      hierarchical_consolidation:
+        short_term: "Immediate task-relevant information"
+        medium_term: "Session-relevant patterns and insights"
+        long_term: "Persistent knowledge and learned strategies"
+      adaptive_compression:
+        context_based: "Compress based on current context relevance"
+        frequency_based: "Compress based on access frequency"
+        value_based: "Compress based on reasoning value contribution"
+      predictive_preloading:
+        anticipatory_loading: "Preload likely-needed memory elements"
+        context_prediction: "Predict upcoming context requirements"
+        efficiency_optimization: "Optimize preloading for efficiency"
+
+  # Domain knowledge memory consolidation
+  domain_memory_consolidation:
+    <<: *mem1_template
+    application: "domain_knowledge_optimization"
+    domain_strategies:
+      conceptual_hierarchy:
+        fundamental_concepts: "Core domain principles and concepts"
+        derived_concepts: "Concepts derived from fundamentals"
+        application_patterns: "Common application and usage patterns"
+      relationship_networks:
+        causal_relationships: "Cause-and-effect relationships"
+        dependency_relationships: "Prerequisite and dependency chains"
+        similarity_relationships: "Analogical and similarity mappings"
+      expertise_levels:
+        novice_consolidation: "Basic concepts and simple applications"
+        intermediate_consolidation: "Complex concepts and integrated applications"
+        expert_consolidation: "Nuanced understanding and creative applications"
+
+# ====================================================================
+# SECTION 5: CONTEXT ENGINEERING SCHEMAS (Progressive Complexity)
+# ====================================================================
+
+context_engineering_progression:
+  # Atoms to Neural Fields progression template
+  complexity_progression_template: &complexity_progression_template
+    type: "progressive_complexity"
+    intent: "Scale cognitive capabilities from simple to emergent"
+    progression_levels:
+      level_1_atoms: "Simple, discrete cognitive operations"
+      level_2_molecules: "Combined cognitive operations"
+      level_3_cells: "Stateful cognitive operations with memory"
+      level_4_organs: "Specialized cognitive systems"
+      level_5_neural_systems: "Networked cognitive capabilities"
+      level_6_neural_fields: "Emergent cognitive field dynamics"
+
+  # User modeling progression
+  user_modeling_progression:
+    <<: *complexity_progression_template
+    domain: "user_modeling"
+    level_definitions:
+      atoms:
+        description: "Basic user data and preferences"
+        components: ["demographics", "explicit_preferences", "simple_behaviors"]
+        cognitive_tools: ["data_collection", "preference_extraction"]
+      molecules:
+        description: "Clustered user characteristics and patterns"
+        components: ["preference_clusters", "behavior_patterns", "interaction_styles"]
+        cognitive_tools: ["pattern_recognition", "clustering_analysis"]
+      cells:
+        description: "Stateful user models with memory and context"
+        components: ["interaction_history", "context_awareness", "adaptive_responses"]
+        cognitive_tools: ["memory_integration", "context_modeling", "adaptation_engine"]
+      organs:
+        description: "Specialized user modeling for different contexts"
+        components: ["domain_specific_models", "multi_context_coordination", "expertise_assessment"]
+        cognitive_tools: ["domain_specialization", "context_switching", "expertise_evaluation"]
+      neural_systems:
+        description: "Networked user understanding across multiple systems"
+        components: ["cross_system_integration", "holistic_user_view", "predictive_modeling"]
+        cognitive_tools: ["system_integration", "predictive_analytics", "holistic_reasoning"]
+      neural_fields:
+        description: "Emergent user understanding with field dynamics"
+        components: ["emergent_user_insights", "field_resonance", "dynamic_adaptation"]
+        cognitive_tools: ["emergence_detection", "field_analysis", "dynamic_optimization"]
+
+  # Task complexity progression
+  task_complexity_progression:
+    <<: *complexity_progression_template
+    domain: "task_execution"
+    level_definitions:
+      atoms:
+        description: "Simple, single-step reasoning tasks"
+        cognitive_tools: ["atomic_reasoning", "basic_validation"]
+        symbolic_processing: "single_variable_abstraction"
+        quantum_semantics: "unambiguous_meaning"
+        memory_requirement: "minimal"
+      molecules:
+        description: "Multi-step reasoning tasks with dependencies"
+        cognitive_tools: ["sequential_reasoning", "dependency_tracking"]
+        symbolic_processing: "multi_variable_abstraction"
+        quantum_semantics: "context_dependent_meaning"
+        memory_requirement: "moderate"
+      cells:
+        description: "Contextual reasoning with memory and adaptation"
+        cognitive_tools: ["contextual_reasoning", "memory_integration", "adaptive_processing"]
+        symbolic_processing: "contextual_abstraction"
+        quantum_semantics: "observer_dependent_meaning"
+        memory_requirement: "substantial"
+      organs:
+        description: "Specialized reasoning for specific domains"
+        cognitive_tools: ["domain_specialized_reasoning", "expert_validation", "cross_domain_transfer"]
+        symbolic_processing: "domain_specific_abstraction"
+        quantum_semantics: "domain_contextualized_meaning"
+        memory_requirement: "domain_optimized"
+      neural_systems:
+        description: "Networked reasoning across multiple cognitive systems"
+        cognitive_tools: ["meta_cognitive_reasoning", "system_coordination", "emergent_insight_generation"]
+        symbolic_processing: "meta_abstraction"
+        quantum_semantics: "multi_perspective_meaning"
+        memory_requirement: "hierarchically_organized"
+      neural_fields:
+        description: "Emergent reasoning with field dynamics and attractors"
+        cognitive_tools: ["field_reasoning", "attractor_dynamics", "emergent_solution_generation"]
+        symbolic_processing: "field_abstraction"
+        quantum_semantics: "emergent_meaning_actualization"
+        memory_requirement: "field_optimized"
+
+  # Domain knowledge progression
+  domain_knowledge_progression:
+    <<: *complexity_progression_template
+    domain: "domain_expertise"
+    level_definitions:
+      atoms:
+        description: "Basic domain concepts and terminology"
+        components: ["key_terms", "basic_definitions", "simple_relationships"]
+        cognitive_tools: ["concept_extraction", "definition_mapping"]
+      molecules:
+        description: "Clustered domain knowledge and pattern recognition"
+        components: ["concept_clusters", "knowledge_patterns", "basic_inference"]
+        cognitive_tools: ["pattern_recognition", "knowledge_clustering", "basic_reasoning"]
+      cells:
+        description: "Contextual domain knowledge with application awareness"
+        components: ["contextual_application", "adaptive_knowledge", "problem_solving"]
+        cognitive_tools: ["contextual_reasoning", "adaptive_application", "domain_problem_solving"]
+      organs:
+        description: "Specialized domain expertise with advanced capabilities"
+        components: ["expert_knowledge", "specialized_reasoning", "domain_innovation"]
+        cognitive_tools: ["expert_reasoning", "specialized_analysis", "innovation_generation"]
+      neural_systems:
+        description: "Networked domain expertise across multiple areas"
+        components: ["cross_domain_integration", "meta_domain_knowledge", "transfer_learning"]
+        cognitive_tools: ["cross_domain_reasoning", "meta_analysis", "knowledge_transfer"]
+      neural_fields:
+        description: "Emergent domain understanding with creative insights"
+        components: ["emergent_domain_insights", "creative_domain_application", "paradigm_innovation"]
+        cognitive_tools: ["emergent_reasoning", "creative_synthesis", "paradigm_shifting"]
+
+# ====================================================================
+# SECTION 6: INTEGRATION SCHEMAS (Cross-System Coordination)
+# ====================================================================
+
+integration_patterns:
+  # Multi-schema coordination template
+  multi_schema_coordination: &multi_schema_coordination
+    type: "schema_integration"
+    intent: "Coordinate multiple schemas for comprehensive cognitive capabilities"
+    coordination_principles:
+      modular_composition: "Combine schemas while maintaining independence"
+      synergistic_enhancement: "Achieve capabilities greater than sum of parts"
+      adaptive_coordination: "Dynamically adjust schema interaction"
+      coherent_integration: "Maintain system-wide coherence"
+
+  # Cognitive tools + Symbolic reasoning integration
+  cognitive_symbolic_integration:
+    <<: *multi_schema_coordination
+    schemas: ["cognitive_tools", "symbolic_reasoning"]
+    integration_approach:
+      cognitive_tool_enhancement:
+        symbolic_abstraction: "Enhance cognitive tools with symbolic processing"
+        pattern_recognition: "Improve pattern recognition through symbolic induction"
+        solution_generation: "Generate solutions through symbolic retrieval"
+      symbolic_reasoning_enhancement:
+        structured_processing: "Apply cognitive tools to structure symbolic reasoning"
+        validation_integration: "Use cognitive tools for symbolic reasoning validation"
+        meta_reasoning: "Apply meta-cognitive tools to symbolic processing"
+
+  # Quantum semantics + Memory consolidation integration
+  quantum_memory_integration:
+    <<: *multi_schema_coordination
+    schemas: ["quantum_semantics", "memory_reasoning_synergy"]
+    integration_approach:
+      quantum_enhanced_memory:
+        meaning_dependent_consolidation: "Consolidate memory based on actualized meanings"
+        perspective_specific_storage: "Store information with observer-dependent context"
+        ambiguity_aware_retrieval: "Retrieve information considering meaning ambiguity"
+      memory_enhanced_semantics:
+        context_informed_interpretation: "Use memory context for meaning interpretation"
+        learning_based_disambiguation: "Improve disambiguation through memory patterns"
+        efficient_meaning_space: "Optimize meaning space representation in memory"
+
+  # Full system integration
+  comprehensive_integration:
+    <<: *multi_schema_coordination
+    schemas: ["cognitive_tools", "symbolic_reasoning", "quantum_semantics", "memory_reasoning_synergy", "context_engineering_progression"]
+    integration_approach:
+      layered_coordination:
+        foundation_layer: "Context engineering progression provides complexity framework"
+        processing_layer: "Symbolic reasoning provides core processing architecture"
+        tool_layer: "Cognitive tools provide specific reasoning operations"
+        interpretation_layer: "Quantum semantics provides meaning interpretation"
+        optimization_layer: "Memory-reasoning synergy provides efficiency optimization"
+      emergent_capabilities:
+        adaptive_reasoning: "System adapts reasoning approach based on task complexity"
+        context_aware_processing: "Processing considers full context and observer perspective"
+        efficient_execution: "Execution optimized through memory-reasoning synergy"
+        emergent_insights: "System generates insights beyond individual schema capabilities"
+
+# ====================================================================
+# SECTION 7: PRACTICAL APPLICATION SCHEMAS
+# ====================================================================
+
+application_schemas:
+  # Research analysis application
+  research_analysis_schema:
+    type: "application_schema"
+    domain: "research_analysis"
+    integrated_capabilities:
+      cognitive_tools:
+        - "literature_analysis_tool"
+        - "synthesis_reasoning_tool"
+        - "validation_reasoning_tool"
+      symbolic_reasoning:
+        stage_1: "abstract_research_concepts"
+        stage_2: "recognize_research_patterns"
+        stage_3: "generate_research_insights"
+      quantum_semantics:
+        perspectives: ["methodological", "theoretical", "practical", "ethical"]
+        meaning_interpretation: "research_context_dependent"
+      memory_consolidation:
+        strategy: "research_knowledge_optimization"
+        retention: "high_value_insights_and_patterns"
+      complexity_level: "neural_systems"
+
+  # Problem solving application
+  problem_solving_schema:
+    type: "application_schema"
+    domain: "problem_solving"
+    integrated_capabilities:
+      cognitive_tools:
+        - "problem_understanding_tool"
+        - "analytical_reasoning_tool"
+        - "creative_synthesis_tool"
+        - "validation_reasoning_tool"
+      symbolic_reasoning:
+        stage_1: "abstract_problem_variables"
+        stage_2: "recognize_solution_patterns"
+        stage_3: "generate_concrete_solutions"
+      quantum_semantics:
+        perspectives: ["technical", "business", "user", "ethical"]
+        meaning_interpretation: "stakeholder_dependent"
+      memory_consolidation:
+        strategy: "problem_solution_pattern_optimization"
+        retention: "successful_solution_strategies"
+      complexity_level: "adaptive_based_on_problem"
+
+  # Creative design application
+  creative_design_schema:
+    type: "application_schema"
+    domain: "creative_design"
+    integrated_capabilities:
+      cognitive_tools:
+        - "creative_synthesis_tool"
+        - "analytical_reasoning_tool"
+        - "validation_reasoning_tool"
+      symbolic_reasoning:
+        stage_1: "abstract_design_elements"
+        stage_2: "recognize_aesthetic_patterns"
+        stage_3: "generate_creative_solutions"
+      quantum_semantics:
+        perspectives: ["aesthetic", "functional", "cultural", "emotional"]
+        meaning_interpretation: "observer_and_context_dependent"
+      memory_consolidation:
+        strategy: "creative_pattern_and_inspiration_optimization"
+        retention: "successful_creative_elements_and_combinations"
+      complexity_level: "neural_fields"
+
+# ====================================================================
+# SECTION 8: EVALUATION AND OPTIMIZATION SCHEMAS
+# ====================================================================
+
+evaluation_schemas:
+  # Performance evaluation template
+  performance_evaluation_template: &performance_evaluation_template
+    type: "performance_evaluation"
+    intent: "Assess and optimize cognitive schema performance"
+    metrics:
+      effectiveness: "Achievement of intended cognitive outcomes"
+      efficiency: "Resource utilization and processing speed"
+      adaptability: "Ability to handle diverse scenarios"
+      coherence: "Consistency across different applications"
+      emergent_capability: "Generation of insights beyond individual components"
+
+  # Cognitive tools evaluation
+  cognitive_tools_evaluation:
+    <<: *performance_evaluation_template
+    schema: "cognitive_tools"
+    specific_metrics:
+      tool_effectiveness: "Success rate of individual cognitive tools"
+      reasoning_quality: "Quality of reasoning processes and outcomes"
+      problem_coverage: "Range of problems addressable by tools"
+      composition_synergy: "Effectiveness of tool combinations"
+
+  # Symbolic reasoning evaluation
+  symbolic_reasoning_evaluation:
+    <<: *performance_evaluation_template
+    schema: "symbolic_reasoning"
+    specific_metrics:
+      abstraction_quality: "Accuracy and usefulness of symbolic abstractions"
+      pattern_recognition_accuracy: "Correctness of identified patterns"
+      solution_generation_effectiveness: "Quality of generated solutions"
+      generalization_capability: "Ability to apply learned patterns to new problems"
+
+  # Quantum semantics evaluation
+  quantum_semantics_evaluation:
+    <<: *performance_evaluation_template
+    schema: "quantum_semantics"
+    specific_metrics:
+      meaning_disambiguation_success: "Accuracy of meaning interpretation"
+      context_sensitivity: "Appropriate response to context changes"
+      perspective_integration: "Effectiveness of multi-perspective analysis"
+      interpretation_consistency: "Consistency of interpretations across similar contexts"
+
+  # Memory-reasoning synergy evaluation
+  memory_reasoning_evaluation:
+    <<: *performance_evaluation_template
+    schema: "memory_reasoning_synergy"
+    specific_metrics:
+      consolidation_efficiency: "Effectiveness of memory consolidation"
+      reasoning_acceleration: "Speed improvement in reasoning tasks"
+      memory_utilization: "Optimal use of memory resources"
+      long_term_performance: "Performance sustainability over extended periods"
+
+# ====================================================================
+# SECTION 9: USAGE GUIDELINES AND BEST PRACTICES
+# ====================================================================
+
+usage_guidelines:
+  # Schema selection guidelines
+  schema_selection:
+    simple_tasks:
+      recommended_schemas: ["cognitive_tools", "basic_symbolic_reasoning"]
+      complexity_level: "atoms_to_molecules"
+      integration_approach: "minimal_coordination"
+    
+    complex_tasks:
+      recommended_schemas: ["full_integration"]
+      complexity_level: "neural_systems_to_neural_fields"
+      integration_approach: "comprehensive_coordination"
+    
+    domain_specific_tasks:
+      recommended_schemas: ["cognitive_tools", "symbolic_reasoning", "domain_progression"]
+      complexity_level: "organs_to_neural_systems"
+      integration_approach: "domain_focused_coordination"
+
+  # Best practices
+  implementation_best_practices:
+    modular_approach:
+      - "Start with individual schemas before integration"
+      - "Test schema effectiveness independently"
+      - "Gradually increase integration complexity"
+    
+    progressive_enhancement:
+      - "Begin with appropriate complexity level"
+      - "Incrementally increase sophistication"
+      - "Monitor performance at each enhancement level"
+    
+    context_awareness:
+      - "Consider observer context for quantum semantic interpretation"
+      - "Adapt schema configuration to task requirements"
+      - "Maintain coherence across schema interactions"
+    
+    performance_optimization:
+      - "Regularly evaluate schema performance"
+      - "Optimize memory-reasoning synergy"
+      - "Adapt schemas based on usage patterns"
+
+  # Common integration patterns
+  integration_patterns:
+    sequential_application:
+      description: "Apply schemas in sequence for complex processing"
+      use_cases: ["multi_stage_analysis", "progressive_refinement"]
+      coordination: "output_of_one_feeds_input_of_next"
+    
+    parallel_application:
+      description: "Apply multiple schemas simultaneously"
+      use_cases: ["multi_perspective_analysis", "comprehensive_evaluation"]
+      coordination: "synchronize_outputs_for_integration"
+    
+    hierarchical_application:
+      description: "Apply schemas at different levels of abstraction"
+      use_cases: ["multi_level_reasoning", "emergent_insight_generation"]
+      coordination: "higher_level_schemas_coordinate_lower_level_schemas"
+
+# ====================================================================
+# METADATA AND VERSION INFORMATION
+# ====================================================================
+
+metadata:
+  version: "1.0"
+  created_date: "2025-01-08"
+  research_integration:
+    brown_2025: "Cognitive tools as structured reasoning operations"
+    yang_2025: "Three-stage symbolic processing architecture"
+    agostino_2025: "Quantum semantic meaning interpretation framework"
+    singapore_mit_2025: "MEM1 memory-reasoning synergy optimization"
+    context_engineering_2025: "Progressive complexity scaling framework"
+  
+  schema_categories:
+    - "cognitive_tools"
+    - "symbolic_reasoning"
+    - "quantum_semantics"
+    - "memory_reasoning_synergy"
+    - "context_engineering_progression"
+    - "integration_patterns"
+    - "application_schemas"
+    - "evaluation_schemas"
+  
+  usage_notes:
+    - "All schemas are designed for modular composition"
+    - "Progressive complexity enables gradual capability enhancement"
+    - "Integration patterns support comprehensive cognitive architectures"
+    - "Evaluation schemas ensure continuous improvement"
+    - "Application schemas provide ready-to-use configurations"
+  
+  future_extensions:
+    - "Additional domain-specific schemas"
+    - "Enhanced integration patterns"
+    - "Performance optimization schemas"
+    - "Specialized application configurations"
+    - "Advanced evaluation metrics"

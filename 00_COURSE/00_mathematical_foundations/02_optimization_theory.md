@@ -63,12 +63,12 @@ cᵢ = Context components
     0.8  │   ╱   ╲
          │  ╱     ╲  🏔️ Local Maximum
     0.6  │ ╱       ╲╱ ╲  (Good but not optimal)
-         │╱           ╲
-    0.4  │🏔️           ╲🏔️
-         │              ╲
-    0.2  │               ╲
-         │________________╲___________________→
-         0                                Assembly Strategy Space
+         │╱            ╲  🏔️    
+    0.4  │              ╲╱ ╲   
+         │                  ╲
+    0.2  │                   ╲
+         └─────────────────────────────────────────►
+         0                   Assembly Strategy Space
 
 Goal: Navigate this landscape to find the highest peak (best strategy)
 ```
@@ -83,6 +83,7 @@ Prompts provide systematic frameworks for approaching context optimization probl
 
 ### Objective Function Design Template
 
+<pre>
 ```markdown
 # Context Optimization Objective Design Framework
 
@@ -218,6 +219,7 @@ weights = base_weights + α × user_preference_vector + β × performance_feedba
 **When to Use**: Context requirements change during optimization
 **Example**: Optimizing based on user feedback during interaction
 ```
+</pre>
 
 **Ground-up Explanation**: This template guides you through designing optimization problems like an engineer designing a bridge - you need to clearly define what success means, what constraints you must respect, and what trade-offs you're willing to make.
 

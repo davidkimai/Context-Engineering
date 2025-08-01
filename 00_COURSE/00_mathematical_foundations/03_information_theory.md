@@ -55,15 +55,15 @@ Intuition: Rare events contain more information than common events
 **Visual Understanding**:
 ```
     Information Content
-         ↑
-    10   │ ████ "AI system became sentient" (very rare, high information)
-         │
-     5   │ ██ "It's raining today" (somewhat rare, medium information)  
-         │
-     1   │ ▌ "The sun rose this morning" (very common, low information)
-         │
-     0   │________________________→
-         0    0.5    1.0    Probability of Event
+       ↑
+    10 │████ "AI system became sentient" (very rare, high information)
+       │
+     5 │██ "It's raining today" (somewhat rare, medium information)  
+       │
+     1 │▌ "The sun rose this morning" (very common, low information)
+       │
+     0 └─────────────────────────────────────►
+        0    0.5    1.0     Probability of Event
 ```
 
 #### Entropy (Average Information)
@@ -98,6 +98,7 @@ Prompts provide systematic frameworks for analyzing and optimizing information c
 
 ### Information Relevance Assessment Template
 
+<pre>
 ```markdown
 # Information Relevance Analysis Framework
 
@@ -200,8 +201,8 @@ Target: Maximize information coverage while minimizing redundancy
 Optimal_Component_Set = arg max[Σ Information_Value(cᵢ) - λ × Σᵢⱼ Redundancy(cᵢ, cⱼ)]
 
 Where λ controls the penalty for redundant information
-
 ```
+</pre>
 
 **Ground-up Explanation**: This template provides a systematic approach to measuring information value, like having a precise scale for weighing the usefulness of different pieces of information. It helps you identify what adds real value versus what just takes up space.
 

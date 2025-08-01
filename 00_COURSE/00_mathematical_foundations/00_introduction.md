@@ -56,7 +56,7 @@ This mathematical foundations sequence follows a carefully designed progression 
     
              FORMALIZATION
     ┌─────────────────────────────────┐
-    │ C = A(c₁, c₂, c₃, c₄, c₅, c₆)  │
+    │ C = A(c₁, c₂, c₃, c₄, c₅, c₆)   │
     │                                 │
     │ Transform intuitive context     │
     │ into precise mathematical       │
@@ -113,7 +113,7 @@ Module_Learning(concepts) =
 ```
     Experience Concept → See Mathematical Form → Implement in Code → Apply to Problems → 
                                         ↑                                      ↓
-                              Research Integration ← Practical Mastery ←┘
+                                     Research Integration ← Practical Mastery ←┘
 ```
 
 ---
@@ -140,7 +140,7 @@ Module_Learning(concepts) =
 ```
 Traditional Approach vs. Mathematical Approach:
 
-Context Quality Improvement:     2-5x better relevance and completeness
+Context Quality Improvement:    2-5x better relevance and completeness
 Optimization Speed:             100-1000x faster than manual tuning
 Consistency:                    >95% reproducible results vs. ~60% manual
 Adaptation Speed:               Real-time learning vs. days/weeks manual
@@ -568,12 +568,12 @@ A protocol tells the AI system:
     0.8  │   ╱   ╲
          │  ╱     ╲  🏔️ Local Optimum
     0.6  │ ╱       ╲╱ ╲  (Good but not optimal)
-         │╱           ╲
-    0.4  │             ╲
-         │              ╲
-    0.2  │               ╲
-         │________________╲____________________→
-         0                                Parameter Space
+         │╱            ╲
+    0.4  │              ╲
+         │               ╲
+    0.2  │                ╲
+         └─────────────────────────────────────►
+         0                     Parameter Space
 ```
 
 **Algorithmic Mathematical Understanding**:

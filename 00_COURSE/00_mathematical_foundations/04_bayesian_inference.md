@@ -65,16 +65,17 @@ Where:
 
 ```
     Probability
-         ↑
-    1.0  │     Prior          Posterior
-         │    ╱╲              ╱╲
-    0.8  │   ╱  ╲    After   ╱  ╲
-         │  ╱    ╲   Evidence╱    ╲
-    0.6  │ ╱      ╲  ────→  ╱      ╲
-         │╱        ╲       ╱        ╲
-    0.4  │          ╲     ╱          ╲
-         │           ╲___╱____________╲____→
-         0                                Strategy Space
+        ↑
+    1.0 │       Prior               Posterior
+        │    ╱╲                   ╱╲
+        │   ╱  ╲     Evidence    ╱  ╲
+        │  ╱    ╲     Update    ╱    ╲
+    0.5 │ ╱      ╲   ───────→  ╱      ╲
+        │╱        ╲           ╱        ╲
+        │          ╲         ╱          ╲
+        │           ╲       ╱            ╲
+      0 └────────────────────────────────────────►
+         0                        Strategy Space
 
 Evidence shifts our confidence toward strategies that better explain observations
 ```
@@ -109,6 +110,7 @@ Prompts provide systematic frameworks for reasoning about uncertainty and adapti
 
 ### Bayesian Context Adaptation Template
 
+<pre>
 ```markdown
 # Bayesian Context Strategy Adaptation Framework
 
@@ -280,6 +282,7 @@ Periodically evaluate:
 - Should we adjust evidence weighting schemes?
 ```
 ```
+</pre>
 
 **Ground-up Explanation**: This template provides a systematic approach to reasoning under uncertainty, like having a scientific method for context engineering that continuously updates its hypotheses based on new evidence.
 

@@ -1335,6 +1335,8 @@ class MultiHeadHierarchicalAttention(nn.Module):
         
         return global_output
 
+```
+
 **Ground-up Explanation**: This hierarchical memory system works like a sophisticated filing system in your brain. Working memory is your desk - limited space but immediate access. Short-term memory is like your desk drawers - more space but requires compression. Long-term memory is like your filing cabinets - vast storage but highly organized and compressed. Episodic memory is like your journal of important events.
 
 The attention mechanism is like having different types of reading strategies. For short texts, you read every word carefully (standard attention). For very long documents, you read some sections in detail (local windows) while skimming for key points throughout (sparse global attention).

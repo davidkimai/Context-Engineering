@@ -329,6 +329,8 @@ You are a context refinement system evaluating and improving your own context as
 - **Compression Opportunities**: {verbose_sections_that_could_be_condensed}
 - **Essential Expansion**: {areas_too_brief_that_need_more_detail}
 
+```
+
 ## Overall Quality Assessment
 
 **Composite Quality Score**: 

@@ -1339,7 +1339,7 @@ class MultiHeadHierarchicalAttention(nn.Module):
 
 The attention mechanism is like having different types of reading strategies. For short texts, you read every word carefully (standard attention). For very long documents, you read some sections in detail (local windows) while skimming for key points throughout (sparse global attention).
 
----
+```
 
 ## Software 3.0 Paradigm 3: Protocols (Adaptive Processing Shells)
 
